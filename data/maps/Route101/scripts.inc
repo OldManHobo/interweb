@@ -71,6 +71,15 @@ Route101_EventScript_PreventExitNorth::
 	releaseall
 	end
 
+Route101_EventScript_PreventExitEast::
+	lockall
+	msgbox Route101_Text_DontLeaveMe, MSGBOX_DEFAULT
+	closemessage
+	applymovement OBJ_EVENT_ID_PLAYER, Route101_Movement_PreventExitEast
+	waitmovement 0
+	releaseall
+	end
+
 Route101_Movement_PreventExitSouth:
 	walk_up
 	step_end
@@ -81,6 +90,10 @@ Route101_Movement_PreventExitWest:
 
 Route101_Movement_PreventExitNorth:
 	walk_down
+	step_end
+
+Route101_Movement_PreventExitEast:
+	walk_left
 	step_end
 
 Route101_Movement_ZigzagoonChaseInCircles:
