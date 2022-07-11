@@ -572,6 +572,13 @@ gStdScripts_End::
 	.include "data/maps/Route119_WeatherInstitute_2F/scripts.inc"
 	.include "data/maps/Route119_House/scripts.inc"
 	.include "data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc"
+	.include "data/maps/ForestClearing/scripts.inc"
+	.include "data/maps/LittleSquare/scripts.inc"
+	.include "data/maps/NormacoBeach/scripts.inc"
+	.include "data/maps/RichRivalsHouse_1F/scripts.inc"
+	.include "data/maps/RichRivalsHouse_2F/scripts.inc"
+	.include "data/maps/RichRivalsHouse_3F/scripts.inc"
+	.include "data/maps/WoodHut/scripts.inc"
 
 	.include "data/scripts/std_msgbox.inc"
 	.include "data/scripts/trainer_battle.inc"
