@@ -2391,9 +2391,9 @@ static const u8 sWhiteHerbDesc[] = _(
     "lowered stat.");
 
 static const u8 sExpShareDesc[] = _(
-    "A hold item that\n"
-    "gets Exp. points\n"
-    "from battles.");
+    "This device gives\n"
+    "exp. to the other\n"
+    "party member(s).");
 
 static const u8 sQuickClawDesc[] = _(
     "A hold item that\n"
