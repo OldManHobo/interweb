@@ -7628,9 +7628,6 @@ void SetWildMonHeldItem(void)
 
         for (i = 0; i < count; i++)
         {
-            if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM, NULL) != ITEM_NONE)
-                continue; // prevent ovewriting previously set item
-            
             rnd = Random() % 100;
             species = GetMonData(&gEnemyParty[i], MON_DATA_SPECIES, 0);
             if (gMapHeader.mapLayoutId == LAYOUT_ALTERING_CAVE)

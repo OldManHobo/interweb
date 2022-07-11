@@ -64,8 +64,6 @@
 #include "constants/trainers.h"
 #include "cable_club.h"
 
-extern struct Evolution gEvolutionTable[][EVOS_PER_MON];
-
 extern const struct BgTemplate gBattleBgTemplates[];
 extern const struct WindowTemplate *const gBattleWindowTemplates[];
 
@@ -117,7 +115,6 @@ static void HandleEndTurn_MonFled(void);
 static void HandleEndTurn_FinishBattle(void);
 static void SpriteCB_UnusedBattleInit(struct Sprite* sprite);
 static void SpriteCB_UnusedBattleInit_Main(struct Sprite *sprite);
-static void TrySpecialEvolution(void);
 
 EWRAM_DATA u16 gBattle_BG0_X = 0;
 EWRAM_DATA u16 gBattle_BG0_Y = 0;
@@ -240,8 +237,6 @@ EWRAM_DATA bool8 gHasFetchedBall = FALSE;
 EWRAM_DATA u8 gLastUsedBall = 0;
 EWRAM_DATA u16 gLastThrownBall = 0;
 EWRAM_DATA bool8 gSwapDamageCategory = FALSE; // Photon Geyser, Shell Side Arm, Light That Burns the Sky
-EWRAM_DATA u8 gPartyCriticalHits[PARTY_SIZE] = {0};
-EWRAM_DATA static u8 sTriedEvolving = 0;
 
 void (*gPreBattleCallback1)(void);
 void (*gBattleMainFunc)(void);
@@ -2996,7 +2991,6 @@ static void BattleStartClearSetData(void)
         gBattleStruct->usedHeldItems[i][0] = 0;
         gBattleStruct->usedHeldItems[i][1] = 0;
         gBattleStruct->itemStolen[i].originalItem = GetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM);
-        gPartyCriticalHits[i] = 0;
     }
 
     gSwapDamageCategory = FALSE; // Photon Geyser, Shell Side Arm, Light That Burns the Sky
@@ -3633,18 +3627,12 @@ static void TryDoEventsBeforeFirstTurn(void)
     // Primal Reversion
     for (i = 0; i < gBattlersCount; i++)
     {
-        if (GetBattlerHoldEffect(i, TRUE) == HOLD_EFFECT_PRIMAL_ORB)
+        if (CanMegaEvolve(i)
+         && GetBattlerHoldEffect(i, TRUE) == HOLD_EFFECT_PRIMAL_ORB)
         {
-            for (j = 0; j < EVOS_PER_MON; j++)
-            {
-                if (gEvolutionTable[gBattleMons[i].species][j].targetSpecies != SPECIES_NONE
-                 && gEvolutionTable[gBattleMons[i].species][j].method == EVO_PRIMAL_REVERSION)
-                {
-                    gBattlerAttacker = i;
-                    BattleScriptExecute(BattleScript_PrimalReversion);
-                    return;
-                }
-            }
+            gBattlerAttacker = i;
+            BattleScriptExecute(BattleScript_PrimalReversion);
+            return;
         }
     }
 
@@ -4024,8 +4012,7 @@ static void HandleTurnActionSelectionState(void)
                     {
                         BtlController_EmitChoosePokemon(BUFFER_A, PARTY_ACTION_CANT_SWITCH, PARTY_SIZE, ABILITY_NONE, gBattleStruct->battlerPartyOrders[gActiveBattler]);
                     }
-                    else if ((i = IsAbilityPreventingEscape(gActiveBattler)
-                              && ItemId_GetHoldEffect(gBattleMons[gActiveBattler].item) != HOLD_EFFECT_SHED_SHELL))
+                    else if ((i = IsAbilityPreventingEscape(gActiveBattler)))
                     {
                         BtlController_EmitChoosePokemon(BUFFER_A, ((i - 1) << 4) | PARTY_ACTION_ABILITY_PREVENTS, PARTY_SIZE, gBattleMons[i - 1].ability, gBattleStruct->battlerPartyOrders[gActiveBattler]);
                     }
@@ -4825,19 +4812,13 @@ static void CheckFocusPunch_ClearVarsBeforeTurnStarts(void)
         {
             gActiveBattler = gBattlerAttacker = gBattleStruct->focusPunchBattlerId;
             gBattleStruct->focusPunchBattlerId++;
-            if (!(gBattleMons[gActiveBattler].status1 & STATUS1_SLEEP)
+            if (gChosenMoveByBattler[gActiveBattler] == MOVE_FOCUS_PUNCH
+                && !(gBattleMons[gActiveBattler].status1 & STATUS1_SLEEP)
                 && !(gDisableStructs[gBattlerAttacker].truantCounter)
                 && !(gProtectStructs[gActiveBattler].noValidMoves))
             {
-                switch(gChosenMoveByBattler[gActiveBattler])
-                {
-                case MOVE_FOCUS_PUNCH:
-                    BattleScriptExecute(BattleScript_FocusPunchSetUp);
-                    return;
-                case MOVE_BEAK_BLAST:
-                    BattleScriptExecute(BattleScript_BeakBlastSetUp);
-                    return;
-                }
+                BattleScriptExecute(BattleScript_FocusPunchSetUp);
+                return;
             }
         }
     }
@@ -5159,16 +5140,9 @@ static void FreeResetData_ReturnToOvOrDoEvolutions(void)
         gIsFishingEncounter = FALSE;
         gIsSurfingEncounter = FALSE;
         ResetSpriteData();
-        if (!(gBattleTypeFlags & (BATTLE_TYPE_LINK
-                                  | BATTLE_TYPE_RECORDED_LINK
-                                  | BATTLE_TYPE_FIRST_BATTLE
-                                  | BATTLE_TYPE_SAFARI
-                                  | BATTLE_TYPE_FRONTIER
-                                  | BATTLE_TYPE_EREADER_TRAINER
-                                  | BATTLE_TYPE_WALLY_TUTORIAL))
-            && (B_EVOLUTION_AFTER_WHITEOUT >= GEN_6 || gBattleOutcome == B_OUTCOME_WON || gBattleOutcome == B_OUTCOME_CAUGHT))
+        if (gLeveledUpInBattle && (gBattleOutcome == B_OUTCOME_WON || gBattleOutcome == B_OUTCOME_CAUGHT))
         {
-            gBattleMainFunc = TrySpecialEvolution;
+            gBattleMainFunc = TryEvolvePokemon;
         }
         else
         {
@@ -5184,30 +5158,6 @@ static void FreeResetData_ReturnToOvOrDoEvolutions(void)
         FreeBattleResources();
         FreeBattleSpritesData();
     }
-}
-
-static void TrySpecialEvolution(void) // Attempts to perform non-level related battle evolutions (not the script command).
-{
-    s32 i;
-
-    for (i = 0; i < PARTY_SIZE; i++)
-    {
-        #ifndef POKEMON_EXPANSION
-            u16 species = GetEvolutionTargetSpecies(&gPlayerParty[i], EVO_MODE_BATTLE_SPECIAL, i);
-        #else
-            u16 species = GetEvolutionTargetSpecies(&gPlayerParty[i], EVO_MODE_BATTLE_SPECIAL, i, NULL);
-        #endif
-        if (species != SPECIES_NONE && !(sTriedEvolving & gBitTable[i]))
-        {
-            sTriedEvolving |= gBitTable[i];
-            FreeAllWindowBuffers();
-            gBattleMainFunc = WaitForEvoSceneToFinish;
-            EvolutionScene(&gPlayerParty[i], species, TRUE, i);
-            return;
-        }
-    }
-    sTriedEvolving = 0;
-    gBattleMainFunc = TryEvolvePokemon;
 }
 
 static void TryEvolvePokemon(void)
@@ -5244,7 +5194,7 @@ static void TryEvolvePokemon(void)
 static void WaitForEvoSceneToFinish(void)
 {
     if (gMain.callback2 == BattleMainCB2)
-        gBattleMainFunc = TrySpecialEvolution;
+        gBattleMainFunc = TryEvolvePokemon;
 }
 
 static void ReturnFromBattleToOverworld(void)

@@ -829,8 +829,6 @@ gBattleAnims_General::
 	.4byte General_StrongWinds              @ B_ANIM_STRONG_WINDS
 	.4byte General_PrimalReversion          @ B_ANIM_PRIMAL_REVERSION
 	.4byte General_AquaRingHeal             @ B_ANIM_AQUA_RING_HEAL
-	.4byte General_BeakBlastSetUp           @ B_ANIM_BEAK_BLAST_SETUP
-	.4byte General_ShellTrapSetUp           @ B_ANIM_SHELL_TRAP_SETUP
 
 	.align 2
 gBattleAnims_Special::
@@ -11737,7 +11735,7 @@ Move_INSTRUCT::
 	blendoff
 	end
 
-General_BeakBlastSetUp:
+Move_BEAK_BLAST::
 	loadspritegfx ANIM_TAG_SMALL_EMBER @Fire
 	playsewithpan SE_M_DRAGON_RAGE, SOUND_PAN_ATTACKER
 	delay 0x3
@@ -11745,7 +11743,7 @@ General_BeakBlastSetUp:
 	launchtemplate gFireSpiralOutwardSpriteTemplate 0x3 0x4 0x0 0x0 0x38 0x0
 	waitforvisualfinish
 	end
-Move_BEAK_BLAST::
+BeakBlastUnleash:
 	loadspritegfx ANIM_TAG_IMPACT
 	launchtask AnimTask_BlendBattleAnimPal 0xA 0x5 ANIM_PAL_ATK 0x2 0x0 0x9 0x1F
 	waitforvisualfinish
@@ -11894,7 +11892,8 @@ Move_AURORA_VEIL::
 	blendoff
 	end
 
-General_ShellTrapSetUp:
+Move_SHELL_TRAP::
+ShellTrapChargeUp:
 	loadspritegfx ANIM_TAG_SMALL_EMBER
 	loadspritegfx ANIM_TAG_IMPACT
 	monbg ANIM_TARGET
@@ -11911,7 +11910,6 @@ General_ShellTrapSetUp:
 	clearmonbg ANIM_TARGET
 	blendoff
 	end
-Move_SHELL_TRAP::
 ShellTrapUnleash:
 	loadspritegfx ANIM_TAG_IMPACT @pound
 	loadspritegfx ANIM_TAG_SMALL_RED_EYE @red
@@ -13607,8 +13605,8 @@ Move_DRUM_BEATING::
 	blendoff
 	end
 
-Move_SNAP_TRAP:: @ placeholder
-	goto Move_BITE
+Move_SNAP_TRAP::
+	end @ to do:
 
 Move_PYRO_BALL::
 	loadspritegfx ANIM_TAG_FLAT_ROCK
@@ -14080,8 +14078,8 @@ Move_SHELL_SIDE_ARM_SPECIAL: @ Modified Snipe Shot, placeholder
 	loadspritegfx ANIM_TAG_LEER
 	createvisualtask AnimTask_BlendParticle, 5, ANIM_TAG_IMPACT_2, 0, 6, 6, RGB_MAGENTA
 	createvisualtask AnimTask_BlendParticle, 5, ANIM_TAG_LEER, 0, 6, 6, RGB_MAGENTA
-	playsewithpan SE_M_DETECT, SOUND_PAN_ATTACKER
 	launchtemplate gLeerSpriteTemplate 0x82, 2 0x18 -12
+	playsewithpan SE_M_DETECT, SOUND_PAN_ATTACKER
 	waitforvisualfinish
 	delay 0x20
 	playsewithpan SE_M_GIGA_DRAIN, SOUND_PAN_TARGET
@@ -24216,7 +24214,6 @@ General_TurnTrap:
 	jumpargeq 0, TRAP_ANIM_SAND_TOMB, Status_SandTomb
 	jumpargeq 0, TRAP_ANIM_MAGMA_STORM, Status_MagmaStorm
 	jumpargeq 0, TRAP_ANIM_INFESTATION, Status_Infestation
-	jumpargeq 0, TRAP_ANIM_SNAP_TRAP, Status_Snap_Trap
 	goto Status_BindWrap
 Status_BindWrap:
 	loadspritegfx ANIM_TAG_TENDRILS
@@ -24302,9 +24299,6 @@ Status_Clamp:
 	blendoff
 	waitforvisualfinish
 	end
-
-Status_Snap_Trap: @ placeholder
-	goto Move_BITE
 
 Status_SandTomb:
 	loadspritegfx ANIM_TAG_MUD_SAND

@@ -5385,7 +5385,7 @@ static void SetBattleTargetSpritePosition(void)
 
 static void SetMoveTargetPosition(u16 move)
 {
-    switch (GetBattlerMoveTargetType(gBattlerAttacker, move))
+    switch (gBattleMoves[move].target)
     {
     case MOVE_TARGET_USER_OR_SELECTED:
     case MOVE_TARGET_USER:

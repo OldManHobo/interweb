@@ -45,6 +45,5 @@ enum {
 };
 
 bool32 CanThrowBall(void);
-void ItemUseOutOfBattle_ExpShare(u8);
 
 #endif // GUARD_ITEM_USE_H

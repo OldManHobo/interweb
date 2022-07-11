@@ -1978,6 +1978,3 @@ const u8 gText_SideQuestReward_28[] = _("Reward 28");
 const u8 gText_SideQuestReward_29[] = _("Reward 29");
 const u8 gText_SideQuestReward_30[] = _("Reward 30");
 
-// Exp. Share
-const u8 gText_ExpShareOn[] = _("Turned on the Exp. Share.\pParty will now gain a portion\nof the Experience Points.{PAUSE_UNTIL_PRESS}");
-const u8 gText_ExpShareOff[] = _("Turned off the Exp. Share.\pParty will no longer gain a portion\nof any Experience Points.{PAUSE_UNTIL_PRESS}");
