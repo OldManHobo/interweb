@@ -2942,6 +2942,58 @@ static const u8 sEerieSpellDescription[] = _(
     "Attacks with psychic power.\n"
     "Foe's last move has 3 PP cut.");
 
+static const u8 sByteDescription[] = _(
+    "Attacks with psychic power.\n"
+    "Foe's last move has 3 PP cut.");
+
+static const u8 sTurboCutterDescription[] = _(
+    "Attacks with psychic power.\n"
+    "Foe's last move has 3 PP cut.");    
+
+static const u8 sGigabyteDescription[] = _(
+    "Attacks with psychic power.\n"
+    "Foe's last move has 3 PP cut.");
+
+static const u8 sWildSpamDescription[] = _(
+    "Attacks with psychic power.\n"
+    "Foe's last move has 3 PP cut.");
+
+static const u8 sShedCacheDescription[] = _(
+    "Attacks with psychic power.\n"
+    "Foe's last move has 3 PP cut.");
+
+static const u8 sInstallDescription[] = _(
+    "Attacks with psychic power.\n"
+    "Foe's last move has 3 PP cut.");
+
+static const u8 sTechnoBusterDescription[] = _(
+    "Attacks with psychic power.\n"
+    "Foe's last move has 3 PP cut.");    
+
+static const u8 sMemoryLeakDescription[] = _(
+    "Attacks with psychic power.\n"
+    "Foe's last move has 3 PP cut.");    
+
+static const u8 sDataTransferDescription[] = _(
+    "Attacks with psychic power.\n"
+    "Foe's last move has 3 PP cut.");
+
+static const u8 sVineWrapDescription[] = _(
+    "Attacks with psychic power.\n"
+    "Foe's last move has 3 PP cut.");
+
+static const u8 sCombustoDescription[] = _(
+    "Attacks with psychic power.\n"
+    "Foe's last move has 3 PP cut.");
+
+static const u8 sTsunamiDescription[] = _(
+    "Attacks with psychic power.\n"
+    "Foe's last move has 3 PP cut.");
+
+static const u8 sSnuggleBugDescription[] = _(
+    "Attacks with psychic power.\n"
+    "Foe's last move has 3 PP cut.");        
+
 static const u8 sNotDoneYetDescription[] = _(
     "Not done yet.");
 
@@ -3704,4 +3756,17 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_GLACIAL_LANCE - 1] = sGlacialLanceDescription,
     [MOVE_ASTRAL_BARRAGE - 1] = sAstralBarrageDescription,
     [MOVE_EERIE_SPELL - 1] = sEerieSpellDescription,
+    [MOVE_BYTE - 1] = sByteDescription,
+    [MOVE_TURBO_CUTTER - 1] = sTurboCutterDescription,
+    [MOVE_GIGABYTE - 1] = sGigabyteDescription,
+    [MOVE_WILD_SPAM - 1] = sWildSpamDescription,
+    [MOVE_SHED_CACHE - 1] = sShedCacheDescription,
+    [MOVE_INSTALL - 1] = sInstallDescription,
+    [MOVE_TECHNO_BUSTER - 1] = sTechnoBusterDescription,
+    [MOVE_MEMORY_LEAK - 1] = sMemoryLeakDescription,
+    [MOVE_DATA_TRANSFER - 1] = sDataTransferDescription,
+    [MOVE_VINE_WRAP - 1] = sVineWrapDescription,
+    [MOVE_COMBUSTO - 1] = sCombustoDescription,
+    [MOVE_TSUNAMI - 1] = sTsunamiDescription,
+    [MOVE_SNUGGLE_BUG - 1] = sSnuggleBugDescription,
 };
