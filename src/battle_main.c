@@ -16,7 +16,6 @@
 #include "berry.h"
 #include "bg.h"
 #include "data.h"
-#include "debug.h"
 #include "decompress.h"
 #include "dma3.h"
 #include "event_data.h"
@@ -3986,21 +3985,13 @@ static void HandleTurnActionSelectionState(void)
                     }
                     break;
                 case B_ACTION_USE_ITEM:
-                    #ifdef TX_DEBUGGING
-                    if (FlagGet(FLAG_SYS_NO_BAG_USE) || gBattleTypeFlags & (BATTLE_TYPE_LINK //DEBUG
+                    if ((gBattleTypeFlags & (BATTLE_TYPE_LINK
                                             | BATTLE_TYPE_FRONTIER_NO_PYRAMID
                                             | BATTLE_TYPE_EREADER_TRAINER
                                             | BATTLE_TYPE_RECORDED_LINK))
                                             // Or if currently held by Sky Drop
                                             || gStatuses3[gActiveBattler] & STATUS3_SKY_DROPPED)
                     {
-                    #else
-                    if (gBattleTypeFlags & (BATTLE_TYPE_LINK //DEBUG
-                                            | BATTLE_TYPE_FRONTIER_NO_PYRAMID
-                                            | BATTLE_TYPE_EREADER_TRAINER
-                                            | BATTLE_TYPE_RECORDED_LINK))
-                    {
-                    #endif
                         RecordedBattle_ClearBattlerAction(gActiveBattler, 1);
                         gSelectionBattleScripts[gActiveBattler] = BattleScript_ActionSelectionItemsCantBeUsed;
                         gBattleCommunication[gActiveBattler] = STATE_SELECTION_SCRIPT;

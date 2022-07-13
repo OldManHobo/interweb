@@ -579,6 +579,7 @@ EWRAM_DATA static bool8 sAutoActionOn = 0;
 EWRAM_DATA static bool8 sJustOpenedBag = 0;
 
 // Main tasks
+static void EnterPokeStorage(u8);
 static void Task_InitPokeStorage(u8);
 static void Task_PlaceMon(u8);
 static void Task_ChangeScreen(u8);
@@ -1669,15 +1670,10 @@ static void FieldTask_ReturnToPcMenu(void)
     MainCallback vblankCb = gMain.vblankCallback;
 
     SetVBlankCallback(NULL);
-    if (!FlagGet(FLAG_SYS_PC_FROM_DEBUG_MENU)) {
-        taskId = CreateTask(Task_PCMainMenu, 80);
-        gTasks[taskId].tState = 0;
-        gTasks[taskId].tSelectedOption = sPreviousBoxOption;
-        Task_PCMainMenu(taskId);
-    } else {
-        FlagClear(FLAG_SYS_PC_FROM_DEBUG_MENU);
-        EnableBothScriptContexts();
-    }
+    taskId = CreateTask(Task_PCMainMenu, 80);
+    gTasks[taskId].tState = 0;
+    gTasks[taskId].tSelectedOption = sPreviousBoxOption;
+    Task_PCMainMenu(taskId);
     SetVBlankCallback(vblankCb);
     FadeInFromBlack();
 }
@@ -2007,7 +2003,7 @@ static void CB2_PokeStorage(void)
     BuildOamBuffer();
 }
 
-void EnterPokeStorage(u8 boxOption)
+static void EnterPokeStorage(u8 boxOption)
 {
     ResetTasks();
     sCurrentBoxOption = boxOption;
