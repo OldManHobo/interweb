@@ -2943,56 +2943,56 @@ static const u8 sEerieSpellDescription[] = _(
     "Foe's last move has 3 PP cut.");
 
 static const u8 sByteDescription[] = _(
-    "Attacks with psychic power.\n"
-    "Foe's last move has 3 PP cut.");
+    "The user attacks with sharp\n"
+    "digital fangs.");
 
 static const u8 sTurboCutterDescription[] = _(
-    "Attacks with psychic power.\n"
-    "Foe's last move has 3 PP cut.");    
+    "A cybernetic attack that\n"
+    "intensifies on each hit.");    
 
 static const u8 sGigabyteDescription[] = _(
-    "Attacks with psychic power.\n"
-    "Foe's last move has 3 PP cut.");
+    "Digital jaws crush the foe.\n"
+    "May cause flinching.");
 
 static const u8 sWildSpamDescription[] = _(
-    "Attacks with psychic power.\n"
-    "Foe's last move has 3 PP cut.");
+    "Attacks repetitively, hurts\n"
+    "the user in the process.");
 
 static const u8 sShedCacheDescription[] = _(
-    "Attacks with psychic power.\n"
-    "Foe's last move has 3 PP cut.");
+    "Sacrifices health to boost\n"
+    "all stats.");
 
 static const u8 sInstallDescription[] = _(
-    "Attacks with psychic power.\n"
-    "Foe's last move has 3 PP cut.");
+    "Downloads the last move\n"
+    "used by the opponent.");
 
 static const u8 sTechnoBusterDescription[] = _(
-    "Attacks with psychic power.\n"
-    "Foe's last move has 3 PP cut.");    
+    "Hits the foe with a potent\n"
+    "blast of code.");    
 
 static const u8 sMemoryLeakDescription[] = _(
-    "Attacks with psychic power.\n"
-    "Foe's last move has 3 PP cut.");    
+    "Heals the user by a large\n"
+    "portion of the damage dealt.");    
 
 static const u8 sDataTransferDescription[] = _(
-    "Attacks with psychic power.\n"
-    "Foe's last move has 3 PP cut.");
+    "Transfer's the opponent's\n"
+    "data to switch stat changes.");
 
 static const u8 sVineWrapDescription[] = _(
-    "Attacks with psychic power.\n"
-    "Foe's last move has 3 PP cut.");
+    "Entangles the foe in vines,\n"
+    "preventing escape.");
 
 static const u8 sCombustoDescription[] = _(
-    "Attacks with psychic power.\n"
-    "Foe's last move has 3 PP cut.");
+    "Releases a jet of hot wind.\n"
+    "Strong against Flying types.");
 
 static const u8 sTsunamiDescription[] = _(
-    "Attacks with psychic power.\n"
-    "Foe's last move has 3 PP cut.");
+    "A mighty wave of water that\n"
+    "also hurts the user.");
 
 static const u8 sSnuggleBugDescription[] = _(
-    "Attacks with psychic power.\n"
-    "Foe's last move has 3 PP cut.");        
+    "Snuggles up with the foe\n"
+    "to prevent escape.");        
 
 static const u8 sNotDoneYetDescription[] = _(
     "Not done yet.");
