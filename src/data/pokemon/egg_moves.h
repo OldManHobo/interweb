@@ -34,8 +34,8 @@ const u16 gEggMoves[] = {
         MOVE_SNORE,
         MOVE_SPARK,
         MOVE_SUPER_FANG,
-        MOVE_AQUA_RING,
-        MOVE_AQUA_JET),
+        MOVE_BYTE,
+        MOVE_GIGABYTE),
 
     egg_moves(PIDGEY,
         MOVE_PURSUIT,
