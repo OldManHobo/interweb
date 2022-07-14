@@ -59,7 +59,7 @@ void SetUpReflection(struct ObjectEvent *objectEvent, struct Sprite *sprite, boo
     LoadObjectReflectionPalette(objectEvent, reflectionSprite);
 
     if (!stillReflection)
-        reflectionSprite->oam.affineMode = ST_OAM_AFFINE_NORMAL
+        reflectionSprite->oam.affineMode = ST_OAM_AFFINE_NORMAL;
         
     SetGpuReg(REG_OFFSET_BLDALPHA, BLDALPHA_BLEND(12, 7));
 }
