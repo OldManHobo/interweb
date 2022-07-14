@@ -168,8 +168,6 @@ static bool8 AreElevationsCompatible(u8 a, u8 b);
 
 static const struct SpriteFrameImage sPicTable_PechaBerryTree[];
 
-const u8 gReflectionEffectPaletteMap[] = {1, 1, 6, 7, 8, 9, 6, 7, 8, 9, 11, 11, 0, 0, 0, 0};
-
 static const struct SpriteTemplate sCameraSpriteTemplate = {
     .tileTag = 0,
     .paletteTag = TAG_NONE,
@@ -2032,33 +2030,13 @@ static u8 FindObjectEventPaletteIndexByTag(u16 tag)
 
 void LoadPlayerObjectReflectionPalette(u16 tag, u8 slot)
 {
-    u8 i;
-
     PatchObjectPalette(tag, slot);
-    for (i = 0; sPlayerReflectionPaletteSets[i].tag != OBJ_EVENT_PAL_TAG_NONE; i++)
-    {
-        if (sPlayerReflectionPaletteSets[i].tag == tag)
-        {
-            PatchObjectPalette(sPlayerReflectionPaletteSets[i].data[sCurrentReflectionType], gReflectionEffectPaletteMap[slot]);
-            return;
-        }
-    }
 }
 
 void LoadSpecialObjectReflectionPalette(u16 tag, u8 slot)
 {
-    u8 i;
-
     sCurrentSpecialObjectPaletteTag = tag;
     PatchObjectPalette(tag, slot);
-    for (i = 0; sSpecialObjectReflectionPaletteSets[i].tag != OBJ_EVENT_PAL_TAG_NONE; i++)
-    {
-        if (sSpecialObjectReflectionPaletteSets[i].tag == tag)
-        {
-            PatchObjectPalette(sSpecialObjectReflectionPaletteSets[i].data[sCurrentReflectionType], gReflectionEffectPaletteMap[slot]);
-            return;
-        }
-    }
 }
 
 static void _PatchObjectPalette(u16 tag, u8 slot)
