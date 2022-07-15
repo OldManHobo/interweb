@@ -1401,7 +1401,7 @@ const struct Berry gBerries[] =
         .spicy = 0,
         .dry = 0,
         .sweet = 0,
-        .bitter = 15,
+        .bitter = 25,
         .sour = 10,
         .smoothness = 30,
     },
