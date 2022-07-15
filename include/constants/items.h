@@ -931,14 +931,15 @@
 // Interweb exclusive items
 #define ITEM_DATA_GEM 758
 #define ITEM_CYBER_PLATE 759
-#define ITEM_MEMORY_STICk 760
+#define ITEM_MEMORY_STICK 760
 #define ITEM_MAGIC_CROWN 761
 #define ITEM_DRIVE_BALL 762
 #define ITEM_FIDELL_BERRY 763
 #define ITEM_DEEP_SEA_SALT 764
-#define ITEM_DEEP_SEA_CREAM 765 
+#define ITEM_DEEP_SEA_CREAM 765
+#define ITEM_POLKADOT_BOW 766
 
-#define ITEMS_COUNT 766
+#define ITEMS_COUNT 767
 #define ITEM_FIELD_ARROW ITEMS_COUNT
 
 // Range of berries given out by various NPCS

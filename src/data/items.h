@@ -10017,4 +10017,127 @@ const struct Item gItems[] =
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
+
+    [ITEM_DATA_GEM] =
+    {
+        .name = _("Data Gem"),
+        .itemId = ITEM_DATA_GEM,
+        .price = 4000,
+        .holdEffect = HOLD_EFFECT_GEMS,
+        .holdEffectParam = 30,
+        .description = sDataGemDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = TYPE_DATA,
+    },
+
+    [ITEM_CYBER_PLATE] =
+    {
+        .name = _("Cyber Plate"),
+        .itemId = ITEM_CYBER_PLATE,
+        .price = 1000,
+        .holdEffect = HOLD_EFFECT_PLATE,
+        .holdEffectParam = 20,
+        .description = sCyberPlateDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = TYPE_DATA,
+        .flingPower = 90,
+    },
+
+    [ITEM_MEMORY_STICK] =
+    {
+        .name = _("Memory Stick"),
+        .itemId = ITEM_MEMORY_STICK,
+        .price = 1000,
+        .holdEffect = HOLD_EFFECT_NORMAL_POWER,
+        .holdEffectParam = 20,
+        .description = sMemoryStickDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .flingPower = 10,
+    },
+
+    [ITEM_MAGIC_CROWN] =
+    {
+        .name = _("Magic Crown"),
+        .itemId = ITEM_MAGIC_CROWN,
+        .price = 3000,
+        .description = sMagicCrownDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+        .flingPower = 30,
+    },
+
+    [ITEM_DRIVE_BALL] =
+    {
+        .name = _("Drive Ball"),
+        .itemId = ITEM_DRIVE_BALL,
+        .price = 200,
+        .description = sDriveBallDesc,
+        .pocket = POCKET_POKE_BALLS,
+        .type = ITEM_POKE_BALL - FIRST_BALL,
+        .battleUsage = ITEM_B_USE_OTHER,
+        .battleUseFunc = ItemUseInBattle_PokeBall,
+        .secondaryId = ITEM_POKE_BALL - FIRST_BALL,
+    },
+
+    [ITEM_FIDELL_BERRY] =
+    {
+        .name = _("Fidell Berry"),
+        .itemId = ITEM_FIDELL_BERRY,
+        .price = 20,
+        .holdEffect = HOLD_EFFECT_RESIST_BERRY,
+        .holdEffectParam = TYPE_FIRE,
+        .description = sFidellBerryDesc,
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .flingPower = 10,
+    },
+
+    [ITEM_DEEP_SEA_SALT] =
+    {
+        .name = _("DeepSeaSalt"),
+        .itemId = ITEM_DEEP_SEA_SALT,
+        .price = 2000,
+        .holdEffect = HOLD_EFFECT_DEEP_SEA_SCALE,
+        .description = sDeepSeaSaltDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .flingPower = 30,
+    },
+
+    [ITEM_DEEP_SEA_CREAM] =
+    {
+        .name = _("DeepSeaCream"),
+        .itemId = ITEM_DEEP_SEA_CREAM,
+        .price = 2000,
+        .holdEffect = HOLD_EFFECT_DEEP_SEA_SCALE,
+        .description = sDeepSeaCreamDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .flingPower = 30,
+    },
+
+    [ITEM_POLKADOT_BOW] =
+    {
+        .name = _("Polkadot Bow"),
+        .itemId = ITEM_POLKADOT_BOW,
+        .price = 1000,
+        .holdEffect = HOLD_EFFECT_NORMAL_POWER,
+        .holdEffectParam = 20,
+        .description = sPolkadotBowDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .flingPower = 10,
+    },
+
 };

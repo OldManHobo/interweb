@@ -29,6 +29,7 @@ const u32 *const gItemIconTable[][2] =
     [ITEM_PARK_BALL] = {gItemIcon_ParkBall, gItemIconPalette_ParkBall},
     [ITEM_BEAST_BALL] = {gItemIcon_BeastBall, gItemIconPalette_BeastBall},
     [ITEM_CHERISH_BALL] = {gItemIcon_CherishBall, gItemIconPalette_CherishBall},
+    [ITEM_DRIVE_BALL] = {gItemIcon_DriveBall, gItemIconPalette_DriveBall},
     // Medicine
     [ITEM_POTION] = {gItemIcon_Potion, gItemIconPalette_Potion},
     [ITEM_SUPER_POTION] = {gItemIcon_Potion, gItemIconPalette_SuperPotion},
@@ -265,6 +266,7 @@ const u32 *const gItemIconTable[][2] =
     [ITEM_STAR_SWEET] = {gItemIcon_StarSweet, gItemIconPalette_StarSweet},
     [ITEM_RIBBON_SWEET] = {gItemIcon_RibbonSweet, gItemIconPalette_RibbonSweet},
     [ITEM_EVERSTONE] = {gItemIcon_Everstone, gItemIconPalette_Everstone},
+    [ITEM_MAGIC_CROWN] = {gItemIcon_MagicCrown, gItemIconPalette_MagicCrown},
     // Nectars
     [ITEM_RED_NECTAR] = {gItemIcon_RedNectar, gItemIconPalette_RedNectar},
     [ITEM_YELLOW_NECTAR] = {gItemIcon_YellowNectar, gItemIconPalette_YellowNectar},
@@ -288,6 +290,7 @@ const u32 *const gItemIconTable[][2] =
     [ITEM_DREAD_PLATE] = {gItemIcon_DreadPlate, gItemIconPalette_DreadPlate},
     [ITEM_IRON_PLATE] = {gItemIcon_IronPlate, gItemIconPalette_IronPlate},
     [ITEM_PIXIE_PLATE] = {gItemIcon_PixiePlate, gItemIconPalette_PixiePlate},
+    [ITEM_CYBER_PLATE] = {gItemIcon_CyberPlate, gItemIconPalette_CyberPlate},
     // Drives
     [ITEM_DOUSE_DRIVE] = {gItemIcon_DouseDrive, gItemIconPalette_DouseDrive},
     [ITEM_SHOCK_DRIVE] = {gItemIcon_ShockDrive, gItemIconPalette_ShockDrive},
@@ -383,6 +386,7 @@ const u32 *const gItemIconTable[][2] =
     [ITEM_DARK_GEM] = {gItemIcon_DarkGem, gItemIconPalette_DarkGem},
     [ITEM_STEEL_GEM] = {gItemIcon_SteelGem, gItemIconPalette_SteelGem},
     [ITEM_FAIRY_GEM] = {gItemIcon_FairyGem, gItemIconPalette_FairyGem},
+    [ITEM_DATA_GEM] = {gItemIcon_DataGem, gItemIconPalette_DataGem},
     // Z-Crystals
     [ITEM_NORMALIUM_Z] = {gItemIcon_NormaliumZ, gItemIconPalette_NormaliumZ},
     [ITEM_FIRIUM_Z] = {gItemIcon_FiriumZ, gItemIconPalette_FiriumZ},
@@ -432,6 +436,8 @@ const u32 *const gItemIconTable[][2] =
     [ITEM_ADAMANT_ORB] = {gItemIcon_AdamantOrb, gItemIconPalette_AdamantOrb},
     [ITEM_LUSTROUS_ORB] = {gItemIcon_LustrousOrb, gItemIconPalette_LustrousOrb},
     [ITEM_GRISEOUS_ORB] = {gItemIcon_GriseousOrb, gItemIconPalette_GriseousOrb},
+    [ITEM_DEEP_SEA_SALT] = {gItemIcon_DeepSeaSalt, gItemIconPalette_DeepSeaSalt},
+    [ITEM_DEEP_SEA_CREAM] = {gItemIcon_DeepSeaCream, gItemIconPalette_DeepSeaCream},
     // Incenses
     [ITEM_SEA_INCENSE] = {gItemIcon_SeaIncense, gItemIconPalette_SeaIncense},
     [ITEM_LAX_INCENSE] = {gItemIcon_LaxIncense, gItemIconPalette_LaxIncense},
@@ -474,6 +480,8 @@ const u32 *const gItemIconTable[][2] =
     [ITEM_DRAGON_FANG] = {gItemIcon_DragonFang, gItemIconPalette_DragonFang},
     [ITEM_BLACK_GLASSES] = {gItemIcon_BlackGlasses, gItemIconPalette_BlackTypeEnhancingItem},
     [ITEM_METAL_COAT] = {gItemIcon_MetalCoat, gItemIconPalette_MetalCoat},
+    [ITEM_MEMORY_STICK] = {gItemIcon_MemoryStick, gItemIconPalette_MemoryStick},
+    [ITEM_POLKADOT_BOW] = {gItemIcon_PolkadotBow, gItemIconPalette_PolkadotBow},
     // Choice Items
     [ITEM_CHOICE_BAND] = {gItemIcon_ChoiceBand, gItemIconPalette_ChoiceBand},
     [ITEM_CHOICE_SPECS] = {gItemIcon_ChoiceSpecs, gItemIconPalette_ChoiceSpecs},
@@ -621,6 +629,7 @@ const u32 *const gItemIconTable[][2] =
     [ITEM_KEE_BERRY] = {gItemIcon_KeeBerry, gItemIconPalette_KeeBerry},
     [ITEM_MARANGA_BERRY] = {gItemIcon_MarangaBerry, gItemIconPalette_MarangaBerry},
     [ITEM_ENIGMA_BERRY_E_READER] = {gItemIcon_EnigmaBerry, gItemIconPalette_EnigmaBerry},
+    [ITEM_FIDELL_BERRY] = {gItemIcon_FidellBerry, gItemIconPalette_FidellBerry},
     // TMs/HMs
     [ITEM_TM01] = {gItemIcon_TM, gItemIconPalette_FightingTMHM},
     [ITEM_TM02] = {gItemIcon_TM, gItemIconPalette_DragonTMHM},

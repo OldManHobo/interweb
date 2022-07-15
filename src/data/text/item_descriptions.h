@@ -3792,3 +3792,48 @@ static const u8 sSapphireDesc[] = _(
     "A brilliant blue gem\n"
     "that symbolizes\n"
     "honesty.");
+
+static const u8 sDataGemDesc[] = _(
+    "Increases the\n"
+    "power of Data\n"
+    "Type moves.");    
+
+static const u8 sCyberPlateDesc[] = _(
+    "A tablet that ups\n"
+    "the power of\n"
+    "Data-type moves.");
+
+static const u8 sMemoryStickDesc[] = _(
+    "A hold item that\n"
+    "raises the power of\n"
+    "Data-type moves.");
+
+static const u8 sMagicCrownDesc[] = _(
+    "An odd crown that\n"
+    "prevents the holder\n"
+    "from flinching.");
+
+static const u8 sDriveBallDesc[] = _(
+    "A Ball that works\n"
+    "well on Electric- or\n"
+    "Data-type Pokémon."); 
+
+static const u8 sFidellBerryDesc[] = _(
+    "A hold item that\n"
+    "weakens a Data\n"
+    "move if weak to it.");
+
+static const u8 sDeepSeaSaltDesc[] = _(
+    "A hold item that\n"
+    "doubles the Sp. Atk\n"
+    "of Ailes.");
+
+static const u8 sDeepSeaCreamDesc[] = _(
+    "A hold item that\n"
+    "doubles the Sp. Def\n"
+    "of Ailes.");
+
+static const u8 sPolkadotBowDesc[] = _(
+    "A hold item that\n"
+    "raises the power of\n"
+    "Fairy-type moves.");     

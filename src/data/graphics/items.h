@@ -85,6 +85,9 @@ const u32 gItemIconPalette_BeastBall[] = INCBIN_U32("graphics/items/icon_palette
 const u32 gItemIcon_CherishBall[] = INCBIN_U32("graphics/items/icons/cherish_ball.4bpp.lz");
 const u32 gItemIconPalette_CherishBall[] = INCBIN_U32("graphics/items/icon_palettes/cherish_ball.gbapal.lz");
 
+const u32 gItemIcon_DriveBall[] = INCBIN_U32("graphics/items/icons/drive_ball.4bpp.lz");
+const u32 gItemIconPalette_DriveBall[] = INCBIN_U32("graphics/items/icon_palettes/drive_ball.gbapal.lz");
+
 // Medicine
 
 const u32 gItemIcon_Potion[] = INCBIN_U32("graphics/items/icons/potion.4bpp.lz");
@@ -645,6 +648,9 @@ const u32 gItemIconPalette_RibbonSweet[] = INCBIN_U32("graphics/items/icon_palet
 const u32 gItemIcon_Everstone[] = INCBIN_U32("graphics/items/icons/everstone.4bpp.lz");
 const u32 gItemIconPalette_Everstone[] = INCBIN_U32("graphics/items/icon_palettes/everstone.gbapal.lz");
 
+const u32 gItemIcon_MagicCrown[] = INCBIN_U32("graphics/items/icons/magic_crown.4bpp.lz");
+const u32 gItemIconPalette_MagicCrown[] = INCBIN_U32("graphics/items/icon_palettes/magic_crown.gbapal.lz");
+
 // Nectars
 
 const u32 gItemIcon_RedNectar[] = INCBIN_U32("graphics/items/icons/red_nectar.4bpp.lz");
@@ -711,6 +717,9 @@ const u32 gItemIconPalette_IronPlate[] = INCBIN_U32("graphics/items/icon_palette
 
 const u32 gItemIcon_PixiePlate[] = INCBIN_U32("graphics/items/icons/pixie_plate.4bpp.lz");
 const u32 gItemIconPalette_PixiePlate[] = INCBIN_U32("graphics/items/icon_palettes/pixie_plate.gbapal.lz");
+
+const u32 gItemIcon_CyberPlate[] = INCBIN_U32("graphics/items/icons/cyber_plate.4bpp.lz");
+const u32 gItemIconPalette_CyberPlate[] = INCBIN_U32("graphics/items/icon_palettes/cyber_plate.gbapal.lz");
 
 // Drives
 
@@ -990,6 +999,9 @@ const u32 gItemIconPalette_SteelGem[] = INCBIN_U32("graphics/items/icon_palettes
 const u32 gItemIcon_FairyGem[] = INCBIN_U32("graphics/items/icons/fairy_gem.4bpp.lz");
 const u32 gItemIconPalette_FairyGem[] = INCBIN_U32("graphics/items/icon_palettes/fairy_gem.gbapal.lz");
 
+const u32 gItemIcon_DataGem[] = INCBIN_U32("graphics/items/icons/data_gem.4bpp.lz");
+const u32 gItemIconPalette_DataGem[] = INCBIN_U32("graphics/items/icon_palettes/data_gem.gbapal.lz");
+
 // Z-Crystals
 
 const u32 gItemIcon_NormaliumZ[] = INCBIN_U32("graphics/items/icons/normalium_z.4bpp.lz");
@@ -1135,6 +1147,12 @@ const u32 gItemIconPalette_LustrousOrb[] = INCBIN_U32("graphics/items/icon_palet
 const u32 gItemIcon_GriseousOrb[] = INCBIN_U32("graphics/items/icons/griseous_orb.4bpp.lz");
 const u32 gItemIconPalette_GriseousOrb[] = INCBIN_U32("graphics/items/icon_palettes/griseous_orb.gbapal.lz");
 
+const u32 gItemIcon_DeepSeaSalt[] = INCBIN_U32("graphics/items/icons/deep_sea_salt.4bpp.lz");
+const u32 gItemIconPalette_DeepSeaSalt[] = INCBIN_U32("graphics/items/icon_palettes/deep_sea_salt.gbapal.lz");
+
+const u32 gItemIcon_DeepSeaCream[] = INCBIN_U32("graphics/items/icons/deep_sea_cream.4bpp.lz");
+const u32 gItemIconPalette_DeepSeaCream[] = INCBIN_U32("graphics/items/icon_palettes/deep_sea_cream.gbapal.lz");
+
 // Incenses
 
 const u32 gItemIcon_SeaIncense[] = INCBIN_U32("graphics/items/icons/sea_incense.4bpp.lz");
@@ -1251,6 +1269,12 @@ const u32 gItemIcon_BlackGlasses[] = INCBIN_U32("graphics/items/icons/black_glas
 
 const u32 gItemIcon_MetalCoat[] = INCBIN_U32("graphics/items/icons/metal_coat.4bpp.lz");
 const u32 gItemIconPalette_MetalCoat[] = INCBIN_U32("graphics/items/icon_palettes/metal_coat.gbapal.lz");
+
+const u32 gItemIcon_MemoryStick[] = INCBIN_U32("graphics/items/icons/memory_stick.4bpp.lz");
+const u32 gItemIconPalette_MemoryStick[] = INCBIN_U32("graphics/items/icon_palettes/memory_stick.gbapal.lz");
+
+const u32 gItemIcon_PolkadotBow[] = INCBIN_U32("graphics/items/icons/polkadot_bow.4bpp.lz");
+const u32 gItemIconPalette_PolkadotBow[] = INCBIN_U32("graphics/items/icon_palettes/polkadot_bow.gbapal.lz");
 
 // Choice Items
 
@@ -1680,6 +1704,9 @@ const u32 gItemIconPalette_KeeBerry[] = INCBIN_U32("graphics/items/icon_palettes
 
 const u32 gItemIcon_MarangaBerry[] = INCBIN_U32("graphics/items/icons/maranga_berry.4bpp.lz");
 const u32 gItemIconPalette_MarangaBerry[] = INCBIN_U32("graphics/items/icon_palettes/maranga_berry.gbapal.lz");
+
+const u32 gItemIcon_FidellBerry[] = INCBIN_U32("graphics/items/icons/fidell_berry.4bpp.lz");
+const u32 gItemIconPalette_FidellBerry[] = INCBIN_U32("graphics/items/icon_palettes/fidell_berry.gbapal.lz");
 
 // TMs/HMs
 

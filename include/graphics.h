@@ -60,6 +60,8 @@ extern const u32 gBallGfx_Beast[];
 extern const u32 gBallPal_Beast[];
 extern const u32 gBallGfx_Cherish[];
 extern const u32 gBallPal_Cherish[];
+extern const u32 gBallGfx_Drive[];
+extern const u32 gBallPal_Drive[];
 extern const u32 gOpenPokeballGfx[];
 
 // pokemon gfx
@@ -7307,6 +7309,8 @@ extern const u32 gItemIcon_BeastBall[];
 extern const u32 gItemIconPalette_BeastBall[];
 extern const u32 gItemIcon_CherishBall[];
 extern const u32 gItemIconPalette_CherishBall[];
+extern const u32 gItemIcon_DriveBall[];
+extern const u32 gItemIconPalette_DriveBall[];
 // Medicine
 extern const u32 gItemIcon_Potion[];
 extern const u32 gItemIconPalette_Potion[];
@@ -7669,6 +7673,8 @@ extern const u32 gItemIcon_RibbonSweet[];
 extern const u32 gItemIconPalette_RibbonSweet[];
 extern const u32 gItemIcon_Everstone[];
 extern const u32 gItemIconPalette_Everstone[];
+extern const u32 gItemIcon_MagicCrown[];
+extern const u32 gItemIconPalette_MagicCrown[];
 // Nectars
 extern const u32 gItemIcon_RedNectar[];
 extern const u32 gItemIconPalette_RedNectar[];
@@ -7713,6 +7719,8 @@ extern const u32 gItemIcon_IronPlate[];
 extern const u32 gItemIconPalette_IronPlate[];
 extern const u32 gItemIcon_PixiePlate[];
 extern const u32 gItemIconPalette_PixiePlate[];
+extern const u32 gItemIcon_CyberPlate[];
+extern const u32 gItemIconPalette_CyberPlate[];
 // Drives
 extern const u32 gItemIcon_DouseDrive[];
 extern const u32 gItemIconPalette_DouseDrive[];
@@ -7897,6 +7905,8 @@ extern const u32 gItemIcon_SteelGem[];
 extern const u32 gItemIconPalette_SteelGem[];
 extern const u32 gItemIcon_FairyGem[];
 extern const u32 gItemIconPalette_FairyGem[];
+extern const u32 gItemIcon_DataGem[];
+extern const u32 gItemIconPalette_DataGem[];
 // Z-Crystals
 extern const u32 gItemIcon_NormaliumZ[];
 extern const u32 gItemIconPalette_NormaliumZ[];
@@ -7993,6 +8003,10 @@ extern const u32 gItemIcon_LustrousOrb[];
 extern const u32 gItemIconPalette_LustrousOrb[];
 extern const u32 gItemIcon_GriseousOrb[];
 extern const u32 gItemIconPalette_GriseousOrb[];
+extern const u32 gItemIcon_DeepSeaSalt[];
+extern const u32 gItemIconPalette_DeepSeaSalt[];
+extern const u32 gItemIcon_DeepSeaCream[];
+extern const u32 gItemIconPalette_DeepSeaCream[];
 // Incenses
 extern const u32 gItemIcon_SeaIncense[];
 extern const u32 gItemIconPalette_SeaIncense[];
@@ -8068,6 +8082,10 @@ extern const u32 gItemIconPalette_DragonFang[];
 extern const u32 gItemIcon_BlackGlasses[];
 extern const u32 gItemIcon_MetalCoat[];
 extern const u32 gItemIconPalette_MetalCoat[];
+extern const u32 gItemIcon_MemoryStick[];
+extern const u32 gItemIconPalette_MemoryStick[];
+extern const u32 gItemIcon_PolkadotBow[];
+extern const u32 gItemIconPalette_PolkadotBow[];
 // Choice Items
 extern const u32 gItemIcon_ChoiceBand[];
 extern const u32 gItemIconPalette_ChoiceBand[];
@@ -8351,6 +8369,8 @@ extern const u32 gItemIcon_KeeBerry[];
 extern const u32 gItemIconPalette_KeeBerry[];
 extern const u32 gItemIcon_MarangaBerry[];
 extern const u32 gItemIconPalette_MarangaBerry[];
+extern const u32 gItemIcon_FidellBerry[];
+extern const u32 gItemIconPalette_FidellBerry[];
 // TMs/HMs
 extern const u32 gItemIcon_TM[];
 extern const u32 gItemIcon_HM[];
@@ -8372,6 +8392,7 @@ extern const u32 gItemIconPalette_DragonTMHM[];
 extern const u32 gItemIconPalette_DarkTMHM[];
 extern const u32 gItemIconPalette_SteelTMHM[];
 extern const u32 gItemIconPalette_FairyTMHM[];
+extern const u32 gItemIconPalette_DataTMHM[];
 // Charms
 extern const u32 gItemIcon_OvalCharm[];
 extern const u32 gItemIconPalette_OvalCharm[];
@@ -8640,6 +8661,7 @@ extern const u32 gBerryPic_Jaboca[];
 extern const u32 gBerryPic_Rowap[];
 extern const u32 gBerryPic_Kee[];
 extern const u32 gBerryPic_Maranga[];
+extern const u32 gBerryPic_Fidell[];
 extern const u32 gBerryPalette_Cheri[];
 extern const u32 gBerryPalette_Chesto[];
 extern const u32 gBerryPalette_Pecha[];
@@ -8707,7 +8729,7 @@ extern const u32 gBerryPalette_Jaboca[];
 extern const u32 gBerryPalette_Rowap[];
 extern const u32 gBerryPalette_Kee[];
 extern const u32 gBerryPalette_Maranga[];
-
+extern const u32 gBerryPalette_Fidell[];
 //pokenav
 extern const u16 gPokenavCondition_Pal[];
 extern const u32 gPokenavCondition_Gfx[];

@@ -159,6 +159,8 @@ static const u8 sBerryDescriptionPart1_Kee[] = _("A berry that is incredibly spi
 static const u8 sBerryDescriptionPart2_Kee[] = _("first, then extremely bitter.");
 static const u8 sBerryDescriptionPart1_Maranga[] = _("Its outside is very bitter, but its");
 static const u8 sBerryDescriptionPart2_Maranga[] = _("inside tastes like a sweet drink.");
+static const u8 sBerryDescriptionPart1_Fidell[] = _("A flat, stiff, spiral-shaped berry.");
+static const u8 sBerryDescriptionPart2_Fidell[] = _("Its taste is completely undescribable.");
 
 const struct Berry gBerries[] =
 {
@@ -1384,6 +1386,24 @@ const struct Berry gBerries[] =
         .bitter = 40,
         .sour = 40,
         .smoothness = 40,
+    },
+
+    [ITEM_FIDELL_BERRY - FIRST_BERRY_INDEX] =
+    {
+        .name = _("Fidell"),
+        .firmness = BERRY_FIRMNESS_SOFT,
+        .size = 90,
+        .maxYield = 5,
+        .minYield = 2,
+        .description1 = sBerryDescriptionPart1_Fidell,
+        .description2 = sBerryDescriptionPart2_Fidell,
+        .stageDuration = 18,
+        .spicy = 0,
+        .dry = 0,
+        .sweet = 0,
+        .bitter = 15,
+        .sour = 10,
+        .smoothness = 30,
     },
 };
 
