@@ -1086,6 +1086,7 @@ static const u8 sHoldEffectToType[][2] =
     {HOLD_EFFECT_DRAGON_POWER, TYPE_DRAGON},
     {HOLD_EFFECT_NORMAL_POWER, TYPE_NORMAL},
     {HOLD_EFFECT_FAIRY_POWER, TYPE_FAIRY},
+    {HOLD_EFFECT_DATA_POWER, TYPE_DATA},
 };
 
 // percent in UQ_4_12 format
@@ -8415,6 +8416,7 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
     case HOLD_EFFECT_DRAGON_POWER:
     case HOLD_EFFECT_NORMAL_POWER:
     case HOLD_EFFECT_FAIRY_POWER:
+    case HOLD_EFFECT_DATA_POWER:
         for (i = 0; i < ARRAY_COUNT(sHoldEffectToType); i++)
         {
             if (holdEffectAtk == sHoldEffectToType[i][0])
@@ -8673,6 +8675,10 @@ static u32 CalcAttackStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, b
         if (IS_MOVE_SPECIAL(move))
             MulModifier(&modifier, UQ_4_12(1.5));
         break;
+    case HOLD_EFFECT_DEEP_SEA_SALT:
+        if (gBattleMons[battlerAtk].species == SPECIES_ARCANINE && IS_MOVE_SPECIAL(move))
+            MulModifier(&modifier, UQ_4_12(2.0));
+        break;    
     }
 
     // The offensive stats of a Player's Pokémon are boosted by x1.1 (+10%) if they have the 1st badge and 7th badges.
@@ -8803,6 +8809,10 @@ static u32 CalcDefenseStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, 
         if (gBattleMons[battlerDef].species == SPECIES_CLAMPERL && !usesDefStat)
             MulModifier(&modifier, UQ_4_12(2.0));
         break;
+    case HOLD_EFFECT_DEEP_SEA_CREAM:
+        if (gBattleMons[battlerDef].species == SPECIES_ARCANINE && !usesDefStat)
+            MulModifier(&modifier, UQ_4_12(2.0));
+        break;    
     case HOLD_EFFECT_METAL_POWDER:
         if (gBattleMons[battlerDef].species == SPECIES_DITTO && usesDefStat && !(gBattleMons[battlerDef].status2 & STATUS2_TRANSFORMED))
             MulModifier(&modifier, UQ_4_12(2.0));

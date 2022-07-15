@@ -13474,6 +13474,10 @@ static void Cmd_handleballthrow(void)
                     ballMultiplier = 30;
                 #endif
             break;
+        case ITEM_DRIVE_BALL:
+            if (IS_BATTLER_OF_TYPE(gBattlerTarget, TYPE_DATA) || IS_BATTLER_OF_TYPE(gBattlerTarget, TYPE_ELECTRIC))
+                ballMultiplier = 50;
+            break;        
         case ITEM_DIVE_BALL:
             #if B_DIVE_BALL_MODIFIER >= GEN_4
                 if (GetCurrentMapType() == MAP_TYPE_UNDERWATER || gIsFishingEncounter || gIsSurfingEncounter)
