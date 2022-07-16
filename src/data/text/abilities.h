@@ -253,7 +253,13 @@ static const u8 sDragonsMawDescription[] = _("Ups Dragon-type moves.");
 static const u8 sChillingNeighDescription[] = _("KOs boost Attack stat.");
 static const u8 sGrimNeighDescription[] = _("KOs boost Sp. Atk stat.");
 static const u8 sAsOneIceRiderDescription[] = _("Unnerve and Chilling Neigh.");
-static const u8 sAsOneShadowRiderDescription[] = _("Unnerve and Grim Neigh.");
+static const u8 sAsOneShadowRiderDescription[] = _("Unnerve and Grim Neigh");
+static const u8 sDragonAuraDescription[] = _("Boosts Dragon moves.");
+static const u8 sNostalgiaDescription[] = _("Go berserk without item.");
+static const u8 sArroganceDescription[] = _("Boosts Sp.Atk on K.O.");
+static const u8 sSpellBoundDescription[] = _("Can only use one move.");
+static const u8 sPerfectPitchDescription[] = _("Boosts sound moves.");
+static const u8 sDigitizeDescription[] = _("Normal moves become Data.");
 
 #if B_EXPANDED_ABILITY_NAMES == TRUE
 const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
@@ -526,6 +532,12 @@ const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
     [ABILITY_GRIM_NEIGH] = _("Grim Neigh"),
     [ABILITY_AS_ONE_ICE_RIDER] = _("As One"),
     [ABILITY_AS_ONE_SHADOW_RIDER] = _("As One"),
+    [ABILITY_DRAGON_AURA] = _("Dragon Aura"),
+    [ABILITY_NOSTALGIA] = _("Nostalgia"),
+    [ABILITY_ARROGANCE] = _("Arrogance"),
+    [ABILITY_SPELL_BOUND] = _("Spell Bound"),
+    [ABILITY_PERFECT_PITCH] = _("Perfect Pitch"),
+    [ABILITY_DIGITIZE] = _("Digitize"),
 };
 #else   // 12 characters
 const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
@@ -1071,4 +1083,10 @@ const u8 *const gAbilityDescriptionPointers[ABILITIES_COUNT] =
     [ABILITY_GRIM_NEIGH] = sGrimNeighDescription,
     [ABILITY_AS_ONE_ICE_RIDER] = sAsOneIceRiderDescription,
     [ABILITY_AS_ONE_SHADOW_RIDER] = sAsOneShadowRiderDescription,
+    [ABILITY_DRAGON_AURA] = sDragonAuraDescription,
+    [ABILITY_NOSTALGIA] = sNostalgiaDescription,
+    [ABILITY_ARROGANCE] = sArroganceDescription,
+    [ABILITY_SPELL_BOUND] = sSpellBoundDescription,
+    [ABILITY_PERFECT_PITCH] = sPerfectPitchDescription,
+    [ABILITY_DIGITIZE] = sDigitizeDescription,
 };

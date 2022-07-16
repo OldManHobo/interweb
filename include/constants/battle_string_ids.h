@@ -609,8 +609,9 @@
 #define STRINGID_NEUTRALIZINGGASOVER                  607
 #define STRINGID_TARGETTOOHEAVY                       608
 #define STRINGID_PKMNTOOKTARGETHIGH                   609
+#define STRINGID_DRAGONAURAENTERS                     610
 
-#define BATTLESTRINGS_COUNT                           610
+#define BATTLESTRINGS_COUNT                           611
 
 // This is the string id that gBattleStringsTable starts with.
 // String ids before this (e.g. STRINGID_INTROMSG) are not in the table,
@@ -846,13 +847,14 @@
 #define B_MSG_SWITCHIN_PRESSURE         7
 #define B_MSG_SWITCHIN_DARKAURA         8
 #define B_MSG_SWITCHIN_FAIRYAURA        9
-#define B_MSG_SWITCHIN_AURABREAK        10
-#define B_MSG_SWITCHIN_COMATOSE         11
-#define B_MSG_SWITCHIN_SCREENCLEANER    12
-#define B_MSG_SWITCHIN_ASONE            13
-#define B_MSG_SWITCHIN_CURIOUS_MEDICINE 14
-#define B_MSG_SWITCHIN_PASTEL_VEIL      15
-#define B_MSG_SWITCHIN_NEUTRALIZING_GAS 16
+#define B_MSG_SWITCHIN_DRAGONAURA       10
+#define B_MSG_SWITCHIN_AURABREAK        11
+#define B_MSG_SWITCHIN_COMATOSE         12
+#define B_MSG_SWITCHIN_SCREENCLEANER    13
+#define B_MSG_SWITCHIN_ASONE            14
+#define B_MSG_SWITCHIN_CURIOUS_MEDICINE 15
+#define B_MSG_SWITCHIN_PASTEL_VEIL      16
+#define B_MSG_SWITCHIN_NEUTRALIZING_GAS 17
 
 // gMentalHerbCureStringIds
 #define B_MSG_MENTALHERBCURE_INFATUATION       0
