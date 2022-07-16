@@ -122,7 +122,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_EKANS] =
     {
         .size = MON_COORDS_SIZE(56, 48),
-        .y_offset = 10,
+        .y_offset = 9,
     },
     [SPECIES_ARBOK] =
     {
