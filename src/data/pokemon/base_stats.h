@@ -25,7 +25,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroup1 = EGG_GROUP_MONSTER,
         .eggGroup2 = EGG_GROUP_FIELD,
-        .abilities = {ABILITY_ARROGANCE, ABILITY_NONE, ABILITY_RECKLESS},
+        .abilities = {ABILITY_NOSTALGIA, ABILITY_NONE, ABILITY_RECKLESS},
         .bodyColor = BODY_COLOR_GREEN,
         .noFlip = FALSE,
     },
