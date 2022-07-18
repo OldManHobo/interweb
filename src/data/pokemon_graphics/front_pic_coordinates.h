@@ -237,12 +237,12 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_PARAS] =
     {
         .size = MON_COORDS_SIZE(48, 40),
-        .y_offset = 14,
+        .y_offset = 9,
     },
     [SPECIES_PARASECT] =
     {
         .size = MON_COORDS_SIZE(56, 56),
-        .y_offset = 7,
+        .y_offset = 0,
     },
     [SPECIES_VENONAT] =
     {
