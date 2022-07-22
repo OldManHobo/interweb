@@ -172,12 +172,12 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_NIDORINO] =
     {
         .size = MON_COORDS_SIZE(56, 48),
-        .y_offset = 8,
+        .y_offset = 12,
     },
     [SPECIES_NIDOKING] =
     {
         .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 2,
+        .y_offset = 8,
     },
     [SPECIES_CLEFAIRY] =
     {

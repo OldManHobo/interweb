@@ -117,7 +117,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_FEAROW] =
     {
         .size = MON_COORDS_SIZE(64, 56),
-        .y_offset = 4,
+        .y_offset = 0,
     },
     [SPECIES_EKANS] =
     {
@@ -127,7 +127,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_ARBOK] =
     {
         .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 1,
+        .y_offset = 6,
     },
     [SPECIES_PIKACHU] =
     {
@@ -147,7 +147,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_SANDSLASH] =
     {
         .size = MON_COORDS_SIZE(64, 48),
-        .y_offset = 11,
+        .y_offset = 3,
     },
     [SPECIES_NIDORAN_F] =
     {
@@ -172,12 +172,12 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_NIDORINO] =
     {
         .size = MON_COORDS_SIZE(64, 56),
-        .y_offset = 8,
+        .y_offset = 2,
     },
     [SPECIES_NIDOKING] =
     {
         .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 2,
+        .y_offset = 4,
     },
     [SPECIES_CLEFAIRY] =
     {
