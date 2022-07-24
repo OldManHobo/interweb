@@ -769,4 +769,5 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     [MOVE_COMBUSTO] = _("Combusto"),
     [MOVE_TSUNAMI] = _("Tsunami"),
     [MOVE_SNUGGLE_BUG] = _("Snuggle Bug"),
+    [MOVE_DREARY_HUG] = _("Dreary Hug"),
 };

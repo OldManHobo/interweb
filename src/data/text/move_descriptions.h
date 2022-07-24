@@ -2994,6 +2994,10 @@ static const u8 sSnuggleBugDescription[] = _(
     "Snuggles up with the foe\n"
     "to prevent escape.");        
 
+static const u8 sDrearyHugDescription[] = _(
+    "A draining hug that heals\n"
+    "half the damage it inflicts.");
+    
 static const u8 sNotDoneYetDescription[] = _(
     "Not done yet.");
 
@@ -3769,4 +3773,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_COMBUSTO - 1] = sCombustoDescription,
     [MOVE_TSUNAMI - 1] = sTsunamiDescription,
     [MOVE_SNUGGLE_BUG - 1] = sSnuggleBugDescription,
+    [MOVE_DREARY_HUG - 1] = sDrearyHugDescription,
 };
