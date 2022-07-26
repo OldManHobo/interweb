@@ -2986,9 +2986,9 @@ static const u8 sCombustoDescription[] = _(
     "Releases a jet of hot wind.\n"
     "Strong against Flying types.");
 
-static const u8 sTsunamiDescription[] = _(
-    "A mighty wave of water that\n"
-    "also hurts the user.");
+static const u8 sDeepSunderDescription[] = _(
+    "The user bites the opponent\n"
+    "with water-imbued fangs.");
 
 static const u8 sSnuggleBugDescription[] = _(
     "Snuggles up with the foe\n"
@@ -3771,7 +3771,7 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_DATA_TRANSFER - 1] = sDataTransferDescription,
     [MOVE_VINE_WRAP - 1] = sVineWrapDescription,
     [MOVE_COMBUSTO - 1] = sCombustoDescription,
-    [MOVE_TSUNAMI - 1] = sTsunamiDescription,
+    [MOVE_DEEP_SUNDER - 1] = sDeepSunderDescription,
     [MOVE_SNUGGLE_BUG - 1] = sSnuggleBugDescription,
     [MOVE_DREARY_HUG - 1] = sDrearyHugDescription,
 };

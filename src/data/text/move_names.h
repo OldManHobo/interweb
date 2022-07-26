@@ -767,7 +767,7 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     [MOVE_DATA_TRANSFER] = _("DataTransfr"),
     [MOVE_VINE_WRAP] = _("Vine Wrap"),
     [MOVE_COMBUSTO] = _("Combusto"),
-    [MOVE_TSUNAMI] = _("Tsunami"),
+    [MOVE_DEEP_SUNDER] = _("Deep Sunder"),
     [MOVE_SNUGGLE_BUG] = _("Snuggle Bug"),
     [MOVE_DREARY_HUG] = _("Dreary Hug"),
 };
