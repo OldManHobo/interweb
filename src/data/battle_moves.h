@@ -11807,17 +11807,17 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .split = SPLIT_SPECIAL,
     },
 
-    [MOVE_TSUNAMI] =
+    [MOVE_DEEP_SUNDER] =
     {
-        .effect = EFFECT_RECOIL_33,
-        .power = 120,
+        .effect = EFFECT_HIT,
+        .power = 80,
         .type = TYPE_WATER,
         .accuracy = 100,
         .pp = 15,
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
-        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_RECKLESS_BOOST,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_STRONG_JAW_BOOST,
         .split = SPLIT_PHYSICAL,
     },
 
