@@ -66,7 +66,7 @@ void SetUpReflection(struct ObjectEvent *objectEvent, struct Sprite *sprite, boo
 
 static s16 GetReflectionVerticalOffset(struct ObjectEvent *objectEvent)
 {
-    return GetObjectEventGraphicsInfo(objectEvent->graphicsId)->height - 2;
+    return GetObjectEventGraphicsInfo(objectEvent->graphicsId)->height - 3;
 }
 
 static void LoadObjectReflectionPalette(struct ObjectEvent *objectEvent, struct Sprite *reflectionSprite)
@@ -1125,15 +1125,16 @@ void SynchroniseSurfPosition(struct ObjectEvent *playerObj, struct Sprite *sprit
 
 static void UpdateBobbingEffect(struct ObjectEvent *playerObj, struct Sprite *playerSprite, struct Sprite *sprite)
 {
-    u16 intervals[] = {3, 7};
+    u16 intervals[] = {10, 7};
     u8 bobState = GetSurfBlob_BobState(sprite);
     if (bobState != BOB_NONE)
     {
         // Update bobbing position of surf blob
-        if (((u16)(++sprite->data[4]) & intervals[sprite->data[5]]) == 0)
+        if (((u16)(++sprite->data[4]) & intervals[1]) == 0)
         {
             sprite->y2 += sprite->data[3];
         }
+        
         if ((sprite->data[4] & 15) == 0)
         {
             sprite->data[3] = -sprite->data[3];

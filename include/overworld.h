@@ -155,4 +155,7 @@ bool32 Overworld_SendKeysToLinkIsRunning(void);
 bool32 IsSendingKeysOverCable(void);
 void ClearLinkPlayerObjectEvents(void);
 
+bool8 SurfMusicAllowed(bool8 checkCurrentTile);
+bool8 BikeMusicAllowed(void);
+
 #endif // GUARD_OVERWORLD_H

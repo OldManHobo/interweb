@@ -526,6 +526,49 @@ void SetObjEventTemplateMovementType(u8 localId, u8 movementType)
     }
 }
 
+bool8 SurfMusicAllowed(bool8 checkCurrentTile) {
+    
+    
+    // determine type of water player is surfing on
+    u16 tileBehavior;
+    s16 x, y;
+    if (checkCurrentTile) {
+        PlayerGetDestCoords(&x, &y);
+    }
+    else {
+        GetXYCoordsOneStepInFrontOfPlayer(&x, &y);
+    }
+    
+    tileBehavior = MapGridGetMetatileBehaviorAt(x, y);
+
+    switch (gMapHeader.surfMusicRestrictions)
+    {
+        case RESTRICT_SURF_MUSIC_FRESHWATER:
+            return MetatileBehavior_IsDeepOrOceanWater(tileBehavior);
+        case RESTRICT_SURF_MUSIC_OCEAN:
+            if (MetatileBehavior_IsDeepOrOceanWater(tileBehavior) == TRUE) {
+                return FALSE;
+            }
+            else {
+                return TRUE;
+            }
+        case RESTRICT_SURF_MUSIC_BOTH:
+            return FALSE;
+        default:
+            return TRUE;
+    }
+}
+
+bool8 BikeMusicAllowed(void) {
+    switch (gMapHeader.mapType) {
+    case MAP_TYPE_INDOOR:
+    case MAP_TYPE_UNDERGROUND:
+        return FALSE;
+    default:
+        return TRUE;
+    }
+}
+
 static void InitMapView(void)
 {
     ResetFieldCamera();
@@ -1155,7 +1198,7 @@ void Overworld_PlaySpecialMapMusic(void)
             music = gSaveBlock1Ptr->savedMusic;
         else if (GetCurrentMapType() == MAP_TYPE_UNDERWATER)
             music = MUS_UNDERWATER;
-        else if (TestPlayerAvatarFlags(PLAYER_AVATAR_FLAG_SURFING))
+        else if (TestPlayerAvatarFlags(PLAYER_AVATAR_FLAG_SURFING) && SurfMusicAllowed(TRUE))
             music = MUS_SURF;
     }
 
