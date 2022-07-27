@@ -106,7 +106,8 @@ string generate_map_header_text(Json map_data, Json layouts_data, string version
          << "\t.byte "  << map_data["requires_flash"].bool_value() << "\n"
          << "\t.byte "  << map_data["weather"].string_value() << "\n"
          << "\t.byte "  << map_data["map_type"].string_value() << "\n"
-         << "\t.2byte 0\n";
+         << "\t.byte "  << map_data["surf_music_restrictions"].int_value() << "\n"
+         << "\t.byte 0\n";
 
     if (version == "ruby")
         text << "\t.byte " << map_data["show_map_name"].bool_value() << "\n";
