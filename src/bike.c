@@ -982,8 +982,12 @@ void GetOnOffBike(u8 transitionFlags)
     else
     {
         SetPlayerAvatarTransitionFlags(transitionFlags);
-        Overworld_SetSavedMusic(MUS_CYCLING);
-        Overworld_ChangeMusicTo(MUS_CYCLING);
+        PlaySE(SE_BIKE_BELL);
+        SetPlayerAvatarTransitionFlags(transitionFlags);
+        if (BikeMusicAllowed()) {
+            Overworld_SetSavedMusic(MUS_CYCLING);
+            Overworld_ChangeMusicTo(MUS_CYCLING);
+        }
     }
 }
 
