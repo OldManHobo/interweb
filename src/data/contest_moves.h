@@ -960,7 +960,7 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
         .effect = CONTEST_EFFECT_GREAT_APPEAL_BUT_NO_MORE_MOVES,
         .contestCategory = CONTEST_CATEGORY_BEAUTY,
         .comboStarterId = 0,
-        .comboMoves = {0}
+        .comboMoves = {COMBO_STARTER_VINE_WRAP, COMBO_STARTER_SNUGGLE_BUG},
     },
 
     [MOVE_EGG_BOMB] =
@@ -1224,7 +1224,7 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
         .effect = CONTEST_EFFECT_GREAT_APPEAL_BUT_NO_MORE_MOVES,
         .contestCategory = CONTEST_CATEGORY_BEAUTY,
         .comboStarterId = 0,
-        .comboMoves = {0}
+        .comboMoves = {COMBO_STARTER_VINE_WRAP, COMBO_STARTER_SNUGGLE_BUG},
     },
 
     [MOVE_FURY_SWIPES] =
@@ -1554,7 +1554,7 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
         .effect = CONTEST_EFFECT_BADLY_STARTLE_MONS_WITH_GOOD_APPEALS,
         .contestCategory = CONTEST_CATEGORY_BEAUTY,
         .comboStarterId = 0,
-        .comboMoves = {COMBO_STARTER_MEAN_LOOK, COMBO_STARTER_SING},
+        .comboMoves = {COMBO_STARTER_MEAN_LOOK, COMBO_STARTER_SING, COMBO_STARTER_VINE_WRAP, COMBO_STARTER_SNUGGLE_BUG},
     },
 
     [MOVE_ICY_WIND] =
@@ -2090,7 +2090,7 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
         .effect = CONTEST_EFFECT_GREAT_APPEAL_BUT_NO_MORE_MOVES,
         .contestCategory = CONTEST_CATEGORY_TOUGH,
         .comboStarterId = 0,
-        .comboMoves = {0}
+        .comboMoves = {COMBO_STARTER_VINE_WRAP, COMBO_STARTER_SNUGGLE_BUG},
     },
 
     [MOVE_FACADE] =
@@ -5917,6 +5917,118 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
         .contestCategory = CONTEST_CATEGORY_SMART,
         .comboStarterId = 0,
         .comboMoves = {0}
+    },
+
+    [MOVE_BYTE] =
+    {
+        .effect = CONTEST_EFFECT_STARTLE_PREV_MONS,
+        .contestCategory = CONTEST_CATEGORY_CUTE,
+        .comboStarterId = COMBO_STARTER_BYTE,
+        .comboMoves = {COMBO_STARTER_SCARY_FACE},
+    },
+
+    [MOVE_TURBO_CUTTER] =
+    {
+        .effect = CONTEST_EFFECT_REPETITION_NOT_BORING,
+        .contestCategory = CONTEST_CATEGORY_COOL,
+        .comboStarterId = 0,
+        .comboMoves = {COMBO_STARTER_SWORDS_DANCE},
+    },
+
+    [MOVE_GIGABYTE] =
+    {
+        .effect = CONTEST_EFFECT_BADLY_STARTLE_FRONT_MON,
+        .contestCategory = CONTEST_CATEGORY_TOUGH,
+        .comboStarterId = 0,
+        .comboMoves = {COMBO_STARTER_SCARY_FACE, COMBO_STARTER_BYTE},
+    },
+
+    [MOVE_WILD_SPAM] =
+    {
+        .effect = CONTEST_EFFECT_USER_MORE_EASILY_STARTLED,
+        .contestCategory = CONTEST_CATEGORY_TOUGH,
+        .comboStarterId = 0,
+        .comboMoves = {COMBO_STARTER_HARDEN},
+    },
+
+    [MOVE_SHED_CACHE] =
+    {
+        .effect = CONTEST_EFFECT_IMPROVE_CONDITION_PREVENT_NERVOUSNESS,
+        .contestCategory = CONTEST_CATEGORY_SMART,
+        .comboStarterId = 0,
+        .comboMoves = {COMBO_STARTER_HARDEN},
+    },
+
+    [MOVE_INSTALL] =
+    {
+        .effect = CONTEST_EFFECT_APPEAL_AS_GOOD_AS_PREV_ONE,
+        .contestCategory = CONTEST_CATEGORY_SMART,
+        .comboStarterId = 0,
+        .comboMoves = {COMBO_STARTER_TAUNT},
+    },
+
+    [MOVE_TECHNO_BUSTER] =
+    {
+        .effect = CONTEST_EFFECT_AVOID_STARTLE_SLIGHTLY,
+        .contestCategory = CONTEST_CATEGORY_BEAUTY,
+        .comboStarterId = 0,
+        .comboMoves = {COMBO_STARTER_BYTE},
+    },
+
+    [MOVE_MEMORY_LEAK] =
+    {
+        .effect = CONTEST_EFFECT_MAKE_SCRAMBLING_TURN_ORDER_EASIER,
+        .contestCategory = CONTEST_CATEGORY_SMART,
+        .comboStarterId = 0,
+        .comboMoves = {0}
+    },
+
+    [MOVE_DATA_TRANSFER] =
+    {
+        .effect = CONTEST_EFFECT_AFFECTED_BY_PREV_APPEAL,
+        .contestCategory = CONTEST_CATEGORY_BEAUTY,
+        .comboStarterId = 0,
+        .comboMoves = {0},
+    },
+
+    [MOVE_VINE_WRAP] =
+    {
+        .effect = CONTEST_EFFECT_DONT_EXCITE_AUDIENCE,
+        .contestCategory = CONTEST_CATEGORY_SMART,
+        .comboStarterId = COMBO_STARTER_VINE_WRAP,
+        .comboMoves = {COMBO_STARTER_GROWTH, COMBO_STARTER_GRASSY_TERRAIN}
+    },
+
+    [MOVE_COMBUSTO] =
+    {
+        .effect = CONTEST_EFFECT_BADLY_STARTLE_MONS_WITH_GOOD_APPEALS,
+        .contestCategory = CONTEST_CATEGORY_COOL,
+        .comboStarterId = 0,
+        .comboMoves = {COMBO_STARTER_SUNNY_DAY},
+    },
+
+    [MOVE_DEEP_SUNDER] =
+    {
+        .effect = CONTEST_EFFECT_STARTLE_MON_WITH_JUDGES_ATTENTION,
+        .contestCategory = CONTEST_CATEGORY_TOUGH,
+        .comboStarterId = 0,
+        .comboMoves = {COMBO_STARTER_RAIN_DANCE},
+    },
+
+    [MOVE_SNUGGLE_BUG] =
+    {
+        .effect = CONTEST_EFFECT_MAKE_FOLLOWING_MONS_NERVOUS,
+        .contestCategory = CONTEST_CATEGORY_CUTE,
+        .comboStarterId = COMBO_STARTER_SNUGGLE_BUG,
+        .comboMoves = {0}
+    },
+
+    [MOVE_DREARY_HUG] =
+    {
+        .effect = CONTEST_EFFECT_WORSEN_CONDITION_OF_PREV_MONS,
+        .contestCategory = CONTEST_CATEGORY_CUTE,
+        .comboStarterId = 0,
+        .comboMoves = {COMBO_STARTER_CHARM},
     },
 };
 
