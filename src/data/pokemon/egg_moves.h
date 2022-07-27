@@ -21,7 +21,8 @@ const u16 gEggMoves[] = {
         MOVE_SIGNAL_BEAM,
         MOVE_U_TURN,
         MOVE_RAGE_POWDER,
-        MOVE_TELEPORT),
+        MOVE_TELEPORT,
+        MOVE_SEARING_SHOT),
 
     egg_moves(SQUIRTLE,
         MOVE_FALSE_SWIPE,
