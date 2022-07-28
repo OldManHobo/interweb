@@ -71,6 +71,7 @@ static u16 GetBattlerPokeballItemId(u8 battlerId);
 #define GFX_TAG_PARKBALL    55024
 #define GFX_TAG_BEASTBALL   55025
 #define GFX_TAG_CHERISHBALL 55026
+#define GFX_TAG_DRIVEBALL   55027
 
 const struct CompressedSpriteSheet gBallSpriteSheets[POKEBALL_COUNT] =
 {
@@ -101,6 +102,7 @@ const struct CompressedSpriteSheet gBallSpriteSheets[POKEBALL_COUNT] =
     [BALL_PARK]    = {gBallGfx_Park,    384, GFX_TAG_PARKBALL},
     [BALL_BEAST]   = {gBallGfx_Beast,   384, GFX_TAG_BEASTBALL},
     [BALL_CHERISH] = {gBallGfx_Cherish, 384, GFX_TAG_CHERISHBALL},
+    [BALL_DRIVE]   = {gBallGfx_Drive,   384, GFX_TAG_DRIVEBALL},
 };
 
 const struct CompressedSpritePalette gBallSpritePalettes[POKEBALL_COUNT] =
@@ -132,6 +134,7 @@ const struct CompressedSpritePalette gBallSpritePalettes[POKEBALL_COUNT] =
     [BALL_PARK]    = {gBallPal_Park,    GFX_TAG_PARKBALL},
     [BALL_BEAST]   = {gBallPal_Beast,   GFX_TAG_BEASTBALL},
     [BALL_CHERISH] = {gBallPal_Cherish, GFX_TAG_CHERISHBALL},
+    [BALL_DRIVE]   = {gBallPal_Drive,   GFX_TAG_DRIVEBALL},
 };
 
 static const struct OamData sBallOamData =
@@ -513,6 +516,17 @@ const struct SpriteTemplate gBallSpriteTemplates[POKEBALL_COUNT] =
     {
         .tileTag = GFX_TAG_CHERISHBALL,
         .paletteTag = GFX_TAG_CHERISHBALL,
+        .oam = &sBallOamData,
+        .anims = sBallAnimSequences,
+        .images = NULL,
+        .affineAnims = sAffineAnim_BallRotate,
+        .callback = SpriteCB_BallThrow,
+    },
+
+    [BALL_DRIVE] =
+    {
+        .tileTag = GFX_TAG_DRIVEBALL,
+        .paletteTag = GFX_TAG_DRIVEBALL,
         .oam = &sBallOamData,
         .anims = sBallAnimSequences,
         .images = NULL,
