@@ -17,6 +17,11 @@
       "direction": "right",
       "offset": 23,
       "map": "MAP_PETALBURG_CITY"
+    },
+    {
+      "direction": "up",
+      "offset": 0,
+      "map": "MAP_RUSTBORO_CITY"
     }
   ],
   "object_events": [

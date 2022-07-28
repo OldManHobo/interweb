@@ -15,7 +15,12 @@
   "connections": [
     {
       "direction": "left",
-      "offset": -36,
+      "offset": -26,
+      "map": "MAP_RUSTBORO_CITY"
+    },
+    {
+      "direction": "left",
+      "offset": -26,
       "map": "MAP_RUSTBORO_CITY"
     }
   ],

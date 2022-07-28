@@ -20,13 +20,13 @@
     },
     {
       "direction": "down",
-      "offset": 0,
-      "map": "MAP_ROUTE104"
+      "offset": -24,
+      "map": "MAP_NORMACO_BEACH"
     },
     {
       "direction": "right",
-      "offset": 0,
-      "map": "MAP_ROUTE116"
+      "offset": 26,
+      "map": "MAP_LITTLE_SQUARE"
     }
   ],
   "object_events": [
