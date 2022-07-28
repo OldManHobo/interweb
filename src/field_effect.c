@@ -3233,6 +3233,9 @@ static void FlyOutFieldEffect_BirdSwoopDown(struct Task *task)
         task->tState++;
         PlaySE(SE_M_FLY);
         StartFlyBirdSwoopDown(task->tBirdSpriteId);
+        if (GetWarpDestinationMusic() != GetCurrentMapMusic()) {
+            TryFadeOutOldMapMusic();
+        }
     }
 }
 
