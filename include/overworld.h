@@ -26,6 +26,10 @@
 
 #define SKIP_OBJECT_EVENT_LOAD  1
 
+#define RESTRICT_SURF_MUSIC_FRESHWATER 0
+#define RESTRICT_SURF_MUSIC_OCEAN 1 
+#define RESTRICT_SURF_MUSIC_BOTH 2
+
 struct InitialPlayerAvatarState
 {
     u8 transitionFlags;
