@@ -2937,7 +2937,9 @@ static void SpriteCB_FieldMoveMonSlideOnscreen(struct Sprite *sprite)
         sprite->x = DISPLAY_WIDTH / 2;
         sprite->sOnscreenTimer = 30;
         sprite->callback = SpriteCB_FieldMoveMonWaitAfterCry;
-        if (sprite->data[6])
+        if (FindTaskIdByFunc(Task_UseDive) != TASK_NONE)
+            PlayCry_DuckNoRestore(sprite->sSpecies, 0, CRY_MODE_NORMAL);
+        else if (sprite->data[6])
             PlayCry_NormalNoDucking(sprite->sSpecies, 0, CRY_VOLUME_RS, CRY_PRIORITY_NORMAL);
         else
             PlayCry_Normal(sprite->sSpecies, 0);
