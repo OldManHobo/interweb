@@ -315,6 +315,30 @@ static u16 GetCurrentMapWildMonHeaderId(void)
         if (gWildMonHeaders[i].mapGroup == gSaveBlock1Ptr->location.mapGroup &&
             gWildMonHeaders[i].mapNum == gSaveBlock1Ptr->location.mapNum)
         {
+                        if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(ROUTE101) &&
+                gSaveBlock1Ptr->location.mapNum == MAP_NUM(ROUTE101))
+                i += VarGet(VAR_DAYNIGHT);
+
+                        if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(ROUTE102) &&
+                gSaveBlock1Ptr->location.mapNum == MAP_NUM(ROUTE102))
+                i += VarGet(VAR_DAYNIGHT);
+
+                        if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(ROUTE104) &&
+                gSaveBlock1Ptr->location.mapNum == MAP_NUM(ROUTE104))
+                i += VarGet(VAR_DAYNIGHT);
+
+                        if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(FOREST_CLEARING) &&
+                gSaveBlock1Ptr->location.mapNum == MAP_NUM(FOREST_CLEARING))
+                i += VarGet(VAR_DAYNIGHT);
+
+                        if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(PETALBURG_WOODS) &&
+                gSaveBlock1Ptr->location.mapNum == MAP_NUM(PETALBURG_WOODS))
+                i += VarGet(VAR_DAYNIGHT);
+
+                        if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(NORMACO_BEACH) &&
+                gSaveBlock1Ptr->location.mapNum == MAP_NUM(NORMACO_BEACH))
+                i += VarGet(VAR_DAYNIGHT);
+
             if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(ALTERING_CAVE) &&
                 gSaveBlock1Ptr->location.mapNum == MAP_NUM(ALTERING_CAVE))
             {
