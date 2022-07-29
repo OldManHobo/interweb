@@ -15,8 +15,8 @@
   "connections": [
     {
       "direction": "down",
-      "offset": 34,
-      "map": "MAP_ROUTE101"
+      "offset": 0,
+      "map": "MAP_FOREST_CLEARING"
     }
   ],
   "object_events": [
