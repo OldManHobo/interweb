@@ -5,10 +5,10 @@ const u8 gDummyPokedexText[] = _(
     "at this time.");
 
 const u8 gBulbasaurPokedexText[] = _(
-    "Bulbasaur can be seen napping in bright\n"
-    "sunlight. There is a seed on its back.\n"
-    "By soaking up the sun's rays, the seed\n"
-    "grows progressively larger.");
+    "Badgerp are known to be very slow\n"
+    "learners, but persistent trainers\n"
+    "can teach them to combine their\n"
+    "brute strength with skilled techniques.");
 
 const u8 gIvysaurPokedexText[] = _(
     "To support its bulb, Ivysaur's legs\n"
