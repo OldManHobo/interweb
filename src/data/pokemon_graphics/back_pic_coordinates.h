@@ -107,7 +107,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_RATICATE] =
     {
         .size = MON_COORDS_SIZE(64, 48),
-        .y_offset = 10,
+        .y_offset = 13,
     },
     [SPECIES_SPEAROW] =
     {
