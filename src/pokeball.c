@@ -548,6 +548,11 @@ u8 DoPokeballSendOutAnimation(s16 pan, u8 kindOfThrow)
     gDoingBattleAnim = TRUE;
     gBattleSpritesDataPtr->healthBoxesData[gActiveBattler].ballAnimActive = 1;
 
+    if (kindOfThrow == POKEBALL_OPPONENT_SENDOUT && IsOpponentFinalMon() && GetFinalMonMusic() != 0 && gBattleStruct->finalMonMusicPlaying == 0) {
+        PlayBGM(GetFinalMonMusic());
+        gBattleStruct->finalMonMusicPlaying = 1;
+    }
+    
     taskId = CreateTask(Task_DoPokeballSendOutAnim, 5);
     gTasks[taskId].tPan = pan;
     gTasks[taskId].tThrowId = kindOfThrow;
