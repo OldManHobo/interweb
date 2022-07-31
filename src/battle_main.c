@@ -5408,3 +5408,32 @@ bool32 IsWildMonSmart(void)
 {
     return (B_SMART_WILD_AI_FLAG != 0 && FlagGet(B_SMART_WILD_AI_FLAG));
 }
+
+u8 GetRemainingOpponentMons() {
+    u8 remaining = PARTY_SIZE;
+    u8 i;
+    for (i = 0; i < PARTY_SIZE; i++)
+    {
+        if (GetMonData(&gEnemyParty[i], MON_DATA_SPECIES2) == SPECIES_NONE
+            || GetMonData(&gEnemyParty[i], MON_DATA_SPECIES2) == SPECIES_EGG
+            || GetMonData(&gEnemyParty[i], MON_DATA_HP) == 0)
+        {
+            remaining--;
+        }
+    }
+    return remaining;
+}
+
+bool8 IsOpponentFinalMon() {
+    return ((!IsDoubleBattle() && GetRemainingOpponentMons() == 1)
+        || (IsDoubleBattle() && GetRemainingOpponentMons() <= 2));
+}
+
+u16 GetFinalMonMusic() {
+    switch (gTrainers[gTrainerBattleOpponent_A].trainerClass) {
+    case TRAINER_CLASS_LEADER:
+        return MUS_VS_FRONTIER_BRAIN;
+    default:
+        return 0;
+    }
+}
