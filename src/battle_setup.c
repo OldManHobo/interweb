@@ -377,6 +377,7 @@ static void CreateBattleStartTask(u8 transition, u16 song)
     u8 taskId = CreateTask(Task_BattleStart, 1);
 
     gTasks[taskId].tTransition = transition;
+    gBattleStruct->finalMonMusicPlaying = 0;
     PlayMapChosenOrBattleBGM(song);
 }
 
