@@ -608,6 +608,7 @@ struct BattleStruct
     u8 stickyWebUser;
     u8 appearedInBattle; // Bitfield to track which Pokemon appeared in battle. Used for Burmy's form change
     u8 skyDropTargets[MAX_BATTLERS_COUNT]; // For Sky Drop, to account for if multiple Pokemon use Sky Drop in a double battle.
+    u8 finalMonMusicPlaying;
 };
 
 #define F_DYNAMIC_TYPE_1 (1 << 6)
@@ -779,6 +780,10 @@ struct BattleSpriteData
     struct BattleAnimationInfo *animationData;
     struct BattleBarInfo *battleBars;
 };
+
+u8 GetRemainingOpponentMons();
+bool8 IsOpponentFinalMon();
+u16 GetFinalMonMusic();
 
 #include "sprite.h"
 
