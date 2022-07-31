@@ -1854,6 +1854,8 @@ u8 CreatePartyStatusSummarySprites(u8 battlerId, struct HpAndStatus *partyInfo, 
     }
 
     PlaySE12WithPanning(SE_BALL_TRAY_ENTER, 0);
+    if (IsOpponentFinalMon() && GetFinalMonMusic() != 0 && gBattleStruct->finalMonMusicPlaying == 0)
+        FadeOutBGM(16);
     return taskId;
 }
 
