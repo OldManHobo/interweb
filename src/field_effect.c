@@ -80,6 +80,14 @@ static bool8 FallWarpEffect_Land(struct Task *);
 static bool8 FallWarpEffect_CameraShake(struct Task *);
 static bool8 FallWarpEffect_End(struct Task *);
 
+static void Task_DiveWarpFieldEffect(u8);
+static bool8 DiveWarpEffect_Init(struct Task*);
+static bool8 DiveWarpEffect_WaitWeather(struct Task*);
+static bool8 DiveWarpEffect_StartFall(struct Task*);
+static bool8 DiveWarpEffect_Fall(struct Task*);
+static bool8 DiveWarpEffect_Land(struct Task*);
+static bool8 DiveWarpEffect_End(struct Task*);
+
 static void Task_EscalatorWarpOut(u8);
 static bool8 EscalatorWarpOut_Init(struct Task *);
 static bool8 EscalatorWarpOut_WaitForPlayer(struct Task *);
@@ -607,6 +615,16 @@ bool8 (*const sFallWarpFieldEffectFuncs[])(struct Task *) =
     FallWarpEffect_Land,
     FallWarpEffect_CameraShake,
     FallWarpEffect_End,
+};
+
+bool8(* const sDiveWarpFieldEffectFuncs[])(struct Task*) =
+{
+    DiveWarpEffect_Init,
+    DiveWarpEffect_WaitWeather,
+    DiveWarpEffect_StartFall,
+    DiveWarpEffect_Fall,
+    DiveWarpEffect_Land,
+    DiveWarpEffect_End,
 };
 
 bool8 (*const sEscalatorWarpOutFieldEffectFuncs[])(struct Task *) =
@@ -1536,6 +1554,120 @@ static bool8 FallWarpEffect_End(struct Task *task)
     UnfreezeObjectEvents();
     InstallCameraPanAheadCallback();
     DestroyTask(FindTaskIdByFunc(Task_FallWarpFieldEffect));
+    return FALSE;
+}
+
+void FieldCB_DiveWarpExit(void)
+{
+    Overworld_PlaySpecialMapMusic();
+    WarpFadeInScreen();
+    ScriptContext2_Enable();
+    FreezeObjectEvents();
+    CreateTask(Task_DiveWarpFieldEffect, 0);
+    gFieldCallback = NULL;
+}
+
+static void Task_DiveWarpFieldEffect(u8 taskId)
+{
+    struct Task* task;
+    task = &gTasks[taskId];
+    while (sDiveWarpFieldEffectFuncs[task->tState](task));
+}
+
+static bool8 DiveWarpEffect_Init(struct Task* task)
+{
+    struct ObjectEvent* playerObject;
+    struct Sprite* playerSprite;
+    playerObject = &gObjectEvents[gPlayerAvatar.objectEventId];
+    playerSprite = &gSprites[gPlayerAvatar.spriteId];
+    CameraObjectReset2();
+    gObjectEvents[gPlayerAvatar.objectEventId].invisible = TRUE;
+    gPlayerAvatar.preventStep = TRUE;
+    ObjectEventSetHeldMovement(playerObject, GetFaceDirectionMovementAction(GetPlayerFacingDirection()));
+    task->tSubsprMode = playerSprite->subspriteMode;
+    playerObject->fixedPriority = 1;
+    playerSprite->oam.priority = 1;
+    playerSprite->subspriteMode = SUBSPRITES_IGNORE_PRIORITY;
+    task->tState++;
+    return TRUE;
+}
+
+static bool8 DiveWarpEffect_WaitWeather(struct Task* task)
+{
+    if (IsWeatherNotFadingIn())
+        task->tState++;
+
+    return FALSE;
+}
+
+static bool8 DiveWarpEffect_StartFall(struct Task* task)
+{
+    struct Sprite* sprite;
+    s16 centerToCornerVecY;
+    sprite = &gSprites[gPlayerAvatar.spriteId];
+    centerToCornerVecY = -(sprite->centerToCornerVecY << 1);
+    sprite->y2 = -(sprite->y + sprite->centerToCornerVecY + gSpriteCoordOffsetY + centerToCornerVecY);
+    task->tFallOffset = 5;
+    task->tTotalFall = 0;
+    gObjectEvents[gPlayerAvatar.objectEventId].invisible = FALSE;
+    task->tState++;
+    return FALSE;
+}
+
+static bool8 DiveWarpEffect_Fall(struct Task* task)
+{
+    struct ObjectEvent* objectEvent;
+    struct Sprite* sprite;
+
+    objectEvent = &gObjectEvents[gPlayerAvatar.objectEventId];
+    sprite = &gSprites[gPlayerAvatar.spriteId];
+    sprite->y2 += task->tFallOffset;
+    if (task->tFallOffset > 1)
+    {
+        task->tTotalFall += task->tFallOffset;
+
+        if (task->tTotalFall >= 76)
+            task->tFallOffset = 1;
+        else if (task->tTotalFall >= 68)
+            task->tFallOffset = 2;
+        else if (task->tTotalFall >= 54)
+            task->tFallOffset = 3;
+        else if (task->tTotalFall >= 40)
+            task->tFallOffset = 4;
+    }
+    if (task->tSetTrigger == FALSE && sprite->y2 >= -16)
+    {
+        task->tSetTrigger++;
+        objectEvent->fixedPriority = 0;
+        sprite->subspriteMode = task->tSubsprMode;
+        objectEvent->triggerGroundEffectsOnMove = 1;
+    }
+    if (sprite->y2 >= 0)
+    {
+        objectEvent->triggerGroundEffectsOnStop = 1;
+        sprite->y2 = 0;
+        task->tState++;
+    }
+    return FALSE;
+}
+
+static bool8 DiveWarpEffect_Land(struct Task* task)
+{
+    task->tState++;
+    task->tVertShake = 0;
+    task->tNumShakes = 0;
+    SetCameraPanningCallback(NULL);
+    return TRUE;
+}
+
+static bool8 DiveWarpEffect_End(struct Task* task)
+{
+    gPlayerAvatar.preventStep = FALSE;
+    ScriptContext2_Disable();
+    CameraObjectReset1();
+    UnfreezeObjectEvents();
+    InstallCameraPanAheadCallback();
+    DestroyTask(FindTaskIdByFunc(Task_DiveWarpFieldEffect));
     return FALSE;
 }
 
