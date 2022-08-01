@@ -35,6 +35,7 @@
 #include "trainer_hill.h"
 #include "fldeff.h"
 #include "m4a.h"
+#include "constants/map_types.h"
 
 static void Task_ExitNonAnimDoor(u8);
 static void Task_ExitNonDoor(u8);
@@ -505,7 +506,16 @@ void DoDiveWarp(void)
     WarpFadeOutScreen();
     PlayRainStoppingSoundEffect();
     gFieldCallback = FieldCB_DefaultWarpExit;
+    if (gMapHeader.mapType != MAP_TYPE_UNDERWATER) {
+        gFieldCallback = FieldCB_DiveWarpExit;
+    }
     CreateTask(Task_WarpAndLoadMap, 10);
+    if (GetWarpDestinationMusic() == GetCurrentMapMusic()) {
+        m4aMPlayVolumeControl(&gMPlayInfo_BGM, TRACKS_ALL, 256);
+    }
+    else {
+        FadeOutMapMusic(1);
+    }
 }
 
 void DoWhiteFadeWarp(void)
