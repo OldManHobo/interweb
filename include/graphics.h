@@ -5858,8 +5858,8 @@ extern const u8 gMonIcon_ZacianCrownedSword[];
 extern const u8 gMonIcon_ZamazentaCrownedShield[];
 extern const u8 gMonIcon_EternatusEternamax[];
 extern const u8 gMonIcon_ZarudeDada[];
-//extern const u8 gMonIcon_CalyrexIceRider[];
-//extern const u8 gMonIcon_CalyrexShadowRider[];
+extern const u8 gMonIcon_CalyrexIceRider[];
+extern const u8 gMonIcon_CalyrexShadowRider[];
 extern const u8 gMonIcon_Egg[];
 
 extern const u8 gMonFootprint_QuestionMark[];
@@ -9633,6 +9633,7 @@ extern const u32 gBattleAnimSpriteGfx_StonePillar[];
 extern const u32 gBattleAnimSpritePal_StonePillar[];
 extern const u32 gBattleAnimSpriteGfx_StraightBeam[];
 extern const u32 gBattleAnimSpritePal_StraightBeam[];
+extern const u32 gBattleAnimSpritePal_Poltergeist[];
 extern const u32 gBattleAnimSpriteGfx_SubstituteBack[];
 extern const u32 gBattleAnimSpriteGfx_SubstituteFront[];
 extern const u32 gBattleAnimSpritePal_SubstituteFront[];
