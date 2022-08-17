@@ -247,7 +247,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_VENONAT] =
     {
         .size = MON_COORDS_SIZE(64, 56),
-        .y_offset = 17,
+        .y_offset = 15,
     },
     [SPECIES_VENOMOTH] =
     {
