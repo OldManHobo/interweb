@@ -107,7 +107,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_RATICATE] =
     {
         .size = MON_COORDS_SIZE(64, 56),
-        .y_offset = 6,
+        .y_offset = 11,
     },
     [SPECIES_SPEAROW] =
     {
@@ -117,7 +117,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_FEAROW] =
     {
         .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 0,
+        .y_offset = 2,
     },
     [SPECIES_EKANS] =
     {
@@ -247,12 +247,12 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_VENONAT] =
     {
         .size = MON_COORDS_SIZE(40, 56),
-        .y_offset = 8,
+        .y_offset = 11,
     },
     [SPECIES_VENOMOTH] =
     {
         .size = MON_COORDS_SIZE(64, 48),
-        .y_offset = 9,
+        .y_offset = 0,
     },
     [SPECIES_DIGLETT] =
     {
