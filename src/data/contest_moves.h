@@ -424,7 +424,7 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
         .effect = CONTEST_EFFECT_HIGHLY_APPEALING,
         .contestCategory = CONTEST_CATEGORY_BEAUTY,
         .comboStarterId = 0,
-        .comboMoves = {COMBO_STARTER_SUNNY_DAY},
+        .comboMoves = {COMBO_STARTER_SUNNY_DAY, COMBO_STARTER_ICY_WATER},
     },
 
     [MOVE_MIST] =
@@ -1008,7 +1008,7 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
         .effect = CONTEST_EFFECT_HIGHLY_APPEALING,
         .contestCategory = CONTEST_CATEGORY_BEAUTY,
         .comboStarterId = 0,
-        .comboMoves = {COMBO_STARTER_SUNNY_DAY},
+        .comboMoves = {COMBO_STARTER_SUNNY_DAY, COMBO_STARTER_ICY_WATER},
     },
 
     [MOVE_WATERFALL] =
@@ -4042,7 +4042,7 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
         .effect = CONTEST_EFFECT_BETTER_IF_SAME_TYPE,
         .contestCategory = CONTEST_CATEGORY_SMART,
         .comboStarterId = 0,
-        .comboMoves = {COMBO_STARTER_TOXIC},
+        .comboMoves = {COMBO_STARTER_TOXIC, COMBO_STARTER_ICY_WATER},
     },
 
     [MOVE_SKY_DROP] =
@@ -6029,6 +6029,14 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
         .contestCategory = CONTEST_CATEGORY_CUTE,
         .comboStarterId = 0,
         .comboMoves = {COMBO_STARTER_CHARM},
+    },
+
+    [MOVE_ICY_WATER] =
+    {
+        .effect = CONTEST_EFFECT_STARTLE_PREV_MONS,
+        .contestCategory = CONTEST_CATEGORY_BEAUTY,
+        .comboStarterId = COMBO_STARTER_ICY_WATER,
+        .comboMoves = {0}
     },
 };
 

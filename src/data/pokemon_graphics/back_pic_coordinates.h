@@ -82,12 +82,12 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_BEEDRILL] =
     {
         .size = MON_COORDS_SIZE(64, 56),
-        .y_offset = 5,
+        .y_offset = 8,
     },
     [SPECIES_PIDGEY] =
     {
         .size = MON_COORDS_SIZE(56, 48),
-        .y_offset = 11,
+        .y_offset = 4,
     },
     [SPECIES_PIDGEOTTO] =
     {
@@ -97,12 +97,12 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_PIDGEOT] =
     {
         .size = MON_COORDS_SIZE(64, 56),
-        .y_offset = 7,
+        .y_offset = 9,
     },
     [SPECIES_RATTATA] =
     {
         .size = MON_COORDS_SIZE(64, 56),
-        .y_offset = 7,
+        .y_offset = 0,
     },
     [SPECIES_RATICATE] =
     {
@@ -182,22 +182,22 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_CLEFAIRY] =
     {
         .size = MON_COORDS_SIZE(56, 40),
-        .y_offset = 14,
+        .y_offset = 0,
     },
     [SPECIES_CLEFABLE] =
     {
         .size = MON_COORDS_SIZE(64, 48),
-        .y_offset = 10,
+        .y_offset = 9,
     },
     [SPECIES_VULPIX] =
     {
         .size = MON_COORDS_SIZE(64, 48),
-        .y_offset = 9,
+        .y_offset = 10,
     },
     [SPECIES_NINETALES] =
     {
         .size = MON_COORDS_SIZE(64, 56),
-        .y_offset = 5,
+        .y_offset = 6,
     },
     [SPECIES_JIGGLYPUFF] =
     {
@@ -207,7 +207,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_WIGGLYTUFF] =
     {
         .size = MON_COORDS_SIZE(56, 64),
-        .y_offset = 0,
+        .y_offset = 10,
     },
     [SPECIES_ZUBAT] =
     {
@@ -227,12 +227,12 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_GLOOM] =
     {
         .size = MON_COORDS_SIZE(64, 48),
-        .y_offset = 11,
+        .y_offset = 5,
     },
     [SPECIES_VILEPLUME] =
     {
         .size = MON_COORDS_SIZE(64, 56),
-        .y_offset = 6,
+        .y_offset = 7,
     },
     [SPECIES_PARAS] =
     {
@@ -247,7 +247,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_VENONAT] =
     {
         .size = MON_COORDS_SIZE(64, 56),
-        .y_offset = 15,
+        .y_offset = 17,
     },
     [SPECIES_VENOMOTH] =
     {
@@ -282,17 +282,17 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_GOLDUCK] =
     {
         .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 3,
+        .y_offset = 0,
     },
     [SPECIES_MANKEY] =
     {
         .size = MON_COORDS_SIZE(64, 48),
-        .y_offset = 8,
+        .y_offset = 0,
     },
     [SPECIES_PRIMEAPE] =
     {
         .size = MON_COORDS_SIZE(64, 48),
-        .y_offset = 10,
+        .y_offset = 0,
     },
     [SPECIES_GROWLITHE] =
     {

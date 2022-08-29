@@ -2997,6 +2997,10 @@ static const u8 sSnuggleBugDescription[] = _(
 static const u8 sDrearyHugDescription[] = _(
     "A draining hug that heals\n"
     "half the damage it inflicts.");
+
+static const u8 sIcyWaterDescription[] = _(
+    "Dumps freezing cold water.\n"
+    "May freeze the foe.");  
     
 static const u8 sNotDoneYetDescription[] = _(
     "Not done yet.");
@@ -3774,4 +3778,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_DEEP_SUNDER - 1] = sDeepSunderDescription,
     [MOVE_SNUGGLE_BUG - 1] = sSnuggleBugDescription,
     [MOVE_DREARY_HUG - 1] = sDrearyHugDescription,
+    [MOVE_ICY_WATER - 1] = sIcyWaterDescription,
 };

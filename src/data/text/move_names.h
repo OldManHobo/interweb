@@ -1531,6 +1531,7 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     [MOVE_DEEP_SUNDER] = _("Deep Sunder"),
     [MOVE_SNUGGLE_BUG] = _("Snuggle Bug"),
     [MOVE_DREARY_HUG] = _("Dreary Hug"),
+    [MOVE_ICY_WATER] = _("Icy Water"),
 };
 #endif
 
