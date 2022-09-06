@@ -39,3 +39,4 @@ porymap.project.cfg
 *.sym
 *.js
 tools/poryscript/font_widths.json
+mgba.sh
