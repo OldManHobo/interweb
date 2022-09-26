@@ -2426,10 +2426,10 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_GOLDUCK] =
     {
-        .baseHP        = 59,
-        .baseAttack    = 50,
-        .baseDefense   = 50,
-        .baseSpeed     = 59,
+        .baseHP        = 49,
+        .baseAttack    = 40,
+        .baseDefense   = 40,
+        .baseSpeed     = 49,
         .baseSpAttack  = 63,
         .baseSpDefense = 63,
         .type1 = TYPE_ICE,
