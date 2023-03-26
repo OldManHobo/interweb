@@ -939,8 +939,19 @@
 #define ITEM_DEEP_SEA_CREAM 765
 #define ITEM_POLKADOT_BOW 766
 
-#define ITEMS_COUNT 767
+// Gen 9 Items
+#define ITEM_ABILITY_SHIELD 767
+#define ITEM_CLEAR_AMULET 768
+#define ITEM_PUNCHING_GLOVE 769
+#define ITEM_COVERT_CLOAK 770
+#define ITEM_LOADED_DICE 771
+
+#define ITEMS_COUNT 772
 #define ITEM_FIELD_ARROW ITEMS_COUNT
+
+// A special item id associated with "Cancel"/"Exit" etc. in a list of items or decorations
+// Its icon is defined at ITEMS_COUNT as the "return to field" arrow
+#define ITEM_LIST_END 0xFFFF
 
 // Range of berries given out by various NPCS
 #define FIRST_BERRY_MASTER_BERRY      ITEM_POMEG_BERRY
@@ -983,6 +994,13 @@
 // Secondary IDs for bikes
 #define MACH_BIKE 0
 #define ACRO_BIKE 1
+
+// Item parameters for EXP Candies
+#define EXP_100   1
+#define EXP_800   2
+#define EXP_3000  3
+#define EXP_10000 4
+#define EXP_30000 5
 
 // Item type IDs (used to determine the exit callback)
 #define ITEM_USE_MAIL        0

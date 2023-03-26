@@ -14,9 +14,15 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "direction": "down",
+      
       "offset": 0,
-      "map": "MAP_FOREST_CLEARING"
+      "map": "MAP_FOREST_CLEARING",
+      "direction": "down"
+    },
+    {
+      "map": "MAP_ROUTE110",
+      "offset": -60,
+      "direction": "right"
     }
   ],
   "object_events": [
@@ -287,7 +293,7 @@
       "y": 6,
       "elevation": 0,
       "dest_map": "MAP_ALTERING_CAVE",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

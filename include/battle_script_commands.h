@@ -7,6 +7,9 @@
 #define WINDOW_CLEAR (1 << 0)
 #define WINDOW_BG1   (1 << 7)
 
+// Arguments for 'xStart, yStart, xEnd, yEnd' in HandleBattleWindow
+#define YESNOBOX_X_Y 24, 8, 29, 13
+
 struct StatFractions
 {
     u8 dividend;
@@ -40,6 +43,7 @@ u16 GetNaturePowerMove(void);
 u16 GetSecretPowerMoveEffect(void);
 void StealTargetItem(u8 battlerStealer, u8 battlerItem);
 u8 GetCatchingBattler(void);
+u32 GetHighestStatId(u32 battlerId);
 
 extern void (* const gBattleScriptingCommandsTable[])(void);
 extern const u8 gBattlePalaceNatureToMoveGroupLikelihood[NUM_NATURES][4];

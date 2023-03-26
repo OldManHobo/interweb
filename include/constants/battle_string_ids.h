@@ -379,7 +379,7 @@
 #define STRINGID_PKMNBOXLANETTESPCFULL                378
 #define STRINGID_TRAINER1WINTEXT                      379
 #define STRINGID_TRAINER2WINTEXT                      380
-                                                      
+
 #define STRINGID_ENDUREDSTURDY                        381
 #define STRINGID_POWERHERB                            382
 #define STRINGID_HURTBYITEM                           383
@@ -625,8 +625,23 @@
 #define STRINGID_ZMOVESTATUP                          623
 #define STRINGID_ZMOVEHPTRAP                          624
 #define STRINGID_TERRAINREMOVED                       625
+#define STRINGID_ATTACKEREXPELLEDTHEPOISON            626
+#define STRINGID_ATTACKERSHOOKITSELFAWAKE             627
+#define STRINGID_ATTACKERBROKETHROUGHPARALYSIS        628
+#define STRINGID_ATTACKERHEALEDITSBURN                629
+#define STRINGID_ATTACKERMELTEDTHEICE                 630
+#define STRINGID_TARGETTOUGHEDITOUT                   631
+#define STRINGID_ATTACKERLOSTELECTRICTYPE             632
+#define STRINGID_ATTACKERSWITCHEDSTATWITHTARGET       633
+#define STRINGID_BEINGHITCHARGEDPKMNWITHPOWER         634
+#define STRINGID_SUNLIGHTACTIVATEDABILITY             635
+#define STRINGID_STATWASHEIGHTENED                    636
+#define STRINGID_ELECTRICTERRAINACTIVATEDABILITY      637
+#define STRINGID_ABILITYWEAKENEDFSURROUNDINGMONSSTAT  638
+#define STRINGID_ATTACKERGAINEDSTRENGTHFROMTHEFALLEN  639
+#define STRINGID_PKMNSABILITYPREVENTSABILITY          640
 
-#define BATTLESTRINGS_COUNT                           626
+#define BATTLESTRINGS_COUNT                           641
 
 // This is the string id that gBattleStringsTable starts with.
 // String ids before this (e.g. STRINGID_INTROMSG) are not in the table,
@@ -727,7 +742,6 @@
 // gUproarAwakeStringIds
 #define B_MSG_CANT_SLEEP_UPROAR  0
 #define B_MSG_UPROAR_KEPT_AWAKE  1
-#define B_MSG_STAYED_AWAKE_USING 2
 
 // gUproarOverTurnStringIds
 #define B_MSG_UPROAR_CONTINUES  0

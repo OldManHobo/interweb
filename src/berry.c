@@ -1464,7 +1464,7 @@ void ClearEnigmaBerries(void)
 void SetEnigmaBerry(u8 *src)
 {
     u32 i;
-    u8 *dest = (u8*)&gSaveBlock1Ptr->enigmaBerry;
+    u8 *dest = (u8 *)&gSaveBlock1Ptr->enigmaBerry;
 
     for (i = 0; i < sizeof(gSaveBlock1Ptr->enigmaBerry); i++)
         dest[i] = src[i];
@@ -1476,7 +1476,7 @@ static u32 GetEnigmaBerryChecksum(struct EnigmaBerry *enigmaBerry)
     u32 checksum;
     u8 *dest;
 
-    dest = (u8*)enigmaBerry;
+    dest = (u8 *)enigmaBerry;
     checksum = 0;
     for (i = 0; i < sizeof(gSaveBlock1Ptr->enigmaBerry) - sizeof(gSaveBlock1Ptr->enigmaBerry.checksum); i++)
         checksum += dest[i];
@@ -1498,7 +1498,7 @@ bool32 IsEnigmaBerryValid(void)
 const struct Berry *GetBerryInfo(u8 berry)
 {
     if (berry == ITEM_TO_BERRY(ITEM_ENIGMA_BERRY_E_READER) && IsEnigmaBerryValid())
-        return (struct Berry*)(&gSaveBlock1Ptr->enigmaBerry.berry);
+        return (struct Berry *)(&gSaveBlock1Ptr->enigmaBerry.berry);
     else
     {
         if (berry == BERRY_NONE || berry > ITEM_TO_BERRY(LAST_BERRY_INDEX))
@@ -1690,7 +1690,7 @@ void GetBerryNameByBerryType(u8 berry, u8 *string)
     string[BERRY_NAME_LENGTH] = EOS;
 }
 
-void GetBerryCountStringByBerryType(u8 berry, u8* dest, u32 berryCount)
+void GetBerryCountStringByBerryType(u8 berry, u8 *dest, u32 berryCount)
 {
     GetBerryCountString(dest, GetBerryInfo(berry)->name, berryCount);
 }
@@ -1818,7 +1818,7 @@ void ObjectEventInteractionPlantBerryTree(void)
 {
     u8 berry = ItemIdToBerryType(gSpecialVar_ItemId);
 
-    PlantBerryTree(GetObjectEventBerryTreeId(gSelectedObjectEvent), berry, 1, TRUE);
+    PlantBerryTree(GetObjectEventBerryTreeId(gSelectedObjectEvent), berry, BERRY_STAGE_PLANTED, TRUE);
     ObjectEventInteractionGetBerryTreeData();
 }
 

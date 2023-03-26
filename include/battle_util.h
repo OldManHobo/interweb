@@ -7,7 +7,17 @@
 #define MOVE_LIMITATION_TORMENTED               (1 << 3)
 #define MOVE_LIMITATION_TAUNT                   (1 << 4)
 #define MOVE_LIMITATION_IMPRISON                (1 << 5)
-#define MOVE_LIMITATIONS_ALL                    0xFF
+#define MOVE_LIMITATION_ENCORE                  (1 << 6)
+#define MOVE_LIMITATION_CHOICE_ITEM             (1 << 7)
+#define MOVE_LIMITATION_ASSAULT_VEST            (1 << 8)
+#define MOVE_LIMITATION_GRAVITY                 (1 << 9)
+#define MOVE_LIMITATION_HEAL_BLOCK              (1 << 10)
+#define MOVE_LIMITATION_BELCH                   (1 << 11)
+#define MOVE_LIMITATION_THROAT_CHOP             (1 << 12)
+#define MOVE_LIMITATION_STUFF_CHEEKS            (1 << 13)
+
+#define MOVE_LIMITATION_PLACEHOLDER             (1 << 15)
+#define MOVE_LIMITATIONS_ALL                    0xFFFF
 
 #define ABILITYEFFECT_ON_SWITCHIN                0
 #define ABILITYEFFECT_ENDTURN                    1
@@ -27,6 +37,8 @@
 #define ABILITYEFFECT_NEUTRALIZINGGAS            15
 #define ABILITYEFFECT_FIELD_SPORT                16 // Only used if B_SPORT_TURNS < GEN_6
 #define ABILITYEFFECT_NOSTALGIA                  17
+#define ABILITYEFFECT_ON_WEATHER                 18
+#define ABILITYEFFECT_ON_TERRAIN                 19
 // Special cases
 #define ABILITYEFFECT_MUD_SPORT                  252 // Only used if B_SPORT_TURNS < GEN_6
 #define ABILITYEFFECT_WATER_SPORT                253 // Only used if B_SPORT_TURNS < GEN_6
@@ -42,7 +54,7 @@
 #define ITEMEFFECT_TARGET                       5
 #define ITEMEFFECT_ORBS                         6
 #define ITEMEFFECT_LIFEORB_SHELLBELL            7
-#define ITEMEFFECT_BATTLER_MOVE_END             8 // move end effects for just the battler, not whole field
+#define ITEMEFFECT_USE_LAST_ITEM                8 // move end effects for just the battler, not whole field
 
 #define WEATHER_HAS_EFFECT ((!IsAbilityOnField(ABILITY_CLOUD_NINE) && !IsAbilityOnField(ABILITY_AIR_LOCK)))
 
@@ -54,6 +66,35 @@ struct TypePower
     u8 type;
     u8 power;
     u16 effect;
+};
+
+enum
+{
+    CANCELLER_FLAGS,
+    CANCELLER_SKY_DROP,
+    CANCELLER_ASLEEP,
+    CANCELLER_FROZEN,
+    CANCELLER_TRUANT,
+    CANCELLER_RECHARGE,
+    CANCELLER_FLINCH,
+    CANCELLER_DISABLED,
+    CANCELLER_GRAVITY,
+    CANCELLER_HEAL_BLOCKED,
+    CANCELLER_TAUNTED,
+    CANCELLER_IMPRISONED,
+    CANCELLER_CONFUSED,
+    CANCELLER_PARALYSED,
+    CANCELLER_IN_LOVE,
+    CANCELLER_BIDE,
+    CANCELLER_THAW,
+    CANCELLER_POWDER_MOVE,
+    CANCELLER_POWDER_STATUS,
+    CANCELLER_THROAT_CHOP,
+    CANCELLER_MULTIHIT_MOVES,
+    CANCELLER_Z_MOVES,
+    CANCELLER_END,
+    CANCELLER_PSYCHIC_TERRAIN,
+    CANCELLER_END2,
 };
 
 extern const struct TypePower gNaturalGiftTable[];
@@ -77,7 +118,6 @@ u8 GetBattlerForBattleScript(u8 caseId);
 void PressurePPLose(u8 target, u8 attacker, u16 move);
 void PressurePPLoseOnUsingPerishSong(u8 attacker);
 void PressurePPLoseOnUsingImprison(u8 attacker);
-void MarkAllBattlersForControllerExec(void); // unused
 bool32 IsBattlerMarkedForControllerExec(u8 battlerId);
 void MarkBattlerForControllerExec(u8 battlerId);
 void MarkBattlerReceivedLinkData(u8 battlerId);
@@ -87,11 +127,11 @@ void PrepareStringBattle(u16 stringId, u8 battlerId);
 void ResetSentPokesToOpponentValue(void);
 void OpponentSwitchInResetSentPokesToOpponentValue(u8 battlerId);
 void UpdateSentPokesToOpponentValue(u8 battlerId);
-void BattleScriptPush(const u8* bsPtr);
+void BattleScriptPush(const u8 *bsPtr);
 void BattleScriptPushCursor(void);
 void BattleScriptPop(void);
 u8 TrySetCantSelectMoveBattleScript(void);
-u8 CheckMoveLimitations(u8 battlerId, u8 unusableMoves, u8 check);
+u8 CheckMoveLimitations(u8 battlerId, u8 unusableMoves, u16 check);
 bool8 AreAllMovesUnusable(void);
 u8 GetImprisonedMovesCount(u8 battlerId, u16 move);
 u8 DoFieldEndTurnEffects(void);
@@ -106,6 +146,7 @@ bool8 HasNoMonsToSwitch(u8 battlerId, u8 r1, u8 r2);
 u8 TryWeatherFormChange(u8 battlerId);
 bool32 TryChangeBattleWeather(u8 battler, u32 weatherEnumId, bool32 viaAbility);
 u8 AbilityBattleEffects(u8 caseID, u8 battlerId, u16 ability, u8 special, u16 moveArg);
+bool32 IsNeutralizingGasOnField(void);
 u32 GetBattlerAbility(u8 battlerId);
 u32 IsAbilityOnSide(u32 battlerId, u32 ability);
 u32 IsAbilityOnOpposingSide(u32 battlerId, u32 ability);
@@ -114,8 +155,8 @@ u32 IsAbilityOnFieldExcept(u32 battlerId, u32 ability);
 u32 IsAbilityPreventingEscape(u32 battlerId);
 bool32 IsBattlerProtected(u8 battlerId, u16 move);
 bool32 CanBattlerEscape(u32 battlerId); // no ability check
-void BattleScriptExecute(const u8* BS_ptr);
-void BattleScriptPushCursorAndCallback(const u8* BS_ptr);
+void BattleScriptExecute(const u8 *BS_ptr);
+void BattleScriptPushCursorAndCallback(const u8 *BS_ptr);
 u8 ItemBattleEffects(u8 caseID, u8 battlerId, bool8 moveTurn);
 void ClearFuryCutterDestinyBondGrudge(u8 battlerId);
 void HandleAction_RunBattleScript(void);
@@ -135,6 +176,7 @@ u16 CalcTypeEffectivenessMultiplier(u16 move, u8 moveType, u8 battlerAtk, u8 bat
 u16 CalcPartyMonTypeEffectivenessMultiplier(u16 move, u16 speciesDef, u16 abilityDef);
 u16 GetTypeModifier(u8 atkType, u8 defType);
 s32 GetStealthHazardDamage(u8 hazardType, u8 battlerId);
+s32 GetStealthHazardDamageByTypesAndHP(u8 hazardType, u8 type1, u8 type2, u32 maxHp);
 u16 GetMegaEvolutionSpecies(u16 preEvoSpecies, u16 heldItemId);
 u16 GetWishMegaEvolutionSpecies(u16 preEvoSpecies, u16 moveId1, u16 moveId2, u16 moveId3, u16 moveId4);
 bool32 CanMegaEvolve(u8 battlerId);
@@ -142,6 +184,7 @@ void UndoMegaEvolution(u32 monId);
 void UndoFormChange(u32 monId, u32 side, bool32 isSwitchingOut);
 bool32 DoBattlersShareType(u32 battler1, u32 battler2);
 bool32 CanBattlerGetOrLoseItem(u8 battlerId, u16 itemId);
+u32 GetIllusionMonSpecies(u32 battlerId);
 struct Pokemon *GetIllusionMonPtr(u32 battlerId);
 void ClearIllusionMon(u32 battlerId);
 bool32 SetIllusionMon(struct Pokemon *mon, u32 battlerId);
@@ -174,7 +217,9 @@ bool32 IsBattlerWeatherAffected(u8 battlerId, u32 weatherFlags);
 void TryToApplyMimicry(u8 battlerId, bool8 various);
 void TryToRevertMimicry(void);
 void RestoreBattlerOriginalTypes(u8 battlerId);
-
+u32 GetBattlerMoveTargetType(u8 battlerId, u16 move);
+bool32 CanTargetBattler(u8 battlerAtk, u8 battlerDef, u16 move);
+bool8 IsMoveAffectedByParentalBond(u16 move, u8 battlerId);
 // Ability checks
 bool32 IsRolePlayBannedAbilityAtk(u16 ability);
 bool32 IsRolePlayBannedAbility(u16 ability);
@@ -191,5 +236,9 @@ bool32 CanBeParalyzed(u8 battlerId);
 bool32 CanBeFrozen(u8 battlerId);
 bool32 CanBeConfused(u8 battlerId);
 bool32 IsBattlerTerrainAffected(u8 battlerId, u32 terrainFlag);
+u32 GetBattlerFriendshipScore(u8 battlerId);
+u32 CountBattlerStatIncreases(u8 battlerId, bool32 countEvasionAcc);
+bool32 IsMyceliumMightOnField(void);
+bool8 ChangeTypeBasedOnTerrain(u8 battlerId);
 
 #endif // GUARD_BATTLE_UTIL_H

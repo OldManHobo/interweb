@@ -2371,6 +2371,7 @@ const u16 gEggMoves[] = {
         MOVE_ENDURE,
         MOVE_DEFENSE_CURL),
 
+#if P_GEN_4_POKEMON == TRUE
     egg_moves(TURTWIG,
         MOVE_WORRY_SEED,
         MOVE_GROWTH,
@@ -2860,7 +2861,9 @@ const u16 gEggMoves[] = {
         MOVE_AVALANCHE,
         MOVE_NATURAL_GIFT,
         MOVE_BULLET_SEED),
+#endif
 
+#if P_GEN_5_POKEMON == TRUE
     egg_moves(SNIVY,
         MOVE_CAPTIVATE,
         MOVE_NATURAL_GIFT,
@@ -3583,7 +3586,9 @@ const u16 gEggMoves[] = {
         MOVE_ZEN_HEADBUTT,
         MOVE_MORNING_SUN,
         MOVE_MAGNET_RISE),
+#endif
 
+#if P_GEN_6_POKEMON == TRUE
     egg_moves(CHESPIN,
         MOVE_SYNTHESIS,
         MOVE_BELLY_DRUM,
@@ -3790,7 +3795,9 @@ const u16 gEggMoves[] = {
         MOVE_SNATCH,
         MOVE_OUTRAGE,
         MOVE_TAILWIND),
+#endif
 
+#if P_GEN_7_POKEMON == TRUE
     egg_moves(ROWLET,
         MOVE_CURSE,
         MOVE_CONFUSE_RAY,
@@ -4017,7 +4024,9 @@ const u16 gEggMoves[] = {
         MOVE_COUNTER,
         MOVE_REVERSAL,
         MOVE_DRAGON_BREATH),
+#endif
 
+#if P_GEN_8_POKEMON == TRUE
     egg_moves(GROOKEY,
         MOVE_GROWTH,
         MOVE_HAMMER_ARM,
@@ -4213,6 +4222,7 @@ const u16 gEggMoves[] = {
         MOVE_DISABLE,
         MOVE_DRAGON_TAIL,
         MOVE_SUCKER_PUNCH),
+#endif
 
     egg_moves(RATTATA_ALOLAN,
         MOVE_COUNTER,
@@ -4365,6 +4375,7 @@ const u16 gEggMoves[] = {
         MOVE_QUICK_GUARD,
         MOVE_KNOCK_OFF),
 
+#if P_GEN_5_POKEMON == TRUE
     egg_moves(DARUMAKA_GALARIAN,
         MOVE_FOCUS_PUNCH,
         MOVE_HAMMER_ARM,
@@ -4387,6 +4398,7 @@ const u16 gEggMoves[] = {
         MOVE_COUNTER,
         MOVE_PAIN_SPLIT,
         MOVE_REFLECT_TYPE),
+#endif
 
     egg_moves(INDEEDEE_FEMALE,
         MOVE_PSYCH_UP,

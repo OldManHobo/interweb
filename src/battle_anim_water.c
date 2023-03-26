@@ -48,11 +48,11 @@ static void AnimTask_SurfWaveScanlineEffect(u8);
 static void AnimTask_WaterSpoutLaunch_Step(u8);
 static void AnimTask_WaterSpoutRain_Step(u8);
 static u8 GetWaterSpoutPowerForAnim(void);
-static void CreateWaterSpoutLaunchDroplets(struct Task*, u8);
-static void CreateWaterSpoutRainDroplet(struct Task*, u8);
+static void CreateWaterSpoutLaunchDroplets(struct Task *, u8);
+static void CreateWaterSpoutRainDroplet(struct Task *, u8);
 static void AnimTask_WaterSport_Step(u8);
-static void CreateWaterSportDroplet(struct Task*);
-static void CreateWaterPulseRingBubbles(struct Sprite*, int, int);
+static void CreateWaterSportDroplet(struct Task *);
+static void CreateWaterPulseRingBubbles(struct Sprite *, int, int);
 static void AnimAquaTail(struct Sprite *sprite);
 static void AnimKnockOffAquaTail(struct Sprite *sprite);
 static void AnimKnockOffAquaTailStep(struct Sprite *sprite);
@@ -1009,15 +1009,15 @@ void AnimTask_CreateSurfWave(u8 taskId)
     case ANIM_SURF_PAL_SURF:
     default:
         if (B_NEW_SURF_PARTICLE_PALETTE == TRUE)
-            LoadCompressedPalette(gBattleAnimSpritePal_NewSurf, animBg.paletteId * 16, 32);
+            LoadCompressedPalette(gBattleAnimSpritePal_NewSurf, BG_PLTT_ID(animBg.paletteId), PLTT_SIZE_4BPP);
         else
-            LoadCompressedPalette(gBattleAnimBgPalette_Surf, animBg.paletteId * 16, 32);
+            LoadCompressedPalette(gBattleAnimBgPalette_Surf, BG_PLTT_ID(animBg.paletteId), PLTT_SIZE_4BPP);
         break;
     case ANIM_SURF_PAL_MUDDY_WATER:
-        LoadCompressedPalette(gBattleAnimBackgroundImageMuddyWater_Pal, animBg.paletteId * 16, 32);
+        LoadCompressedPalette(gBattleAnimBackgroundImageMuddyWater_Pal, BG_PLTT_ID(animBg.paletteId), PLTT_SIZE_4BPP);
         break;
     case ANIM_SURF_PAL_SLUDGE_WAVE:
-        LoadCompressedPalette(gBattleAnimBgPalette_SludgeWave, animBg.paletteId * 16, 32);
+        LoadCompressedPalette(gBattleAnimBgPalette_SludgeWave, BG_PLTT_ID(animBg.paletteId), PLTT_SIZE_4BPP);
         break;
     }
 
