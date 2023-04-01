@@ -411,13 +411,7 @@ BattleFrontier_BattleTowerLobby_EventScript_SaveBeforeLinkMultisChallenge::
 	special LoadPlayerParty
 	closemessage
 	delay 2
-@ The command tower_save ultimately calls TrySavingData(SAVE_LINK), which writes data in SaveBlock1 and SaveBlock2
-@ to the flash, but not data in PokemonStorage. The SaveGame script that follows asks the player to do a full save,
-@ which they can opt out of. As a result the player can save their party and quit without having saved the PC.
-@ This allows players to clone pokemon and their held items by withdrawing them (or erase them by despositing).
-.ifndef BUGFIX
 	tower_save 0
-.endif
 	call Common_EventScript_SaveGame
 	setvar VAR_TEMP_0, 255
 	goto_if_eq VAR_RESULT, 0, BattleFrontier_BattleTowerLobby_EventScript_CancelChallengeSaveFailed
@@ -917,7 +911,7 @@ BattleFrontier_BattleTowerLobby_EventScript_ExitRules::
 	end
 
 @ Unused
-BattleFrontier_BattleTowerLobby_Text_DirectYouToBattleRoom:
+BattleFrontier_BattleTowerLobby_EventScript_DirectYouToBattleRoom:
 	.string "I'll direct you to your BATTLE ROOM now.$"
 
 BattleFrontier_BattleTowerLobby_Text_DidntSaveBeforeQuitting:
@@ -1392,3 +1386,4 @@ BattleFrontier_BattleTowerLobby_Text_ExplainMultiLinkRules:
 	.string "from those of your friend.\p"
 	.string "You may not interrupt this challenge\n"
 	.string "in the middle, unlike other modes.$"
+

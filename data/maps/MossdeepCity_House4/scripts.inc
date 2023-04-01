@@ -1,3 +1,4 @@
+ 
 MossdeepCity_House4_MapScripts::
 	.byte 0
 
@@ -58,3 +59,5 @@ MossdeepCity_House4_Text_MakeSecretBase:
 
 MossdeepCity_House4_Text_Skitty:
 	.string "SKITTY: Miyaan?$"
+
+ 

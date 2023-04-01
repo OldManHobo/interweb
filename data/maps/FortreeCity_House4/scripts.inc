@@ -1,3 +1,4 @@
+ 
 .set LOCALID_WINGULL, 3
 
 FortreeCity_House4_MapScripts::
@@ -94,3 +95,5 @@ FortreeCity_House4_Text_FriendsFarAwayThanksToWingull:
 
 FortreeCity_House4_Text_Wingull:
 	.string "WINGULL: Pihyoh!$"
+
+ 

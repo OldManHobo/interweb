@@ -729,3 +729,4 @@ BattlePyramid_Text_OneTrainersRemaining6::
 BattlePyramid_Text_ZeroTrainersRemaining6::
 	.string "There aren't any TRAINERS left that\n"
 	.string "can take you on now…$"
+

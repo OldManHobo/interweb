@@ -1,3 +1,4 @@
+ 
 .set LOCALID_LITTLE_BOY, 7
 .set LOCALID_LITTLE_GIRL, 8
 .set LOCALID_DEVON_EMPLOYEE, 9
@@ -1297,3 +1298,4 @@ RustboroCity_Text_YouCanHave2On2Battle:
 	.string "they'll both challenge you.\p"
 	.string "Don't you think it'd be cool if you\n"
 	.string "could beat two TRAINERS by yourself?$"
+ 

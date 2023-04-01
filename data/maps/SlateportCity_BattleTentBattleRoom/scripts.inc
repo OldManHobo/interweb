@@ -1,3 +1,4 @@
+ 
 .set LOCALID_OPPONENT, 2
 .set LOCALID_PLAYER, 3
 
@@ -102,3 +103,5 @@ SlateportCity_BattleTentBattleRoom_Movement_OpponentEnter:
 	walk_down
 	walk_in_place_faster_left
 	step_end
+
+ 

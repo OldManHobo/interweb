@@ -1,3 +1,4 @@
+ 
 .set LOCALID_OWNER, 1
 
 Route104_PrettyPetalFlowerShop_MapScripts::
@@ -98,3 +99,4 @@ Route104_PrettyPetalFlowerShop_EventScript_AlreadyReceivedBerry::
 	msgbox Route104_PrettyPetalFlowerShop_Text_MachineMixesBerries, MSGBOX_DEFAULT
 	release
 	end
+ 

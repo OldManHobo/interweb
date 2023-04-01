@@ -1,3 +1,4 @@
+ 
 @ Note: data/scripts/berry_blender.inc is for the same map, so shares local IDs
 .set LOCALID_RECEPTIONIST, 1
 .set LOCALID_LINK_RECEPTIONIST, 2
@@ -1083,3 +1084,5 @@ LilycoveCity_ContestLobby_Text_MadePokeblocksWithFamily:
 	.string "Big Sister. They turned out great!\p"
 	.string "I bet you can make smoother, better\n"
 	.string "{POKEBLOCK}S if you have more people.$"
+
+ 

@@ -1,3 +1,4 @@
+ 
 PacifidlogTown_House1_MapScripts::
 	.byte 0
 
@@ -22,3 +23,5 @@ PacifidlogTown_House1_Text_SixDotsOpenThreeDoors:
 	.string "“Six dots open three doors.”\p"
 	.string "Grandpa used to say that, but I don't\n"
 	.string "know what he meant.$"
+
+ 

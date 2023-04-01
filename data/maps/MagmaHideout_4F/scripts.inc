@@ -1,3 +1,4 @@
+ 
 .set LOCALID_GROUDON, 1
 .set LOCALID_GRUNT_1, 2
 .set LOCALID_GRUNT_2, 3
@@ -230,3 +231,4 @@ MagmaHideout_4F_Text_MaxieImGoingAfterGroudon:
 	.string "any need for this blasted volcano.\p"
 	.string "I am going after GROUDON, so this\n"
 	.string "is where we part!$"
+ 

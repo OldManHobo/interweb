@@ -1,3 +1,4 @@
+ 
 .set LOCALID_ATTENDANT, 1
 
 Route112_CableCarStation_MapScripts::
@@ -95,3 +96,5 @@ Route112_CableCarStation_Text_StepThisWay:
 
 Route112_CableCarStation_Text_RideAnotherTime:
 	.string "Please ride with us another time.$"
+
+ 

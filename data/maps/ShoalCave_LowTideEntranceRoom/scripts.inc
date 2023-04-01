@@ -1,3 +1,4 @@
+ 
 ShoalCave_LowTideEntranceRoom_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, ShoalCave_LowTideEntranceRoom_OnTransition
 	.byte 0
@@ -89,3 +90,4 @@ ShoalCave_LowTideEntranceRoom_EventScript_ResetShoalItems::
 	clearflag FLAG_RECEIVED_SHOAL_SHELL_4
 	clearflag FLAG_SYS_SHOAL_ITEM
 	return
+ 

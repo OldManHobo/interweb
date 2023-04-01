@@ -1,3 +1,4 @@
+ 
 .set LOCALID_NURSE, 1
 
 MauvilleCity_PokemonCenter_1F_MapScripts::
@@ -53,3 +54,5 @@ MauvilleCity_PokemonCenter_1F_Text_RecordCornerSoundsFun:
 	.string "the POKéMON CENTER.\p"
 	.string "I don't know what it's about, but it\n"
 	.string "sounds fun. I'll go check it out!$"
+
+ 

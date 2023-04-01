@@ -1,3 +1,4 @@
+ 
 FortreeCity_Gym_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, FortreeCity_Gym_OnTransition
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, FortreeCity_Gym_OnWarp
@@ -315,3 +316,4 @@ FortreeCity_Gym_Text_WinonaRematchNeedTwoMons:
 	.string "POKéMON with you?\p"
 	.string "Please return with two POKéMON\n"
 	.string "at the very least.$"
+ 

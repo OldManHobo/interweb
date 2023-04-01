@@ -1,3 +1,4 @@
+ 
 Route123_BerryMastersHouse_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, Route123_BerryMastersHouse_OnTransition
 	.byte 0
@@ -127,3 +128,5 @@ Route123_BerryMastersHouse_EventScript_GaveBerry::
 	msgbox Route123_BerryMastersHouse_Text_JoyNeverGoesOutOfMyLife, MSGBOX_DEFAULT
 	release
 	end
+
+ 

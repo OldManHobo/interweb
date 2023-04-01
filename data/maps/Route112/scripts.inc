@@ -1,3 +1,4 @@
+ 
 .set LOCALID_GRUNT_1, 1
 .set LOCALID_GRUNT_2, 6
 
@@ -142,3 +143,5 @@ Route112_Text_MtChimneySign:
 Route112_Text_RouteSignLavaridge:
 	.string "ROUTE 112\n"
 	.string "{LEFT_ARROW} LAVARIDGE TOWN$"
+
+ 

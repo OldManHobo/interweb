@@ -367,3 +367,4 @@ BattleFrontier_BattlePikeThreePathRoom_Text_TerrifyingEvent:
 BattleFrontier_BattlePikeThreePathRoom_Text_DreadfulPresence:
 	.string "From every path I sense a dreadful\n"
 	.string "presence…$"
+

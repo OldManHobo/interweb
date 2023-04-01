@@ -1,3 +1,4 @@
+ 
 Route110_TrickHousePuzzle8_MapScripts::
 	.byte 0
 
@@ -27,7 +28,7 @@ Route110_TrickHousePuzzle8_EventScript_Leroy::
 	msgbox Route110_TrickHousePuzzle8_Text_LeroyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route110_TrickHousePuzzle8_Text_WroteSecretCodeLockOpened::
+Route110_TrickHousePuzzle8_EventScript_WroteSecretCodeLockOpened::
 	.string "{PLAYER} wrote down the secret code\n"
 	.string "on the door.\p"
 	.string "“TRICK MASTER I love.”\n"
@@ -68,3 +69,5 @@ Route110_TrickHousePuzzle8_Text_LeroyDefeat:
 Route110_TrickHousePuzzle8_Text_LeroyPostBattle:
 	.string "Seeing someone like you should please\n"
 	.string "the TRICK MASTER.$"
+
+ 

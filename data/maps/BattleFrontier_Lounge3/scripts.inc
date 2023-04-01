@@ -466,3 +466,4 @@ BattleFrontier_Lounge3_Text_ShouldBeTakingChallenges::
 	.string "Those TRAINERS…\n"
 	.string "What are they doing?\l"
 	.string "They should be taking challenges.$"
+

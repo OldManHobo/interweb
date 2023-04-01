@@ -1,3 +1,4 @@
+ 
 FallarborTown_CozmosHouse_MapScripts::
 	.byte 0
 
@@ -115,3 +116,5 @@ FallarborTown_CozmosHouse_Text_FeelSorryForCozmo:
 FallarborTown_CozmosHouse_Text_CozmoIsSoHappy:
 	.string "Look at PROF. COZMO…\n"
 	.string "He's so happy! I think it's cute.$"
+
+ 

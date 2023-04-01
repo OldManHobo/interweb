@@ -1,3 +1,4 @@
+ 
 RustboroCity_Flat2_3F_MapScripts::
 	.byte 0
 
@@ -16,3 +17,5 @@ RustboroCity_Flat2_3F_Text_PresidentCollectsRareStones:
 RustboroCity_Flat2_3F_Text_PresidentsSonAlsoCollectsRareStones:
 	.string "I think the PRESIDENT's son also\n"
 	.string "collects rare stones.$"
+
+ 

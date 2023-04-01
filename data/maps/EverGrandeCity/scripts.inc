@@ -1,3 +1,4 @@
+ 
 EverGrandeCity_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, EverGrandeCity_OnTransition
 	.byte 0
@@ -34,3 +35,5 @@ EverGrandeCity_Text_CitySign:
 	.string "EVER GRANDE CITY\p"
 	.string "“The paradise of flowers, the sea,\n"
 	.string "and POKéMON.”$"
+
+ 

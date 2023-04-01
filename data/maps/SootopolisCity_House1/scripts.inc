@@ -1,3 +1,4 @@
+ 
 SootopolisCity_House1_MapScripts::
 	.byte 0
 
@@ -40,3 +41,5 @@ SootopolisCity_House1_Text_ExplainBrickBreak:
 
 SootopolisCity_House1_Text_Kecleon:
 	.string "KECLEON: Puu puhyaah.$"
+
+ 

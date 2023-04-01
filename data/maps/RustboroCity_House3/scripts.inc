@@ -1,3 +1,4 @@
+ 
 RustboroCity_House3_MapScripts::
 	.byte 0
 
@@ -34,3 +35,5 @@ RustboroCity_House3_Text_NamingPikachuPekachu:
 
 RustboroCity_House3_Text_Pekachu:
 	.string "PEKACHU: Peka!$"
+
+ 

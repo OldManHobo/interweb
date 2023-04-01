@@ -1,3 +1,4 @@
+ 
 NewMauville_Inside_MapScripts::
 	map_script MAP_SCRIPT_ON_RESUME, NewMauville_Inside_OnResume
 	map_script MAP_SCRIPT_ON_TRANSITION, NewMauville_Inside_OnTransition
@@ -261,3 +262,4 @@ NewMauville_Inside_Text_SteppedOnSwitchGeneratorStopped:
 	.string "… … … … … … … …\p"
 	.string "The generator appears to have\n"
 	.string "stopped…$"
+ 

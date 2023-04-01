@@ -1,3 +1,4 @@
+ 
 .set LOCALID_SAILOR, 1
 .set LOCALID_SCOTT, 5
 
@@ -338,3 +339,4 @@ SSTidalCorridor_Text_Cabin3:
 
 SSTidalCorridor_Text_Cabin4:
 	.string "Cabin 4$"
+ 

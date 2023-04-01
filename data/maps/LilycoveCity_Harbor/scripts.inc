@@ -1,3 +1,4 @@
+ 
 .set LOCALID_ATTENDANT, 1
 .set LOCALID_SS_TIDAL, 2
 .set LOCALID_FERRY_SAILOR, 4
@@ -590,3 +591,4 @@ LilycoveCity_Harbor_Text_SailorFerryAvailable:
 	.string "The folks at the SHIPYARD in SLATEPORT\n"
 	.string "must've worked extra hard.\p"
 	.string "Well, it's my turn to get busy now!$"
+ 

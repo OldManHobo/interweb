@@ -1,3 +1,4 @@
+ 
 LilycoveCity_DepartmentStore_2F_MapScripts::
 	.byte 0
 
@@ -77,3 +78,5 @@ LilycoveCity_DepartmentStore_2F_Text_GoodGiftForHusband:
 LilycoveCity_DepartmentStore_2F_Text_StockUpOnItems:
 	.string "I'm leaving on a long journey soon.\n"
 	.string "I need to stock up on items.$"
+
+ 

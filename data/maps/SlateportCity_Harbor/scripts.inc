@@ -1,3 +1,4 @@
+ 
 .set LOCALID_CAPT_STERN, 4
 .set LOCALID_SS_TIDAL, 5
 .set LOCALID_GRUNT, 6
@@ -544,3 +545,4 @@ SlateportCity_Harbor_Text_HandedScannerToStern:
 SlateportCity_Harbor_Text_ThisWillHelpResearch:
 	.string "CAPT. STERN: Thanks, {PLAYER}{KUN}!\n"
 	.string "This will help our research a lot!$"
+ 

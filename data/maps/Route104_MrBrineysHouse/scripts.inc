@@ -1,3 +1,4 @@
+ 
 .set LOCALID_BRINEY, 1
 .set LOCALID_PEEKO, 2
 
@@ -158,3 +159,5 @@ Route104_MrBrineysHouse_Text_TellMeWheneverYouWantToSail:
 
 Route104_MrBrineysHouse_Text_Peeko:
 	.string "PEEKO: Pii piihyoro!$"
+
+ 

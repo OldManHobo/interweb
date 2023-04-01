@@ -1,3 +1,4 @@
+ 
 .set LOCALID_LUGIA, 1
 
 NavelRock_Bottom_MapScripts::
@@ -76,3 +77,4 @@ NavelRock_Bottom_EventScript_RanFromLugia::
 	setvar VAR_0x8004, SPECIES_LUGIA
 	goto Common_EventScript_LegendaryFlewAway
 	end
+ 

@@ -1,3 +1,4 @@
+ 
 Route110_SeasideCyclingRoadNorthEntrance_MapScripts::
 	.byte 0
 
@@ -46,3 +47,5 @@ Route110_SeasideCyclingRoadNorthEntrance_Text_TooDangerousToWalk:
 	.string "Sorry, you can't walk on CYCLING\n"
 	.string "ROAD. It's too dangerous.\p"
 	.string "Please come back with a BIKE.$"
+
+ 

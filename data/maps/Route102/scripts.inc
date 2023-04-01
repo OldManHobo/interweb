@@ -1,3 +1,4 @@
+ 
 Route102_MapScripts::
 	.byte 0
 
@@ -107,3 +108,4 @@ Route102_Text_RouteSignOldale:
 Route102_Text_RouteSignPetalburg:
 	.string "ROUTE 102\n"
 	.string "{LEFT_ARROW} PETALBURG CITY$"
+ 

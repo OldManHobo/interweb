@@ -1,3 +1,4 @@
+ 
 FortreeCity_House5_MapScripts::
 	.byte 0
 
@@ -32,3 +33,5 @@ FortreeCity_House5_Text_AdaptedToNature:
 
 FortreeCity_House5_Text_Zigzagoon:
 	.string "ZIGZAGOON: Bufuu!$"
+
+ 

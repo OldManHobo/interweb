@@ -1,3 +1,4 @@
+ 
 .set LOCALID_RIVAL, 1
 
 LittlerootTown_BrendansHouse_2F_MapScripts::
@@ -302,3 +303,4 @@ PlayersHouse_2F_Text_ItsAGameCube:
 	.string "It's a Nintendo GameCube.\p"
 	.string "A Game Boy Advance is connected to\n"
 	.string "serve as the Controller.$"
+ 

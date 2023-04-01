@@ -1,3 +1,4 @@
+ 
 Route127_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, Route127_OnTransition
 	map_script MAP_SCRIPT_ON_LOAD, Route127_OnLoad
@@ -75,3 +76,5 @@ Route127_EventScript_RematchKoji::
 	trainerbattle_rematch TRAINER_KOJI_1, Route127_Text_KojiRematchIntro, Route127_Text_KojiRematchDefeat
 	msgbox Route127_Text_KojiPostRematch, MSGBOX_AUTOCLOSE
 	end
+
+ 

@@ -1,3 +1,4 @@
+ 
 .set LOCALID_WINGULL, 3
 
 MossdeepCity_House2_MapScripts::
@@ -67,3 +68,5 @@ MossdeepCity_House2_Text_PokemonCarriesMailBackAndForth:
 
 MossdeepCity_House2_Text_Wingull:
 	.string "WINGULL: Pihyoh!$"
+
+ 

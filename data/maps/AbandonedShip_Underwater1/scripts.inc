@@ -5,3 +5,4 @@ AbandonedShip_Underwater1_MapScripts::
 AbandonedShip_Underwater1_OnResume:
 	setdivewarp MAP_ABANDONED_SHIP_HIDDEN_FLOOR_CORRIDORS, 0, 10
 	end
+

@@ -1,3 +1,4 @@
+ 
 SealedChamber_OuterRoom_MapScripts::
 	map_script MAP_SCRIPT_ON_RESUME, SealedChamber_OuterRoom_OnResume
 	map_script MAP_SCRIPT_ON_TRANSITION, SealedChamber_OuterRoom_OnTransition
@@ -103,3 +104,5 @@ SealedChamber_OuterRoom_EventScript_BrailleDigHere::
 	braillemsgbox SealedChamber_OuterRoom_Braille_DigHere
 	releaseall
 	end
+
+ 

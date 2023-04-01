@@ -1,3 +1,4 @@
+ 
 FortreeCity_House3_MapScripts::
 	.byte 0
 
@@ -26,3 +27,5 @@ FortreeCity_House3_Text_OhYouHavePokedex:
 	.string "… … … … … …\p"
 	.string "Oh, it's called a POKéDEX?\n"
 	.string "It's really awesome!$"
+
+ 

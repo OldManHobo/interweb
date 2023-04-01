@@ -1,3 +1,4 @@
+ 
 RustboroCity_Gym_MapScripts::
 	.byte 0
 
@@ -281,3 +282,4 @@ RustboroCity_Gym_Text_RoxanneRematchNeedTwoMons:
 	.string "You only have one POKéMON with you?\p"
 	.string "Please return with at least one more\n"
 	.string "POKéMON.$"
+ 

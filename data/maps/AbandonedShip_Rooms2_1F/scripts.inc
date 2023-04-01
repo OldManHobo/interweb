@@ -147,3 +147,4 @@ AbandonedShip_Rooms2_1F_Text_GarrisonDefeat:
 AbandonedShip_Rooms2_1F_Text_GarrisonPostBattle:
 	.string "In a cabin somewhere on board,\n"
 	.string "I saw something sparkle.$"
+

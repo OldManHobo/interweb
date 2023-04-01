@@ -1,3 +1,4 @@
+ 
 .set LOCALID_GROUDON, 1
 
 TerraCave_End_MapScripts::
@@ -71,3 +72,5 @@ TerraCave_End_Movement_GroudonApproach:
 	delay_16
 	walk_down_affine
 	step_end
+
+ 

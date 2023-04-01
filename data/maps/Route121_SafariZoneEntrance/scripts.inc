@@ -1,3 +1,4 @@
+ 
 Route121_SafariZoneEntrance_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, Route121_SafariZoneEntrance_OnFrame
 	.byte 0
@@ -128,3 +129,5 @@ Route121_SafariZoneEntrance_Movement_EnterSafariZone:
 Route121_SafariZoneEntrance_EventScript_TrainerTipSign::
 	msgbox Route121_SafariZoneEntrance_Text_TrainerTip, MSGBOX_SIGN
 	end
+
+ 

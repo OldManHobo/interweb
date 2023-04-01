@@ -1,3 +1,4 @@
+ 
 .set LOCALID_WOMAN, 7
 
 LilycoveCity_DepartmentStore_5F_MapScripts::
@@ -169,3 +170,4 @@ LilycoveCity_DepartmentStore_5F_Text_SellManyCuteMatsHere:
 LilycoveCity_DepartmentStore_5F_Text_ClosedRooftopForWeather:
 	.string "I think they closed the rooftop\n"
 	.string "because the weather is wild today.$"
+ 

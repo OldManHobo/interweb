@@ -1,3 +1,4 @@
+ 
 SootopolisCity_House2_MapScripts::
 	.byte 0
 
@@ -31,3 +32,5 @@ SootopolisCity_House2_Text_YesTwoOrbsSideBySide:
 SootopolisCity_House2_Text_OughtToVisitAndSee:
 	.string "Is that so?\n"
 	.string "Perhaps you ought to visit and see…$"
+
+ 

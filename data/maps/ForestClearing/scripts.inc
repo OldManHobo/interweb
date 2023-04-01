@@ -1,3 +1,4 @@
+ 
 ForestClearing_MapScripts::
 	.byte 0
 
@@ -9,3 +10,5 @@ Forest_Clearing_Text_RouteSign:
 	.string "FOREST CLEARING\n"
 	.string "{UP_ARROW} ROUTE 103\n"
 	.string "{DOWN_ARROW} ROUTE 101$"
+
+	 

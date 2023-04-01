@@ -1,3 +1,4 @@
+ 
 Route108_MapScripts::
 	.byte 0
 
@@ -46,3 +47,5 @@ Route108_EventScript_CoryRematch::
 	trainerbattle_rematch TRAINER_CORY_1, Route108_Text_CoryRematchIntro, Route108_Text_CoryRematchDefeated
 	msgbox Route108_Text_CoryRematchPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+ 

@@ -486,7 +486,6 @@ static bool32 WaitForWeatherFadeIn(void)
 void DoWarp(void)
 {
     LockPlayerFieldControls();
-    TryFadeOutOldMapMusic();
     WarpFadeOutScreen();
     PlayRainStoppingSoundEffect();
     PlaySE(SE_EXIT);

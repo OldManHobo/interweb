@@ -1,3 +1,4 @@
+ 
 SootopolisCity_House3_MapScripts::
 	.byte 0
 
@@ -39,3 +40,5 @@ SootopolisCity_House3_Text_TrainerFanClubWasWild:
 	.string "outside of HOENN.\p"
 	.string "It was really wild when I went to the\n"
 	.string "TRAINER FAN CLUB in LILYCOVE.$"
+
+ 

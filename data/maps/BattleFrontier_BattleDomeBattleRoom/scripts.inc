@@ -1178,3 +1178,4 @@ BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTucker:
 	.string "It's TUCKER!\p"
 	.string "Congratulations! And thank you!\n"
 	.string "Let's hear it for the DOME ACE, TUCKER!$"
+

@@ -1,3 +1,4 @@
+ 
 .set LOCALID_NURSE, 1
 
 SootopolisCity_PokemonCenter_1F_MapScripts::
@@ -69,3 +70,5 @@ SootopolisCity_PokemonCenter_1F_Text_AlwaysBeFriendsWithPokemon:
 SootopolisCity_PokemonCenter_1F_Text_ArentPokemonOurFriends:
 	.string "Aren't POKéMON our friends?\p"
 	.string "Why are they going wild this way?$"
+
+ 

@@ -833,7 +833,8 @@
 #define METATILE_SecretBase_YellowBalloon               0x340
 #define METATILE_SecretBase_YellowBrick_Bottom          0x22E
 #define METATILE_SecretBase_YellowBrick_Top             0x226
-
+#define METATILE_SecretBase_PC                          0x220
+#define METATILE_SecretBase_PC_On                        0x224
 // gTileset_Shop
 #define METATILE_Shop_Door_Elevator   0x285
 #define METATILE_Shop_Laptop1_Flash   0x258

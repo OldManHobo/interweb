@@ -1,3 +1,4 @@
+ 
 .set LOCALID_OLD_MAN, 1
 
 SootopolisCity_MysteryEventsHouse_1F_MapScripts::
@@ -227,3 +228,5 @@ SootopolisCity_MysteryEventsHouse_1F_Text_TooBadForYou:
 	.string "Ah, too bad for you!\p"
 	.string "But it was a good match.\n"
 	.string "I hope you can win next time.$"
+
+ 

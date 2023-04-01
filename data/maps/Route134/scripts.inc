@@ -1,3 +1,4 @@
+ 
 Route134_MapScripts::
 	map_script MAP_SCRIPT_ON_RESUME, Route134_OnResume
 	.byte 0
@@ -50,3 +51,5 @@ Route134_EventScript_Kelvin::
 	trainerbattle_single TRAINER_KELVIN, Route134_Text_KelvinIntro, Route134_Text_KelvinDefeat
 	msgbox Route134_Text_KelvinPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+ 

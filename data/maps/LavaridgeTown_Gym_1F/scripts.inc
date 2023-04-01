@@ -1,3 +1,4 @@
+ 
 .set LOCALID_COLE, 2
 .set LOCALID_GERALD, 3
 .set LOCALID_AXLE, 4
@@ -402,3 +403,4 @@ LavaridgeTown_Gym_1F_Text_FlanneryRematchNeedTwoMons:
 	.string "that can battle?\p"
 	.string "I hate to say this, but when you come\n"
 	.string "see me, bring at least two POKéMON.$"
+ 

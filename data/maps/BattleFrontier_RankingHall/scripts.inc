@@ -131,3 +131,4 @@ BattleFrontier_RankingHall_Text_MyNamesNotUpThere:
 	.string "My name's not up there…\p"
 	.string "Well, it's only natural since I haven't\n"
 	.string "taken any challenges yet.$"
+

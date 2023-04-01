@@ -1,3 +1,4 @@
+ 
 Route131_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, Route131_OnTransition
 	.byte 0
@@ -54,3 +55,5 @@ Route131_EventScript_Kevin::
 	trainerbattle_single TRAINER_KEVIN, Route131_Text_KevinIntro, Route131_Text_KevinDefeat
 	msgbox Route131_Text_KevinPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+ 

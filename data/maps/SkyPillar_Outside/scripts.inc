@@ -1,3 +1,4 @@
+ 
 .set LOCALID_WALLACE, 1
 
 SkyPillar_Outside_MapScripts::
@@ -170,3 +171,4 @@ SkyPillar_Outside_Text_GotToGoBackForSootopolis:
 	.string "I've got to go back.\p"
 	.string "Everything is in your hands now.\n"
 	.string "Don't fail us!$"
+ 

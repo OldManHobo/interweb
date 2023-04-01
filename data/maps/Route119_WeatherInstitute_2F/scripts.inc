@@ -1,3 +1,4 @@
+ 
 .set LOCALID_GRUNT_1, 1
 .set LOCALID_GRUNT_2, 2
 .set LOCALID_SHELLY, 3
@@ -330,3 +331,5 @@ Route119_WeatherInstitute_2F_Text_NoAbnormalWeather:
 	.string "no longer being reported.\p"
 	.string "The occasional rainfall is a blessing,\n"
 	.string "really.$"
+
+ 

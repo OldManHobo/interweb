@@ -1,3 +1,4 @@
+ 
 .set LOCALID_GRUNT_1, 12
 .set LOCALID_GRUNT_2, 13
 .set LOCALID_GRUNT_3, 14
@@ -189,3 +190,5 @@ Route121_Text_MtPyrePierSign:
 Route121_Text_SafariZoneSign:
 	.string "“Filled with rare POKéMON!”\n"
 	.string "SAFARI ZONE$"
+
+ 

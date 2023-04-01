@@ -1,3 +1,4 @@
+ 
 FortreeCity_Mart_MapScripts::
 	.byte 0
 
@@ -54,3 +55,5 @@ FortreeCity_Mart_Text_StockUpOnItems:
 FortreeCity_Mart_Text_RareCandyMakesMonGrow:
 	.string "A RARE CANDY makes a POKéMON grow\n"
 	.string "immediately by one level.$"
+
+ 

@@ -1,3 +1,4 @@
+ 
 SeafloorCavern_Room3_MapScripts::
 	.byte 0
 
@@ -55,3 +56,5 @@ SeafloorCavern_Room3_Text_Grunt5PostBattle:
 	.string "going up against our BOSS.\p"
 	.string "Maybe…\n"
 	.string "You must be something…$"
+
+ 

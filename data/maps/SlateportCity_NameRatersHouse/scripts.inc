@@ -1,3 +1,4 @@
+ 
 SlateportCity_NameRatersHouse_MapScripts::
 	.byte 0
 
@@ -108,3 +109,5 @@ SlateportCity_NameRatersHouse_Text_MagnificentName:
 SlateportCity_NameRatersHouse_Text_ThatIsMerelyAnEgg:
 	.string "Now, now.\n"
 	.string "That is merely an EGG!$"
+
+ 

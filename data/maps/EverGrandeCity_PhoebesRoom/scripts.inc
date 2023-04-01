@@ -1,3 +1,4 @@
+ 
 EverGrandeCity_PhoebesRoom_MapScripts::
 	map_script MAP_SCRIPT_ON_LOAD, EverGrandeCity_PhoebesRoom_OnLoad
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, EverGrandeCity_PhoebesRoom_OnWarp
@@ -81,3 +82,5 @@ EverGrandeCity_PhoebesRoom_Text_PostBattleSpeech:
 	.string "Yup, I'd like to see how far your bond\n"
 	.string "will carry you.\p"
 	.string "Go ahead, move on to the next room.$"
+
+ 

@@ -1,3 +1,4 @@
+ 
 .set LOCALID_ATTENDANT, 1
 
 FallarborTown_BattleTentLobby_MapScripts::
@@ -345,3 +346,5 @@ FallarborTown_BattleTentLobby_Text_ScottMakeChallenge:
 	.string "SCOTT: Instead of wasting your\n"
 	.string "time with the likes of me, why not\l"
 	.string "make a challenge?$"
+
+ 

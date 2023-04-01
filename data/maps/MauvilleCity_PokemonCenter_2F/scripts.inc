@@ -1,3 +1,4 @@
+ 
 MauvilleCity_PokemonCenter_2F_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, CableClub_OnFrame
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, CableClub_OnWarp
@@ -29,3 +30,5 @@ MauvilleCity_PokemonCenter_2F_Text_Youngster:
 	.string "for everyone to see.\p"
 	.string "It's embarrassing if you lose more\n"
 	.string "often than you win…$"
+
+ 

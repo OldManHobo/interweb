@@ -1,3 +1,4 @@
+ 
 SeafloorCavern_Room4_MapScripts::
 	.byte 0
 
@@ -33,3 +34,5 @@ SeafloorCavern_Room4_Text_Grunt4PostBattle:
 	.string "My partner forgot the map in that\n"
 	.string "submarine!\p"
 	.string "How's that for being useless?$"
+
+ 

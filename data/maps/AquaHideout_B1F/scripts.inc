@@ -158,3 +158,4 @@ AquaHideout_B1F_Text_Grunt7Defeat:
 AquaHideout_B1F_Text_Grunt7PostBattle:
 	.string "If you have a cool uniform, you look\n"
 	.string "good even in a loss, don't you think?$"
+

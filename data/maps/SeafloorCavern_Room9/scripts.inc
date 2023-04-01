@@ -1,3 +1,4 @@
+ 
 .set LOCALID_KYOGRE, 1
 .set LOCALID_ARCHIE, 2
 .set LOCALID_MAXIE, 3
@@ -324,3 +325,4 @@ SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue:
 SeafloorCavern_Room9_Text_MaxieComeOnPlayer:
 	.string "MAXIE: {PLAYER}, come on, you have\n"
 	.string "to get out of here, too!$"
+ 

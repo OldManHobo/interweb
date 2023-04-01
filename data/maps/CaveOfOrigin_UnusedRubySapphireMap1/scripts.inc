@@ -5,3 +5,4 @@ CaveOfOrigin_UnusedRubySapphireMap1_MapScripts::
 CaveOfOrigin_UnusedRubySapphireMap1_OnTransition:
 	call_if_set FLAG_UNUSED_RS_LEGENDARY_BATTLE_DONE, CaveOfOrigin_EventScript_DisableTriggers
 	end
+

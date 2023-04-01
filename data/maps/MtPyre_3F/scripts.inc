@@ -1,3 +1,4 @@
+ 
 MtPyre_3F_MapScripts::
 	.byte 0
 
@@ -96,3 +97,5 @@ MtPyre_3F_Text_GabriellePostRematch:
 	.string "in the future…\p"
 	.string "They are all to be equally cherished.\n"
 	.string "I see that you've remembered that.$"
+
+ 

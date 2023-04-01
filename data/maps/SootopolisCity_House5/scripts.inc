@@ -1,3 +1,4 @@
+ 
 SootopolisCity_House5_MapScripts::
 	.byte 0
 
@@ -17,3 +18,5 @@ SootopolisCity_House5_Text_SootopolisMtPyreConnection:
 
 SootopolisCity_House5_Text_BrotherUsedToStudySea:
 	.string "My big brother used to study the sea.$"
+
+ 

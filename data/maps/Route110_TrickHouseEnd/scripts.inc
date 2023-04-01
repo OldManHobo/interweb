@@ -1,3 +1,4 @@
+ 
 .set LOCALID_TRICK_MASTER, 1
 
 Route110_TrickHouseEnd_MapScripts::
@@ -355,3 +356,5 @@ Route110_TrickHouseEnd_Text_MakeNewTricksToStumpYou:
 Route110_TrickHouseEnd_Text_YoureIgnoringMe:
 	.string "Now, now! You're ignoring me now?\n"
 	.string "Now that, I consider heartbreaking!$"
+
+ 

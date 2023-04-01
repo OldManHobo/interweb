@@ -149,3 +149,4 @@ BattleFrontier_BattleDomeCorridor_Movement_WalkToBattleRoomMidRight:
 	walk_up
 	set_invisible
 	step_end
+

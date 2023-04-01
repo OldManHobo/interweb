@@ -1,3 +1,4 @@
+ 
 .set LOCALID_GRUNT, 1
 
 SeafloorCavern_Entrance_MapScripts::
@@ -85,3 +86,5 @@ SeafloorCavern_Entrance_Text_HearMagmaNearMossdeepShort:
 	.string "were spotted near MOSSDEEP.\p"
 	.string "That bunch of goons, they sure don't\n"
 	.string "look good near the sea!$"
+
+ 

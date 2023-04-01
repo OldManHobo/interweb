@@ -1,3 +1,4 @@
+ 
 Underwater_MarineCave_MapScripts::
 	map_script MAP_SCRIPT_ON_RESUME, Underwater_MarineCave_OnResume
 	map_script MAP_SCRIPT_ON_TRANSITION, Underwater_MarineCave_OnTransition
@@ -10,3 +11,5 @@ Underwater_MarineCave_OnTransition:
 Underwater_MarineCave_OnResume:
 	setdivewarp MAP_MARINE_CAVE_ENTRANCE, 10, 17
 	end
+
+ 

@@ -1,3 +1,4 @@
+ 
 Route113_GlassWorkshop_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, Route113_GlassWorkshop_OnTransition
 	.byte 0
@@ -377,3 +378,5 @@ Route113_GlassWorkshop_Text_FunToBlowGlassFlute:
 	.string "It's fun to blow a glass flute while\n"
 	.string "my boss is talking.\p"
 	.string "Huff-huff! Puff-puff!$"
+
+ 

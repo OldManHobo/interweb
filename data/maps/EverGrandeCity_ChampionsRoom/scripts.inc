@@ -1,3 +1,4 @@
+ 
 .set LOCALID_WALLACE, 1
 .set LOCALID_RIVAL, 2
 .set LOCALID_BIRCH, 3
@@ -33,8 +34,8 @@ EverGrandeCity_ChampionsRoom_EventScript_EnterRoom::
 	waitmovement 0
 	setvar VAR_TEMP_1, 1
 	goto EverGrandeCity_ChampionsRoom_EventScript_Wallace
-	releaseall
-	end
+    releaseall
+    end
 
 EverGrandeCity_ChampionsRoom_Movement_PlayerApproachWallace:
 	walk_up
@@ -341,3 +342,5 @@ EverGrandeCity_ChampionsRoom_Text_BrendanCongratulations:
 	.string "It can't be helped if that's the rule.\p"
 	.string "{PLAYER}, way to go!\n"
 	.string "Congratulations!$"
+
+ 

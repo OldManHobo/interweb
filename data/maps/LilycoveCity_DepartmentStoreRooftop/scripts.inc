@@ -1,3 +1,4 @@
+ 
 LilycoveCity_DepartmentStoreRooftop_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, LilycoveCity_DepartmentStoreRooftop_OnTransition
 	.byte 0
@@ -217,3 +218,4 @@ LilycoveCity_DepartmentStoreRooftop_Text_NotEnoughMoney:
 
 LilycoveCity_DepartmentStoreRooftop_Text_DecidedAgainstBuyingDrink:
 	.string "Decided against buying a drink.$"
+ 

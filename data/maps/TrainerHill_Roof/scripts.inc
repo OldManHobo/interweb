@@ -1,3 +1,4 @@
+ 
 TrainerHill_Roof_MapScripts::
 	map_script MAP_SCRIPT_ON_RESUME, TrainerHill_OnResume
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, TrainerHill_OnFrame
@@ -59,3 +60,5 @@ TrainerHill_Roof_EventScript_AlreadyReceivedPrize::
 	msgbox TrainerHill_Roof_Text_ArriveZippierNextTime, MSGBOX_DEFAULT
 	release
 	end
+
+ 

@@ -1,3 +1,4 @@
+ 
 .set LOCALID_RIVAL, 16
 .set LOCALID_RIVAL_ON_BIKE, 25
 .set LOCALID_SCOTT, 43
@@ -612,3 +613,4 @@ Route119_Text_TrainerTipsDecoration:
 	.string "Pick your favorite items and create\n"
 	.string "your very own SECRET BASE exactly the\l"
 	.string "way you want.$"
+ 

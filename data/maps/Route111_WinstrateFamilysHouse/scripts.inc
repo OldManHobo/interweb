@@ -1,3 +1,4 @@
+ 
 .set LOCALID_VIVI, 1
 .set LOCALID_VICTOR, 2
 .set LOCALID_VICTORIA, 3
@@ -104,3 +105,5 @@ Route111_WinstrateFamilysHouse_Text_GrandsonStrongShort:
 	.string "POKéMON LEAGUE CHAMPION by now.\p"
 	.string "Knowing my grandson, he could be the\n"
 	.string "CHAMPION already!$"
+
+ 

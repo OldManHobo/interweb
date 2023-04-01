@@ -9,7 +9,7 @@ for directory in data/maps/* ; do
 		then
 			echo "Converting: $directory/scripts.inc"
 			touch "$directory/scripts.pory"
-			echo 'raw `' >> "$directory/scripts.pory"
+			echo ' ' >> "$directory/scripts.pory"
 			cat "$directory/scripts.inc" >> "$directory/scripts.pory"
 			echo '`' >> "$directory/scripts.pory"
 		fi

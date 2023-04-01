@@ -1,3 +1,4 @@
+ 
 .set LOCALID_ROOT_FOSSIL, 1
 .set LOCALID_CLAW_FOSSIL, 2
 
@@ -77,3 +78,5 @@ MirageTower_4F_Text_TakeClawFossil:
 
 MirageTower_4F_Text_LeaveClawFossilAlone:
 	.string "{PLAYER} left the CLAW FOSSIL alone.$"
+
+ 

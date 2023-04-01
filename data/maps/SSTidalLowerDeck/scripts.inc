@@ -1,3 +1,4 @@
+ 
 SSTidalLowerDeck_MapScripts::
 	.byte 0
 
@@ -36,3 +37,5 @@ SSTidalLowerDeck_Text_LeonardPostBattle:
 	.string "We're the CLEANUP BROTHERS!\p"
 	.string "The old one dumps the detergent,\n"
 	.string "and the young one does the scrubbing!$"
+
+ 

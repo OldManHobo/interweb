@@ -637,3 +637,4 @@ BattleFrontier_BattleArenaBattleRoom_Text_IfWeBattleAgainWontLose:
 	.string "This is so infuriating!\p"
 	.string "If we ever battle again, I won't lose!\n"
 	.string "Don't you forget it! Bye-bye!$"
+

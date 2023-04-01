@@ -1,3 +1,4 @@
+ 
 .set LOCALID_ATTENDANT, 1
 
 FallarborTown_BattleTentCorridor_MapScripts::
@@ -67,3 +68,5 @@ FallarborTown_ContestHall_Text_CantWinEverywhere:
 FallarborTown_ContestHall_Text_SuperRankStage:
 	.string "POKéMON CONTESTS\n"
 	.string "SUPER RANK STAGE!$"
+
+ 

@@ -1,3 +1,4 @@
+ 
 Route114_FossilManiacsHouse_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, Route114_FossilManiacsHouse_OnTransition
 	.byte 0
@@ -51,3 +52,5 @@ Route114_FossilManiacsHouse_Text_CrammedWithBooks:
 	.string "HOW RAIN SHAPES THE LAND…\l"
 	.string "STONES, SOIL, AND ROCK…\p"
 	.string "It's crammed with books.$"
+
+ 

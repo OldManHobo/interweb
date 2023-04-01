@@ -1,3 +1,4 @@
+ 
 Route111_OldLadysRestStop_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, Route111_OldLadysRestStop_OnTransition
 	.byte 0
@@ -47,3 +48,5 @@ Route111_OldLadysRestStop_Text_StillTiredTakeAnotherRest:
 Route111_OldLadysRestStop_Text_DontNeedToBeShy:
 	.string "Is that so?\n"
 	.string "You don't need to be shy about it.$"
+
+ 

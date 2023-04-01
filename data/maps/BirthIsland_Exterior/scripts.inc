@@ -48,24 +48,21 @@ BirthIsland_Exterior_EventScript_Triangle::
 	special DoDeoxysRockInteraction
 	waitstate
 	switch VAR_RESULT
-	case DEOXYS_ROCK_FAILED,     BirthIsland_Exterior_EventScript_Failed
-	case DEOXYS_ROCK_PROGRESSED, BirthIsland_Exterior_EventScript_Progressed
-	case DEOXYS_ROCK_SOLVED,     BirthIsland_Exterior_EventScript_Deoxys
-	case DEOXYS_ROCK_COMPLETE,   BirthIsland_Exterior_EventScript_Complete
+	case 0, BirthIsland_Exterior_EventScript_NotSolved1
+	case 1, BirthIsland_Exterior_EventScript_NotSolved2
+	case 2, BirthIsland_Exterior_EventScript_Deoxys
+	case 3, BirthIsland_Exterior_EventScript_NotSolved3
 	end
 
-@ The actual rock triangle movement is handled by DoDeoxysRockInteraction.
-@ Unless the player has solved the puzzle and needs to encounter Deoxys,
-@ there's nothing else the script needs to do.
-BirthIsland_Exterior_EventScript_Failed::
+BirthIsland_Exterior_EventScript_NotSolved1::
 	release
 	end
 
-BirthIsland_Exterior_EventScript_Progressed::
+BirthIsland_Exterior_EventScript_NotSolved2::
 	release
 	end
 
-BirthIsland_Exterior_EventScript_Complete::
+BirthIsland_Exterior_EventScript_NotSolved3::
 	release
 	end
 
@@ -118,3 +115,4 @@ BirthIsland_Exterior_Movement_DeoxysApproach:
 	walk_slow_down
 	walk_slow_down
 	step_end
+

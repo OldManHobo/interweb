@@ -17,3 +17,4 @@ BattleFrontier_PokemonCenter_2F_EventScript_TradeCenter::
 BattleFrontier_PokemonCenter_2F_EventScript_RecordCorner::
 	call CableClub_EventScript_RecordCorner
 	end
+

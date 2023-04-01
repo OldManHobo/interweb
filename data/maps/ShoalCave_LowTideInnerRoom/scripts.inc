@@ -1,3 +1,4 @@
+ 
 ShoalCave_LowTideInnerRoom_MapScripts::
 	map_script MAP_SCRIPT_ON_LOAD, ShoalCave_LowTideInnerRoom_OnLoad
 	map_script MAP_SCRIPT_ON_TRANSITION, ShoalCave_LowTideInnerRoom_OnTransition
@@ -134,3 +135,4 @@ ShoalCave_LowTideInnerRoom_EventScript_ShoalSalt2::
 	setflag FLAG_RECEIVED_SHOAL_SALT_2
 	releaseall
 	end
+ 

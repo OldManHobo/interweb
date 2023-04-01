@@ -2099,7 +2099,7 @@ u32 GetBattlerFriendshipScore(u8 battlerId)
     return GetMonFriendshipScore(&party[gBattlerPartyIndexes[battlerId]]);
 }
 
-static void TryToRevertMimicry(void)
+void TryToRevertMimicry(void)
 {
     u32 i;
 
@@ -5280,6 +5280,9 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u16 ability, u8 special, u16 move
             {
 #if B_HEAL_BLOCKING >= GEN_5
                 if (BATTLER_MAX_HP(battler) || gStatuses3[battler] & STATUS3_HEAL_BLOCK)
+#else
+                if (BATTLER_MAX_HP(battler))
+#endif                
                 {
                     if ((gProtectStructs[gBattlerAttacker].notFirstStrike))
                         gBattlescriptCurrInstr = BattleScript_MonMadeMoveUseless;
@@ -6598,6 +6601,12 @@ bool32 HasEnoughHpToEatBerry(u32 battlerId, u32 hpFraction, u32 itemId)
 
     return FALSE;
 }
+
+#if B_CONFUSE_BERRIES_HEAL >= GEN_7
+    #define CONFUSE_BERRY_HP_FRACTION 4
+#else
+    #define CONFUSE_BERRY_HP_FRACTION 2
+#endif
 
 static u8 HealConfuseBerry(u32 battlerId, u32 itemId, u8 flavorId, bool32 end2)
 {
@@ -10149,14 +10158,7 @@ bool32 CanMegaEvolve(u8 battlerId)
             return TRUE;
         }
 
-        // Can undergo Primal Reversion.
-        if (holdEffect == HOLD_EFFECT_PRIMAL_ORB)
-        {
-            gBattleStruct->mega.isWishMegaEvo = FALSE;
-            gBattleStruct->mega.isPrimalReversion = TRUE;
-            return TRUE;
-        }
-    }
+    
 
     // Check if there is an entry in the evolution table for Wish Mega Evolution.
     if (GetWishMegaEvolutionSpecies(species, GetMonData(mon, MON_DATA_MOVE1), GetMonData(mon, MON_DATA_MOVE2), GetMonData(mon, MON_DATA_MOVE3), GetMonData(mon, MON_DATA_MOVE4)))

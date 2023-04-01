@@ -1,3 +1,4 @@
+ 
 PacifidlogTown_House5_MapScripts::
 	.byte 0
 
@@ -33,3 +34,5 @@ PacifidlogTown_House5_Text_MirageIslandAppearDependingOnWeather:
 	.string "that make mirages appear.\p"
 	.string "Or is it really appearing and\n"
 	.string "disappearing?$"
+
+ 

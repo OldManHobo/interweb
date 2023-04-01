@@ -1,3 +1,4 @@
+ 
 .set LOCALID_SCIENTIST_1, 1
 .set LOCALID_SCIENTIST_2, 2
 .set LOCALID_SAILOR, 3
@@ -429,3 +430,4 @@ MossdeepCity_SpaceCenter_1F_Text_MagmaIntentToStealNotice:
 	.string "We will take the fuel no matter what.\p"
 	.string "“Let there be more land!\n"
 	.string "                                          TEAM MAGMA”$"
+ 

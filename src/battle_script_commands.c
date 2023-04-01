@@ -5339,7 +5339,7 @@ static bool32 TryKnockOffBattleScript(u32 battlerDef)
     && gBattleMons[battler].hp != 0                                \
     && gBattleMons[ally].hp != 0
 
-static u32 GetNextTarget(u32 moveTarget)
+u32 GetNextTarget(u32 moveTarget)
 {
     u32 i;
     for (i = 0; i < MAX_BATTLERS_COUNT; i++)
@@ -5835,6 +5835,8 @@ static void Cmd_moveend(void)
             gBattleScripting.moveendState++;
             break;
         case MOVEEND_NEXT_TARGET: // For moves hitting two opposing Pokemon.
+        {
+            u16 moveTarget = GetBattlerMoveTargetType(gBattlerAttacker, gCurrentMove);
             // Set a flag if move hits either target (for throat spray that can't check damage)
             if (!(gHitMarker & HITMARKER_UNABLE_TO_USE_MOVE)
              && !(gMoveResultFlags & MOVE_RESULT_NO_EFFECT))
@@ -6214,7 +6216,7 @@ static void Cmd_moveend(void)
             break;
         case MOVEEND_COUNT:
             break;
-        }
+        }    
 
         if (endMode == 1 && effect == FALSE)
             gBattleScripting.moveendState = MOVEEND_COUNT;
@@ -6225,6 +6227,7 @@ static void Cmd_moveend(void)
 
     if (gBattleScripting.moveendState == MOVEEND_COUNT && effect == FALSE)
         gBattlescriptCurrInstr = cmd->nextInstr;
+
 }
 
 static void Cmd_sethealblock(void)
@@ -14216,7 +14219,9 @@ static void Cmd_settaunt(void)
         gLastUsedAbility = ABILITY_OBLIVIOUS;
         RecordAbilityBattle(gBattlerTarget, ABILITY_OBLIVIOUS);
     }
-    else if (gDisableStructs[gBattlerTarget].tauntTimer == 0)
+    else
+#endif    
+     if (gDisableStructs[gBattlerTarget].tauntTimer == 0)
     {
         #if B_TAUNT_TURNS >= GEN_5
             u8 turns = 4;

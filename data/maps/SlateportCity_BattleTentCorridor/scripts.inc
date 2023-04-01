@@ -1,3 +1,4 @@
+ 
 .set LOCALID_ATTENDANT, 1
 
 SlateportCity_BattleTentCorridor_MapScripts::
@@ -274,3 +275,5 @@ SlateportCity_ContestHall_Text_GetUrgeToMoveWithMon:
 SlateportCity_ContestHall_Text_HyperRankStage:
 	.string "POKéMON CONTESTS\n"
 	.string "HYPER RANK STAGE!$"
+
+ 

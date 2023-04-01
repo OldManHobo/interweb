@@ -117,3 +117,4 @@ CaveOfOrigin_B1F_Text_WellHeadToSkyPillar:
 	.string "It must be the SKY PILLAR!\p"
 	.string "{PLAYER}{KUN}, there's not a moment to lose!\n"
 	.string "We'll head to the SKY PILLAR right away!$"
+

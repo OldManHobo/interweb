@@ -1664,7 +1664,6 @@ static void OpponentHandleChooseMove(void)
                 #endif
                     BtlController_EmitTwoReturnValues(BUFFER_B, 10, (chosenMoveId) | (GetBattlerAtPosition(Random() & 2) << 8));
             }
-            else
         }
         else
             BtlController_EmitTwoReturnValues(BUFFER_B, 10, (chosenMoveId) | (GetBattlerAtPosition(B_POSITION_PLAYER_LEFT) << 8));

@@ -219,6 +219,7 @@ struct SideTimer
     u8 luckyChantTimer;
     u8 luckyChantBattlerId;
     u8 retaliateTimer;
+    u8 stickyWebBattlerSide;
 };
 
 struct FieldTimer

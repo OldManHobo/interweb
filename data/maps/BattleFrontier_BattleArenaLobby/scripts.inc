@@ -574,3 +574,4 @@ BattleFrontier_BattleArenaLobby_Text_PleaseAcceptBattlePoints:
 	.string "My dear challenger, in recognition of\n"
 	.string "your indefatigable spirit, please\l"
 	.string "accept these Battle Point(s).$"
+

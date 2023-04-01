@@ -549,3 +549,4 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainOpenLvRules:
 	.string "In the Open Level, the rental POKéMON\n"
 	.string "and the opposing TRAINERS' POKéMON\l"
 	.string "are all Level 100.$"
+

@@ -1,3 +1,4 @@
+ 
 MauvilleCity_Gym_MapScripts::
 	map_script MAP_SCRIPT_ON_LOAD, MauvilleCity_Gym_OnLoad
 	.byte 0
@@ -418,3 +419,5 @@ MauvilleCity_Gym_Text_WattsonRematchNeedTwoMons:
 	.string "You've only one POKéMON with you!\p"
 	.string "Come see me with two or more\n"
 	.string "POKéMON, all right?$"
+
+ 

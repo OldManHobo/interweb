@@ -1,3 +1,4 @@
+
 .set LOCALID_ATTENDANT, 1
 
 BattleFrontier_BattleFactoryPreBattleRoom_MapScripts::
@@ -225,7 +226,6 @@ BattleFrontier_BattleFactoryPreBattleRoom_EventScript_CommentOnOpponentType::
 	call_if_eq VAR_0x8005, TYPE_ICE, BattleFrontier_BattleFactoryPreBattleRoom_EventScript_OpponentUsesIce
 	call_if_eq VAR_0x8005, TYPE_DRAGON, BattleFrontier_BattleFactoryPreBattleRoom_EventScript_OpponentUsesDragon
 	call_if_eq VAR_0x8005, TYPE_DARK, BattleFrontier_BattleFactoryPreBattleRoom_EventScript_OpponentUsesDark
-	call_if_eq VAR_0x8005, TYPE_FAIRY, BattleFrontier_BattleFactoryPreBattleRoom_EventScript_OpponentUsesFairy
 	call_if_eq VAR_0x8005, NUMBER_OF_MON_TYPES, BattleFrontier_BattleFactoryPreBattleRoom_EventScript_OpponentHasNoMostCommonType
 	return
 
@@ -295,10 +295,6 @@ BattleFrontier_BattleFactoryPreBattleRoom_EventScript_OpponentUsesDragon::
 
 BattleFrontier_BattleFactoryPreBattleRoom_EventScript_OpponentUsesDark::
 	msgbox BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDarkType, MSGBOX_DEFAULT
-	return
-
-BattleFrontier_BattleFactoryPreBattleRoom_EventScript_OpponentUsesFairy::
-	msgbox BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFairyType, MSGBOX_DEFAULT
 	return
 
 BattleFrontier_BattleFactoryPreBattleRoom_EventScript_OpponentHasNoMostCommonType::
@@ -564,10 +560,6 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDarkType:
 	.string "The TRAINER is apparently skilled\n"
 	.string "in the handling of the DARK type.$"
 
-BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFairyType:
-	.string "The TRAINER is apparently skilled\n"
-	.string "in the handling of the FAIRY type.$"
-
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInSteelType:
 	.string "The TRAINER is apparently skilled\n"
 	.string "in the handling of the STEEL type.$"
@@ -654,3 +646,4 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_PreparedToFaceHead:
 BattleFrontier_BattleFactoryPreBattleRoom_Text_CantTellAnythingAboutHead:
 	.string "I'm terribly sorry, but I can't tell you\n"
 	.string "anything about the FACTORY HEAD.$"
+	

@@ -1,3 +1,4 @@
+ 
 MagmaHideout_1F_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, MagmaHideout_1F_OnTransition
 	.byte 0
@@ -50,3 +51,5 @@ MagmaHideout_1F_Text_Grunt2PostBattle:
 	.string "You'll find out when you get there!\p"
 	.string "It'd be better if you saved surprises\n"
 	.string "to the end, don't you think?$"
+
+ 

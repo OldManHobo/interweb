@@ -1,3 +1,4 @@
+ 
 InsideOfTruck_MapScripts::
 	map_script MAP_SCRIPT_ON_LOAD, InsideOfTruck_OnLoad
 	map_script MAP_SCRIPT_ON_RESUME, InsideOfTruck_OnResume
@@ -55,3 +56,5 @@ InsideOfTruck_Text_BoxPrintedWithMonLogo:
 	.string "The box is printed with a POKéMON logo.\p"
 	.string "It's a POKéMON brand moving and\n"
 	.string "delivery service.$"
+
+ 

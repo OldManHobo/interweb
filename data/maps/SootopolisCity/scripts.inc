@@ -1,3 +1,4 @@
+ 
 .set LOCALID_EXPERT, 1
 .set LOCALID_WOMAN_2, 2
 .set LOCALID_KIRI, 3
@@ -1724,3 +1725,4 @@ SootopolisCity_Text_DazzledByMentor:
 	.string "WALLACE: I'm sure that you will be\n"
 	.string "dazzled by my mentor's breathtakingly\l"
 	.string "elegant battle style.$"
+ 

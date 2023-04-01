@@ -1,3 +1,4 @@
+ 
 VictoryRoad_B2F_MapScripts::
 	.byte 0
 
@@ -105,3 +106,5 @@ VictoryRoad_B2F_Text_DianneDefeat:
 VictoryRoad_B2F_Text_DiannePostBattle:
 	.string "You do have guts! I like that!\n"
 	.string "Keep it going!$"
+
+ 

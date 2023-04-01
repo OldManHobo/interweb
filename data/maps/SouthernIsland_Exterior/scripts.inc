@@ -1,3 +1,4 @@
+ 
 .set LOCALID_SAILOR, 1
 .set LOCALID_SS_TIDAL, 2
 
@@ -33,20 +34,20 @@ SouthernIsland_Exterior_EventScript_AsYouLike::
 	end
 
 Ferry_EventScript_DepartIslandSouth::
-	applymovement OBJ_EVENT_ID_PLAYER, Ferry_Movement_DepartIslandBoardSouth
+	applymovement OBJ_EVENT_ID_PLAYER, Ferry_EventScript_DepartIslandBoardSouth
 	waitmovement 0
 	return
 
 Ferry_EventScript_DepartIslandWest::
-	applymovement OBJ_EVENT_ID_PLAYER, Ferry_Movement_DepartIslandBoardWest
+	applymovement OBJ_EVENT_ID_PLAYER, Ferry_EventScript_DepartIslandBoardWest
 	waitmovement 0
 	return
 
-Ferry_Movement_DepartIslandBoardSouth:
+Ferry_EventScript_DepartIslandBoardSouth:
 	walk_down
 	step_end
 
-Ferry_Movement_DepartIslandBoardWest:
+Ferry_EventScript_DepartIslandBoardWest:
 	walk_left
 	walk_in_place_faster_down
 	step_end
@@ -54,3 +55,5 @@ Ferry_Movement_DepartIslandBoardWest:
 SouthernIsland_Exterior_EventScript_Sign::
 	msgbox SouthernIsland_Exterior_Text_Sign, MSGBOX_SIGN
 	end
+
+ 

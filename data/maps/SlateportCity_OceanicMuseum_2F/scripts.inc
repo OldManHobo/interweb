@@ -1,3 +1,4 @@
+ 
 .set LOCALID_CAPT_STERN, 1
 .set LOCALID_ARCHIE, 2
 .set LOCALID_GRUNT_1, 3
@@ -437,3 +438,5 @@ SlateportCity_OceanicMuseum_2F_Text_SSAnneReplica:
 	.string "“S.S. ANNE\p"
 	.string "“A replica of the luxury liner that\n"
 	.string "circles the globe.”$"
+
+ 

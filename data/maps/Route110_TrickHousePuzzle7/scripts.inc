@@ -1,3 +1,4 @@
+ 
 Route110_TrickHousePuzzle7_MapScripts::
 	map_script MAP_SCRIPT_ON_RESUME, Route110_TrickHousePuzzle7_OnResume
 	map_script MAP_SCRIPT_ON_TRANSITION, Route110_TrickHousePuzzle7_OnTransition
@@ -314,7 +315,7 @@ Route110_TrickHousePuzzle7_EventScript_Everett::
 	msgbox Route110_TrickHousePuzzle7_Text_EverettPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route110_TrickHousePuzzle7_Text_WroteSecretCodeLockOpened::
+Route110_TrickHousePuzzle7_EventScript_WroteSecretCodeLockOpened::
 	.string "{PLAYER} wrote down the secret code\n"
 	.string "on the door.\p"
 	.string "“TRICK MASTER is huggable.”\n"
@@ -389,3 +390,5 @@ Route110_TrickHousePuzzle7_Text_EverettDefeat:
 Route110_TrickHousePuzzle7_Text_EverettPostBattle:
 	.string "I was hoping to switch places with you\n"
 	.string "when I beat you, but…$"
+
+ 

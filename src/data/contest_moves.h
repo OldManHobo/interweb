@@ -6038,6 +6038,7 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
         .comboStarterId = COMBO_STARTER_ICY_WATER,
         .comboMoves = {0}
     },
+    
     [MOVE_DIRE_CLAW] = {0}, // TODO
 
     [MOVE_PSYSHIELD_BASH] = {0}, // TODO

@@ -1,3 +1,4 @@
+ 
 .set LOCALID_ARCHIE, 2
 .set LOCALID_OLD_LADY, 3
 .set LOCALID_GRUNT_1, 4
@@ -622,3 +623,5 @@ MtPyre_Summit_Text_HoennTrioTale:
 	.string "becalmed the two enraged POKéMON.\p"
 	.string "Then, its duty done, the green POKéMON\n"
 	.string "flew off into the wild blue yonder…$"
+
+ 

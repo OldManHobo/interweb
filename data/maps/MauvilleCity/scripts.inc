@@ -1,3 +1,4 @@
+ 
 .set LOCALID_WALLY, 6
 .set LOCALID_WALLYS_UNCLE, 7
 .set LOCALID_SCOTT, 11
@@ -665,3 +666,4 @@ MauvilleCity_Text_ExplainTV:
 
 MauvilleCity_Text_BeenCheckingOutTV:
 	.string "Hi, have you been checking out TVs?$"
+ 

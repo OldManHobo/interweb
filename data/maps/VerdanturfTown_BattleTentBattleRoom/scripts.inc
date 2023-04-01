@@ -1,3 +1,4 @@
+ 
 .set LOCALID_PLAYER, 1
 .set LOCALID_OPPONENT, 2
 .set LOCALID_ATTENDANT, 3
@@ -176,3 +177,5 @@ VerdanturfTown_BattleTentBattleRoom_Movement_OpponentExit:
 	walk_up
 	walk_up
 	step_end
+
+ 

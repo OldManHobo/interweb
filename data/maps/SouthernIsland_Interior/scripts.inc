@@ -1,3 +1,4 @@
+ 
 .set LOCALID_LATI, 2
 
 SouthernIsland_Interior_MapScripts::
@@ -145,3 +146,4 @@ SouthernIsland_Interior_Movement_LatiApproach:
 	walk_down
 	walk_down
 	step_end
+ 

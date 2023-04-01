@@ -1,3 +1,4 @@
+ 
 FortreeCity_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, FortreeCity_OnTransition
 	map_script MAP_SCRIPT_ON_RESUME, FortreeCity_OnResume
@@ -153,3 +154,5 @@ FortreeCity_Text_GymSign:
 	.string "LEADER: WINONA\p"
 	.string "“The bird user taking flight into\n"
 	.string "the world.”$"
+
+ 

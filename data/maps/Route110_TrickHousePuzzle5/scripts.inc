@@ -1,3 +1,4 @@
+ 
 .set LOCALID_MECHADOLL_1, 1
 .set LOCALID_MECHADOLL_2, 2
 .set LOCALID_MECHADOLL_3, 3
@@ -1026,3 +1027,4 @@ Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz3:
 	.string "MECHADOLL 5 QUIZ.\p"
 	.string "On the CYCLING ROAD, how many\n"
 	.string "TRIATHLETES were there?$"
+ 

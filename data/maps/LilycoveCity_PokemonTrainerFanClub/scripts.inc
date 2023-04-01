@@ -1,3 +1,4 @@
+ 
 .set LOCALID_LASS, 1
 .set LOCALID_MAN, 2
 .set LOCALID_POKEFAN_M, 3
@@ -818,3 +819,4 @@ LilycoveCity_PokemonTrainerFanClub_Text_YourePowerfulButNotTrueStrength:
 	.string "True strength is…!\n"
 	.string "… …\p"
 	.string "Actually, I have no idea, either.$"
+ 

@@ -472,8 +472,8 @@ BattleFrontier_BattlePalaceLobby_Text_FeatWillBeRecorded:
 
 @ Unused
 BattleFrontier_BattlePalaceLobby_Text_BattlePointsFor7WinStreak:
-	.string "For the feat of your 7-win streak,\n"
-	.string "we present you with Battle Point(s).$"
+    .string "For the feat of your 7-win streak,\n"
+    .string "we present you with Battle Point(s).$"
 
 BattleFrontier_BattlePalaceLobby_Text_NoSpaceForPrize:
 	.string "You seem to have no space for\n"
@@ -647,3 +647,4 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainRulesWhenInDanger:
 	.string "nature when it is in trouble.\p"
 	.string "If a POKéMON begins behaving oddly\n"
 	.string "in a pinch, watch it carefully.$"
+

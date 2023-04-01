@@ -1,3 +1,4 @@
+ 
 .set LOCALID_MOM, 1
 .set LOCALID_RIVAL_MOM, 4
 .set LOCALID_RIVAL, 7
@@ -407,3 +408,4 @@ RivalsHouse_1F_Text_DoYouHavePokemon:
 	.string "Hi, neighbor!\p"
 	.string "Do you already have your\n"
 	.string "own POKéMON?$"
+ 

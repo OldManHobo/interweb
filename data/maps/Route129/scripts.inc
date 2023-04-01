@@ -1,3 +1,4 @@
+ 
 Route129_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, Route129_OnTransition
 	map_script MAP_SCRIPT_ON_LOAD, Route129_OnLoad
@@ -48,3 +49,5 @@ Route129_EventScript_Clarence::
 	trainerbattle_single TRAINER_CLARENCE, Route129_Text_ClarenceIntro, Route129_Text_ClarenceDefeat
 	msgbox Route129_Text_ClarencePostBattle, MSGBOX_AUTOCLOSE
 	end
+
+ 

@@ -1,3 +1,4 @@
+ 
 Route113_MapScripts::
 	map_script MAP_SCRIPT_ON_RESUME, Route113_OnResume
 	map_script MAP_SCRIPT_ON_TRANSITION, Route113_OnTransition
@@ -163,3 +164,5 @@ Route113_Text_TrainerTipsRegisterKeyItems:
 Route113_Text_GlassWorkshopSign:
 	.string "GLASS WORKSHOP\n"
 	.string "“Turning Volcanic Ash into Glass Items”$"
+
+ 

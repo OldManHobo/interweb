@@ -1,3 +1,4 @@
+ 
 .set LOCALID_ATTENDANT, 1
 .set LOCALID_NURSE, 2
 .set LOCALID_GIRL, 4
@@ -455,3 +456,4 @@ TrainerHill_Entrance_Text_DoYouKnowWhenTheyOpen:
 TrainerHill_Elevator_Text_ReturnToReception:
 	.string "Would you like to return to\n"
 	.string "the reception counter?$"
+ 

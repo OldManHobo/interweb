@@ -1,3 +1,4 @@
+ 
 SootopolisCity_Gym_1F_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, SootopolisCity_Gym_1F_OnFrame
 	map_script MAP_SCRIPT_ON_RESUME, SootopolisCity_Gym_1F_OnResume
@@ -316,3 +317,5 @@ SootopolisCity_Gym_1F_Text_JuanRematchNeedTwoMons:
 	.string "You have with you but one POKéMON.\p"
 	.string "I wish that you would return with\n"
 	.string "two, perhaps more, POKéMON, please.$"
+
+ 

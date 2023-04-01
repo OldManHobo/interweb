@@ -1,3 +1,4 @@
+ 
 NewMauville_Entrance_MapScripts::
 	map_script MAP_SCRIPT_ON_LOAD, NewMauville_Entrance_OnLoad
 	map_script MAP_SCRIPT_ON_TRANSITION, NewMauville_Entrance_OnTransition
@@ -55,3 +56,5 @@ NewMauville_Entrance_Text_UseBasementKey:
 NewMauville_Entrance_Text_UsedBasementKey:
 	.string "{PLAYER} used the BASEMENT KEY.\p"
 	.string "The door opened!$"
+
+ 

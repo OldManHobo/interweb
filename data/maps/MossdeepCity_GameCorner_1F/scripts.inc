@@ -1,3 +1,4 @@
+ 
 MossdeepCity_GameCorner_1F_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, MossdeepCity_GameCorner_1F_OnFrame
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, MossdeepCity_GameCorner_1F_OnWarp
@@ -85,3 +86,4 @@ RS_MysteryEventsHouse_Text_BattleLost:
 	.string "Ah, too bad for you!\p"
 	.string "But it was a good match.\n"
 	.string "I hope you can win next time.$"
+ 

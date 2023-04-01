@@ -1,3 +1,4 @@
+ 
 Route116_TunnelersRestHouse_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, Route116_TunnelersRestHouse_OnTransition
 	.byte 0
@@ -59,3 +60,5 @@ Route116_TunnelersRestHouse_Text_TunnelHasGoneThrough:
 	.string "has gone through!\p"
 	.string "Sometimes, if you hope strongly enough,\n"
 	.string "dreams do come true.$"
+
+ 

@@ -1,3 +1,4 @@
+ 
 .set LOCALID_ATTENDANT, 1
 
 VerdanturfTown_BattleTentLobby_MapScripts::
@@ -381,3 +382,4 @@ VerdanturfTown_BattleTentLobby_Text_ScottVisitRegularly:
 	.string "SCOTT: I visit here regularly in hopes\n"
 	.string "of seeing tough TRAINERS in action\l"
 	.string "in whatever the situation.$"
+ 

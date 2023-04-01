@@ -1,3 +1,4 @@
+ 
 .set LOCALID_STEVEN, 3
 .set LOCALID_ARCHIE, 4
 .set LOCALID_MAXIE, 5
@@ -303,3 +304,5 @@ Route128_Text_StevenImGoingToSootopolis:
 	.string "but don't do anything reckless.\p"
 	.string "Okay.\n"
 	.string "I'm going to SOOTOPOLIS.$"
+
+ 

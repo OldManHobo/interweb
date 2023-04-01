@@ -1,3 +1,4 @@
+ 
 FortreeCity_DecorationShop_MapScripts::
 	.byte 0
 
@@ -19,7 +20,7 @@ FortreeCity_DecorationShop_EventScript_ClerkDesks::
 	release
 	end
 
-	.align 2
+    .align 2
 FortreeCity_DecorationShop_PokemartDecor_Desks:
 	.2byte DECOR_SMALL_DESK
 	.2byte DECOR_POKEMON_DESK
@@ -69,3 +70,5 @@ FortreeCity_DecorationShop_Text_BuyingDeskForDolls:
 	.string "If I don't, when I decorate my\n"
 	.string "SECRET BASE, my DOLLS will get\l"
 	.string "dirty or poked with splinters.$"
+
+ 

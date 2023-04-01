@@ -1,3 +1,4 @@
+ 
 PacifidlogTown_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, PacifidlogTown_OnTransition
 	map_script MAP_SCRIPT_ON_RESUME, PacifidlogTown_OnResume
@@ -51,3 +52,5 @@ PacifidlogTown_Text_TownSign:
 	.string "PACIFIDLOG TOWN\p"
 	.string "“Where the morning sun smiles upon\n"
 	.string "the waters.”$"
+
+ 

@@ -1,3 +1,4 @@
+ 
 .set LOCALID_TWIN, 2
 
 VerdanturfTown_MapScripts::
@@ -124,3 +125,5 @@ VerdanturfTown_Text_RusturfTunnelSign:
 	.string "“Linking RUSTBORO and VERDANTURF\p"
 	.string "“The tunnel project has been\n"
 	.string "canceled.”$"
+
+ 

@@ -1,3 +1,4 @@
+ 
 Route110_TrickHousePuzzle3_MapScripts::
 	map_script MAP_SCRIPT_ON_RESUME, Route110_TrickHousePuzzle3_OnResume
 	map_script MAP_SCRIPT_ON_TRANSITION, Route110_TrickHousePuzzle3_OnTransition
@@ -342,3 +343,5 @@ Route110_TrickHousePuzzle3_Text_AlanPostBattle:
 	.string "I don't get it.\n"
 	.string "How many traps are in this house?\p"
 	.string "You may be the one to solve that.$"
+
+ 

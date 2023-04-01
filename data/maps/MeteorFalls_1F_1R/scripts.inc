@@ -1,3 +1,4 @@
+ 
 .set LOCALID_MAGMA_GRUNT_1, 5
 .set LOCALID_MAGMA_GRUNT_2, 6
 .set LOCALID_ARCHIE, 7
@@ -313,3 +314,4 @@ MeteorFalls_1F_1R_Text_WhatsTeamMagmaDoingAtMtChimney:
 	.string "PROF. COZMO: But that TEAM MAGMA…\p"
 	.string "What are they going to do with that\n"
 	.string "METEORITE at MT. CHIMNEY?$"
+ 

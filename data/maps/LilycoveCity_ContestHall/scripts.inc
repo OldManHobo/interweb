@@ -1,3 +1,4 @@
+ 
 @ VAR_LAST_TALKED would have made all these direct references unnecessary
 .set LOCALID_SMART_MC, 4
 .set LOCALID_SMART_JUDGE, 5
@@ -535,3 +536,5 @@ LilycoveCity_ContestHall_Text_CuteContestStage:
 LilycoveCity_ContestHall_Text_SmartContestStage:
 	.string "SMARTNESS CONTEST STAGE\n"
 	.string "BE IMPRESSED BY SMART POKéMON!$"
+
+ 

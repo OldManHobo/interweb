@@ -1,3 +1,4 @@
+ 
 .set LOCALID_HO_OH, 1
 
 NavelRock_Top_MapScripts::
@@ -115,3 +116,4 @@ NavelRock_Top_Movement_HoOhAppear:
 	walk_in_place_down
 	walk_in_place_down
 	step_end
+ 

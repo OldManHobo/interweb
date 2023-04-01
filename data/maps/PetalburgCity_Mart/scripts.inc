@@ -1,3 +1,4 @@
+ 
 PetalburgCity_Mart_MapScripts::
 	.byte 0
 
@@ -83,3 +84,5 @@ PetalburgCity_Mart_Text_TakeSomeAntidotesWithYou:
 	.string "If you walk around with a poisoned\n"
 	.string "POKéMON, it will lose HP until it faints.\l"
 	.string "Take some ANTIDOTES with you.$"
+
+ 

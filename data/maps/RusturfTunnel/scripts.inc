@@ -1,3 +1,4 @@
+ 
 .equ LOCALID_WANDAS_BF, 1
 .set LOCALID_BRINEY, 5
 .set LOCALID_GRUNT, 6
@@ -529,3 +530,5 @@ RusturfTunnel_Text_MikePostBattle:
 	.string "They halted development here to\n"
 	.string "protect POKéMON, right?\l"
 	.string "There's a feel-good story!$"
+
+ 

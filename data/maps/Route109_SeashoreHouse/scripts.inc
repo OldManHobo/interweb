@@ -1,3 +1,4 @@
+ 
 Route109_SeashoreHouse_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, Route109_SeashoreHouse_OnTransition
 	.byte 0
@@ -174,3 +175,5 @@ Route109_SeashoreHouse_Text_SimonPostBattle:
 	.string "If one of my POKéMON knew the move\n"
 	.string "for carrying me across water on its\l"
 	.string "back, I could get rid of this inner tube.$"
+
+ 

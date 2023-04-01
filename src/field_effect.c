@@ -1571,7 +1571,7 @@ void FieldCB_DiveWarpExit(void)
 {
     Overworld_PlaySpecialMapMusic();
     WarpFadeInScreen();
-    ScriptContext2_Enable();
+    LockPlayerFieldControls();
     FreezeObjectEvents();
     CreateTask(Task_DiveWarpFieldEffect, 0);
     gFieldCallback = NULL;
@@ -1673,7 +1673,7 @@ static bool8 DiveWarpEffect_Land(struct Task* task)
 static bool8 DiveWarpEffect_End(struct Task* task)
 {
     gPlayerAvatar.preventStep = FALSE;
-    ScriptContext2_Disable();
+    UnlockPlayerFieldControls();
     CameraObjectReset1();
     UnfreezeObjectEvents();
     InstallCameraPanAheadCallback();

@@ -1,3 +1,4 @@
+ 
 .set LOCALID_DAYCARE_MAN, 3
 
 Route117_MapScripts::
@@ -205,3 +206,5 @@ Route117_Text_RouteSignMauville:
 Route117_Text_DayCareSign:
 	.string "POKéMON DAY CARE\n"
 	.string "“Let us raise your POKéMON.”$"
+
+ 

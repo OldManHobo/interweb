@@ -1,3 +1,4 @@
+ 
 SootopolisCity_MysteryEventsHouse_B1F_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, SootopolisCity_MysteryEventsHouse_B1F_OnTransition
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, SootopolisCity_MysteryEventsHouse_B1F_OnFrame
@@ -72,3 +73,5 @@ SootopolisCity_MysteryEventsHouse_B1F_Movement_PlayerExitBasement:
 	walk_up
 	delay_8
 	step_end
+
+ 
