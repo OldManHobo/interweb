@@ -2994,8 +2994,8 @@ static const u8 sVineWrapDescription[] = _(
     "preventing escape.");
 
 static const u8 sExhaustFumeDescription[] = _(
-    "Releases a jet of hot wind.\n"
-    "Strong against Flying types.");
+    "Releases a hot miasma that\n"
+    "may badly poison the foe.");
 
 static const u8 sDeepSunderDescription[] = _(
     "The user bites the opponent\n"

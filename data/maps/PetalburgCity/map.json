@@ -14,14 +14,14 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "direction": "left",
-      "offset": -23,
-      "map": "MAP_ROUTE104"
+      "map": "MAP_ROUTE104",
+      "offset": -24,
+      "direction": "left"
     },
     {
-      "direction": "right",
+      "map": "MAP_ROUTE102",
       "offset": 8,
-      "map": "MAP_ROUTE102"
+      "direction": "right"
     }
   ],
   "object_events": [
@@ -176,7 +176,7 @@
       "y": 17,
       "elevation": 0,
       "dest_map": "MAP_PETALBURG_CITY_HOUSE2",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [
