@@ -5999,7 +5999,7 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
         .comboMoves = {COMBO_STARTER_GROWTH, COMBO_STARTER_GRASSY_TERRAIN}
     },
 
-    [MOVE_COMBUSTO] =
+    [MOVE_EXHAUST_FUME] =
     {
         .effect = CONTEST_EFFECT_BADLY_STARTLE_MONS_WITH_GOOD_APPEALS,
         .contestCategory = CONTEST_CATEGORY_COOL,

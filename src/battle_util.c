@@ -8873,8 +8873,9 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
            MulModifier(&modifier, UQ_4_12(1.3));
         break;
     case ABILITY_TOUGH_CLAWS:
-        if (IsMoveMakingContact(move, battlerAtk))
+        if (gBattleMoves[move].flags & FLAG_SLICING_MOVE)
            MulModifier(&modifier, UQ_4_12(1.3));
+        break;
         break;
     case ABILITY_STRONG_JAW:
         if (gBattleMoves[move].flags & FLAG_STRONG_JAW_BOOST)
@@ -8943,7 +8944,11 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
     case ABILITY_PERFECT_PITCH:
         if (gBattleMoves[move].flags & FLAG_SOUND)
             MulModifier(&modifier, UQ_4_12(1.3));
-        break; 
+        break;
+    case ABILITY_REFRACTION:
+        if (gBattleMoves[move].flags & FLAG_BEAM_MOVE) 
+            MulModifier(&modifier,UQ_4_12(1.3));
+        break;
     case ABILITY_ROCKY_PAYLOAD:
         if (moveType == TYPE_ROCK)
             MulModifier(&modifier, UQ_4_12(1.5));

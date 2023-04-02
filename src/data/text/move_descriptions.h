@@ -2993,7 +2993,7 @@ static const u8 sVineWrapDescription[] = _(
     "Entangles the foe in vines,\n"
     "preventing escape.");
 
-static const u8 sCombustoDescription[] = _(
+static const u8 sExhaustFumeDescription[] = _(
     "Releases a jet of hot wind.\n"
     "Strong against Flying types.");
 
@@ -4073,7 +4073,7 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_MEMORY_LEAK - 1] = sMemoryLeakDescription,
     [MOVE_DATA_TRANSFER - 1] = sDataTransferDescription,
     [MOVE_VINE_WRAP - 1] = sVineWrapDescription,
-    [MOVE_COMBUSTO - 1] = sCombustoDescription,
+    [MOVE_EXHAUST_FUME - 1] = sExhaustFumeDescription,
     [MOVE_DEEP_SUNDER - 1] = sDeepSunderDescription,
     [MOVE_SNUGGLE_BUG - 1] = sSnuggleBugDescription,
     [MOVE_DREARY_HUG - 1] = sDrearyHugDescription,
