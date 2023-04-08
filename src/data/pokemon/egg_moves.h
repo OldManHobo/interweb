@@ -3,7 +3,7 @@
 #define egg_moves(species, moves...) (SPECIES_##species + EGG_MOVES_SPECIES_OFFSET), moves
 
 const u16 gEggMoves[] = {
-    egg_moves(BULBASAUR,
+    egg_moves(BADGERP,
         MOVE_WILD_CHARGE,
         MOVE_SUCKER_PUNCH,
         MOVE_POWER_UP_PUNCH,
@@ -16,7 +16,7 @@ const u16 gEggMoves[] = {
         MOVE_GUNK_SHOT,
         MOVE_ENDEAVOR),
 
-    egg_moves(CHARMANDER,
+    egg_moves(TEPILLA,
         MOVE_ROLLOUT,
         MOVE_SIGNAL_BEAM,
         MOVE_U_TURN,
@@ -24,7 +24,7 @@ const u16 gEggMoves[] = {
         MOVE_TELEPORT,
         MOVE_SEARING_SHOT),
 
-    egg_moves(SQUIRTLE,
+    egg_moves(RELENTOOTH,
         MOVE_FALSE_SWIPE,
         MOVE_WILD_CHARGE,
         MOVE_SUCKER_PUNCH,
@@ -38,7 +38,7 @@ const u16 gEggMoves[] = {
         MOVE_BYTE,
         MOVE_GIGABYTE),
 
-    egg_moves(PIDGEY,
+    egg_moves(REPOCOON,
         MOVE_PURSUIT,
         MOVE_FEINT_ATTACK,
         MOVE_FORESIGHT,
@@ -49,7 +49,7 @@ const u16 gEggMoves[] = {
         MOVE_UPROAR,
         MOVE_DEFOG),
 
-    egg_moves(RATTATA,
+    egg_moves(DRAMAGO,
         MOVE_SCREECH,
         MOVE_FLAME_WHEEL,
         MOVE_FURY_SWIPES,
@@ -62,7 +62,7 @@ const u16 gEggMoves[] = {
         MOVE_REVENGE,
         MOVE_FINAL_GAMBIT),
 
-    egg_moves(SPEAROW,
+    egg_moves(SILWING,
         MOVE_FEINT_ATTACK,
         MOVE_SCARY_FACE,
         MOVE_QUICK_ATTACK,
@@ -75,7 +75,7 @@ const u16 gEggMoves[] = {
         MOVE_STEEL_WING,
         MOVE_RAZOR_WIND),
 
-    egg_moves(EKANS,
+    egg_moves(ASTROHAUT,
         MOVE_PURSUIT,
         MOVE_SLAM,
         MOVE_SPITE,
@@ -89,7 +89,7 @@ const u16 gEggMoves[] = {
         MOVE_SUCKER_PUNCH,
         MOVE_SNATCH),
 
-    egg_moves(SANDSHREW,
+    egg_moves(SAULLACE,
         MOVE_FLAIL,
         MOVE_COUNTER,
         MOVE_RAPID_SPIN,
@@ -103,7 +103,7 @@ const u16 gEggMoves[] = {
         MOVE_ROTOTILLER,
         MOVE_HONE_CLAWS),
 
-    egg_moves(NIDORAN_F,
+    egg_moves(LIAYARD,
         MOVE_SUPERSONIC,
         MOVE_DISABLE,
         MOVE_TAKE_DOWN,
@@ -119,7 +119,7 @@ const u16 gEggMoves[] = {
         MOVE_CHIP_AWAY,
         MOVE_VENOM_DRENCH),
 
-    egg_moves(NIDORAN_M,
+    egg_moves(TOAGNITIVE,
         MOVE_COUNTER,
         MOVE_DISABLE,
         MOVE_SUPERSONIC,
@@ -135,7 +135,7 @@ const u16 gEggMoves[] = {
         MOVE_CHIP_AWAY,
         MOVE_VENOM_DRENCH),
 
-    egg_moves(VULPIX,
+    egg_moves(BANAGON,
         MOVE_FEINT_ATTACK,
         MOVE_HYPNOSIS,
         MOVE_FLAIL,
@@ -151,7 +151,7 @@ const u16 gEggMoves[] = {
         MOVE_TAIL_SLAP,
         MOVE_CAPTIVATE),
 
-    egg_moves(ZUBAT,
+    egg_moves(AMOBI,
         MOVE_QUICK_ATTACK,
         MOVE_PURSUIT,
         MOVE_FEINT_ATTACK,
@@ -167,7 +167,7 @@ const u16 gEggMoves[] = {
         MOVE_DEFOG,
         MOVE_VENOM_DRENCH),
 
-    egg_moves(ODDISH,
+    egg_moves(TANKELLUR,
         MOVE_RAZOR_LEAF,
         MOVE_FLAIL,
         MOVE_SYNTHESIS,
@@ -180,7 +180,7 @@ const u16 gEggMoves[] = {
         MOVE_AFTER_YOU,
         MOVE_STRENGTH_SAP),
 
-    egg_moves(PARAS,
+    egg_moves(COATTAIL,
         MOVE_SCREECH,
         MOVE_COUNTER,
         MOVE_PSYBEAM,
@@ -199,7 +199,7 @@ const u16 gEggMoves[] = {
         MOVE_FELL_STINGER,
         MOVE_GRASSY_TERRAIN),
 
-    egg_moves(VENONAT,
+    egg_moves(SNOUTUSSLE,
         MOVE_BATON_PASS,
         MOVE_SCREECH,
         MOVE_GIGA_DRAIN,
@@ -259,7 +259,7 @@ const u16 gEggMoves[] = {
         MOVE_SIMPLE_BEAM,
         MOVE_CLEAR_SMOG),
 
-    egg_moves(MANKEY,
+    egg_moves(NACLES,
         MOVE_FORESIGHT,
         MOVE_MEDITATE,
         MOVE_COUNTER,
@@ -4224,7 +4224,7 @@ const u16 gEggMoves[] = {
         MOVE_SUCKER_PUNCH),
 #endif
 
-    egg_moves(RATTATA_ALOLAN,
+    egg_moves(DRAMAGO_ALOLAN,
         MOVE_COUNTER,
         MOVE_FINAL_GAMBIT,
         MOVE_FURY_SWIPES,
@@ -4237,7 +4237,7 @@ const u16 gEggMoves[] = {
         MOVE_SWITCHEROO,
         MOVE_UPROAR),
 
-    egg_moves(SANDSHREW_ALOLAN,
+    egg_moves(SAULLACE_ALOLAN,
         MOVE_AMNESIA,
         MOVE_CHIP_AWAY,
         MOVE_COUNTER,
@@ -4251,7 +4251,7 @@ const u16 gEggMoves[] = {
         MOVE_METAL_CLAW,
         MOVE_NIGHT_SLASH),
 
-    egg_moves(VULPIX_ALOLAN,
+    egg_moves(BANAGON_ALOLAN,
         MOVE_AGILITY,
         MOVE_CHARM,
         MOVE_DISABLE,

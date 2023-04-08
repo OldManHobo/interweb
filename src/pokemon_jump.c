@@ -39,7 +39,7 @@
 enum {
     BG_INTERFACE,
     BG_BONUSES,
-    BG_VENUSAUR,
+    BG_MELECIUM,
     BG_SCENERY,
 };
 
@@ -426,47 +426,47 @@ EWRAM_DATA static struct PokemonJumpGfx *sPokemonJumpGfx = NULL;
 */
 static const struct PokemonJumpMons sPokeJumpMons[] =
 {
-    { .species = SPECIES_BULBASAUR,  .jumpType = JUMP_TYPE_SLOW, },
-    { .species = SPECIES_CHARMANDER, .jumpType = JUMP_TYPE_FAST, },
-    { .species = SPECIES_SQUIRTLE,   .jumpType = JUMP_TYPE_NORMAL, },
-    { .species = SPECIES_CATERPIE,   .jumpType = JUMP_TYPE_FAST, },
-    { .species = SPECIES_METAPOD,    .jumpType = JUMP_TYPE_FAST, },
-    { .species = SPECIES_WEEDLE,     .jumpType = JUMP_TYPE_FAST, },
-    { .species = SPECIES_KAKUNA,     .jumpType = JUMP_TYPE_FAST, },
-    { .species = SPECIES_RATTATA,    .jumpType = JUMP_TYPE_FAST, },
-    { .species = SPECIES_RATTATA_ALOLAN, .jumpType = JUMP_TYPE_FAST, },
-    { .species = SPECIES_RATICATE,   .jumpType = JUMP_TYPE_FAST, },
-    { .species = SPECIES_RATICATE_ALOLAN, .jumpType = JUMP_TYPE_FAST, },
-    { .species = SPECIES_PIKACHU,    .jumpType = JUMP_TYPE_NORMAL, },
-    { .species = SPECIES_PIKACHU_COSPLAY, .jumpType = JUMP_TYPE_NORMAL, },
-    { .species = SPECIES_PIKACHU_ROCK_STAR, .jumpType = JUMP_TYPE_NORMAL, },
-    { .species = SPECIES_PIKACHU_BELLE, .jumpType = JUMP_TYPE_NORMAL, },
-    { .species = SPECIES_PIKACHU_POP_STAR, .jumpType = JUMP_TYPE_NORMAL, },
-    { .species = SPECIES_PIKACHU_PH_D, .jumpType = JUMP_TYPE_NORMAL, },
-    { .species = SPECIES_PIKACHU_LIBRE, .jumpType = JUMP_TYPE_NORMAL, },
-    { .species = SPECIES_PIKACHU_ORIGINAL_CAP, .jumpType = JUMP_TYPE_NORMAL, },
-    { .species = SPECIES_PIKACHU_HOENN_CAP, .jumpType = JUMP_TYPE_NORMAL, },
-    { .species = SPECIES_PIKACHU_SINNOH_CAP, .jumpType = JUMP_TYPE_NORMAL, },
-    { .species = SPECIES_PIKACHU_UNOVA_CAP, .jumpType = JUMP_TYPE_NORMAL, },
-    { .species = SPECIES_PIKACHU_KALOS_CAP, .jumpType = JUMP_TYPE_NORMAL, },
-    { .species = SPECIES_PIKACHU_ALOLA_CAP, .jumpType = JUMP_TYPE_NORMAL, },
-    { .species = SPECIES_PIKACHU_PARTNER_CAP, .jumpType = JUMP_TYPE_NORMAL, },
-    { .species = SPECIES_PIKACHU_WORLD_CAP, .jumpType = JUMP_TYPE_NORMAL, },
-    { .species = SPECIES_SANDSHREW,  .jumpType = JUMP_TYPE_NORMAL, },
-    { .species = SPECIES_SANDSHREW_ALOLAN, .jumpType = JUMP_TYPE_SLOW, },
-    { .species = SPECIES_NIDORAN_F,  .jumpType = JUMP_TYPE_NORMAL, },
-    { .species = SPECIES_NIDORAN_M,  .jumpType = JUMP_TYPE_NORMAL, },
-    { .species = SPECIES_CLEFAIRY,   .jumpType = JUMP_TYPE_NORMAL, },
-    { .species = SPECIES_VULPIX,     .jumpType = JUMP_TYPE_NORMAL, },
-    { .species = SPECIES_VULPIX_ALOLAN, .jumpType = JUMP_TYPE_NORMAL, },
-    { .species = SPECIES_JIGGLYPUFF, .jumpType = JUMP_TYPE_SLOW, },
-    { .species = SPECIES_ODDISH,     .jumpType = JUMP_TYPE_SLOW, },
-    { .species = SPECIES_PARAS,      .jumpType = JUMP_TYPE_FAST, },
+    { .species = SPECIES_BADGERP,  .jumpType = JUMP_TYPE_SLOW, },
+    { .species = SPECIES_TEPILLA, .jumpType = JUMP_TYPE_FAST, },
+    { .species = SPECIES_RELENTOOTH,   .jumpType = JUMP_TYPE_NORMAL, },
+    { .species = SPECIES_DISCUTTLE,   .jumpType = JUMP_TYPE_FAST, },
+    { .species = SPECIES_TENNADISH,    .jumpType = JUMP_TYPE_FAST, },
+    { .species = SPECIES_KICHIEF,     .jumpType = JUMP_TYPE_FAST, },
+    { .species = SPECIES_VOLKI,     .jumpType = JUMP_TYPE_FAST, },
+    { .species = SPECIES_DRAMAGO,    .jumpType = JUMP_TYPE_FAST, },
+    { .species = SPECIES_DRAMAGO_ALOLAN, .jumpType = JUMP_TYPE_FAST, },
+    { .species = SPECIES_FELIGHT,   .jumpType = JUMP_TYPE_FAST, },
+    { .species = SPECIES_FELIGHT_ALOLAN, .jumpType = JUMP_TYPE_FAST, },
+    { .species = SPECIES_GENTOO,    .jumpType = JUMP_TYPE_NORMAL, },
+    { .species = SPECIES_GENTOO_COSPLAY, .jumpType = JUMP_TYPE_NORMAL, },
+    { .species = SPECIES_GENTOO_ROCK_STAR, .jumpType = JUMP_TYPE_NORMAL, },
+    { .species = SPECIES_GENTOO_BELLE, .jumpType = JUMP_TYPE_NORMAL, },
+    { .species = SPECIES_GENTOO_POP_STAR, .jumpType = JUMP_TYPE_NORMAL, },
+    { .species = SPECIES_GENTOO_PH_D, .jumpType = JUMP_TYPE_NORMAL, },
+    { .species = SPECIES_GENTOO_LIBRE, .jumpType = JUMP_TYPE_NORMAL, },
+    { .species = SPECIES_GENTOO_ORIGINAL_CAP, .jumpType = JUMP_TYPE_NORMAL, },
+    { .species = SPECIES_GENTOO_HOENN_CAP, .jumpType = JUMP_TYPE_NORMAL, },
+    { .species = SPECIES_GENTOO_SINNOH_CAP, .jumpType = JUMP_TYPE_NORMAL, },
+    { .species = SPECIES_GENTOO_UNOVA_CAP, .jumpType = JUMP_TYPE_NORMAL, },
+    { .species = SPECIES_GENTOO_KALOS_CAP, .jumpType = JUMP_TYPE_NORMAL, },
+    { .species = SPECIES_GENTOO_ALOLA_CAP, .jumpType = JUMP_TYPE_NORMAL, },
+    { .species = SPECIES_GENTOO_PARTNER_CAP, .jumpType = JUMP_TYPE_NORMAL, },
+    { .species = SPECIES_GENTOO_WORLD_CAP, .jumpType = JUMP_TYPE_NORMAL, },
+    { .species = SPECIES_SAULLACE,  .jumpType = JUMP_TYPE_NORMAL, },
+    { .species = SPECIES_SAULLACE_ALOLAN, .jumpType = JUMP_TYPE_SLOW, },
+    { .species = SPECIES_LIAYARD,  .jumpType = JUMP_TYPE_NORMAL, },
+    { .species = SPECIES_TOAGNITIVE,  .jumpType = JUMP_TYPE_NORMAL, },
+    { .species = SPECIES_QUARDIAN,   .jumpType = JUMP_TYPE_NORMAL, },
+    { .species = SPECIES_BANAGON,     .jumpType = JUMP_TYPE_NORMAL, },
+    { .species = SPECIES_BANAGON_ALOLAN, .jumpType = JUMP_TYPE_NORMAL, },
+    { .species = SPECIES_HYPADOG, .jumpType = JUMP_TYPE_SLOW, },
+    { .species = SPECIES_TANKELLUR,     .jumpType = JUMP_TYPE_SLOW, },
+    { .species = SPECIES_COATTAIL,      .jumpType = JUMP_TYPE_FAST, },
     { .species = SPECIES_MEOWTH,     .jumpType = JUMP_TYPE_NORMAL, },
     { .species = SPECIES_MEOWTH_ALOLAN, .jumpType = JUMP_TYPE_NORMAL, },
     { .species = SPECIES_MEOWTH_GALARIAN, .jumpType = JUMP_TYPE_NORMAL, },
     { .species = SPECIES_PSYDUCK,    .jumpType = JUMP_TYPE_SLOW, },
-    { .species = SPECIES_MANKEY,     .jumpType = JUMP_TYPE_FAST, },
+    { .species = SPECIES_NACLES,     .jumpType = JUMP_TYPE_FAST, },
     { .species = SPECIES_GROWLITHE,  .jumpType = JUMP_TYPE_FAST, },
     { .species = SPECIES_POLIWAG,    .jumpType = JUMP_TYPE_SLOW, },
     { .species = SPECIES_BELLSPROUT, .jumpType = JUMP_TYPE_SLOW, },
@@ -3250,7 +3250,7 @@ static const struct BgTemplate sBgTemplates[] =
         .baseTile = 0
     },
     {
-        .bg = BG_VENUSAUR,
+        .bg = BG_MELECIUM,
         .charBaseIndex = 1,
         .mapBaseIndex = 30,
         .screenSize = 2,
@@ -3368,8 +3368,8 @@ static void LoadPokeJumpGfx(void)
         DecompressAndCopyTileDataToVram(BG_SCENERY, sBg_Gfx, 0, 0, 0);
         DecompressAndCopyTileDataToVram(BG_SCENERY, sBg_Tilemap, 0, 0, 1);
         LoadPalette(sVenusaur_Pal, BG_PLTT_ID(3), PLTT_SIZE_4BPP);
-        DecompressAndCopyTileDataToVram(BG_VENUSAUR, sVenusaur_Gfx, 0, 0, 0);
-        DecompressAndCopyTileDataToVram(BG_VENUSAUR, sVenusaur_Tilemap, 0, 0, 1);
+        DecompressAndCopyTileDataToVram(BG_MELECIUM, sVenusaur_Gfx, 0, 0, 0);
+        DecompressAndCopyTileDataToVram(BG_MELECIUM, sVenusaur_Tilemap, 0, 0, 1);
         LoadPalette(sBonuses_Pal, BG_PLTT_ID(1), PLTT_SIZE_4BPP);
         DecompressAndCopyTileDataToVram(BG_BONUSES, sBonuses_Gfx, 0, 0, 0);
         DecompressAndCopyTileDataToVram(BG_BONUSES, sBonuses_Tilemap, 0, 0, 1);
@@ -3380,7 +3380,7 @@ static void LoadPokeJumpGfx(void)
         PrintScore(0);
         LoadUserWindowBorderGfxOnBg(0, 1, BG_PLTT_ID(14));
         CopyBgTilemapBufferToVram(BG_INTERFACE);
-        CopyBgTilemapBufferToVram(BG_VENUSAUR);
+        CopyBgTilemapBufferToVram(BG_MELECIUM);
         CopyBgTilemapBufferToVram(BG_BONUSES);
         ResetBgPositions();
         sPokemonJumpGfx->mainState++;
@@ -3393,7 +3393,7 @@ static void LoadPokeJumpGfx(void)
             UpdateVineAnim(sPokemonJumpGfx, VINE_UPSWING_LOWER);
             ShowBg(BG_SCENERY);
             ShowBg(BG_INTERFACE);
-            ShowBg(BG_VENUSAUR);
+            ShowBg(BG_MELECIUM);
             HideBg(BG_BONUSES);
             sPokemonJumpGfx->mainState++;
         }
@@ -3823,22 +3823,22 @@ static void PrintScoreSuffixes(void)
 // venusaur pair in their state of swinging the vine rope
 // NEUTRAL/DOWN/UP refers to which direction the Venusaur is facing as it swings the vine
 enum {
-    VENUSAUR_NEUTRAL,
-    VENUSAUR_DOWN,
-    VENUSAUR_UP,
+    MELECIUM_NEUTRAL,
+    MELECIUM_DOWN,
+    MELECIUM_UP,
 };
 
 static const u8 sVenusaurStates[] = {
-    [VINE_HIGHEST]          = VENUSAUR_UP,
-    [VINE_DOWNSWING_HIGHER] = VENUSAUR_UP,
-    [VINE_DOWNSWING_HIGH]   = VENUSAUR_NEUTRAL,
-    [VINE_DOWNSWING_LOW]    = VENUSAUR_NEUTRAL,
-    [VINE_DOWNSWING_LOWER]  = VENUSAUR_DOWN,
-    [VINE_LOWEST]           = VENUSAUR_DOWN,
-    [VINE_UPSWING_LOWER]    = VENUSAUR_DOWN,
-    [VINE_UPSWING_LOW]      = VENUSAUR_NEUTRAL,
-    [VINE_UPSWING_HIGH]     = VENUSAUR_NEUTRAL,
-    [VINE_UPSWING_HIGHER]   = VENUSAUR_UP,
+    [VINE_HIGHEST]          = MELECIUM_UP,
+    [VINE_DOWNSWING_HIGHER] = MELECIUM_UP,
+    [VINE_DOWNSWING_HIGH]   = MELECIUM_NEUTRAL,
+    [VINE_DOWNSWING_LOW]    = MELECIUM_NEUTRAL,
+    [VINE_DOWNSWING_LOWER]  = MELECIUM_DOWN,
+    [VINE_LOWEST]           = MELECIUM_DOWN,
+    [VINE_UPSWING_LOWER]    = MELECIUM_DOWN,
+    [VINE_UPSWING_LOW]      = MELECIUM_NEUTRAL,
+    [VINE_UPSWING_HIGH]     = MELECIUM_NEUTRAL,
+    [VINE_UPSWING_HIGHER]   = MELECIUM_UP,
 };
 
 static const struct CompressedSpriteSheet sSpriteSheet_Digits = {gMinigameDigits_Gfx, 0, TAG_DIGITS};
@@ -3912,7 +3912,7 @@ static void SetMonSpriteY(u32 id, s16 y)
 static void UpdateVineSwing(int vineState)
 {
     UpdateVineAnim(sPokemonJumpGfx, vineState);
-    ChangeBgY(BG_VENUSAUR, (sVenusaurStates[vineState] * 5) << 13, BG_COORD_SET);
+    ChangeBgY(BG_MELECIUM, (sVenusaurStates[vineState] * 5) << 13, BG_COORD_SET);
 }
 
 static int DoSameJumpTimeBonus(u8 flags)

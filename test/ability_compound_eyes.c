@@ -6,7 +6,7 @@ SINGLE_BATTLE_TEST("Compound Eyes raises accuracy")
     PASSES_RANDOMLY(91, 100);
     GIVEN {
         ASSUME(gBattleMoves[MOVE_THUNDER].accuracy == 70);
-        PLAYER(SPECIES_BUTTERFREE) { Ability(ABILITY_COMPOUND_EYES); };
+        PLAYER(SPECIES_WEBILLITE) { Ability(ABILITY_COMPOUND_EYES); };
         OPPONENT(SPECIES_WOBBUFFET);
     } WHEN {
         TURN { MOVE(player, MOVE_THUNDER); }
@@ -26,7 +26,7 @@ SINGLE_BATTLE_TEST("Compound Eyes does not affect OHKO moves")
     GIVEN {
         ASSUME(gBattleMoves[MOVE_FISSURE].accuracy == 30);
         ASSUME(gBattleMoves[MOVE_FISSURE].effect == EFFECT_OHKO);
-        PLAYER(SPECIES_BUTTERFREE) { Ability(ABILITY_TINTED_LENS); };
+        PLAYER(SPECIES_WEBILLITE) { Ability(ABILITY_TINTED_LENS); };
         OPPONENT(SPECIES_WOBBUFFET);
     } WHEN {
         TURN { MOVE(player, MOVE_FISSURE); }

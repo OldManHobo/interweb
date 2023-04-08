@@ -1,5 +1,5 @@
 gTrickHouse_Mechadoll_Oddish::
-	.string "ODDISH$"
+	.string "TANKELLUR$"
 
 gTrickHouse_Mechadoll_Poochyena::
 	.string "POOCHYENA$"
@@ -20,7 +20,7 @@ gTrickHouse_Mechadoll_Dustox::
 	.string "DUSTOX$"
 
 gTrickHouse_Mechadoll_Zubat::
-	.string "ZUBAT$"
+	.string "AMOBI$"
 
 gTrickHouse_Mechadoll_Nincada::
 	.string "NINCADA$"
@@ -47,7 +47,7 @@ gTrickHouse_Mechadoll_Poochyena3::
 	.string "POOCHYENA$"
 
 gTrickHouse_Mechadoll_Zubat2::
-	.string "ZUBAT$"
+	.string "AMOBI$"
 
 gTrickHouse_Mechadoll_Carvanha::
 	.string "CARVANHA$"

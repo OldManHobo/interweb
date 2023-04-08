@@ -3861,10 +3861,10 @@ const struct Item gItems[] =
 
 // Mega Stones
 
-    [ITEM_VENUSAURITE] =
+    [ITEM_MELECIUMITE] =
     {
         .name = _("Venusaurite"),
-        .itemId = ITEM_VENUSAURITE,
+        .itemId = ITEM_MELECIUMITE,
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = sVenusauriteDesc,
@@ -3874,10 +3874,10 @@ const struct Item gItems[] =
         .flingPower = 80,
     },
 
-    [ITEM_CHARIZARDITE_X] =
+    [ITEM_SOLADORITE_X] =
     {
         .name = _("CharizarditeX"),
-        .itemId = ITEM_CHARIZARDITE_X,
+        .itemId = ITEM_SOLADORITE_X,
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = sCharizarditeDesc,
@@ -3887,10 +3887,10 @@ const struct Item gItems[] =
         .flingPower = 80,
     },
 
-    [ITEM_CHARIZARDITE_Y] =
+    [ITEM_SOLADORITE_Y] =
     {
         .name = _("CharizarditeY"),
-        .itemId = ITEM_CHARIZARDITE_Y,
+        .itemId = ITEM_SOLADORITE_Y,
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = sCharizarditeDesc,
@@ -3913,10 +3913,10 @@ const struct Item gItems[] =
         .flingPower = 80,
     },
 
-    [ITEM_BEEDRILLITE] =
+    [ITEM_SNAGOONITE] =
     {
         .name = _("Beedrillite"),
-        .itemId = ITEM_BEEDRILLITE,
+        .itemId = ITEM_SNAGOONITE,
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = sBeedrilliteDesc,
@@ -3926,10 +3926,10 @@ const struct Item gItems[] =
         .flingPower = 80,
     },
 
-    [ITEM_PIDGEOTITE] =
+    [ITEM_COILOCUSITE] =
     {
         .name = _("Pidgeotite"),
-        .itemId = ITEM_PIDGEOTITE,
+        .itemId = ITEM_COILOCUSITE,
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = sPidgeotiteDesc,

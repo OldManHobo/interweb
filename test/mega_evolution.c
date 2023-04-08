@@ -4,7 +4,7 @@
 SINGLE_BATTLE_TEST("Venusaur can Mega Evolve holding Venusaurite")
 {
     GIVEN {
-        PLAYER(SPECIES_VENUSAUR) { Item(ITEM_VENUSAURITE); }
+        PLAYER(SPECIES_MELECIUM) { Item(ITEM_MELECIUMITE); }
         OPPONENT(SPECIES_WOBBUFFET);
     } WHEN {
         TURN { MOVE(player, MOVE_CELEBRATE, megaEvolve: TRUE); }
@@ -13,7 +13,7 @@ SINGLE_BATTLE_TEST("Venusaur can Mega Evolve holding Venusaurite")
         ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_MEGA_EVOLUTION, player);
         MESSAGE("Venusaur has Mega Evolved into Mega Venusaur!");
     } THEN {
-        EXPECT_EQ(player->species, SPECIES_VENUSAUR_MEGA);
+        EXPECT_EQ(player->species, SPECIES_MELECIUM_MEGA);
     }
 }
 

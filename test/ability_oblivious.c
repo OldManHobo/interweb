@@ -56,7 +56,7 @@ SINGLE_BATTLE_TEST("Oblivious prevents Intimidate")
         ASSUME(B_UPDATED_INTIMIDATE >= GEN_8);
         PLAYER(SPECIES_SLOWPOKE) { Ability(ABILITY_OBLIVIOUS); };
         OPPONENT(SPECIES_WOBBUFFET);
-        OPPONENT(SPECIES_EKANS) { Ability(ABILITY_INTIMIDATE); };
+        OPPONENT(SPECIES_ASTROHAUT) { Ability(ABILITY_INTIMIDATE); };
     } WHEN {
         TURN { SWITCH(opponent, 1); }
     } SCENE {

@@ -25,9 +25,9 @@ SINGLE_BATTLE_TEST("Poison Sting inflicts poison")
 SINGLE_BATTLE_TEST("Poison Sting cannot poison Poison-type")
 {
     GIVEN {
-        ASSUME(gSpeciesInfo[SPECIES_NIDORAN_M].types[0] == TYPE_POISON);
+        ASSUME(gSpeciesInfo[SPECIES_TOAGNITIVE].types[0] == TYPE_POISON);
         PLAYER(SPECIES_WOBBUFFET);
-        OPPONENT(SPECIES_NIDORAN_M);
+        OPPONENT(SPECIES_TOAGNITIVE);
     } WHEN {
         TURN { MOVE(player, MOVE_POISON_STING); }
     } SCENE {

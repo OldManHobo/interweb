@@ -87,9 +87,9 @@
  *   {
  *       GIVEN {
  *           ASSUME(gBattleMoves[MOVE_STUN_SPORE].flags & FLAG_POWDER);
- *           ASSUME(gSpeciesInfo[SPECIES_ODDISH].types[0] == TYPE_GRASS);
- *           PLAYER(SPECIES_ODDISH); // 1.
- *           OPPONENT(SPECIES_ODDISH); // 2.
+ *           ASSUME(gSpeciesInfo[SPECIES_TANKELLUR].types[0] == TYPE_GRASS);
+ *           PLAYER(SPECIES_TANKELLUR); // 1.
+ *           OPPONENT(SPECIES_TANKELLUR); // 2.
  *       } WHEN {
  *           TURN { MOVE(player, MOVE_STUN_SPORE); } // 3.
  *       } SCENE {
@@ -217,7 +217,7 @@
  *         PARAMETRIZE { hp = 33; }
  *         GIVEN {
  *             ASSUME(gBattleMoves[MOVE_EMBER].type == TYPE_FIRE);
- *             PLAYER(SPECIES_CHARMANDER) { Ability(ABILITY_BLAZE); MaxHP(99); HP(hp); }
+ *             PLAYER(SPECIES_TEPILLA) { Ability(ABILITY_BLAZE); MaxHP(99); HP(hp); }
  *             OPPONENT(SPECIES_WOBBUFFET);
  *         } WHEN {
  *             TURN { MOVE(player, MOVE_EMBER); }

@@ -139,7 +139,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_ClefairyDoll::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmClefairyDoll, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, BattleFrontier_ExchangeServiceCorner_EventScript_ChooseDecor1
 	setvar VAR_0x8008, 48
-	setvar VAR_0x8009, DECOR_CLEFAIRY_DOLL
+	setvar VAR_0x8009, DECOR_QUARDIAN_DOLL
 	goto BattleFrontier_ExchangeServiceCorner_EventScript_TryPurchasePrize
 	end
 
@@ -219,7 +219,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_VenusaurDoll::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmVenusaurDoll, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, BattleFrontier_ExchangeServiceCorner_EventScript_ChooseDecor2
 	setvar VAR_0x8008, 256
-	setvar VAR_0x8009, DECOR_VENUSAUR_DOLL
+	setvar VAR_0x8009, DECOR_MELECIUM_DOLL
 	goto BattleFrontier_ExchangeServiceCorner_EventScript_TryPurchasePrize
 	end
 
@@ -227,7 +227,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_CharizardDoll::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmCharizardDoll, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, BattleFrontier_ExchangeServiceCorner_EventScript_ChooseDecor2
 	setvar VAR_0x8008, 256
-	setvar VAR_0x8009, DECOR_CHARIZARD_DOLL
+	setvar VAR_0x8009, DECOR_SOLADOR_DOLL
 	goto BattleFrontier_ExchangeServiceCorner_EventScript_TryPurchasePrize
 	end
 
@@ -235,7 +235,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_BlastoiseDoll::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmBlastoiseDoll, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, BattleFrontier_ExchangeServiceCorner_EventScript_ChooseDecor2
 	setvar VAR_0x8008, 256
-	setvar VAR_0x8009, DECOR_BLASTOISE_DOLL
+	setvar VAR_0x8009, DECOR_LEVIAMAWL_DOLL
 	goto BattleFrontier_ExchangeServiceCorner_EventScript_TryPurchasePrize
 	end
 
@@ -466,7 +466,7 @@ BattleFrontier_ExchangeServiceCorner_Text_ConfirmMeowthDoll:
 	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmClefairyDoll:
-	.string "You've chosen the CLEFAIRY DOLL.\n"
+	.string "You've chosen the QUARDIAN DOLL.\n"
 	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmDittoDoll:
@@ -494,15 +494,15 @@ BattleFrontier_ExchangeServiceCorner_Text_ConfirmSnorlaxDoll:
 	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmVenusaurDoll:
-	.string "You've chosen the VENUSAUR DOLL.\n"
+	.string "You've chosen the MELECIUM DOLL.\n"
 	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmCharizardDoll:
-	.string "You've chosen the CHARIZARD DOLL.\n"
+	.string "You've chosen the SOLADOR DOLL.\n"
 	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmBlastoiseDoll:
-	.string "You've chosen the BLASTOISE DOLL.\n"
+	.string "You've chosen the LEVIAMAWL DOLL.\n"
 	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmProtein:
@@ -642,7 +642,7 @@ BattleFrontier_ExchangeServiceCorner_Text_MeowthDollDesc::
 	.string "Place it on a mat or a desk.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ClefairyDollDesc::
-	.string "A CLEFAIRY DOLL.\n"
+	.string "A QUARDIAN DOLL.\n"
 	.string "Place it on a mat or a desk.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_DittoDollDesc::

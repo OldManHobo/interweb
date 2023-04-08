@@ -2,9 +2,9 @@
 // is during battle. Species that float or fly have nonzero values.
 const u8 gEnemyMonElevation[NUM_SPECIES] =
 {
-    [SPECIES_CHARIZARD] = 9,
-    [SPECIES_BUTTERFREE] = 19,
-    [SPECIES_RATTATA] = 19,
+    [SPECIES_SOLADOR] = 9,
+    [SPECIES_WEBILLITE] = 19,
+    [SPECIES_DRAMAGO] = 19,
     [SPECIES_GEODUDE] = 16,
     [SPECIES_MAGNEMITE] = 17,
     [SPECIES_MAGNETON] = 9,
@@ -151,8 +151,8 @@ const u8 gEnemyMonElevation[NUM_SPECIES] =
     [SPECIES_REGIELEKI] = 8,
     [SPECIES_REGIDRAGO] = 5,
     // Megas
-    [SPECIES_BEEDRILL_MEGA] = 5,
-    [SPECIES_PIDGEOT_MEGA] = 8,
+    [SPECIES_SNAGOON_MEGA] = 5,
+    [SPECIES_COILOCUS_MEGA] = 8,
     [SPECIES_ALAKAZAM_MEGA] = 7,
     [SPECIES_PINSIR_MEGA] = 4,
     [SPECIES_GYARADOS_MEGA] = 6,
@@ -167,7 +167,7 @@ const u8 gEnemyMonElevation[NUM_SPECIES] =
     [SPECIES_LATIOS_MEGA] = 8,
     [SPECIES_RAYQUAZA_MEGA] = 4,
     // Alolan Forms
-    [SPECIES_RAICHU_ALOLAN] = 4,
+    [SPECIES_SAWFUL_ALOLAN] = 4,
     [SPECIES_GEODUDE_ALOLAN] = 16,
     // Galarian Forms
     [SPECIES_WEEZING_GALARIAN] = 6,
