@@ -71,7 +71,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_ROADILLO]                    = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  7 },
     [SPECIES_COATTAIL]                        = { .size = MON_COORDS_SIZE(64, 32), .y_offset = 4 },
     [SPECIES_COATOAC]                     = { .size = MON_COORDS_SIZE(64, 40), .y_offset = 4 },
-    [SPECIES_SNOUTUSSLE]                      = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  5 },
+    [SPECIES_SNOUTUSSLE]                      = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  17 },
     [SPECIES_GRAPPOUCH]                     = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  8 },
     [SPECIES_DIGLETT]                      = { .size = MON_COORDS_SIZE(40, 40), .y_offset = 14 },
     [SPECIES_DUGTRIO]                      = { .size = MON_COORDS_SIZE(48, 32), .y_offset = 17 },

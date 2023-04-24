@@ -1,3 +1,8 @@
+Common_EventScript_FindItem::
+	callnative GetObjectEventTrainerRangeFromTemplate
+	finditem VAR_RESULT
+	end
+
 Route102_EventScript_ItemPotion::
 	finditem ITEM_POTION
 	end

@@ -1140,8 +1140,8 @@ const struct SpeciesInfo gSpeciesInfo[] =
     {
         .baseHP        = 73,
         .baseAttack    = 80,
-        .baseDefense   = 55,
-        .baseSpeed     = 125,
+        .baseDefense   = 65,
+        .baseSpeed     = 115,
         .baseSpAttack  = 80,
         .baseSpDefense = 65,
         .types = { TYPE_GRASS, TYPE_ELECTRIC },
