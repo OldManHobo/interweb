@@ -14,33 +14,97 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "direction": "down",
+      "map": "MAP_ROUTE101",
       "offset": 0,
-      "map": "MAP_ROUTE101"
+      "direction": "down"
     },
     {
-      "direction": "up",
+      "map": "MAP_ROUTE103",
       "offset": 0,
-      "map": "MAP_ROUTE103"
+      "direction": "up"
     },
     {
-      "direction": "down",
+      "map": "MAP_ROUTE101",
       "offset": 0,
-      "map": "MAP_ROUTE101"
+      "direction": "down"
     },
     {
-      "direction": "down",
+      "map": "MAP_ROUTE101",
       "offset": 26,
-      "map": "MAP_ROUTE101"
+      "direction": "down"
     },
     {
-      "direction": "up",
+      "map": "MAP_ROUTE103",
       "offset": 0,
-      "map": "MAP_ROUTE103"
+      "direction": "up"
     }
   ],
   "object_events": [
-
+    {
+      "graphics_id": "OBJ_EVENT_GFX_VAR_0",
+      "x": 13,
+      "y": 11,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "ForestClearing_EventScript_Rival",
+      "flag": "FLAG_HIDE_ROUTE_103_RIVAL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_WALLY",
+      "x": 14,
+      "y": 11,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "ForestClearing_EventScript_David",
+      "flag": "FLAG_HIDE_ROUTE_103_RIVAL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
+      "x": 5,
+      "y": 8,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "BERRY_TREE_FOREST_CLEARING_ORAN",
+      "script": "BerryTreeScript",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
+      "x": 6,
+      "y": 8,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "BERRY_TREE_FOREST_CLEARING_PERSIM",
+      "script": "BerryTreeScript",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
+      "x": 7,
+      "y": 8,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "BERRY_TREE_FOREST_CLEARING_CHERI",
+      "script": "BerryTreeScript",
+      "flag": "0"
+    }
   ],
   "warp_events": [
     {
@@ -48,11 +112,46 @@
       "y": 8,
       "elevation": 0,
       "dest_map": "MAP_OLDALE_TOWN_HOUSE1",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 19,
+      "elevation": 0,
+      "var": "VAR_BIRCH_LAB_STATE",
+      "var_value": "3",
+      "script": "ForestClearing_EventScript_ComeOverHere1"
+    },
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 19,
+      "elevation": 0,
+      "var": "VAR_BIRCH_LAB_STATE",
+      "var_value": "3",
+      "script": "ForestClearing_EventScript_ComeOverHere3"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 19,
+      "elevation": 0,
+      "var": "VAR_BIRCH_LAB_STATE",
+      "var_value": "3",
+      "script": "ForestClearing_EventScript_ComeOverHere2"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 19,
+      "elevation": 0,
+      "var": "VAR_BIRCH_LAB_STATE",
+      "var_value": "3",
+      "script": "ForestClearing_EventScript_ComeOverHere4"
+    }
   ],
   "bg_events": [
     {

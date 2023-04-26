@@ -243,7 +243,7 @@
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_HYPADOG"
+                "species": "SPECIES_FELIGHT"
               },
               {
                 "min_level": 4,
@@ -258,7 +258,7 @@
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_HYPADOG"
               },
               {
                 "min_level": 5,
@@ -268,7 +268,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_HYPADOG"
               },
               {
                 "min_level": 5,
@@ -312,7 +312,7 @@
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_HYPADOG"
+                "species": "SPECIES_FELIGHT"
               },
               {
                 "min_level": 4,
@@ -327,7 +327,7 @@
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_HYPADOG"
               },
               {
                 "min_level": 5,
@@ -337,7 +337,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_HYPADOG"
               },
               {
                 "min_level": 5,
@@ -11627,12 +11627,12 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_HYPADOG"
+                "species": "SPECIES_FELIGHT"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_HYPADOG"
+                "species": "SPECIES_FELIGHT"
               },
               {
                 "min_level": 2,
@@ -11662,7 +11662,7 @@
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_HYPADOG"
               }
             ]
           }
@@ -11696,12 +11696,12 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_HYPADOG"
+                "species": "SPECIES_FELIGHT"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_HYPADOG"
+                "species": "SPECIES_FELIGHT"
               },
               {
                 "min_level": 2,
@@ -11731,7 +11731,7 @@
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_HYPADOG"
               }
             ]
           }

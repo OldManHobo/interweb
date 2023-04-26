@@ -6785,7 +6785,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute103Mudkip[] 
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_TREECKO,
+    .species = SPECIES_TEPILLA,
     }
 };
 
@@ -6829,7 +6829,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute103Treecko[]
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_TORCHIC,
+    .species = SPECIES_RELENTOOTH,
     }
 };
 
@@ -6873,7 +6873,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute103Torchic[]
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_MUDKIP,
+    .species = SPECIES_BADGERP,
     }
 };
 
@@ -6917,7 +6917,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute103Mudkip[] = {
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_BADGERP,
+    .species = SPECIES_TEPILLA,
     }
 };
 
@@ -6961,7 +6961,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute103Treecko[] = {
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_TEPILLA,
+    .species = SPECIES_RELENTOOTH,
     }
 };
 
@@ -7005,7 +7005,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute103Torchic[] = {
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_RELENTOOTH,
+    .species = SPECIES_BADGERP,
     }
 };
 
@@ -12432,5 +12432,29 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayLinkPlaceholder[] = {
     .iv = 0,
     .lvl = 5,
     .species = SPECIES_KYOGRE,
+    }    
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_DavidRoute103Treecko[] = {
+    {
+    .iv = 0,
+    .lvl = 5,
+    .species = SPECIES_TEPILLA,
+    }
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_DavidRoute103Torchic[] = {
+    {
+    .iv = 0,
+    .lvl = 5,
+    .species = SPECIES_RELENTOOTH,
+    }
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_DavidRoute103Mudkip[] = {
+    {
+    .iv = 0,
+    .lvl = 5,
+    .species = SPECIES_BADGERP,
     }
 };

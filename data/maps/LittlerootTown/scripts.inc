@@ -435,14 +435,14 @@ LittlerootTown_EventScript_PlayersHouseSignFemale::
 LittlerootTown_EventScript_GiveRunningShoesTrigger0::
 	lockall
 	setvar VAR_0x8008, 0
-	setobjectxy LOCALID_MOM, 10, 9
+	setobjectxy LOCALID_MOM, 10, 7
 	goto LittlerootTown_EventScript_GiveRunningShoesTrigger
 	end
 
 LittlerootTown_EventScript_GiveRunningShoesTrigger1::
 	lockall
 	setvar VAR_0x8008, 1
-	setobjectxy LOCALID_MOM, 11, 9
+	setobjectxy LOCALID_MOM, 11, 7
 	goto LittlerootTown_EventScript_GiveRunningShoesTrigger
 	end
 
@@ -491,12 +491,12 @@ LittlerootTown_EventScript_GiveRunningShoesTrigger::
 
 LittlerootTown_EventScript_SetHomeDoorCoordsMale::
 	setvar VAR_0x8009, 5
-	setvar VAR_0x800A, 8
+	setvar VAR_0x800A, 6
 	return
 
 LittlerootTown_EventScript_SetHomeDoorCoordsFemale::
-	setvar VAR_0x8009, 14
-	setvar VAR_0x800A, 8
+	setvar VAR_0x8009, 5
+	setvar VAR_0x800A, 13
 	return
 
 LittlerootTown_EventScript_MomNoticePlayerMale::
@@ -505,7 +505,7 @@ LittlerootTown_EventScript_MomNoticePlayerMale::
 	return
 
 LittlerootTown_EventScript_MomNoticePlayerFemale::
-	applymovement LOCALID_MOM, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_MOM, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	return
 
@@ -727,11 +727,9 @@ LittlerootTown_Movement_MomApproachPlayer0:
 	walk_up
 	walk_up
 	walk_up
-	walk_up
 	step_end
 
 LittlerootTown_Movement_MomApproachPlayer1:
-	walk_up
 	walk_up
 	walk_up
 	walk_up
@@ -963,7 +961,7 @@ LittlerootTown_Text_CanUsePCToStoreItems:
 	.string "The power of science is staggering!$"
 
 LittlerootTown_Text_BirchSpendsDaysInLab:
-	.string "Prof. Tamba spends days in his LAB\n"
+	.string "Prof. Tamba spends days in his lab\n"
 	.string "studying, then he'll suddenly go out in\l"
 	.string "the wild to do more research…\p"
 	.string "When does Prof. Tamba spend time\n"
