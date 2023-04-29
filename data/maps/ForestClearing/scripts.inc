@@ -158,6 +158,7 @@ ForestClearing_EventScript_StartDavidBattleMudkip::
 
 ForestClearing_EventScript_AfterDavidBattle::
 	msgbox ForestClearing_Text_DavidCries, MSGBOX_DEFAULT
+	closemessage
 	applymovement LOCALID_WALLY, ForestClearing_Movement_DavidRunsAway
 	waitmovement 0
 	removeobject LOCALID_WALLY
@@ -265,8 +266,8 @@ ForestClearing_Text_BrendanLetsBattle:
 	.string "Since we're here, how about a little\n"
 	.string "battle?\p"
 	.string "Now that I'm done battling David,\n"
-	.string "I'll teach you what being a Trainer's\p"
-	.string "about!$"
+	.string "I'll be sure to teach you what\p"
+	.string "being a Trainer's about!$"
 
 ForestClearing_Text_BrendanDefeated:
 	.string "Huh, {PLAYER}, you're not too shabby.$"
@@ -325,7 +326,7 @@ ForestClearing_EventScript_RouteSign::
 
 Forest_Clearing_Text_RouteSign:
 	.string "FOREST CLEARING\n"
-	.string "{UP_ARROW} ROUTE 103\p"
+	.string "{UP_ARROW} POND JUNCTION\p"
 	.string "{DOWN_ARROW} BEGINNING PATH$"
 
 	 

@@ -364,7 +364,8 @@ Route101_Text_FinishedSketchingFootprints:
 	.string "own footprints…$"
 
 Route101_Text_RouteSign:
-	.string "LINKUP WAY\n"
-	.string "{UP_ARROW} FOREST CLEARING$"
+	.string "BEGINNING PATH\n"
+	.string "{UP_ARROW} FOREST CLEARING\p"
+	.string "{LEFT_ARROW} LINKUP WAY$"
 
  

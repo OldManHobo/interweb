@@ -372,7 +372,7 @@ static const struct LevelUpMove sPidgeotLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sRattataLevelUpLearnset[] = {
-    //LEVEL_UP_MOVE( 0, MOVE_DRAGON_DANCE),
+    LEVEL_UP_MOVE( 0, MOVE_DRAGON_DANCE),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_STRING_SHOT),
     LEVEL_UP_MOVE( 1, MOVE_PROTECT),
@@ -495,7 +495,6 @@ static const struct LevelUpMove sArbokLevelUpLearnset[] = {
     LEVEL_UP_MOVE(44, MOVE_HYPER_VOICE),
     LEVEL_UP_MOVE(47, MOVE_HEAL_ORDER),
     LEVEL_UP_MOVE(50, MOVE_BUG_BUZZ),
-    LEVEL_UP_MOVE(55, MOVE_SURF),
     LEVEL_UP_END
 };
 

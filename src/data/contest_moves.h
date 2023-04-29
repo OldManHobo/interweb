@@ -6038,6 +6038,20 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
         .comboStarterId = COMBO_STARTER_ICY_WATER,
         .comboMoves = {0}
     },
+
+    [MOVE_DRAGON_FANG] = {0},
+
+    [MOVE_PIXIE_BEAM] = {0},
+
+    [MOVE_RUFFLE_UP] = {0},
+
+    [MOVE_SOUL_DRAIN] = {0},
+
+    [MOVE_QUICK_SAND] = {0},
+
+    [MOVE_SOMNO_PUNCH] = {0},
+
+    [MOVE_DOOMSTONER] = {0},
     
     [MOVE_DIRE_CLAW] = {0}, // TODO
 

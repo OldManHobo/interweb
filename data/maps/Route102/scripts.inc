@@ -6,8 +6,8 @@ Route102_EventScript_LittleBoy::
 	msgbox Route102_Text_ImNotVeryTall, MSGBOX_NPC
 	end
 
-Route102_EventScript_RouteSignOldale::
-	msgbox Route102_Text_RouteSignOldale, MSGBOX_SIGN
+Route102_EventScript_RouteSignLittleroot::
+	msgbox Route102_Text_RouteSignLittleroot, MSGBOX_SIGN
 	end
 
 Route102_EventScript_RouteSignPetalburg::
@@ -99,13 +99,13 @@ Route102_Text_ImNotVeryTall:
 
 Route102_Text_CatchWholeBunchOfPokemon:
 	.string "I'm going to catch a whole bunch of\n"
-	.string "POKéMON!$"
+	.string "Pokémon!$"
 
-Route102_Text_RouteSignOldale:
-	.string "ROUTE 102\n"
-	.string "{RIGHT_ARROW} OLDALE TOWN$"
+Route102_Text_RouteSignLittleroot:
+	.string "LINKUP WAY\n"
+	.string "{RIGHT_ARROW} BEGINNING PATH$"
 
 Route102_Text_RouteSignPetalburg:
-	.string "ROUTE 102\n"
-	.string "{LEFT_ARROW} PETALBURG CITY$"
+	.string "LINKUP WAY\n"
+	.string "{LEFT_ARROW} CERPLAS TOWN$"
  

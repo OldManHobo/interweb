@@ -90,13 +90,13 @@ RustboroCity_Flat1_2F_Text_ComingUpWithMealsIsHard:
 
 RustboroCity_Flat1_2F_Text_HelloDoYouKnowFunnyPhrase:
 	.string "Oh, hello!\n"
-	.string "Welcome to the PEPPER household.\p"
+	.string "Welcome to the Pepper household.\p"
 	.string "I have a question for you.\n"
 	.string "Have you ever baby-sat?\p"
 	.string "You see, I'm a new father, so raising\n"
 	.string "a child is all new to me.\p"
 	.string "And I have a problem. My daughter\n"
-	.string "WALDA doesn't laugh enough.\p"
+	.string "Walda doesn't laugh enough.\p"
 	.string "I think she'd laugh for me if I told\n"
 	.string "her something funny.\p"
 	.string "Do you know of a funny word or\n"
@@ -135,7 +135,7 @@ RustboroCity_Flat1_2F_Text_ShesNotSmilingAtAll:
 	.string "{STR_VAR_1}.\n"
 	.string "{STR_VAR_1}.\p"
 	.string "Hmmm… She's not smiling at all.\n"
-	.string "Maybe WALDA is one serious child…$"
+	.string "Maybe Walda is one serious child…$"
 
 RustboroCity_Flat1_2F_Text_ThinkOfMyOwnPhrase:
 	.string "Oh, so you don't know any good words.\n"

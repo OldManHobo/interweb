@@ -3011,7 +3011,35 @@ static const u8 sDrearyHugDescription[] = _(
 
 static const u8 sIcyWaterDescription[] = _(
     "Dumps freezing cold water.\n"
-    "May freeze the foe.");  
+    "May freeze the foe.");
+
+static const u8 sDragonFangDescription[] = _(
+    "Drains more health if used\n"
+    "on a Dragon Pokémon.");
+
+static const u8 sPixieBeamDescription[] = _(
+    "A beam of mystical energy.\n"
+    "May boost Sp. Atk.");
+
+static const u8 sRuffleUpDescription[] = _(
+    "Puffs up feathers to boost\n"
+    "Attack and Defense.");
+
+static const u8 sSoulDrainDescription[] = _(
+    "Heals the user by a large\n"
+    "portion of the damage dealt.");
+
+static const u8 sQuickSandDescription[] = _(
+    "Creates a pool of sand that\n"
+    "absorbs field hazards.");
+
+static const u8 sSomnoPunchDescription[] = _(
+    "A hypnotic punch.\n"
+    "May cause sleep.");
+
+static const u8 sDoomstonerDescription[] = _(
+    "A full-body slam that makes\n"
+    "the user faint after using it.");                          
     
 static const u8 sNotDoneYetDescription[] = _(
     "Not done yet.");
@@ -4078,6 +4106,13 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_SNUGGLE_BUG - 1] = sSnuggleBugDescription,
     [MOVE_DREARY_HUG - 1] = sDrearyHugDescription,
     [MOVE_ICY_WATER - 1] = sIcyWaterDescription,
+    [MOVE_DRAGON_FANG - 1] = sDragonFangDescription,
+    [MOVE_PIXIE_BEAM - 1] = sPixieBeamDescription,
+    [MOVE_RUFFLE_UP - 1] = sRuffleUpDescription,
+    [MOVE_SOUL_DRAIN - 1] = sSoulDrainDescription,
+    [MOVE_QUICK_SAND - 1] = sQuickSandDescription,
+    [MOVE_SOMNO_PUNCH - 1] = sSomnoPunchDescription,
+    [MOVE_DOOMSTONER - 1] = sDoomstonerDescription,
     [MOVE_DIRE_CLAW - 1] = sDireClawDescription,
     [MOVE_PSYSHIELD_BASH - 1] = sPsyshieldBashDescription,
     [MOVE_POWER_SHIFT - 1] = sPowerShiftDescription,

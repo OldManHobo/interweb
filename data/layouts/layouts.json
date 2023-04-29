@@ -4480,6 +4480,26 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/WoodHut/border.bin",
       "blockdata_filepath": "data/layouts/WoodHut/map.bin"
+    },
+    {
+      "id": "LAYOUT_CLEARING_HUT",
+      "name": "ClearingHut_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/ClearingHut/border.bin",
+      "blockdata_filepath": "data/layouts/ClearingHut/map.bin"
+    },
+    {
+      "id": "LAYOUT_PETALBURG_CITY_HOUSE3",
+      "name": "PetalburgCity_House3_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/PetalburgCity_House3/border.bin",
+      "blockdata_filepath": "data/layouts/PetalburgCity_House3/map.bin"
     }
   ]
 }

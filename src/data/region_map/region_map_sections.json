@@ -58,7 +58,7 @@
     },
     {
       "map_section": "MAPSEC_PETALBURG_CITY",
-      "name": "PETALBURG CITY",
+      "name": "Cerplas Town",
       "x": 1,
       "y": 9,
       "width": 1,
@@ -138,7 +138,7 @@
     },
     {
       "map_section": "MAPSEC_ROUTE_102",
-      "name": "ROUTE 102",
+      "name": "Linkup Way",
       "x": 2,
       "y": 9,
       "width": 2,
@@ -154,7 +154,7 @@
     },
     {
       "map_section": "MAPSEC_ROUTE_104",
-      "name": "ROUTE 104",
+      "name": "Verdant Trail",
       "x": 0,
       "y": 7,
       "width": 1,
@@ -474,7 +474,7 @@
     },
     {
       "map_section": "MAPSEC_PETALBURG_WOODS",
-      "name": "PETALBURG WOODS",
+      "name": "Cerplas Woods",
       "x": 0,
       "y": 8,
       "width": 1,

@@ -86,7 +86,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_RELENTOOTH] =
     {
-        .categoryName = _("Seadog"),
+        .categoryName = _("Nibble"),
         .height = 5,
         .weight = 90,
         .description = gSquirtlePokedexText,
@@ -98,7 +98,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_SNARETHAN] =
     {
-        .categoryName = _("Seadog"),
+        .categoryName = _("Chomp"),
         .height = 10,
         .weight = 225,
         .description = gWartortlePokedexText,
@@ -110,7 +110,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_LEVIAMAWL] =
     {
-        .categoryName = _("Seadog"),
+        .categoryName = _("Devour"),
         .height = 16,
         .weight = 855,
         .description = gBlastoisePokedexText,
