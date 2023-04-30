@@ -133,7 +133,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_HITMONCHAN]                   = { .size = MON_COORDS_SIZE(56, 56), .y_offset =  6 },
     [SPECIES_LICKITUNG]                    = { .size = MON_COORDS_SIZE(64, 40), .y_offset = 13 },
     [SPECIES_KOFFING]                      = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  3 },
-    [SPECIES_WEEZING]                      = { .size = MON_COORDS_SIZE(64, 48), .y_offset =  9 },
+    [SPECIES_WEEZING]                      = { .size = MON_COORDS_SIZE(64, 48), .y_offset =  0 },
     [SPECIES_RHYHORN]                      = { .size = MON_COORDS_SIZE(64, 48), .y_offset = 11 },
     [SPECIES_RHYDON]                       = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  5 },
     [SPECIES_CHANSEY]                      = { .size = MON_COORDS_SIZE(64, 48), .y_offset = 11 },
