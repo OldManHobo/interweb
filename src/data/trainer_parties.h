@@ -3368,16 +3368,16 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne1[] = {
     {
     .iv = 123,
     .lvl = 13,
-    .species = SPECIES_FELIGHT,
+    .species = SPECIES_DISCUTTLE,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_COVET, MOVE_PECK, MOVE_BITE, MOVE_LEER}
+    .moves = {MOVE_THUNDER_SHOCK, MOVE_COVET, MOVE_STRUGGLE_BUG, MOVE_SCREECH}
     },
     {
     .iv = 123,
     .lvl = 13,
-    .species = SPECIES_TENNADISH,
+    .species = SPECIES_FELIGHT,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_THUNDER_SHOCK, MOVE_COVET, MOVE_STRUGGLE_BUG, MOVE_SCREECH}
+    .moves = {MOVE_COVET, MOVE_PECK, MOVE_BITE, MOVE_LEER}
     },
     {
     .iv = 123,

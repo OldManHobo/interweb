@@ -137,7 +137,7 @@ PetalburgCity_EventScript_GymBoy::
 PetalburgCity_Text_AreYouRookieTrainer:
 	.string "Hiya! Are you maybe…\n"
 	.string "A rookie Trainer?\p"
-	.string "Do you know what Pokémon Trainer\n"
+	.string "Do you know what Pokémon Trainers\n"
 	.string "do when they reach a new town?\p"
 	.string "They first check what kind of GYM\n"
 	.string "is in the town.\p"
