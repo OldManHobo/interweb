@@ -163,6 +163,8 @@ ForestClearing_EventScript_AfterDavidBattle::
 	waitmovement 0
 	removeobject LOCALID_WALLY
 	special HealPlayerParty
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+	waitmovement 0
 	msgbox ForestClearing_Text_RivalGoBacktoLab, MSGBOX_DEFAULT
 	closemessage
 	clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_RIVAL

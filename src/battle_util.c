@@ -6572,7 +6572,8 @@ bool32 CanBeConfused(u8 battlerId)
 {
     if (GetBattlerAbility(gEffectBattler) == ABILITY_OWN_TEMPO
       || gBattleMons[gEffectBattler].status2 & STATUS2_CONFUSION
-      || IsBattlerTerrainAffected(battlerId, STATUS_FIELD_MISTY_TERRAIN))
+      || IsBattlerTerrainAffected(battlerId, STATUS_FIELD_MISTY_TERRAIN)
+      || RESOURCE_FLAG_NOSTALGIA)
         return FALSE;
     return TRUE;
 }

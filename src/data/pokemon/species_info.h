@@ -1161,13 +1161,13 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_SNAGOON] =
     {
-        .baseHP        = 30,
+        .baseHP        = 35,
         .baseDefense   = 28,
-        .baseSpeed     = 48,
-        .baseSpAttack  = 30,
+        .baseSpeed     = 58,
+        .baseSpAttack  = 35,
         .baseSpDefense = 41,
         #if P_UPDATED_STATS >= GEN_6
-            .baseAttack    = 44,
+            .baseAttack    = 54,
         #else
             .baseAttack    = 80,
         #endif
@@ -1287,9 +1287,9 @@ const struct SpeciesInfo gSpeciesInfo[] =
     [SPECIES_FELIGHT] =
     {
         .baseHP        = 45,
-        .baseAttack    = 50,
-        .baseDefense   = 45,
-        .baseSpeed     = 60,
+        .baseAttack    = 45,
+        .baseDefense   = 40,
+        .baseSpeed     = 50,
         .baseSpAttack  = 30,
         .baseSpDefense = 35,
         .types = { TYPE_NORMAL, TYPE_FLYING },
@@ -1857,12 +1857,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_CYCLIL] =
     {
-        .baseHP        = 28,
-        .baseAttack    = 41,
-        .baseDefense   = 50,
-        .baseSpeed     = 41,
-        .baseSpAttack  = 25,
-        .baseSpDefense = 36,
+        .baseHP        = 38,
+        .baseAttack    = 43,
+        .baseDefense   = 55,
+        .baseSpeed     = 44,
+        .baseSpAttack  = 35,
+        .baseSpDefense = 46,
         .types = { TYPE_NORMAL, TYPE_NORMAL },
         .catchRate = 255,
         .expYield = 69,
@@ -1907,12 +1907,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_COATTAIL] =
     {
-        .baseHP        = 41,
+        .baseHP        = 48,
         .baseAttack    = 46,
-        .baseDefense   = 37,
-        .baseSpeed     = 30,
-        .baseSpAttack  = 32,
-        .baseSpDefense = 35,
+        .baseDefense   = 42,
+        .baseSpeed     = 47,
+        .baseSpAttack  = 36,
+        .baseSpDefense = 32,
         .types = { TYPE_NORMAL, TYPE_NORMAL },
         .catchRate = 255,
         .expYield = 57,

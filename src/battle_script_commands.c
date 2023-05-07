@@ -7739,12 +7739,14 @@ static void BestowItem(u32 battlerAtk, u32 battlerDef)
     BtlController_EmitSetMonData(BUFFER_A, REQUEST_HELDITEM_BATTLE, 0, sizeof(gBattleMons[battlerAtk].item), &gBattleMons[battlerAtk].item);
     MarkBattlerForControllerExec(battlerAtk);
     CheckSetUnburden(battlerAtk);
+    CheckSetNostalgia(battlerAtk);
 
     gActiveBattler = battlerDef;
     gBattleMons[battlerDef].item = gLastUsedItem;
     BtlController_EmitSetMonData(BUFFER_A, REQUEST_HELDITEM_BATTLE, 0, sizeof(gBattleMons[battlerDef].item), &gBattleMons[battlerDef].item);
     MarkBattlerForControllerExec(battlerDef);
     gBattleResources->flags->flags[battlerDef] &= ~RESOURCE_FLAG_UNBURDEN;
+    gBattleResources->flags->flags[battlerDef] &= ~RESOURCE_FLAG_NOSTALGIA;
 }
 
 // Called by Cmd_removeitem. itemId represents the item that was removed, not being given.

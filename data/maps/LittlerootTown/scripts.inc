@@ -1004,7 +1004,7 @@ LittlerootTown_Text_PlayersHouse:
 	.string "{PLAYER}'s HOUSE$"
 
 LittlerootTown_Text_ProfBirchsHouse:
-	.string "PROF. BIRCH'S HOUSE$"
+	.string "PROF. TAMBA'S HOUSE$"
 
 LittlerootTown_Text_RichRivalsHouseSign:
 	.string "DAVID'S FAMILY'S HOUSE$"	
