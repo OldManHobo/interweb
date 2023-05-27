@@ -4342,7 +4342,7 @@ static const struct TrainerHillFloor sFloors_Expert[] = {
                                         },
                                     [3] =
                                         {
-                                            .species = SPECIES_DUGTRIO,
+                                            .species = SPECIES_PTEROCAST,
                                             .heldItem = ITEM_BRIGHT_POWDER,
                                             .moves = {MOVE_DOUBLE_TEAM, MOVE_PROTECT, MOVE_RETURN, MOVE_SLUDGE_BOMB},
                                             .hpEV = 6,
@@ -4357,7 +4357,7 @@ static const struct TrainerHillFloor sFloors_Expert[] = {
                                             .spDefenseIV = MAX_PER_STAT_IVS,
                                             .abilityNum = 1,
                                             .personality = 0xD,
-                                            .nickname = _("DUGTRIO"),
+                                            .nickname = _("PTEROCAST"),
                                             .friendship = MAX_FRIENDSHIP,
                                         },
                                     [4] =

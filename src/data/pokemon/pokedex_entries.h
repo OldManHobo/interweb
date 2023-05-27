@@ -156,7 +156,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_KICHIEF] =
+    [NATIONAL_DEX_GALACTIVY] =
     {
         .categoryName = _("Small Bird"),
         .height = 3,
@@ -168,7 +168,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_VOLKI] =
+    [NATIONAL_DEX_XENOWEED] =
     {
         .categoryName = _("Runner"),
         .height = 6,
@@ -600,7 +600,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 1,
     },
 
-    [NATIONAL_DEX_DIGLETT] =
+    [NATIONAL_DEX_CYBIRD] =
     {
         .categoryName = _("Mole"),
         .height = 2,
@@ -612,7 +612,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_DUGTRIO] =
+    [NATIONAL_DEX_PTEROCAST] =
     {
         .categoryName = _("Mole"),
         .height = 7,

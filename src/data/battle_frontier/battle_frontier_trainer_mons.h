@@ -3,7 +3,7 @@
     FRONTIER_MON_SUNKERN,       \
     FRONTIER_MON_AZURILL,       \
     FRONTIER_MON_DISCUTTLE,      \
-    FRONTIER_MON_KICHIEF,        \
+    FRONTIER_MON_GALACTIVY,        \
     FRONTIER_MON_WURMPLE,       \
     FRONTIER_MON_RALTS,         \
     FRONTIER_MON_MAGIKARP,      \
@@ -35,7 +35,7 @@
     FRONTIER_MON_SKITTY,        \
     FRONTIER_MON_SILWING,       \
     FRONTIER_MON_HOOTHOOT,      \
-    FRONTIER_MON_DIGLETT,       \
+    FRONTIER_MON_CYBIRD,       \
     FRONTIER_MON_LEDYBA,        \
     FRONTIER_MON_NINCADA,       \
     FRONTIER_MON_SURSKIT,       \
@@ -430,11 +430,11 @@
 
 #define FRONTIER_MONS_BUG_CATCHER_1 \
     FRONTIER_MON_DISCUTTLE,      \
-    FRONTIER_MON_KICHIEF,        \
+    FRONTIER_MON_GALACTIVY,        \
     FRONTIER_MON_WURMPLE,       \
     FRONTIER_MON_SHEDINJA,      \
     FRONTIER_MON_SPINARAK,      \
-    FRONTIER_MON_DIGLETT,       \
+    FRONTIER_MON_CYBIRD,       \
     FRONTIER_MON_LEDYBA,        \
     FRONTIER_MON_NINCADA,       \
     FRONTIER_MON_SURSKIT,       \
@@ -457,13 +457,13 @@
 // Identical to above with 2 additions. Might be possible to merge the two
 #define FRONTIER_MONS_BUG_CATCHER_1_EXTRA(species1, species2) \
     FRONTIER_MON_DISCUTTLE,      \
-    FRONTIER_MON_KICHIEF,        \
+    FRONTIER_MON_GALACTIVY,        \
     FRONTIER_MON_WURMPLE,       \
     FRONTIER_MON_##species1,    \
     FRONTIER_MON_##species2,    \
     FRONTIER_MON_SHEDINJA,      \
     FRONTIER_MON_SPINARAK,      \
-    FRONTIER_MON_DIGLETT,       \
+    FRONTIER_MON_CYBIRD,       \
     FRONTIER_MON_LEDYBA,        \
     FRONTIER_MON_NINCADA,       \
     FRONTIER_MON_SURSKIT,       \
@@ -489,7 +489,7 @@
     FRONTIER_MON_AMOBI,         \
     FRONTIER_MON_SPINARAK,      \
     FRONTIER_MON_WYNAUT,        \
-    FRONTIER_MON_DIGLETT,       \
+    FRONTIER_MON_CYBIRD,       \
     FRONTIER_MON_LEDYBA,        \
     FRONTIER_MON_NINCADA,       \
     FRONTIER_MON_SURSKIT,       \
@@ -538,7 +538,7 @@
     FRONTIER_MON_SHEDINJA,      \
     FRONTIER_MON_SPINARAK,      \
     FRONTIER_MON_HOPPIP,        \
-    FRONTIER_MON_DIGLETT,       \
+    FRONTIER_MON_CYBIRD,       \
     FRONTIER_MON_LEDYBA,        \
     FRONTIER_MON_NINCADA,       \
     FRONTIER_MON_SURSKIT,       \
@@ -591,7 +591,7 @@
 
 #define FRONTIER_MONS_RUIN_MANIAC_1 \
     FRONTIER_MON_SWINUB,        \
-    FRONTIER_MON_DIGLETT,       \
+    FRONTIER_MON_CYBIRD,       \
     FRONTIER_MON_TRAPINCH,      \
     FRONTIER_MON_SAULLACE,     \
     FRONTIER_MON_GEODUDE,       \
@@ -775,7 +775,7 @@
     FRONTIER_MON_TYROGUE,       \
     FRONTIER_MON_MAKUHITA,      \
     FRONTIER_MON_SWINUB,        \
-    FRONTIER_MON_DIGLETT,       \
+    FRONTIER_MON_CYBIRD,       \
     FRONTIER_MON_MEDITITE,      \
     FRONTIER_MON_SLAKOTH,       \
     FRONTIER_MON_TRAPINCH,      \
@@ -1533,7 +1533,7 @@
     -1
 
 #define FRONTIER_MONS_COOLTRAINER_1A \
-    FRONTIER_MON_DUGTRIO_1,     \
+    FRONTIER_MON_PTEROCAST_1,     \
     FRONTIER_MON_MEDICHAM_1,    \
     FRONTIER_MON_MISDREAVUS_1,  \
     FRONTIER_MON_FOMPOUS_1,      \
@@ -1770,7 +1770,7 @@
     -1
 
 #define FRONTIER_MONS_PKMN_BREEDER_F_1 \
-    FRONTIER_MON_DUGTRIO_1,     \
+    FRONTIER_MON_PTEROCAST_1,     \
     FRONTIER_MON_MEDICHAM_1,    \
     FRONTIER_MON_MISDREAVUS_1,  \
     FRONTIER_MON_FOMPOUS_1,      \
@@ -1821,7 +1821,7 @@
     -1
 
 // Odd, all the other Youngster/Lass trainers of this group have Dugtrio, but one does not
-#define FRONTIER_MONS_YOUNGSTER_LASS_2_NO_DUGTRIO \
+#define FRONTIER_MONS_YOUNGSTER_LASS_2_NO_PTEROCAST \
     FRONTIER_MON_MEDICHAM_2,    \
     FRONTIER_MON_MAROWAK_2,     \
     FRONTIER_MON_QUAGSIRE_2,    \
@@ -1857,8 +1857,8 @@
     -1
 
 #define FRONTIER_MONS_YOUNGSTER_LASS_2 \
-    FRONTIER_MON_DUGTRIO_2,            \
-    FRONTIER_MONS_YOUNGSTER_LASS_2_NO_DUGTRIO
+    FRONTIER_MON_PTEROCAST_2,            \
+    FRONTIER_MONS_YOUNGSTER_LASS_2_NO_PTEROCAST
 
 #define FRONTIER_MONS_SCHOOL_KID_2 \
     FRONTIER_MON_WEEZING_2,     \
@@ -2071,7 +2071,7 @@
     -1
 
 #define FRONTIER_MONS_RUIN_MANIAC_3 \
-    FRONTIER_MON_DUGTRIO_3,     \
+    FRONTIER_MON_PTEROCAST_3,     \
     FRONTIER_MON_FORRETRESS_3,  \
     FRONTIER_MON_WHISCASH_3,    \
     FRONTIER_MON_SKARMORY_3,    \
@@ -2096,7 +2096,7 @@
     -1
 
 #define FRONTIER_MONS_COLLECTOR_2 \
-    FRONTIER_MON_DUGTRIO_3,     \
+    FRONTIER_MON_PTEROCAST_3,     \
     FRONTIER_MON_MEDICHAM_3,    \
     FRONTIER_MON_MISDREAVUS_3,  \
     FRONTIER_MON_FOMPOUS_3,      \
@@ -2214,7 +2214,7 @@
     -1
 
 #define FRONTIER_MONS_HIKER_2   \
-    FRONTIER_MON_DUGTRIO_3,     \
+    FRONTIER_MON_PTEROCAST_3,     \
     FRONTIER_MON_MEDICHAM_3,    \
     FRONTIER_MON_BRELOOM_3,     \
     FRONTIER_MON_MAROWAK_3,     \
@@ -2310,7 +2310,7 @@
     -1
 
 #define FRONTIER_MONS_YOUNGSTER_LASS_3 \
-    FRONTIER_MON_DUGTRIO_4,     \
+    FRONTIER_MON_PTEROCAST_4,     \
     FRONTIER_MON_MEDICHAM_4,    \
     FRONTIER_MON_MISDREAVUS_4,  \
     FRONTIER_MON_FOMPOUS_4,      \
@@ -2921,7 +2921,7 @@
     -1
 
 #define FRONTIER_MONS_COOLTRAINER_F_2A \
-    FRONTIER_MON_DUGTRIO_1,     \
+    FRONTIER_MON_PTEROCAST_1,     \
     FRONTIER_MON_MEDICHAM_1,    \
     FRONTIER_MON_MISDREAVUS_1,  \
     FRONTIER_MON_FOMPOUS_1,      \
@@ -2945,7 +2945,7 @@
     FRONTIER_MON_MANECTRIC_1,   \
     FRONTIER_MON_ROADILLO_1,   \
     FRONTIER_MON_VICTREEBEL_1,  \
-    FRONTIER_MON_DUGTRIO_2,     \
+    FRONTIER_MON_PTEROCAST_2,     \
     FRONTIER_MON_MEDICHAM_2,    \
     FRONTIER_MON_MAROWAK_2,     \
     FRONTIER_MON_QUAGSIRE_2,    \
@@ -2969,7 +2969,7 @@
     FRONTIER_MON_MANECTRIC_2,   \
     FRONTIER_MON_ROADILLO_2,   \
     FRONTIER_MON_VICTREEBEL_2,  \
-    FRONTIER_MON_DUGTRIO_3,     \
+    FRONTIER_MON_PTEROCAST_3,     \
     FRONTIER_MON_MEDICHAM_3,    \
     FRONTIER_MON_MISDREAVUS_3,  \
     FRONTIER_MON_FOMPOUS_3,      \
@@ -2993,7 +2993,7 @@
     FRONTIER_MON_MANECTRIC_3,   \
     FRONTIER_MON_ROADILLO_3,   \
     FRONTIER_MON_VICTREEBEL_3,  \
-    FRONTIER_MON_DUGTRIO_4,     \
+    FRONTIER_MON_PTEROCAST_4,     \
     FRONTIER_MON_MEDICHAM_4,    \
     FRONTIER_MON_MISDREAVUS_4,  \
     FRONTIER_MON_FOMPOUS_4,      \
@@ -3120,7 +3120,7 @@
 
 // Used by Pkmn Ranger M, Gentleman, Running Triathlete, and Cycling Triathlete
 #define FRONTIER_MONS_GENERAL_A \
-    FRONTIER_MON_DUGTRIO_4,     \
+    FRONTIER_MON_PTEROCAST_4,     \
     FRONTIER_MON_MEDICHAM_4,    \
     FRONTIER_MON_MISDREAVUS_4,  \
     FRONTIER_MON_FOMPOUS_4,      \
@@ -3221,7 +3221,7 @@
 // Identical to FRONTIER_MONS_GENERAL_A but _3
 // Used by Pkmn Ranger, Running Triathlete, and Cycling Triathlete
 #define FRONTIER_MONS_GENERAL_B \
-    FRONTIER_MON_DUGTRIO_3,     \
+    FRONTIER_MON_PTEROCAST_3,     \
     FRONTIER_MON_MEDICHAM_3,    \
     FRONTIER_MON_MISDREAVUS_3,  \
     FRONTIER_MON_FOMPOUS_3,      \
@@ -3322,7 +3322,7 @@
 // Similar to FRONTIER_MONS_GENERAL_A/B but _2
 // Used by Pkmn Ranger, Running Triathlete, and Cycling Triathlete
 #define FRONTIER_MONS_GENERAL_C \
-    FRONTIER_MON_DUGTRIO_2,     \
+    FRONTIER_MON_PTEROCAST_2,     \
     FRONTIER_MON_MEDICHAM_2,    \
     FRONTIER_MON_MAROWAK_2,     \
     FRONTIER_MON_QUAGSIRE_2,    \
@@ -3423,7 +3423,7 @@
 // Similar to FRONTIER_MONS_GENERAL_C but _1 (would be identical if not for re-ordering)
 // Used by Pkmn Ranger, Running Triathlete, Cycling Triathlete
 #define FRONTIER_MONS_GENERAL_D \
-    FRONTIER_MON_DUGTRIO_1,     \
+    FRONTIER_MON_PTEROCAST_1,     \
     FRONTIER_MON_MEDICHAM_1,    \
     FRONTIER_MON_MISDREAVUS_1,  \
     FRONTIER_MON_FOMPOUS_1,      \
@@ -5518,7 +5518,7 @@
     -1
 
 #define FRONTIER_MONS_HIKER_3   \
-    FRONTIER_MON_DUGTRIO_1,     \
+    FRONTIER_MON_PTEROCAST_1,     \
     FRONTIER_MON_MAROWAK_1,     \
     FRONTIER_MON_GOLEM_1,       \
     FRONTIER_MON_RHYDON_1,      \
@@ -5534,7 +5534,7 @@
     FRONTIER_MON_FLYGON_1,      \
     FRONTIER_MON_AGGRON_1,      \
     FRONTIER_MON_METAGROSS_1,   \
-    FRONTIER_MON_DUGTRIO_2,     \
+    FRONTIER_MON_PTEROCAST_2,     \
     FRONTIER_MON_MAROWAK_2,     \
     FRONTIER_MON_GOLEM_2,       \
     FRONTIER_MON_RHYDON_2,      \
@@ -5550,7 +5550,7 @@
     FRONTIER_MON_FLYGON_2,      \
     FRONTIER_MON_AGGRON_2,      \
     FRONTIER_MON_METAGROSS_2,   \
-    FRONTIER_MON_DUGTRIO_3,     \
+    FRONTIER_MON_PTEROCAST_3,     \
     FRONTIER_MON_MAROWAK_3,     \
     FRONTIER_MON_GOLEM_3,       \
     FRONTIER_MON_RHYDON_3,      \
@@ -5566,7 +5566,7 @@
     FRONTIER_MON_FLYGON_3,      \
     FRONTIER_MON_AGGRON_3,      \
     FRONTIER_MON_METAGROSS_3,   \
-    FRONTIER_MON_DUGTRIO_4,     \
+    FRONTIER_MON_PTEROCAST_4,     \
     FRONTIER_MON_MAROWAK_4,     \
     FRONTIER_MON_GOLEM_4,       \
     FRONTIER_MON_RHYDON_4,      \
@@ -6108,7 +6108,7 @@ const u16 gBattleFrontierTrainerMons_Marisa[] =
 
 const u16 gBattleFrontierTrainerMons_Lewis[] =
 {
-    FRONTIER_MONS_BUG_CATCHER_1_EXTRA(TENNADISH, VOLKI)
+    FRONTIER_MONS_BUG_CATCHER_1_EXTRA(TENNADISH, XENOWEED)
 };
 
 const u16 gBattleFrontierTrainerMons_Yoshi[] =
@@ -6675,7 +6675,7 @@ const u16 gBattleFrontierTrainerMons_Zachery[] =
 
 const u16 gBattleFrontierTrainerMons_Johan[] =
 {
-    FRONTIER_MONS_YOUNGSTER_LASS_2_NO_DUGTRIO
+    FRONTIER_MONS_YOUNGSTER_LASS_2_NO_PTEROCAST
 };
 
 const u16 gBattleFrontierTrainerMons_Shea[] =

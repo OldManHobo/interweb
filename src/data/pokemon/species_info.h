@@ -1113,7 +1113,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_KICHIEF] =
+    [SPECIES_GALACTIVY] =
     {
         .baseHP        = 30,
         .baseAttack    = 40,
@@ -1136,7 +1136,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_VOLKI] =
+    [SPECIES_XENOWEED] =
     {
         .baseHP        = 73,
         .baseAttack    = 80,
@@ -1996,7 +1996,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_DIGLETT] =
+    [SPECIES_CYBIRD] =
     {
         .baseHP        = 10,
         .baseAttack    = 55,
@@ -2019,7 +2019,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_DUGTRIO] =
+    [SPECIES_PTEROCAST] =
     {
         .baseHP        = 35,
         .baseDefense   = 50,
@@ -22386,7 +22386,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .flags = SPECIES_FLAG_ALOLAN_FORM,
     },
 
-    [SPECIES_DIGLETT_ALOLAN] =
+    [SPECIES_CYBIRD_ALOLAN] =
     {
         .baseHP        = 10,
         .baseAttack    = 55,
@@ -22410,7 +22410,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .flags = SPECIES_FLAG_ALOLAN_FORM,
     },
 
-    [SPECIES_DUGTRIO_ALOLAN] =
+    [SPECIES_PTEROCAST_ALOLAN] =
     {
         .baseHP        = 35,
         .baseAttack    = 100,

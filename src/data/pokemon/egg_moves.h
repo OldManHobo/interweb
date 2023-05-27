@@ -212,7 +212,7 @@ const u16 gEggMoves[] = {
         MOVE_SKILL_SWAP,
         MOVE_RAGE_POWDER),
 
-    egg_moves(DIGLETT,
+    egg_moves(CYBIRD,
         MOVE_FEINT_ATTACK,
         MOVE_SCREECH,
         MOVE_ANCIENT_POWER,
@@ -4267,7 +4267,7 @@ const u16 gEggMoves[] = {
         MOVE_SECRET_POWER,
         MOVE_TAIL_SLAP),
 
-    egg_moves(DIGLETT_ALOLAN,
+    egg_moves(CYBIRD_ALOLAN,
         MOVE_ANCIENT_POWER,
         MOVE_BEAT_UP,
         MOVE_ENDURE,

@@ -91,14 +91,14 @@ static const u16 sNinetalesFormSpeciesIdTable[] = {
 };
 
 static const u16 sDiglettFormSpeciesIdTable[] = {
-    SPECIES_DIGLETT,
-    SPECIES_DIGLETT_ALOLAN,
+    SPECIES_CYBIRD,
+    SPECIES_CYBIRD_ALOLAN,
     FORM_SPECIES_END,
 };
 
 static const u16 sDugtrioFormSpeciesIdTable[] = {
-    SPECIES_DUGTRIO,
-    SPECIES_DUGTRIO_ALOLAN,
+    SPECIES_PTEROCAST,
+    SPECIES_PTEROCAST_ALOLAN,
     FORM_SPECIES_END,
 };
 

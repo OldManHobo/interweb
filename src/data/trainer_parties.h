@@ -4240,7 +4240,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Karen1[] = {
     {
     .iv = 10,
     .lvl = 9,
-    .species = SPECIES_KICHIEF,
+    .species = SPECIES_GALACTIVY,
     .abilityNums = 0,
     }
 };
@@ -4264,7 +4264,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Karen2[] = {
     {
     .iv = 20,
     .lvl = 26,
-    .species = SPECIES_KICHIEF,
+    .species = SPECIES_GALACTIVY,
     .abilityNums = 0,
     },
     {
@@ -4279,7 +4279,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Karen3[] = {
     {
     .iv = 30,
     .lvl = 29,
-    .species = SPECIES_KICHIEF,
+    .species = SPECIES_GALACTIVY,
     .abilityNums = 0,
     },
     {
@@ -4294,7 +4294,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Karen4[] = {
     {
     .iv = 40,
     .lvl = 32,
-    .species = SPECIES_VOLKI,
+    .species = SPECIES_XENOWEED,
     .abilityNums = 0,
     },
     {
@@ -4309,7 +4309,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Karen5[] = {
     {
     .iv = 50,
     .lvl = 35,
-    .species = SPECIES_KICHIEF,
+    .species = SPECIES_GALACTIVY,
     .abilityNums = 0,
     },
     {
@@ -9164,7 +9164,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Tiana[] = {
     {
     .iv = 0,
     .lvl = 3,
-    .species = SPECIES_KICHIEF,
+    .species = SPECIES_GALACTIVY,
     .abilityNums = 0,
     }
 };
@@ -9179,7 +9179,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Haley1[] = {
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_KICHIEF,
+    .species = SPECIES_GALACTIVY,
     .abilityNums = 0,
     }
 };
@@ -9224,7 +9224,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Haley2[] = {
     {
     .iv = 10,
     .lvl = 26,
-    .species = SPECIES_KICHIEF,
+    .species = SPECIES_GALACTIVY,
     .abilityNums = 0,
     }
 };
@@ -9254,7 +9254,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Haley4[] = {
     {
     .iv = 30,
     .lvl = 32,
-    .species = SPECIES_VOLKI,
+    .species = SPECIES_XENOWEED,
     .abilityNums = 0,
     }
 };
@@ -9275,7 +9275,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Haley5[] = {
     {
     .iv = 40,
     .lvl = 34,
-    .species = SPECIES_VOLKI,
+    .species = SPECIES_XENOWEED,
     .abilityNums = 0,
     }
 };
