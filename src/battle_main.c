@@ -5763,8 +5763,8 @@ u8 GetRemainingOpponentMons() {
     u8 i;
     for (i = 0; i < PARTY_SIZE; i++)
     {
-        if (GetMonData(&gEnemyParty[i], MON_DATA_SPECIES2) == SPECIES_NONE
-            || GetMonData(&gEnemyParty[i], MON_DATA_SPECIES2) == SPECIES_EGG
+        if (GetMonData(&gEnemyParty[i], MON_DATA_SPECIES_OR_EGG) == SPECIES_NONE
+            || GetMonData(&gEnemyParty[i], MON_DATA_SPECIES_OR_EGG) == SPECIES_EGG
             || GetMonData(&gEnemyParty[i], MON_DATA_HP) == 0)
         {
             remaining--;

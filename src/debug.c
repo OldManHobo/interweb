@@ -2800,7 +2800,7 @@ static void DebugAction_Give_FillPC(u8 taskId) //Credit: Sierraffinity
     int boxId, boxPosition;
     u32 personality;
     struct BoxPokemon boxMon;
-    u16 species = SPECIES_BULBASAUR;
+    u16 species = SPECIES_BADGERP;
 
     personality = Random32();
 
