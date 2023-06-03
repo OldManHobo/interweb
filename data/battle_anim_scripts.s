@@ -31015,7 +31015,7 @@ Move_SNUGGLE_BUG::
 	loadspritegfx ANIM_TAG_IMPACT
 	monbg ANIM_TARGET
 	setalpha 12, 8
-	createvisualtask AnimTask_BlendBattleAnimPal, 10, ANIM_PAL_ATK, 2, 0, 9, 0x0a1f
+	createvisualtask AnimTask_BlendBattleAnimPal, 10, F_PAL_ATTACKER, 2, 0, 9, 0x0a1f
 	waitforvisualfinish
 	createvisualtask AnimTask_FlailMovement, 2, 0
 	createsprite gMovementWavesSpriteTemplate, ANIM_ATTACKER, 2, 0, 0, 2
@@ -31026,7 +31026,7 @@ Move_SNUGGLE_BUG::
 	createvisualtask AnimTask_ShakeTargetBasedOnMovePowerOrDmg, 2, FALSE, 1, 0x1e, 1, 0
 	createvisualtask AnimTask_ShakeTargetPartnerBasedOnMovePowerOrDmg, 2, FALSE, 1, 0x1e, 1, 0
 	playsewithpan SE_M_MEGA_KICK2, SOUND_PAN_TARGET
-	createvisualtask AnimTask_BlendBattleAnimPal, 10, ANIM_PAL_ATK, 2, 9, 0, 0x0a1f
+	createvisualtask AnimTask_BlendBattleAnimPal, 10, F_PAL_ATTACKER, 2, 9, 0, 0x0a1f
 	delay 5
 	createsprite gRandomPosHitSplatSpriteTemplate, ANIM_TARGET, 3, ANIM_TARGET, 1
 	delay 5
