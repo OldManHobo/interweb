@@ -996,7 +996,28 @@
 #define ITEM_COVERT_CLOAK 771
 #define ITEM_LOADED_DICE 772
 
-#define ITEMS_COUNT 773
+
+// GEN IX ITEMS
+#define ITEM_ABILITY_SHIELD 773
+#define ITEM_CLEAR_AMULET 774
+#define ITEM_PUNCHING_GLOVE 775
+#define ITEM_COVERT_CLOAK 776
+#define ITEM_LOADED_DICE 777
+#define ITEM_AUSPICIOUS_ARMOR 778
+#define ITEM_BOOSTER_ENERGY 779
+#define ITEM_BIG_BAMBOO_SHOOT 780
+#define ITEM_GIMMIGHOUL_COIN 781
+#define ITEM_LEADERS_CREST 782
+#define ITEM_MALICIOUS_ARMOR 783
+#define ITEM_MIRROR_HERB 784
+#define ITEM_SCROLL_OF_DARKNESS 785
+#define ITEM_SCROLL_OF_WATERS 786
+#define ITEM_TERA_ORB 787
+#define ITEM_TINY_BAMBOO_SHOOT 788
+
+#define ITEM_BERSERK_GENE 789
+
+#define ITEMS_COUNT 790
 #define ITEM_FIELD_ARROW ITEMS_COUNT
 
 // A special item id associated with "Cancel"/"Exit" etc. in a list of items or decorations
@@ -1053,17 +1074,27 @@
 #define EXP_30000 5
 
 // Item type IDs (used to determine the exit callback)
-#define ITEM_USE_MAIL        0
-#define ITEM_USE_PARTY_MENU  1
-#define ITEM_USE_FIELD       2
-#define ITEM_USE_PBLOCK_CASE 3
-#define ITEM_USE_BAG_MENU    4 // No exit callback, stays in bag menu
+#define ITEM_USE_MAIL             0
+#define ITEM_USE_PARTY_MENU       1
+#define ITEM_USE_FIELD            2
+#define ITEM_USE_PBLOCK_CASE      3
+#define ITEM_USE_BAG_MENU         4 // No exit callback, stays in bag menu
+#define ITEM_USE_PARTY_MENU_MOVES 5
 
-// Item battle usage IDs (only checked to see if nonzero)
-#define ITEM_B_USE_MEDICINE 1
-#define ITEM_B_USE_OTHER    2
+// Item battle script IDs (need to be non-zero)
+#define EFFECT_ITEM_RESTORE_HP              1
+#define EFFECT_ITEM_CURE_STATUS             2
+#define EFFECT_ITEM_HEAL_AND_CURE_STATUS    3
+#define EFFECT_ITEM_INCREASE_STAT           4
+#define EFFECT_ITEM_SET_MIST                5
+#define EFFECT_ITEM_SET_FOCUS_ENERGY        6
+#define EFFECT_ITEM_ESCAPE                  7
+#define EFFECT_ITEM_THROW_BALL              8
+#define EFFECT_ITEM_REVIVE                  9
+#define EFFECT_ITEM_RESTORE_PP              10
+#define EFFECT_ITEM_INCREASE_ALL_STATS      11
 
-// Check if the item is one that can be used on a Pokemon.
-#define ITEM_HAS_EFFECT(item) ((item) >= ITEM_POTION && (item) <= LAST_BERRY_INDEX)
+// Enigma Berry dummy constant
+#define EFFECT_ITEM_ENIGMA_BERRY_EREADER    1
 
 #endif  // GUARD_CONSTANTS_ITEMS_H
