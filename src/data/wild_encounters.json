@@ -258,7 +258,7 @@
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_HYPADOG"
+                "species": "SPECIES_CYBIRD"
               },
               {
                 "min_level": 5,
@@ -268,7 +268,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_HYPADOG"
+                "species": "SPECIES_CYBIRD"
               },
               {
                 "min_level": 5,
@@ -278,7 +278,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_HYPADOG"
+                "species": "SPECIES_CYBIRD"
               }
             ]
           }
@@ -327,7 +327,7 @@
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_HYPADOG"
+                "species": "SPECIES_CYBIRD"
               },
               {
                 "min_level": 5,
@@ -337,7 +337,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_HYPADOG"
+                "species": "SPECIES_CYBIRD"
               },
               {
                 "min_level": 5,
@@ -347,7 +347,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_HYPADOG"
+                "species": "SPECIES_CYBIRD"
               }
             ]
           }
@@ -3320,12 +3320,12 @@
               {
                 "min_level": 24,
                 "max_level": 24,
-                "species": "SPECIES_HYPADOG"
+                "species": "SPECIES_CYBIRD"
               },
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_HYPADOG"
+                "species": "SPECIES_CYBIRD"
               },
               {
                 "min_level": 24,
@@ -11642,7 +11642,7 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_HYPADOG"
+                "species": "SPECIES_CYBIRD"
               },
               {
                 "min_level": 4,
@@ -11652,7 +11652,7 @@
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_HYPADOG"
+                "species": "SPECIES_CYBIRD"
               },
               {
                 "min_level": 4,
@@ -11662,7 +11662,7 @@
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_HYPADOG"
+                "species": "SPECIES_CYBIRD"
               }
             ]
           }
@@ -11711,7 +11711,7 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_HYPADOG"
+                "species": "SPECIES_CYBIRD"
               },
               {
                 "min_level": 4,
@@ -11721,7 +11721,7 @@
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_HYPADOG"
+                "species": "SPECIES_CYBIRD"
               },
               {
                 "min_level": 4,
@@ -11731,7 +11731,7 @@
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_HYPADOG"
+                "species": "SPECIES_CYBIRD"
               }
             ]
           }

@@ -105,7 +105,7 @@ const u8 gPidgeottoPokedexText[] = _(
     "is designed to scare away predators.");
 
 const u8 gPidgeotPokedexText[] = _(
-    "Coilocus' behavior and appearance\n"
+    "MORPHYDRA' behavior and appearance\n"
     "cause novice trainers to confuse\n"
     "them for dragons. Don't be fooled,\n"
     "it is still very much a bug.");

@@ -3862,10 +3862,10 @@ const struct Item gItems[] =
         .flingPower = 80,
     },
 
-    [ITEM_COILOCUSITE] =
+    [ITEM_MORPHYDRAITE] =
     {
         .name = _("Pidgeotite"),
-        .itemId = ITEM_COILOCUSITE,
+        .itemId = ITEM_MORPHYDRAITE,
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = sPidgeotiteDesc,

@@ -119,7 +119,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntPetalburgWoods[] = 
     {
     .iv = 0,
     .lvl = 8,
-    .species = SPECIES_HYPADOG,
+    .species = SPECIES_CYBIRD,
     .abilityNums = 0,
     }
 };
@@ -1287,7 +1287,7 @@ static const struct TrainerMonItemCustomMoves sParty_Alexia[] = {
     {
     .iv = 255,
     .lvl = 26,
-    .species = SPECIES_HYPADOG2,
+    .species = SPECIES_PTEROCAST,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_DEFENSE_CURL, MOVE_DOUBLE_EDGE, MOVE_SHADOW_BALL, MOVE_NONE},
     .abilityNums = 0,

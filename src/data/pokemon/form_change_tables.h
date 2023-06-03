@@ -20,7 +20,7 @@ static const struct FormChange sBeedrillFormChangeTable[] = {
 };
 
 static const struct FormChange sPidgeotFormChangeTable[] = {
-    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_COILOCUS_MEGA, ITEM_COILOCUSITE},
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_MORPHYDRA_MEGA, ITEM_MORPHYDRAITE},
     {FORM_CHANGE_TERMINATOR},
 };
 

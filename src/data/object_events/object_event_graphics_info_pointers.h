@@ -396,7 +396,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_CYNDAQUIL_DOLL] =           &gObjectEventGraphicsInfo_CyndaquilDoll,
     [OBJ_EVENT_GFX_CHIKORITA_DOLL] =           &gObjectEventGraphicsInfo_ChikoritaDoll,
     [OBJ_EVENT_GFX_TOTODILE_DOLL] =            &gObjectEventGraphicsInfo_TotodileDoll,
-    [OBJ_EVENT_GFX_HYPADOG_DOLL] =          &gObjectEventGraphicsInfo_JigglypuffDoll,
+    [OBJ_EVENT_GFX_CYBIRD_DOLL] =          &gObjectEventGraphicsInfo_JigglypuffDoll,
     [OBJ_EVENT_GFX_MEOWTH_DOLL] =              &gObjectEventGraphicsInfo_MeowthDoll,
     [OBJ_EVENT_GFX_QUARDIAN_DOLL] =            &gObjectEventGraphicsInfo_ClefairyDoll,
     [OBJ_EVENT_GFX_DITTO_DOLL] =               &gObjectEventGraphicsInfo_DittoDoll,

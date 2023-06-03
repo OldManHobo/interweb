@@ -216,7 +216,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_COILOCUS] =
+    [NATIONAL_DEX_MORPHYDRA] =
     {
         .categoryName = _("Batesian"),
         .height = 15,
@@ -468,7 +468,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_HYPADOG] =
+    [NATIONAL_DEX_CYBIRD] =
     {
         .categoryName = _("Gratis"),
         .height = 5,
@@ -480,7 +480,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_HYPADOG2] =
+    [NATIONAL_DEX_PTEROCAST] =
     {
         .categoryName = _("Gratis"),
         .height = 10,
@@ -600,7 +600,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 1,
     },
 
-    [NATIONAL_DEX_CYBIRD] =
+    [NATIONAL_DEX_DIGLETT] =
     {
         .categoryName = _("Mole"),
         .height = 2,
@@ -612,7 +612,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_PTEROCAST] =
+    [NATIONAL_DEX_DUGTRIO] =
     {
         .categoryName = _("Mole"),
         .height = 7,

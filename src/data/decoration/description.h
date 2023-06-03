@@ -382,8 +382,8 @@ const u8 DecorDesc_TOTODILE_DOLL[] = _(
         "Place it on a mat\n"
         "or a desk.");
 
-const u8 DecorDesc_HYPADOG_DOLL[] = _(
-    "A HYPADOG doll.\n"
+const u8 DecorDesc_CYBIRD_DOLL[] = _(
+    "A CYBIRD doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 

@@ -1571,7 +1571,7 @@ static const struct TrainerHillFloor sFloors_Variety[] = {
                                         },
                                     [4] =
                                         {
-                                            .species = SPECIES_HYPADOG,
+                                            .species = SPECIES_CYBIRD,
                                             .heldItem = ITEM_SITRUS_BERRY,
                                             .moves = {MOVE_PRESENT, MOVE_SING, MOVE_DISABLE, MOVE_REST},
                                             .attackEV = 255,
@@ -1585,7 +1585,7 @@ static const struct TrainerHillFloor sFloors_Variety[] = {
                                             .spDefenseIV = 15,
                                             .abilityNum = 0,
                                             .personality = 0xD,
-                                            .nickname = _("HYPADOG"),
+                                            .nickname = _("CYBIRD"),
                                             .friendship = MAX_FRIENDSHIP,
                                         },
                                     [5] =
@@ -1621,7 +1621,7 @@ static const struct TrainerHillFloor sFloors_Variety[] = {
                                 {
                                     [0] =
                                         {
-                                            .species = SPECIES_HYPADOG2,
+                                            .species = SPECIES_PTEROCAST,
                                             .heldItem = ITEM_SILK_SCARF,
                                             .moves = {MOVE_ROLLOUT, MOVE_DEFENSE_CURL, MOVE_SING, MOVE_DREAM_EATER},
                                             .hpEV = 255,
@@ -1635,7 +1635,7 @@ static const struct TrainerHillFloor sFloors_Variety[] = {
                                             .spDefenseIV = 5,
                                             .abilityNum = 0,
                                             .personality = 0xC1,
-                                            .nickname = _("HYPADOG2"),
+                                            .nickname = _("PTEROCAST"),
                                             .friendship = MAX_FRIENDSHIP,
                                         },
                                     [1] =
@@ -1762,7 +1762,7 @@ static const struct TrainerHillFloor sFloors_Variety[] = {
                                 {
                                     [0] =
                                         {
-                                            .species = SPECIES_HYPADOG,
+                                            .species = SPECIES_CYBIRD,
                                             .heldItem = ITEM_BRIGHT_POWDER,
                                             .moves = {MOVE_SING, MOVE_HYPER_VOICE, MOVE_ATTRACT, MOVE_NONE},
                                             .hpEV = 85,
@@ -1780,7 +1780,7 @@ static const struct TrainerHillFloor sFloors_Variety[] = {
                                             .spDefenseIV = 5,
                                             .abilityNum = 0,
                                             .personality = 0x0,
-                                            .nickname = _("HYPADOG"),
+                                            .nickname = _("CYBIRD"),
                                             .friendship = MAX_FRIENDSHIP,
                                         },
                                     [1] =
@@ -4342,7 +4342,7 @@ static const struct TrainerHillFloor sFloors_Expert[] = {
                                         },
                                     [3] =
                                         {
-                                            .species = SPECIES_PTEROCAST,
+                                            .species = SPECIES_DUGTRIO,
                                             .heldItem = ITEM_BRIGHT_POWDER,
                                             .moves = {MOVE_DOUBLE_TEAM, MOVE_PROTECT, MOVE_RETURN, MOVE_SLUDGE_BOMB},
                                             .hpEV = 6,
@@ -4357,7 +4357,7 @@ static const struct TrainerHillFloor sFloors_Expert[] = {
                                             .spDefenseIV = MAX_PER_STAT_IVS,
                                             .abilityNum = 1,
                                             .personality = 0xD,
-                                            .nickname = _("PTEROCAST"),
+                                            .nickname = _("DUGTRIO"),
                                             .friendship = MAX_FRIENDSHIP,
                                         },
                                     [4] =

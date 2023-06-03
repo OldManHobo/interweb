@@ -5058,6 +5058,10 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u16 ability, u8 special, u16 move
                 if (moveType == TYPE_WATER)
                     effect = 1;
                 break;
+            case ABILITY_DATA_ABSORB:
+                if (moveType == TYPE_DATA)
+                    effect = 1;
+                break;
             case ABILITY_MOTOR_DRIVE:
                 if (moveType == TYPE_ELECTRIC)
                     effect = 2, statId = STAT_SPEED;

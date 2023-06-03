@@ -24,8 +24,8 @@ static const u16 sBeedrillFormSpeciesIdTable[] = {
 };
 
 static const u16 sPidgeotFormSpeciesIdTable[] = {
-    SPECIES_COILOCUS,
-    SPECIES_COILOCUS_MEGA,
+    SPECIES_MORPHYDRA,
+    SPECIES_MORPHYDRA_MEGA,
     FORM_SPECIES_END,
 };
 
@@ -91,14 +91,14 @@ static const u16 sNinetalesFormSpeciesIdTable[] = {
 };
 
 static const u16 sDiglettFormSpeciesIdTable[] = {
-    SPECIES_CYBIRD,
-    SPECIES_CYBIRD_ALOLAN,
+    SPECIES_DIGLETT,
+    SPECIES_DIGLETT_ALOLAN,
     FORM_SPECIES_END,
 };
 
 static const u16 sDugtrioFormSpeciesIdTable[] = {
-    SPECIES_PTEROCAST,
-    SPECIES_PTEROCAST_ALOLAN,
+    SPECIES_DUGTRIO,
+    SPECIES_DUGTRIO_ALOLAN,
     FORM_SPECIES_END,
 };
 
