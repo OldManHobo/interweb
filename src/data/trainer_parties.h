@@ -4807,7 +4807,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Calvin1[] = {
     {
     .iv = 0,
     .lvl = 4,
-    .species = SPECIES_SNAGOON,
+    .species = SPECIES_SCRILL,
     .abilityNums = 0,
     }
 };
@@ -4822,7 +4822,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Billy[] = {
     {
     .iv = 0,
     .lvl = 6,
-    .species = SPECIES_SNAGOON,
+    .species = SPECIES_SCRILL,
     .abilityNums = 0,
     }
 };
@@ -4934,7 +4934,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Calvin2[] = {
     {
     .iv = 10,
     .lvl = 27,
-    .species = SPECIES_REPOCOON,
+    .species = SPECIES_OVERSCRILL,
     .abilityNums = 0,
     }
 };
@@ -4949,7 +4949,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Calvin3[] = {
     {
     .iv = 20,
     .lvl = 30,
-    .species = SPECIES_REPOCOON,
+    .species = SPECIES_OVERSCRILL,
     .abilityNums = 0,
     }
 };
@@ -4970,7 +4970,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Calvin4[] = {
     {
     .iv = 30,
     .lvl = 33,
-    .species = SPECIES_REPOCOON,
+    .species = SPECIES_OVERSCRILL,
     .abilityNums = 0,
     }
 };
@@ -4991,7 +4991,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Calvin5[] = {
     {
     .iv = 40,
     .lvl = 36,
-    .species = SPECIES_REPOCOON,
+    .species = SPECIES_OVERSCRILL,
     .abilityNums = 0,
     }
 };
@@ -7171,7 +7171,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GinaAndMia1[] = {
     {
     .iv = 0,
     .lvl = 6,
-    .species = SPECIES_SNAGOON,
+    .species = SPECIES_SCRILL,
     .abilityNums = 0,
     }
 };

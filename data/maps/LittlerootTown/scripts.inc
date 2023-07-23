@@ -956,16 +956,14 @@ LittlerootTown_Text_ComeHomeIfAnythingHappens:
 	.string "Go on, go get them, honey!$"
 
 LittlerootTown_Text_CanUsePCToStoreItems:
-	.string "If you use a PC, you can create\n"
+	.string "With a computer, you can develop\n"
 	.string "video games.\p"
 	.string "The power of science is staggering!$"
 
 LittlerootTown_Text_BirchSpendsDaysInLab:
-	.string "Prof. Tamba spends days in his lab\n"
-	.string "studying, then he'll suddenly go out in\l"
-	.string "the wild to do more research…\p"
-	.string "When does Prof. Tamba spend time\n"
-	.string "at home?$"
+	.string "Prof. Tamba spends his days in his lab\n"
+	.string "nowadays, but he used to go out in\l"
+	.string "the wild for days to do research…$"
 
 LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut:
 	.string "Um, um, um!\p"
@@ -973,8 +971,8 @@ LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut:
 	.string "wild Pokémon will jump out!$"
 
 LittlerootTown_Text_DangerousIfYouDontHavePokemon:
-	.string "It's dangerous if you don't have\n"
-	.string "your own Pokémon.$"
+	.string "It's dangerous to go in there\n"
+	.string "without your own Pokémon.$"
 
 LittlerootTown_Text_CanYouGoSeeWhatsHappening:
 	.string "Um, hi!\p"
@@ -995,10 +993,10 @@ LittlerootTown_Text_GoodLuckCatchingPokemon:
 
 LittlerootTown_Text_TownSign:
 	.string "Libassem Town\n"
-	.string "“A town that can't be shaded any hue.”$"
+	.string "“A town that's ”$"
 
 LittlerootTown_Text_ProfBirchsLab:
-	.string "PROF. BIRCH'S POKéMON LAB$"
+	.string "PROF. TAMBA'S POKéMON LAB$"
 
 LittlerootTown_Text_PlayersHouse:
 	.string "{PLAYER}'s HOUSE$"

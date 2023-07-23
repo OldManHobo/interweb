@@ -34,7 +34,7 @@
 #define FRONTIER_MON_SLUGMA         30
 #define FRONTIER_MON_SWINUB         31
 #define FRONTIER_MON_SMEARGLE       32
-#define FRONTIER_MON_REPOCOON         33
+#define FRONTIER_MON_OVERSCRILL         33
 #define FRONTIER_MON_DRAMAGO        34
 #define FRONTIER_MON_WYNAUT         35
 #define FRONTIER_MON_SKITTY         36
@@ -155,7 +155,7 @@
 #define FRONTIER_MON_CORSOLA        151
 #define FRONTIER_MON_MAWILE         152
 #define FRONTIER_MON_WEBILLITE     153
-#define FRONTIER_MON_SNAGOON       154
+#define FRONTIER_MON_SCRILL       154
 #define FRONTIER_MON_POLIWHIRL      155
 #define FRONTIER_MON_ONIX           156
 #define FRONTIER_MON_BEAUTIFLY      157

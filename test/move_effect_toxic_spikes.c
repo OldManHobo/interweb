@@ -97,11 +97,11 @@ SINGLE_BATTLE_TEST("Toxic Spikes do not poison airborne Pokemon")
     u32 move2 = MOVE_CELEBRATE;
     bool32 airborne;
 
-    ASSUME(gSpeciesInfo[SPECIES_REPOCOON].types[1] == TYPE_FLYING);
-    PARAMETRIZE { species = SPECIES_REPOCOON; airborne = TRUE; }
-    PARAMETRIZE { species = SPECIES_REPOCOON; item = ITEM_IRON_BALL; airborne = FALSE; }
-    PARAMETRIZE { species = SPECIES_REPOCOON; move1 = MOVE_GRAVITY; airborne = FALSE; }
-    PARAMETRIZE { species = SPECIES_REPOCOON; move1 = MOVE_INGRAIN; airborne = FALSE; }
+    ASSUME(gSpeciesInfo[SPECIES_OVERSCRILL].types[1] == TYPE_FLYING);
+    PARAMETRIZE { species = SPECIES_OVERSCRILL; airborne = TRUE; }
+    PARAMETRIZE { species = SPECIES_OVERSCRILL; item = ITEM_IRON_BALL; airborne = FALSE; }
+    PARAMETRIZE { species = SPECIES_OVERSCRILL; move1 = MOVE_GRAVITY; airborne = FALSE; }
+    PARAMETRIZE { species = SPECIES_OVERSCRILL; move1 = MOVE_INGRAIN; airborne = FALSE; }
 
     ASSUME(gSpeciesInfo[SPECIES_UNOWN].abilities[0] == ABILITY_LEVITATE);
     PARAMETRIZE { species = SPECIES_UNOWN; airborne = TRUE; }

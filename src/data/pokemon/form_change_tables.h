@@ -15,7 +15,7 @@ static const struct FormChange sBlastoiseFormChangeTable[] = {
 };
 
 static const struct FormChange sBeedrillFormChangeTable[] = {
-    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_SNAGOON_MEGA, ITEM_SNAGOONITE},
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_SCRILL_MEGA, ITEM_SCRILLITE},
     {FORM_CHANGE_TERMINATOR},
 };
 

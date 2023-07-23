@@ -180,7 +180,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SNAGOON] =
+    [NATIONAL_DEX_SCRILL] =
     {
         .categoryName = _("Thief"),
         .height = 10,
@@ -192,7 +192,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_REPOCOON] =
+    [NATIONAL_DEX_OVERSCRILL] =
     {
         .categoryName = _("Thief"),
         .height = 3,

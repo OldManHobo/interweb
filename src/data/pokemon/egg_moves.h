@@ -38,7 +38,7 @@ const u16 gEggMoves[] = {
         MOVE_BYTE,
         MOVE_GIGABYTE),
 
-    egg_moves(REPOCOON,
+    egg_moves(OVERSCRILL,
         MOVE_PURSUIT,
         MOVE_FEINT_ATTACK,
         MOVE_FORESIGHT,

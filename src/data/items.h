@@ -3849,10 +3849,10 @@ const struct Item gItems[] =
         .flingPower = 80,
     },
 
-    [ITEM_SNAGOONITE] =
+    [ITEM_SCRILLITE] =
     {
         .name = _("Beedrillite"),
-        .itemId = ITEM_SNAGOONITE,
+        .itemId = ITEM_SCRILLITE,
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = sBeedrilliteDesc,

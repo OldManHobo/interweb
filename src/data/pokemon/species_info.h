@@ -956,10 +956,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
     [SPECIES_SOLADOR] =
     {
         .baseHP        = 70,
-        .baseAttack    = 105,
-        .baseDefense   = 64,
-        .baseSpeed     = 95,
-        .baseSpAttack  = 120,
+        .baseAttack    = 92,
+        .baseDefense   = 87,
+        .baseSpeed     = 96,
+        .baseSpAttack  = 110,
         .baseSpDefense = 80,
         .types = { TYPE_FIRE, TYPE_BUG },
         .catchRate = 45,
@@ -1157,54 +1157,53 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_SNAGOON] =
+    [SPECIES_SCRILL] =
     {
-        .baseHP        = 35,
-        .baseDefense   = 28,
-        .baseSpeed     = 58,
+        .baseHP        = 50,
+        .baseDefense   = 44,
+        .baseSpeed     = 42,
         .baseSpAttack  = 35,
-        .baseSpDefense = 41,
+        .baseSpDefense = 40,
         #if P_UPDATED_STATS >= GEN_6
             .baseAttack    = 54,
         #else
             .baseAttack    = 80,
         #endif
-        .types = { TYPE_DARK, TYPE_DARK},
-        .catchRate = 255,
-        .expYield = 44,
-        .evYield_Attack    = 2,
-        .itemCommon = ITEM_ORAN_BERRY,
-        .itemRare = ITEM_SITRUS_BERRY,
+        .types = { TYPE_GROUND, TYPE_GROUND},
+        .catchRate = 235,
+        .expYield = 53,
+        .evYield_Attack    = 1,
+        .itemCommon = ITEM_HARD_STONE,
+        .itemRare = ITEM_SMOOTH_ROCK,
         .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = 15,
+        .eggCycles = 20,
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
-        .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-        .abilities = {ABILITY_PICKPOCKET, ABILITY_STAKEOUT, ABILITY_TRACE},
-        .bodyColor = BODY_COLOR_BLACK,
+        .eggGroups = { EGG_GROUP_MONSTER, EGG_GROUP_FIELD},
+        .abilities = {ABILITY_MOLD_BREAKER, ABILITY_SAND_VEIL, ABILITY_STEELWORKER},
+        .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
     },
 
-    [SPECIES_REPOCOON] =
+    [SPECIES_OVERSCRILL] =
     {
-        .baseHP        = 73,
-        .baseAttack    = 93,
-        .baseDefense   = 48,
-        .baseSpeed     = 95,
-        .baseSpAttack  = 73,
-        .baseSpDefense = 68,
-        .types = { TYPE_DARK, TYPE_DARK },
+        .baseHP        = 85,
+        .baseAttack    = 95,
+        .baseDefense   = 74,
+        .baseSpeed     = 85,
+        .baseSpAttack  = 60,
+        .baseSpDefense = 65,
+        .types = { TYPE_GROUND, TYPE_GROUND },
         .catchRate = 120,
-        .expYield = 100,
-        .evYield_Attack = 1,
-        .evYield_Speed     = 1,
+        .expYield = 149,
+        .evYield_Attack = 2,
         .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = 15,
+        .eggCycles = 20,
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_FAST,
-        .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-        .abilities = {ABILITY_PICKPOCKET, ABILITY_STAKEOUT, ABILITY_TRACE},
-        .bodyColor = BODY_COLOR_BLACK,
+        .eggGroups = { EGG_GROUP_MONSTER, EGG_GROUP_FIELD},
+        .abilities = {ABILITY_MOLD_BREAKER, ABILITY_SAND_VEIL, ABILITY_STEELWORKER},
+        .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
     },
 
@@ -21152,7 +21151,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .flags = SPECIES_FLAG_MEGA_EVOLUTION,
     },
 
-    [SPECIES_SNAGOON_MEGA] =
+    [SPECIES_SCRILL_MEGA] =
     {
         .baseHP        = 65,
         .baseAttack    = 150,
