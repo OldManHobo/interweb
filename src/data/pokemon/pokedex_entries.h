@@ -158,7 +158,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_GALACTIVY] =
     {
-        .categoryName = _("Small Bird"),
+        .categoryName = _("Invasive"),
         .height = 3,
         .weight = 32,
         .description = gWeedlePokedexText,
@@ -170,7 +170,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_XENOWEED] =
     {
-        .categoryName = _("Runner"),
+        .categoryName = _("Invader"),
         .height = 6,
         .weight = 100,
         .description = gKakunaPokedexText,
@@ -182,7 +182,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_SCRILL] =
     {
-        .categoryName = _("Thief"),
+        .categoryName = _("Drill"),
         .height = 10,
         .weight = 295,
         .description = gBeedrillPokedexText,
@@ -194,7 +194,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_OVERSCRILL] =
     {
-        .categoryName = _("Thief"),
+        .categoryName = _("Drill"),
         .height = 3,
         .weight = 18,
         .description = gPidgeyPokedexText,
@@ -470,7 +470,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_CYBIRD] =
     {
-        .categoryName = _("Gratis"),
+        .categoryName = _("Bandwidth"),
         .height = 5,
         .weight = 55,
         .description = gJigglypuffPokedexText,
@@ -482,7 +482,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_PTEROCAST] =
     {
-        .categoryName = _("Gratis"),
+        .categoryName = _("Broadcast"),
         .height = 10,
         .weight = 120,
         .description = gWigglytuffPokedexText,
@@ -662,7 +662,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_AILES] =
     {
-        .categoryName = _("Duck"),
+        .categoryName = _("Chilly"),
         .height = 17,
         .weight = 766,
         .description = gGolduckPokedexText,
@@ -674,7 +674,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_NACLES] =
     {
-        .categoryName = _("Pig Monkey"),
+        .categoryName = _("Saline"),
         .height = 5,
         .weight = 280,
         .description = gMankeyPokedexText,
@@ -686,7 +686,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_LICLES] =
     {
-        .categoryName = _("Pig Monkey"),
+        .categoryName = _("Flavorful"),
         .height = 10,
         .weight = 320,
         .description = gPrimeapePokedexText,
@@ -1322,7 +1322,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_WEEZING] =
     {
-        .categoryName = _("Poison Gas"),
+        .categoryName = _("Sock Worm"),
         .height = 12,
         .weight = 95,
         .description = gWeezingPokedexText,
