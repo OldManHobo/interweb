@@ -922,7 +922,7 @@ Route104_Text_RouteSignPetalburg:
 	.string "{RIGHT_ARROW} CERPAS TOWN$"
 
 Route104_Text_TrainerTipsDoubleBattles:
-	.string "TRAINER TIPS\p"
+	.string "Trainer Tips!\p"
 	.string "In the HOENN region there are pairs\n"
 	.string "of TRAINERS who challenge others\l"
 	.string "for 2-on-2 POKéMON battles called\l"
