@@ -85,62 +85,62 @@
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_COATTAIL"
+                "species": "SPECIES_GRAPPOUCH"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_COATTAIL"
+                "species": "SPECIES_GRAPPOUCH"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_COATTAIL"
+                "species": "SPECIES_GRAPPOUCH"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_COATTAIL"
+                "species": "SPECIES_GRAPPOUCH"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_COATTAIL"
+                "species": "SPECIES_GRAPPOUCH"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_COATTAIL"
+                "species": "SPECIES_GRAPPOUCH"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               }
             ]
           }
@@ -154,62 +154,62 @@
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_SCRILL"
+                "species": "SPECIES_COATTAIL"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_SCRILL"
+                "species": "SPECIES_COATTAIL"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_SCRILL"
+                "species": "SPECIES_COATTAIL"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_SCRILL"
+                "species": "SPECIES_COATTAIL"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_SCRILL"
+                "species": "SPECIES_COATTAIL"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_SCRILL"
+                "species": "SPECIES_COATTAIL"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               }
             ]
           }
@@ -223,62 +223,62 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_COATTAIL"
+                "species": "SPECIES_GRAPPOUCH"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_COATTAIL"
+                "species": "SPECIES_GRAPPOUCH"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_COATTAIL"
+                "species": "SPECIES_GRAPPOUCH"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_CYBIRD"
+                "species": "SPECIES_PTEROCAST"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_COATTAIL"
+                "species": "SPECIES_GRAPPOUCH"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CYBIRD"
+                "species": "SPECIES_PTEROCAST"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_COATTAIL"
+                "species": "SPECIES_GRAPPOUCH"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CYBIRD"
+                "species": "SPECIES_PTEROCAST"
               }
             ]
           }
@@ -292,62 +292,62 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_SCRILL"
+                "species": "SPECIES_COATTAIL"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_SCRILL"
+                "species": "SPECIES_COATTAIL"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_SCRILL"
+                "species": "SPECIES_COATTAIL"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_CYBIRD"
+                "species": "SPECIES_PTEROCAST"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_SCRILL"
+                "species": "SPECIES_COATTAIL"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CYBIRD"
+                "species": "SPECIES_PTEROCAST"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_SCRILL"
+                "species": "SPECIES_COATTAIL"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CYBIRD"
+                "species": "SPECIES_PTEROCAST"
               }
             ]
           }
@@ -515,62 +515,62 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_COATTAIL"
+                "species": "SPECIES_GRAPPOUCH"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_COATTAIL"
+                "species": "SPECIES_GRAPPOUCH"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_BANANEE"
+                "species": "SPECIES_BANAGON"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_BANANEE"
+                "species": "SPECIES_BANAGON"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_COATTAIL"
+                "species": "SPECIES_GRAPPOUCH"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_COATTAIL"
+                "species": "SPECIES_GRAPPOUCH"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BANANEE"
+                "species": "SPECIES_BANAGON"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BANANEE"
+                "species": "SPECIES_BANAGON"
               }
             ]
           }
@@ -584,62 +584,62 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_SCRILL"
+                "species": "SPECIES_COATTAIL"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_SCRILL"
+                "species": "SPECIES_COATTAIL"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_BANANEE"
+                "species": "SPECIES_BANAGON"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_BANANEE"
+                "species": "SPECIES_BANAGON"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_SCRILL"
+                "species": "SPECIES_COATTAIL"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_SCRILL"
+                "species": "SPECIES_COATTAIL"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BANANEE"
+                "species": "SPECIES_BANAGON"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BANANEE"
+                "species": "SPECIES_BANAGON"
               }
             ]
           }
@@ -767,7 +767,7 @@
               {
                 "min_level": 13,
                 "max_level": 13,
-                "species": "SPECIES_TANKELLUR"
+                "species": "SPECIES_SCRILL"
               },
               {
                 "min_level": 13,
@@ -896,7 +896,7 @@
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_SAULLACE"
+                "species": "SPECIES_RUMOSS"
               },
               {
                 "min_level": 20,
@@ -906,7 +906,7 @@
               {
                 "min_level": 21,
                 "max_level": 21,
-                "species": "SPECIES_SAULLACE"
+                "species": "SPECIES_RUMOSS"
               },
               {
                 "min_level": 21,
@@ -926,7 +926,7 @@
               {
                 "min_level": 19,
                 "max_level": 19,
-                "species": "SPECIES_SAULLACE"
+                "species": "SPECIES_RUMOSS"
               },
               {
                 "min_level": 19,
@@ -1476,7 +1476,7 @@
               {
                 "min_level": 13,
                 "max_level": 13,
-                "species": "SPECIES_TANKELLUR"
+                "species": "SPECIES_SCRILL"
               },
               {
                 "min_level": 14,
@@ -1486,7 +1486,7 @@
               {
                 "min_level": 14,
                 "max_level": 14,
-                "species": "SPECIES_TANKELLUR"
+                "species": "SPECIES_SCRILL"
               },
               {
                 "min_level": 13,
@@ -1496,7 +1496,7 @@
               {
                 "min_level": 13,
                 "max_level": 13,
-                "species": "SPECIES_TANKELLUR"
+                "species": "SPECIES_SCRILL"
               },
               {
                 "min_level": 13,
@@ -1868,7 +1868,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_FOMPOUS"
+                "species": "SPECIES_FELIGHT"
               },
               {
                 "min_level": 5,
@@ -1878,7 +1878,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_FOMPOUS"
+                "species": "SPECIES_FELIGHT"
               },
               {
                 "min_level": 6,
@@ -1903,7 +1903,7 @@
               {
                 "min_level": 6,
                 "max_level": 6,
-                "species": "SPECIES_FOMPOUS"
+                "species": "SPECIES_FELIGHT"
               },
               {
                 "min_level": 7,
@@ -1913,7 +1913,7 @@
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_FOMPOUS"
+                "species": "SPECIES_FELIGHT"
               },
               {
                 "min_level": 7,
@@ -1923,7 +1923,7 @@
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_COILARVA"
+                "species": "SPECIES_CYCLIL"
               }
             ]
           }
@@ -1937,7 +1937,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_FOMPOUS"
+                "species": "SPECIES_FELIGHT"
               },
               {
                 "min_level": 5,
@@ -1947,7 +1947,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_FOMPOUS"
+                "species": "SPECIES_FELIGHT"
               },
               {
                 "min_level": 6,
@@ -1972,7 +1972,7 @@
               {
                 "min_level": 6,
                 "max_level": 6,
-                "species": "SPECIES_FOMPOUS"
+                "species": "SPECIES_FELIGHT"
               },
               {
                 "min_level": 7,
@@ -1982,7 +1982,7 @@
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_COILARVA"
+                "species": "SPECIES_CYCLIL"
               },
               {
                 "min_level": 7,
@@ -1992,7 +1992,7 @@
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_COILARVA"
+                "species": "SPECIES_CYCLIL"
               }
             ]
           }
@@ -2075,7 +2075,7 @@
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 8,
@@ -2090,7 +2090,7 @@
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 9,
@@ -2144,7 +2144,7 @@
               {
                 "min_level": 9,
                 "max_level": 9,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 10,
@@ -2164,7 +2164,7 @@
               {
                 "min_level": 10,
                 "max_level": 10,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 9,
@@ -2282,7 +2282,7 @@
               {
                 "min_level": 40,
                 "max_level": 40,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 40,
@@ -2302,7 +2302,7 @@
               {
                 "min_level": 36,
                 "max_level": 36,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 36,
@@ -2312,7 +2312,7 @@
               {
                 "min_level": 38,
                 "max_level": 38,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 38,
@@ -2351,12 +2351,12 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_TANKELLUR"
+                "species": "SPECIES_SCRILL"
               },
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_TANKELLUR"
+                "species": "SPECIES_SCRILL"
               },
               {
                 "min_level": 25,
@@ -2381,7 +2381,7 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_CYCLIL"
+                "species": "SPECIES_OVERSCRILL"
               },
               {
                 "min_level": 27,
@@ -2391,7 +2391,7 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_GENTOO"
+                "species": "SPECIES_ASTROHAUT"
               },
               {
                 "min_level": 27,
@@ -2401,7 +2401,7 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_GENTOO"
+                "species": "SPECIES_ASTROHAUT"
               },
               {
                 "min_level": 29,
@@ -2543,7 +2543,7 @@
               {
                 "min_level": 10,
                 "max_level": 10,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 11,
@@ -2558,7 +2558,7 @@
               {
                 "min_level": 11,
                 "max_level": 11,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 12,
@@ -2711,12 +2711,12 @@
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 35,
                 "max_level": 35,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 30,
@@ -2751,22 +2751,22 @@
               {
                 "min_level": 38,
                 "max_level": 38,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 40,
                 "max_level": 40,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 38,
                 "max_level": 38,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 40,
                 "max_level": 40,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               }
             ]
           },
@@ -2776,12 +2776,12 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 25,
@@ -3320,12 +3320,12 @@
               {
                 "min_level": 24,
                 "max_level": 24,
-                "species": "SPECIES_CYBIRD"
+                "species": "SPECIES_PTEROCAST"
               },
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_CYBIRD"
+                "species": "SPECIES_PTEROCAST"
               },
               {
                 "min_level": 24,
@@ -3528,7 +3528,7 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_TANKELLUR"
+                "species": "SPECIES_SCRILL"
               },
               {
                 "min_level": 27,
@@ -3538,17 +3538,17 @@
               {
                 "min_level": 26,
                 "max_level": 26,
-                "species": "SPECIES_TANKELLUR"
+                "species": "SPECIES_SCRILL"
               },
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_TANKELLUR"
+                "species": "SPECIES_SCRILL"
               },
               {
                 "min_level": 24,
                 "max_level": 24,
-                "species": "SPECIES_TANKELLUR"
+                "species": "SPECIES_SCRILL"
               },
               {
                 "min_level": 25,
@@ -3682,7 +3682,7 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_TANKELLUR"
+                "species": "SPECIES_SCRILL"
               },
               {
                 "min_level": 25,
@@ -3692,12 +3692,12 @@
               {
                 "min_level": 26,
                 "max_level": 26,
-                "species": "SPECIES_TANKELLUR"
+                "species": "SPECIES_SCRILL"
               },
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_TANKELLUR"
+                "species": "SPECIES_SCRILL"
               },
               {
                 "min_level": 27,
@@ -3846,17 +3846,17 @@
               {
                 "min_level": 26,
                 "max_level": 26,
-                "species": "SPECIES_TANKELLUR"
+                "species": "SPECIES_SCRILL"
               },
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_TANKELLUR"
+                "species": "SPECIES_SCRILL"
               },
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_CYCLIL"
+                "species": "SPECIES_OVERSCRILL"
               },
               {
                 "min_level": 26,
@@ -4089,17 +4089,17 @@
               {
                 "min_level": 26,
                 "max_level": 26,
-                "species": "SPECIES_TANKELLUR"
+                "species": "SPECIES_SCRILL"
               },
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_TANKELLUR"
+                "species": "SPECIES_SCRILL"
               },
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_CYCLIL"
+                "species": "SPECIES_OVERSCRILL"
               },
               {
                 "min_level": 26,
@@ -4583,22 +4583,22 @@
               {
                 "min_level": 29,
                 "max_level": 29,
-                "species": "SPECIES_BANAGON"
+                "species": "SPECIES_SALANANA"
               },
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_BANAGON"
+                "species": "SPECIES_SALANANA"
               },
               {
                 "min_level": 29,
                 "max_level": 29,
-                "species": "SPECIES_BANAGON"
+                "species": "SPECIES_SALANANA"
               },
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_BANAGON"
+                "species": "SPECIES_SALANANA"
               },
               {
                 "min_level": 27,
@@ -4701,7 +4701,7 @@
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 8,
@@ -4716,7 +4716,7 @@
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 9,
@@ -5814,42 +5814,32 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 31,
                 "max_level": 31,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 32,
                 "max_level": 32,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 29,
                 "max_level": 29,
-                "species": "SPECIES_AMOBI"
-              },
-              {
-                "min_level": 34,
-                "max_level": 34,
-                "species": "SPECIES_AMOBI"
-              },
-              {
-                "min_level": 35,
-                "max_level": 35,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 34,
@@ -5860,16 +5850,26 @@
                 "min_level": 35,
                 "max_level": 35,
                 "species": "SPECIES_AMOBERIA"
+              },
+              {
+                "min_level": 34,
+                "max_level": 34,
+                "species": "SPECIES_TANKELLUR"
+              },
+              {
+                "min_level": 35,
+                "max_level": 35,
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 36,
                 "max_level": 36,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               }
             ]
           }
@@ -5883,42 +5883,32 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 31,
                 "max_level": 31,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 32,
                 "max_level": 32,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 29,
                 "max_level": 29,
-                "species": "SPECIES_AMOBI"
-              },
-              {
-                "min_level": 34,
-                "max_level": 34,
-                "species": "SPECIES_AMOBI"
-              },
-              {
-                "min_level": 35,
-                "max_level": 35,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 34,
@@ -5929,16 +5919,26 @@
                 "min_level": 35,
                 "max_level": 35,
                 "species": "SPECIES_AMOBERIA"
+              },
+              {
+                "min_level": 34,
+                "max_level": 34,
+                "species": "SPECIES_TANKELLUR"
+              },
+              {
+                "min_level": 35,
+                "max_level": 35,
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 36,
                 "max_level": 36,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               }
             ]
           }
@@ -5952,42 +5952,32 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 31,
                 "max_level": 31,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 32,
                 "max_level": 32,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 29,
                 "max_level": 29,
-                "species": "SPECIES_AMOBI"
-              },
-              {
-                "min_level": 34,
-                "max_level": 34,
-                "species": "SPECIES_AMOBI"
-              },
-              {
-                "min_level": 35,
-                "max_level": 35,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 34,
@@ -5998,16 +5988,26 @@
                 "min_level": 35,
                 "max_level": 35,
                 "species": "SPECIES_AMOBERIA"
+              },
+              {
+                "min_level": 34,
+                "max_level": 34,
+                "species": "SPECIES_TANKELLUR"
+              },
+              {
+                "min_level": 35,
+                "max_level": 35,
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 36,
                 "max_level": 36,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               }
             ]
           }
@@ -6021,42 +6021,32 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 31,
                 "max_level": 31,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 32,
                 "max_level": 32,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 29,
                 "max_level": 29,
-                "species": "SPECIES_AMOBI"
-              },
-              {
-                "min_level": 34,
-                "max_level": 34,
-                "species": "SPECIES_AMOBI"
-              },
-              {
-                "min_level": 35,
-                "max_level": 35,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 34,
@@ -6067,16 +6057,26 @@
                 "min_level": 35,
                 "max_level": 35,
                 "species": "SPECIES_AMOBERIA"
+              },
+              {
+                "min_level": 34,
+                "max_level": 34,
+                "species": "SPECIES_TANKELLUR"
+              },
+              {
+                "min_level": 35,
+                "max_level": 35,
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 36,
                 "max_level": 36,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               }
             ]
           }
@@ -6090,42 +6090,32 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 31,
                 "max_level": 31,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 32,
                 "max_level": 32,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 29,
                 "max_level": 29,
-                "species": "SPECIES_AMOBI"
-              },
-              {
-                "min_level": 34,
-                "max_level": 34,
-                "species": "SPECIES_AMOBI"
-              },
-              {
-                "min_level": 35,
-                "max_level": 35,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 34,
@@ -6136,16 +6126,26 @@
                 "min_level": 35,
                 "max_level": 35,
                 "species": "SPECIES_AMOBERIA"
+              },
+              {
+                "min_level": 34,
+                "max_level": 34,
+                "species": "SPECIES_TANKELLUR"
+              },
+              {
+                "min_level": 35,
+                "max_level": 35,
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 36,
                 "max_level": 36,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               }
             ]
           }
@@ -6159,42 +6159,32 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 31,
                 "max_level": 31,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 32,
                 "max_level": 32,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 29,
                 "max_level": 29,
-                "species": "SPECIES_AMOBI"
-              },
-              {
-                "min_level": 34,
-                "max_level": 34,
-                "species": "SPECIES_AMOBI"
-              },
-              {
-                "min_level": 35,
-                "max_level": 35,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 34,
@@ -6205,16 +6195,26 @@
                 "min_level": 35,
                 "max_level": 35,
                 "species": "SPECIES_AMOBERIA"
+              },
+              {
+                "min_level": 34,
+                "max_level": 34,
+                "species": "SPECIES_TANKELLUR"
+              },
+              {
+                "min_level": 35,
+                "max_level": 35,
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 36,
                 "max_level": 36,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               }
             ]
           },
@@ -6229,22 +6229,22 @@
               {
                 "min_level": 5,
                 "max_level": 35,
-                "species": "SPECIES_AMOBI"
-              },
-              {
-                "min_level": 30,
-                "max_level": 35,
-                "species": "SPECIES_AMOBI"
-              },
-              {
-                "min_level": 30,
-                "max_level": 35,
                 "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
                 "species": "SPECIES_AMOBERIA"
+              },
+              {
+                "min_level": 30,
+                "max_level": 35,
+                "species": "SPECIES_TANKELLUR"
+              },
+              {
+                "min_level": 30,
+                "max_level": 35,
+                "species": "SPECIES_TANKELLUR"
               }
             ]
           },
@@ -6313,42 +6313,32 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 31,
                 "max_level": 31,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 32,
                 "max_level": 32,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 29,
                 "max_level": 29,
-                "species": "SPECIES_AMOBI"
-              },
-              {
-                "min_level": 34,
-                "max_level": 34,
-                "species": "SPECIES_AMOBI"
-              },
-              {
-                "min_level": 35,
-                "max_level": 35,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 34,
@@ -6359,16 +6349,26 @@
                 "min_level": 35,
                 "max_level": 35,
                 "species": "SPECIES_AMOBERIA"
+              },
+              {
+                "min_level": 34,
+                "max_level": 34,
+                "species": "SPECIES_TANKELLUR"
+              },
+              {
+                "min_level": 35,
+                "max_level": 35,
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 36,
                 "max_level": 36,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               }
             ]
           },
@@ -6383,22 +6383,22 @@
               {
                 "min_level": 5,
                 "max_level": 35,
-                "species": "SPECIES_AMOBI"
-              },
-              {
-                "min_level": 30,
-                "max_level": 35,
-                "species": "SPECIES_AMOBI"
-              },
-              {
-                "min_level": 30,
-                "max_level": 35,
                 "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
                 "species": "SPECIES_AMOBERIA"
+              },
+              {
+                "min_level": 30,
+                "max_level": 35,
+                "species": "SPECIES_TANKELLUR"
+              },
+              {
+                "min_level": 30,
+                "max_level": 35,
+                "species": "SPECIES_TANKELLUR"
               }
             ]
           },
@@ -6467,42 +6467,32 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 31,
                 "max_level": 31,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 32,
                 "max_level": 32,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 29,
                 "max_level": 29,
-                "species": "SPECIES_AMOBI"
-              },
-              {
-                "min_level": 34,
-                "max_level": 34,
-                "species": "SPECIES_AMOBI"
-              },
-              {
-                "min_level": 35,
-                "max_level": 35,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 34,
@@ -6513,16 +6503,26 @@
                 "min_level": 35,
                 "max_level": 35,
                 "species": "SPECIES_AMOBERIA"
+              },
+              {
+                "min_level": 34,
+                "max_level": 34,
+                "species": "SPECIES_TANKELLUR"
+              },
+              {
+                "min_level": 35,
+                "max_level": 35,
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 36,
                 "max_level": 36,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               }
             ]
           }
@@ -6541,22 +6541,22 @@
               {
                 "min_level": 5,
                 "max_level": 35,
-                "species": "SPECIES_AMOBI"
-              },
-              {
-                "min_level": 30,
-                "max_level": 35,
-                "species": "SPECIES_AMOBI"
-              },
-              {
-                "min_level": 30,
-                "max_level": 35,
                 "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
                 "species": "SPECIES_AMOBERIA"
+              },
+              {
+                "min_level": 30,
+                "max_level": 35,
+                "species": "SPECIES_TANKELLUR"
+              },
+              {
+                "min_level": 30,
+                "max_level": 35,
+                "species": "SPECIES_TANKELLUR"
               }
             ]
           },
@@ -6625,42 +6625,32 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 31,
                 "max_level": 31,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 32,
                 "max_level": 32,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 29,
                 "max_level": 29,
-                "species": "SPECIES_AMOBI"
-              },
-              {
-                "min_level": 34,
-                "max_level": 34,
-                "species": "SPECIES_AMOBI"
-              },
-              {
-                "min_level": 35,
-                "max_level": 35,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 34,
@@ -6671,16 +6661,26 @@
                 "min_level": 35,
                 "max_level": 35,
                 "species": "SPECIES_AMOBERIA"
+              },
+              {
+                "min_level": 34,
+                "max_level": 34,
+                "species": "SPECIES_TANKELLUR"
+              },
+              {
+                "min_level": 35,
+                "max_level": 35,
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 36,
                 "max_level": 36,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               }
             ]
           }
@@ -6694,17 +6694,17 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 31,
                 "max_level": 31,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 32,
                 "max_level": 32,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 30,
@@ -6724,32 +6724,32 @@
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBI"
-              },
-              {
-                "min_level": 34,
-                "max_level": 34,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 34,
                 "max_level": 34,
                 "species": "SPECIES_AMOBERIA"
+              },
+              {
+                "min_level": 34,
+                "max_level": 34,
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 35,
                 "max_level": 35,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 36,
                 "max_level": 36,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               }
             ]
           }
@@ -6763,17 +6763,17 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 31,
                 "max_level": 31,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 32,
                 "max_level": 32,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 30,
@@ -6793,32 +6793,32 @@
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBI"
-              },
-              {
-                "min_level": 34,
-                "max_level": 34,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 34,
                 "max_level": 34,
                 "species": "SPECIES_AMOBERIA"
+              },
+              {
+                "min_level": 34,
+                "max_level": 34,
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 35,
                 "max_level": 35,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 36,
                 "max_level": 36,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               }
             ]
           }
@@ -6832,17 +6832,17 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 31,
                 "max_level": 31,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 32,
                 "max_level": 32,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 30,
@@ -6862,32 +6862,32 @@
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBI"
-              },
-              {
-                "min_level": 34,
-                "max_level": 34,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 34,
                 "max_level": 34,
                 "species": "SPECIES_AMOBERIA"
+              },
+              {
+                "min_level": 34,
+                "max_level": 34,
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 35,
                 "max_level": 35,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 36,
                 "max_level": 36,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               }
             ]
           }
@@ -6901,17 +6901,17 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 31,
                 "max_level": 31,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 32,
                 "max_level": 32,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 30,
@@ -6931,32 +6931,32 @@
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBI"
-              },
-              {
-                "min_level": 34,
-                "max_level": 34,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 34,
                 "max_level": 34,
                 "species": "SPECIES_AMOBERIA"
+              },
+              {
+                "min_level": 34,
+                "max_level": 34,
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 35,
                 "max_level": 35,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 36,
                 "max_level": 36,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               }
             ]
           }
@@ -7039,12 +7039,12 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_TANKELLUR"
+                "species": "SPECIES_SCRILL"
               },
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_TANKELLUR"
+                "species": "SPECIES_SCRILL"
               },
               {
                 "min_level": 25,
@@ -7069,7 +7069,7 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_CYCLIL"
+                "species": "SPECIES_OVERSCRILL"
               },
               {
                 "min_level": 27,
@@ -7079,7 +7079,7 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_GENTOO"
+                "species": "SPECIES_ASTROHAUT"
               },
               {
                 "min_level": 27,
@@ -7089,7 +7089,7 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_GENTOO"
+                "species": "SPECIES_ASTROHAUT"
               },
               {
                 "min_level": 29,
@@ -7198,7 +7198,7 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_TANKELLUR"
+                "species": "SPECIES_SCRILL"
               },
               {
                 "min_level": 29,
@@ -7208,7 +7208,7 @@
               {
                 "min_level": 29,
                 "max_level": 29,
-                "species": "SPECIES_TANKELLUR"
+                "species": "SPECIES_SCRILL"
               },
               {
                 "min_level": 27,
@@ -7218,12 +7218,12 @@
               {
                 "min_level": 29,
                 "max_level": 29,
-                "species": "SPECIES_CYCLIL"
+                "species": "SPECIES_OVERSCRILL"
               },
               {
                 "min_level": 31,
                 "max_level": 31,
-                "species": "SPECIES_CYCLIL"
+                "species": "SPECIES_OVERSCRILL"
               },
               {
                 "min_level": 29,
@@ -7297,7 +7297,7 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_TANKELLUR"
+                "species": "SPECIES_SCRILL"
               },
               {
                 "min_level": 29,
@@ -7307,7 +7307,7 @@
               {
                 "min_level": 29,
                 "max_level": 29,
-                "species": "SPECIES_TANKELLUR"
+                "species": "SPECIES_SCRILL"
               },
               {
                 "min_level": 27,
@@ -7317,12 +7317,12 @@
               {
                 "min_level": 29,
                 "max_level": 29,
-                "species": "SPECIES_CYCLIL"
+                "species": "SPECIES_OVERSCRILL"
               },
               {
                 "min_level": 31,
                 "max_level": 31,
-                "species": "SPECIES_CYCLIL"
+                "species": "SPECIES_OVERSCRILL"
               },
               {
                 "min_level": 29,
@@ -7446,7 +7446,7 @@
               {
                 "min_level": 40,
                 "max_level": 40,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 40,
@@ -7466,7 +7466,7 @@
               {
                 "min_level": 38,
                 "max_level": 38,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 38,
@@ -7476,7 +7476,7 @@
               {
                 "min_level": 42,
                 "max_level": 42,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 42,
@@ -7545,7 +7545,7 @@
               {
                 "min_level": 40,
                 "max_level": 40,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 40,
@@ -7565,7 +7565,7 @@
               {
                 "min_level": 42,
                 "max_level": 42,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 42,
@@ -7575,7 +7575,7 @@
               {
                 "min_level": 44,
                 "max_level": 44,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 44,
@@ -7610,27 +7610,27 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 35,
                 "max_level": 40,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 35,
                 "max_level": 40,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 35,
                 "max_level": 40,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               }
             ]
           },
@@ -7699,27 +7699,27 @@
               {
                 "min_level": 16,
                 "max_level": 16,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 17,
                 "max_level": 17,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 18,
                 "max_level": 18,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 14,
                 "max_level": 14,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 16,
@@ -7739,22 +7739,22 @@
               {
                 "min_level": 19,
                 "max_level": 19,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 19,
                 "max_level": 19,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               }
             ]
           },
@@ -7764,12 +7764,12 @@
               {
                 "min_level": 5,
                 "max_level": 35,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 25,
@@ -7853,17 +7853,17 @@
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 35,
                 "max_level": 35,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 35,
@@ -7883,7 +7883,7 @@
               {
                 "min_level": 35,
                 "max_level": 35,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 39,
@@ -7893,22 +7893,22 @@
               {
                 "min_level": 38,
                 "max_level": 38,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 40,
                 "max_level": 40,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 38,
                 "max_level": 38,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 40,
                 "max_level": 40,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               }
             ]
           },
@@ -7918,12 +7918,12 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 25,
@@ -8007,17 +8007,17 @@
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 35,
                 "max_level": 35,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 35,
@@ -8037,7 +8037,7 @@
               {
                 "min_level": 35,
                 "max_level": 35,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 39,
@@ -8047,22 +8047,22 @@
               {
                 "min_level": 38,
                 "max_level": 38,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 40,
                 "max_level": 40,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 38,
                 "max_level": 38,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 40,
                 "max_level": 40,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               }
             ]
           },
@@ -8072,12 +8072,12 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 25,
@@ -8161,7 +8161,7 @@
               {
                 "min_level": 26,
                 "max_level": 26,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 26,
@@ -8171,7 +8171,7 @@
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 28,
@@ -8181,7 +8181,7 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 30,
@@ -8191,16 +8191,6 @@
               {
                 "min_level": 32,
                 "max_level": 32,
-                "species": "SPECIES_AMOBI"
-              },
-              {
-                "min_level": 32,
-                "max_level": 32,
-                "species": "SPECIES_SPHEAL"
-              },
-              {
-                "min_level": 32,
-                "max_level": 32,
                 "species": "SPECIES_AMOBERIA"
               },
               {
@@ -8211,7 +8201,17 @@
               {
                 "min_level": 32,
                 "max_level": 32,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
+              },
+              {
+                "min_level": 32,
+                "max_level": 32,
+                "species": "SPECIES_SPHEAL"
+              },
+              {
+                "min_level": 32,
+                "max_level": 32,
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 32,
@@ -8230,7 +8230,7 @@
               {
                 "min_level": 26,
                 "max_level": 26,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 26,
@@ -8240,7 +8240,7 @@
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 28,
@@ -8250,7 +8250,7 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 30,
@@ -8260,16 +8260,6 @@
               {
                 "min_level": 32,
                 "max_level": 32,
-                "species": "SPECIES_AMOBI"
-              },
-              {
-                "min_level": 32,
-                "max_level": 32,
-                "species": "SPECIES_SPHEAL"
-              },
-              {
-                "min_level": 32,
-                "max_level": 32,
                 "species": "SPECIES_AMOBERIA"
               },
               {
@@ -8280,7 +8270,17 @@
               {
                 "min_level": 32,
                 "max_level": 32,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
+              },
+              {
+                "min_level": 32,
+                "max_level": 32,
+                "species": "SPECIES_SPHEAL"
+              },
+              {
+                "min_level": 32,
+                "max_level": 32,
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 32,
@@ -8299,7 +8299,7 @@
               {
                 "min_level": 26,
                 "max_level": 26,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 26,
@@ -8309,7 +8309,7 @@
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 28,
@@ -8319,7 +8319,7 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 30,
@@ -8329,16 +8329,6 @@
               {
                 "min_level": 32,
                 "max_level": 32,
-                "species": "SPECIES_AMOBI"
-              },
-              {
-                "min_level": 32,
-                "max_level": 32,
-                "species": "SPECIES_SPHEAL"
-              },
-              {
-                "min_level": 32,
-                "max_level": 32,
                 "species": "SPECIES_AMOBERIA"
               },
               {
@@ -8349,7 +8339,17 @@
               {
                 "min_level": 32,
                 "max_level": 32,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
+              },
+              {
+                "min_level": 32,
+                "max_level": 32,
+                "species": "SPECIES_SPHEAL"
+              },
+              {
+                "min_level": 32,
+                "max_level": 32,
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 32,
@@ -8369,7 +8369,7 @@
               {
                 "min_level": 5,
                 "max_level": 35,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 25,
@@ -8453,7 +8453,7 @@
               {
                 "min_level": 26,
                 "max_level": 26,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 26,
@@ -8463,7 +8463,7 @@
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 28,
@@ -8473,7 +8473,7 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 30,
@@ -8483,16 +8483,6 @@
               {
                 "min_level": 32,
                 "max_level": 32,
-                "species": "SPECIES_AMOBI"
-              },
-              {
-                "min_level": 32,
-                "max_level": 32,
-                "species": "SPECIES_SPHEAL"
-              },
-              {
-                "min_level": 32,
-                "max_level": 32,
                 "species": "SPECIES_AMOBERIA"
               },
               {
@@ -8503,7 +8493,17 @@
               {
                 "min_level": 32,
                 "max_level": 32,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
+              },
+              {
+                "min_level": 32,
+                "max_level": 32,
+                "species": "SPECIES_SPHEAL"
+              },
+              {
+                "min_level": 32,
+                "max_level": 32,
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 32,
@@ -8523,7 +8523,7 @@
               {
                 "min_level": 5,
                 "max_level": 35,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 25,
@@ -9264,7 +9264,7 @@
               {
                 "min_level": 26,
                 "max_level": 26,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 26,
@@ -9274,7 +9274,7 @@
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 28,
@@ -9284,7 +9284,7 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 30,
@@ -9304,7 +9304,7 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 28,
@@ -9314,7 +9314,7 @@
               {
                 "min_level": 32,
                 "max_level": 32,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 30,
@@ -9338,12 +9338,12 @@
               {
                 "min_level": 34,
                 "max_level": 34,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 35,
                 "max_level": 35,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 34,
@@ -9496,12 +9496,12 @@
               {
                 "min_level": 34,
                 "max_level": 34,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 35,
                 "max_level": 35,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 34,
@@ -9565,12 +9565,12 @@
               {
                 "min_level": 34,
                 "max_level": 34,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 35,
                 "max_level": 35,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 34,
@@ -10434,7 +10434,7 @@
               {
                 "min_level": 21,
                 "max_level": 21,
-                "species": "SPECIES_SAULLACE"
+                "species": "SPECIES_RUMOSS"
               },
               {
                 "min_level": 21,
@@ -10444,7 +10444,7 @@
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_SAULLACE"
+                "species": "SPECIES_RUMOSS"
               },
               {
                 "min_level": 20,
@@ -10454,7 +10454,7 @@
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_SAULLACE"
+                "species": "SPECIES_RUMOSS"
               },
               {
                 "min_level": 20,
@@ -10464,7 +10464,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_SAULLACE"
+                "species": "SPECIES_RUMOSS"
               },
               {
                 "min_level": 22,
@@ -10474,7 +10474,7 @@
               {
                 "min_level": 23,
                 "max_level": 23,
-                "species": "SPECIES_SAULLACE"
+                "species": "SPECIES_RUMOSS"
               },
               {
                 "min_level": 23,
@@ -10484,7 +10484,7 @@
               {
                 "min_level": 24,
                 "max_level": 24,
-                "species": "SPECIES_SAULLACE"
+                "species": "SPECIES_RUMOSS"
               },
               {
                 "min_level": 24,
@@ -10503,7 +10503,7 @@
               {
                 "min_level": 21,
                 "max_level": 21,
-                "species": "SPECIES_SAULLACE"
+                "species": "SPECIES_RUMOSS"
               },
               {
                 "min_level": 21,
@@ -10513,7 +10513,7 @@
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_SAULLACE"
+                "species": "SPECIES_RUMOSS"
               },
               {
                 "min_level": 20,
@@ -10523,7 +10523,7 @@
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_SAULLACE"
+                "species": "SPECIES_RUMOSS"
               },
               {
                 "min_level": 20,
@@ -10533,7 +10533,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_SAULLACE"
+                "species": "SPECIES_RUMOSS"
               },
               {
                 "min_level": 22,
@@ -10543,7 +10543,7 @@
               {
                 "min_level": 23,
                 "max_level": 23,
-                "species": "SPECIES_SAULLACE"
+                "species": "SPECIES_RUMOSS"
               },
               {
                 "min_level": 23,
@@ -10553,7 +10553,7 @@
               {
                 "min_level": 24,
                 "max_level": 24,
-                "species": "SPECIES_SAULLACE"
+                "species": "SPECIES_RUMOSS"
               },
               {
                 "min_level": 24,
@@ -10572,7 +10572,7 @@
               {
                 "min_level": 21,
                 "max_level": 21,
-                "species": "SPECIES_SAULLACE"
+                "species": "SPECIES_RUMOSS"
               },
               {
                 "min_level": 21,
@@ -10582,7 +10582,7 @@
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_SAULLACE"
+                "species": "SPECIES_RUMOSS"
               },
               {
                 "min_level": 20,
@@ -10592,7 +10592,7 @@
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_SAULLACE"
+                "species": "SPECIES_RUMOSS"
               },
               {
                 "min_level": 20,
@@ -10602,7 +10602,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_SAULLACE"
+                "species": "SPECIES_RUMOSS"
               },
               {
                 "min_level": 22,
@@ -10612,7 +10612,7 @@
               {
                 "min_level": 23,
                 "max_level": 23,
-                "species": "SPECIES_SAULLACE"
+                "species": "SPECIES_RUMOSS"
               },
               {
                 "min_level": 23,
@@ -10622,7 +10622,7 @@
               {
                 "min_level": 24,
                 "max_level": 24,
-                "species": "SPECIES_SAULLACE"
+                "species": "SPECIES_RUMOSS"
               },
               {
                 "min_level": 24,
@@ -10641,7 +10641,7 @@
               {
                 "min_level": 21,
                 "max_level": 21,
-                "species": "SPECIES_SAULLACE"
+                "species": "SPECIES_RUMOSS"
               },
               {
                 "min_level": 21,
@@ -10651,7 +10651,7 @@
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_SAULLACE"
+                "species": "SPECIES_RUMOSS"
               },
               {
                 "min_level": 20,
@@ -10661,7 +10661,7 @@
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_SAULLACE"
+                "species": "SPECIES_RUMOSS"
               },
               {
                 "min_level": 20,
@@ -10671,7 +10671,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_SAULLACE"
+                "species": "SPECIES_RUMOSS"
               },
               {
                 "min_level": 22,
@@ -10681,7 +10681,7 @@
               {
                 "min_level": 23,
                 "max_level": 23,
-                "species": "SPECIES_SAULLACE"
+                "species": "SPECIES_RUMOSS"
               },
               {
                 "min_level": 23,
@@ -10691,7 +10691,7 @@
               {
                 "min_level": 24,
                 "max_level": 24,
-                "species": "SPECIES_SAULLACE"
+                "species": "SPECIES_RUMOSS"
               },
               {
                 "min_level": 24,
@@ -10917,62 +10917,62 @@
               {
                 "min_level": 10,
                 "max_level": 10,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 12,
                 "max_level": 12,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 14,
                 "max_level": 14,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 10,
                 "max_level": 10,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 12,
                 "max_level": 12,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 16,
                 "max_level": 16,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 6,
                 "max_level": 6,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 14,
                 "max_level": 14,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               },
               {
                 "min_level": 14,
                 "max_level": 14,
-                "species": "SPECIES_AMOBI"
+                "species": "SPECIES_AMOBERIA"
               }
             ]
           }
@@ -11538,17 +11538,17 @@
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 35,
                 "max_level": 35,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 35,
@@ -11568,7 +11568,7 @@
               {
                 "min_level": 35,
                 "max_level": 35,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 39,
@@ -11578,22 +11578,22 @@
               {
                 "min_level": 38,
                 "max_level": 38,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 40,
                 "max_level": 40,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 38,
                 "max_level": 38,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               },
               {
                 "min_level": 40,
                 "max_level": 40,
-                "species": "SPECIES_AMOBERIA"
+                "species": "SPECIES_TANKELLUR"
               }
             ]
           }
@@ -11607,62 +11607,62 @@
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_COATTAIL"
+                "species": "SPECIES_GRAPPOUCH"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_COATTAIL"
+                "species": "SPECIES_GRAPPOUCH"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_COATTAIL"
+                "species": "SPECIES_GRAPPOUCH"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_CYBIRD"
+                "species": "SPECIES_PTEROCAST"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_COATTAIL"
+                "species": "SPECIES_GRAPPOUCH"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_CYBIRD"
+                "species": "SPECIES_PTEROCAST"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_COATTAIL"
+                "species": "SPECIES_GRAPPOUCH"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_CYBIRD"
+                "species": "SPECIES_PTEROCAST"
               }
             ]
           }
@@ -11676,62 +11676,62 @@
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_SCRILL"
+                "species": "SPECIES_COATTAIL"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_SCRILL"
+                "species": "SPECIES_COATTAIL"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_SCRILL"
+                "species": "SPECIES_COATTAIL"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_CYBIRD"
+                "species": "SPECIES_PTEROCAST"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_SCRILL"
+                "species": "SPECIES_COATTAIL"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_CYBIRD"
+                "species": "SPECIES_PTEROCAST"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_SCRILL"
+                "species": "SPECIES_COATTAIL"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_CYBIRD"
+                "species": "SPECIES_PTEROCAST"
               }
             ]
           }
@@ -11745,7 +11745,7 @@
               {
                 "min_level": 6,
                 "max_level": 6,
-                "species": "SPECIES_BANANEE"
+                "species": "SPECIES_BANAGON"
               },
               {
                 "min_level": 6,
@@ -11755,7 +11755,7 @@
               {
                 "min_level": 6,
                 "max_level": 6,
-                "species": "SPECIES_BANANEE"
+                "species": "SPECIES_BANAGON"
               },
               {
                 "min_level": 7,
@@ -11765,42 +11765,42 @@
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_CYCLIL"
+                "species": "SPECIES_OVERSCRILL"
               },
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_CYCLIL"
+                "species": "SPECIES_OVERSCRILL"
               },
               {
                 "min_level": 6,
                 "max_level": 6,
-                "species": "SPECIES_CYCLIL"
+                "species": "SPECIES_OVERSCRILL"
               },
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_TADEA"
+                "species": "SPECIES_BATRACHITE"
               },
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_TADEA"
+                "species": "SPECIES_BATRACHITE"
               },
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_GENTOO"
+                "species": "SPECIES_ASTROHAUT"
               },
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_TADEA"
+                "species": "SPECIES_BATRACHITE"
               },
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_GENTOO"
+                "species": "SPECIES_ASTROHAUT"
               }
             ]
           },
@@ -11899,62 +11899,62 @@
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_CYCLIL"
+                "species": "SPECIES_OVERSCRILL"
               },
               {
                 "min_level": 9,
                 "max_level": 9,
-                "species": "SPECIES_CYCLIL"
+                "species": "SPECIES_OVERSCRILL"
               },
               {
                 "min_level": 9,
                 "max_level": 9,
-                "species": "SPECIES_CYCLIL"
+                "species": "SPECIES_OVERSCRILL"
               },
               {
                 "min_level": 9,
                 "max_level": 9,
-                "species": "SPECIES_SILICTAL"
+                "species": "SPECIES_CRYSTURDY"
               },
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_SILICTAL"
+                "species": "SPECIES_CRYSTURDY"
               },
               {
                 "min_level": 9,
                 "max_level": 9,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 10,
                 "max_level": 10,
-                "species": "SPECIES_SILICTAL"
+                "species": "SPECIES_CRYSTURDY"
               },
               {
                 "min_level": 10,
                 "max_level": 10,
-                "species": "SPECIES_CYCLIL"
+                "species": "SPECIES_OVERSCRILL"
               },
               {
                 "min_level": 10,
                 "max_level": 10,
-                "species": "SPECIES_SILICTAL"
+                "species": "SPECIES_CRYSTURDY"
               },
               {
                 "min_level": 10,
                 "max_level": 10,
-                "species": "SPECIES_SILICTAL"
+                "species": "SPECIES_CRYSTURDY"
               }
             ]
           },
@@ -12053,62 +12053,62 @@
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_FELIGHT"
+                "species": "SPECIES_MORPHYDRA"
               },
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_CYCLIL"
+                "species": "SPECIES_OVERSCRILL"
               },
               {
                 "min_level": 9,
                 "max_level": 9,
-                "species": "SPECIES_CYCLIL"
+                "species": "SPECIES_OVERSCRILL"
               },
               {
                 "min_level": 9,
                 "max_level": 9,
-                "species": "SPECIES_CYCLIL"
+                "species": "SPECIES_OVERSCRILL"
               },
               {
                 "min_level": 9,
                 "max_level": 9,
-                "species": "SPECIES_SILICTAL"
+                "species": "SPECIES_CRYSTURDY"
               },
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_SILICTAL"
+                "species": "SPECIES_CRYSTURDY"
               },
               {
                 "min_level": 9,
                 "max_level": 9,
-                "species": "SPECIES_RUMOSS"
+                "species": "SPECIES_LIAYARD"
               },
               {
                 "min_level": 10,
                 "max_level": 10,
-                "species": "SPECIES_SILICTAL"
+                "species": "SPECIES_CRYSTURDY"
               },
               {
                 "min_level": 10,
                 "max_level": 10,
-                "species": "SPECIES_RUMOSS"
+                "species": "SPECIES_LIAYARD"
               },
               {
                 "min_level": 10,
                 "max_level": 10,
-                "species": "SPECIES_SILICTAL"
+                "species": "SPECIES_CRYSTURDY"
               },
               {
                 "min_level": 10,
                 "max_level": 10,
-                "species": "SPECIES_RUMOSS"
+                "species": "SPECIES_LIAYARD"
               }
             ]
           },

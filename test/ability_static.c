@@ -10,7 +10,7 @@ SINGLE_BATTLE_TEST("Static inflicts paralysis on contact")
         ASSUME(gBattleMoves[MOVE_TACKLE].flags & FLAG_MAKES_CONTACT);
         ASSUME(!(gBattleMoves[MOVE_SWIFT].flags & FLAG_MAKES_CONTACT));
         PLAYER(SPECIES_WOBBUFFET);
-        OPPONENT(SPECIES_GENTOO) { Ability(ABILITY_STATIC); }
+        OPPONENT(SPECIES_ASTROHAUT) { Ability(ABILITY_STATIC); }
     } WHEN {
         TURN { MOVE(player, move); }
     } SCENE {

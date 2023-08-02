@@ -6987,7 +6987,7 @@ static void SetDisplayMonData(void *pokemon, u8 mode)
     }
     else
     {
-        if (sStorage->displayMonSpecies == SPECIES_LIAYARD || sStorage->displayMonSpecies == SPECIES_TOAGNITIVE)
+        if (sStorage->displayMonSpecies == SPECIES_TADEA || sStorage->displayMonSpecies == SPECIES_SILICTAL)
             gender = MON_GENDERLESS;
 
         StringCopyPadded(sStorage->displayMonNameText, sStorage->displayMonName, CHAR_SPACE, 5);

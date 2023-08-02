@@ -38,7 +38,7 @@ const u16 gEggMoves[] = {
         MOVE_BYTE,
         MOVE_GIGABYTE),
 
-    egg_moves(OVERSCRILL,
+    egg_moves(COATOAC,
         MOVE_PURSUIT,
         MOVE_FEINT_ATTACK,
         MOVE_FORESIGHT,
@@ -49,7 +49,7 @@ const u16 gEggMoves[] = {
         MOVE_UPROAR,
         MOVE_DEFOG),
 
-    egg_moves(DRAMAGO,
+    egg_moves(COILARVA,
         MOVE_SCREECH,
         MOVE_FLAME_WHEEL,
         MOVE_FURY_SWIPES,
@@ -62,7 +62,7 @@ const u16 gEggMoves[] = {
         MOVE_REVENGE,
         MOVE_FINAL_GAMBIT),
 
-    egg_moves(SILWING,
+    egg_moves(DRAMAGO,
         MOVE_FEINT_ATTACK,
         MOVE_SCARY_FACE,
         MOVE_QUICK_ATTACK,
@@ -75,7 +75,7 @@ const u16 gEggMoves[] = {
         MOVE_STEEL_WING,
         MOVE_RAZOR_WIND),
 
-    egg_moves(ASTROHAUT,
+    egg_moves(SILWING,
         MOVE_PURSUIT,
         MOVE_SLAM,
         MOVE_SPITE,
@@ -89,7 +89,7 @@ const u16 gEggMoves[] = {
         MOVE_SUCKER_PUNCH,
         MOVE_SNATCH),
 
-    egg_moves(SAULLACE,
+    egg_moves(RUMOSS,
         MOVE_FLAIL,
         MOVE_COUNTER,
         MOVE_RAPID_SPIN,
@@ -103,7 +103,7 @@ const u16 gEggMoves[] = {
         MOVE_ROTOTILLER,
         MOVE_HONE_CLAWS),
 
-    egg_moves(LIAYARD,
+    egg_moves(TADEA,
         MOVE_SUPERSONIC,
         MOVE_DISABLE,
         MOVE_TAKE_DOWN,
@@ -119,7 +119,7 @@ const u16 gEggMoves[] = {
         MOVE_CHIP_AWAY,
         MOVE_VENOM_DRENCH),
 
-    egg_moves(TOAGNITIVE,
+    egg_moves(SILICTAL,
         MOVE_COUNTER,
         MOVE_DISABLE,
         MOVE_SUPERSONIC,
@@ -135,7 +135,7 @@ const u16 gEggMoves[] = {
         MOVE_CHIP_AWAY,
         MOVE_VENOM_DRENCH),
 
-    egg_moves(BANAGON,
+    egg_moves(SALANANA,
         MOVE_FEINT_ATTACK,
         MOVE_HYPNOSIS,
         MOVE_FLAIL,
@@ -151,7 +151,7 @@ const u16 gEggMoves[] = {
         MOVE_TAIL_SLAP,
         MOVE_CAPTIVATE),
 
-    egg_moves(AMOBI,
+    egg_moves(AMOBERIA,
         MOVE_QUICK_ATTACK,
         MOVE_PURSUIT,
         MOVE_FEINT_ATTACK,
@@ -167,7 +167,7 @@ const u16 gEggMoves[] = {
         MOVE_DEFOG,
         MOVE_VENOM_DRENCH),
 
-    egg_moves(TANKELLUR,
+    egg_moves(SCRILL,
         MOVE_RAZOR_LEAF,
         MOVE_FLAIL,
         MOVE_SYNTHESIS,
@@ -180,7 +180,7 @@ const u16 gEggMoves[] = {
         MOVE_AFTER_YOU,
         MOVE_STRENGTH_SAP),
 
-    egg_moves(COATTAIL,
+    egg_moves(GRAPPOUCH,
         MOVE_SCREECH,
         MOVE_COUNTER,
         MOVE_PSYBEAM,
@@ -199,7 +199,7 @@ const u16 gEggMoves[] = {
         MOVE_FELL_STINGER,
         MOVE_GRASSY_TERRAIN),
 
-    egg_moves(SNOUTUSSLE,
+    egg_moves(EKANS,
         MOVE_BATON_PASS,
         MOVE_SCREECH,
         MOVE_GIGA_DRAIN,
@@ -4224,7 +4224,7 @@ const u16 gEggMoves[] = {
         MOVE_SUCKER_PUNCH),
 #endif
 
-    egg_moves(DRAMAGO_ALOLAN,
+    egg_moves(COILARVA_ALOLAN,
         MOVE_COUNTER,
         MOVE_FINAL_GAMBIT,
         MOVE_FURY_SWIPES,
@@ -4237,7 +4237,7 @@ const u16 gEggMoves[] = {
         MOVE_SWITCHEROO,
         MOVE_UPROAR),
 
-    egg_moves(SAULLACE_ALOLAN,
+    egg_moves(RUMOSS_ALOLAN,
         MOVE_AMNESIA,
         MOVE_CHIP_AWAY,
         MOVE_COUNTER,
@@ -4251,7 +4251,7 @@ const u16 gEggMoves[] = {
         MOVE_METAL_CLAW,
         MOVE_NIGHT_SLASH),
 
-    egg_moves(BANAGON_ALOLAN,
+    egg_moves(SALANANA_ALOLAN,
         MOVE_AGILITY,
         MOVE_CHARM,
         MOVE_DISABLE,

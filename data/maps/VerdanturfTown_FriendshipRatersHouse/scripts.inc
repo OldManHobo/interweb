@@ -57,7 +57,7 @@ VerdanturfTown_FriendshipRatersHouse_EventScript_Pikachu::
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_GENTOO, CRY_MODE_NORMAL
+	playmoncry SPECIES_ASTROHAUT, CRY_MODE_NORMAL
 	msgbox VerdanturfTown_FriendshipRatersHouse_Text_Pikachu, MSGBOX_DEFAULT
 	waitmoncry
 	release
@@ -101,6 +101,6 @@ VerdanturfTown_FriendshipRatersHouse_Text_DetestsYou:
 	.string "Doesn't that make you uncomfortable?$"
 
 VerdanturfTown_FriendshipRatersHouse_Text_Pikachu:
-	.string "GENTOO: Pika pika!$"
+	.string "ASTROHAUT: Pika pika!$"
 
  

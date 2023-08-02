@@ -2106,7 +2106,7 @@ static void UpdateNickInHealthbox(u8 healthboxSpriteId, struct Pokemon *mon)
     gender = GetMonGender(mon);
     species = GetMonData(mon, MON_DATA_SPECIES);
 
-    if ((species == SPECIES_LIAYARD || species == SPECIES_TOAGNITIVE) && StringCompare(nickname, gSpeciesNames[species]) == 0)
+    if ((species == SPECIES_TADEA || species == SPECIES_SILICTAL) && StringCompare(nickname, gSpeciesNames[species]) == 0)
         gender = 100;
 
     // AddTextPrinterAndCreateWindowOnHealthbox's arguments are the same in all 3 cases.

@@ -2333,7 +2333,7 @@ static void DisplayPartyPokemonGender(u8 gender, u16 species, u8 *nickname, stru
 
     if (species == SPECIES_NONE)
         return;
-    if ((species == SPECIES_TOAGNITIVE || species == SPECIES_LIAYARD) && StringCompare(nickname, gSpeciesNames[species]) == 0)
+    if ((species == SPECIES_SILICTAL || species == SPECIES_TADEA) && StringCompare(nickname, gSpeciesNames[species]) == 0)
         return;
     switch (gender)
     {

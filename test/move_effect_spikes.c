@@ -94,11 +94,11 @@ SINGLE_BATTLE_TEST("Spikes do not damage airborne Pokemon")
     u32 move2 = MOVE_CELEBRATE;
     bool32 airborne;
 
-    ASSUME(gSpeciesInfo[SPECIES_OVERSCRILL].types[1] == TYPE_FLYING);
-    PARAMETRIZE { species = SPECIES_OVERSCRILL; airborne = TRUE; }
-    PARAMETRIZE { species = SPECIES_OVERSCRILL; item = ITEM_IRON_BALL; airborne = FALSE; }
-    PARAMETRIZE { species = SPECIES_OVERSCRILL; move1 = MOVE_GRAVITY; airborne = FALSE; }
-    PARAMETRIZE { species = SPECIES_OVERSCRILL; move1 = MOVE_INGRAIN; airborne = FALSE; }
+    ASSUME(gSpeciesInfo[SPECIES_COATOAC].types[1] == TYPE_FLYING);
+    PARAMETRIZE { species = SPECIES_COATOAC; airborne = TRUE; }
+    PARAMETRIZE { species = SPECIES_COATOAC; item = ITEM_IRON_BALL; airborne = FALSE; }
+    PARAMETRIZE { species = SPECIES_COATOAC; move1 = MOVE_GRAVITY; airborne = FALSE; }
+    PARAMETRIZE { species = SPECIES_COATOAC; move1 = MOVE_INGRAIN; airborne = FALSE; }
 
     ASSUME(gSpeciesInfo[SPECIES_UNOWN].abilities[0] == ABILITY_LEVITATE);
     PARAMETRIZE { species = SPECIES_UNOWN; airborne = TRUE; }

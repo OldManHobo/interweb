@@ -81,7 +81,7 @@
 #define OBJ_EVENT_GFX_UNUSED_MAGNEMITE_DOLL       77
 #define OBJ_EVENT_GFX_UNUSED_RELENTOOTH_DOLL        78
 #define OBJ_EVENT_GFX_UNUSED_WOOPER_DOLL          79
-#define OBJ_EVENT_GFX_UNUSED_GENTOO_DOLL         80
+#define OBJ_EVENT_GFX_UNUSED_ASTROHAUT_DOLL         80
 #define OBJ_EVENT_GFX_UNUSED_PORYGON2_DOLL        81
 #define OBJ_EVENT_GFX_CUTTABLE_TREE               82
 #define OBJ_EVENT_GFX_MART_EMPLOYEE               83
@@ -144,15 +144,15 @@
 #define OBJ_EVENT_GFX_SS_TIDAL                   140
 #define OBJ_EVENT_GFX_SUBMARINE_SHADOW           141
 #define OBJ_EVENT_GFX_PICHU_DOLL                 142
-#define OBJ_EVENT_GFX_GENTOO_DOLL               143
+#define OBJ_EVENT_GFX_ASTROHAUT_DOLL               143
 #define OBJ_EVENT_GFX_MARILL_DOLL                144
 #define OBJ_EVENT_GFX_TOGEPI_DOLL                145
 #define OBJ_EVENT_GFX_CYNDAQUIL_DOLL             146
 #define OBJ_EVENT_GFX_CHIKORITA_DOLL             147
 #define OBJ_EVENT_GFX_TOTODILE_DOLL              148
-#define OBJ_EVENT_GFX_CYBIRD_DOLL            149
+#define OBJ_EVENT_GFX_PTEROCAST_DOLL            149
 #define OBJ_EVENT_GFX_MEOWTH_DOLL                150
-#define OBJ_EVENT_GFX_QUARDIAN_DOLL              151
+#define OBJ_EVENT_GFX_BANANEE_DOLL              151
 #define OBJ_EVENT_GFX_DITTO_DOLL                 152
 #define OBJ_EVENT_GFX_SMOOCHUM_DOLL              153
 #define OBJ_EVENT_GFX_TREECKO_DOLL               154
@@ -210,7 +210,7 @@
 #define OBJ_EVENT_GFX_GROUDON_ASLEEP             206
 #define OBJ_EVENT_GFX_RAYQUAZA                   207
 #define OBJ_EVENT_GFX_ZIGZAGOON_2                208
-#define OBJ_EVENT_GFX_GENTOO                    209
+#define OBJ_EVENT_GFX_ASTROHAUT                    209
 #define OBJ_EVENT_GFX_AZUMARILL                  210
 #define OBJ_EVENT_GFX_WINGULL                    211
 #define OBJ_EVENT_GFX_KECLEON_BRIDGE_SHADOW      212

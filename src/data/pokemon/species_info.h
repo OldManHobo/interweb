@@ -7,22 +7,22 @@
 #define NO_FLIP 1
 
 #if P_UPDATED_STATS >= GEN_6
-    #define GENTOO_BASE_DEFENSES\
+    #define ASTROHAUT_BASE_DEFENSES\
         .baseDefense   = 40,     \
         .baseSpDefense = 40
 #else
-    #define GENTOO_BASE_DEFENSES\
+    #define ASTROHAUT_BASE_DEFENSES\
         .baseDefense   = 30,     \
         .baseSpDefense = 40
 #endif
 
-#define GENTOO_SPECIES_INFO(gender, flip)                                 \
+#define ASTROHAUT_SPECIES_INFO(gender, flip)                                 \
     {                                                                      \
         .baseHP        = 95,                                               \
         .baseAttack    = 55,                                               \
         .baseSpeed     = 35,                                               \
         .baseSpAttack  = 45,                                               \
-        GENTOO_BASE_DEFENSES,                                             \
+        ASTROHAUT_BASE_DEFENSES,                                             \
         .types = { TYPE_NORMAL, TYPE_NORMAL},                          \
         .catchRate = 190,                                                  \
         .expYield = 61,                                                   \
@@ -38,8 +38,8 @@
         .noFlip = flip,                                                    \
     }
 
-#define COSPLAY_GENTOO_SPECIES_INFO(flip) GENTOO_SPECIES_INFO(MON_FEMALE, flip)
-#define CAP_GENTOO_SPECIES_INFO(flip)     GENTOO_SPECIES_INFO(MON_MALE, flip)
+#define COSPLAY_ASTROHAUT_SPECIES_INFO(flip) ASTROHAUT_SPECIES_INFO(MON_FEMALE, flip)
+#define CAP_ASTROHAUT_SPECIES_INFO(flip)     ASTROHAUT_SPECIES_INFO(MON_MALE, flip)
 
 #define PICHU_SPECIES_INFO(flip)                                           \
     {                                                                      \
@@ -1157,7 +1157,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_SCRILL] =
+    [SPECIES_COATTAIL] =
     {
         .baseHP        = 50,
         .baseDefense   = 44,
@@ -1185,7 +1185,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_OVERSCRILL] =
+    [SPECIES_COATOAC] =
     {
         .baseHP        = 85,
         .baseAttack    = 95,
@@ -1207,7 +1207,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_COILARVA] =
+    [SPECIES_CYCLIL] =
     {
         .baseHP        = 53,
         .baseAttack    = 48,
@@ -1230,7 +1230,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_MORPHYDRA] =
+    [SPECIES_ROADILLO] =
     {
         .baseHP        = 72,
         .baseAttack    = 45,
@@ -1258,7 +1258,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_DRAMAGO] =
+    [SPECIES_COILARVA] =
     {
         .baseHP        = 85,
         .baseAttack    = 115,
@@ -1281,7 +1281,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_FELIGHT] =
+    [SPECIES_MORPHYDRA] =
     {
         .baseHP        = 45,
         .baseAttack    = 45,
@@ -1303,7 +1303,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_SILWING] =
+    [SPECIES_DRAMAGO] =
     {
         .baseHP        = 75,
         .baseAttack    = 95,
@@ -1325,7 +1325,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_FOMPOUS] =
+    [SPECIES_FELIGHT] =
     {
         .baseHP        = 30,
         .baseAttack    = 34,
@@ -1347,7 +1347,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_ASTROHAUT] =
+    [SPECIES_SILWING] =
     {
         .baseHP        = 62,
         .baseAttack    = 39,
@@ -1369,7 +1369,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_WIRLIXPLOR] =
+    [SPECIES_FOMPOUS] =
     {
         .baseHP        = 75,
         .baseDefense   = 77,
@@ -1395,9 +1395,9 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_GENTOO] = GENTOO_SPECIES_INFO(PERCENT_FEMALE(50), FLIP),
+    [SPECIES_ASTROHAUT] = ASTROHAUT_SPECIES_INFO(PERCENT_FEMALE(50), FLIP),
 
-    [SPECIES_SAWFUL] =
+    [SPECIES_WIRLIXPLOR] =
     {
         .baseHP        = 125,
         .baseAttack    = 81,
@@ -1424,7 +1424,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_SAULLACE] =
+    [SPECIES_RUMOSS] =
     {
         .baseHP        = 150,
         .baseAttack    = 105,
@@ -1446,7 +1446,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_RUMOSS] =
+    [SPECIES_LIAYARD] =
     {
         .baseHP        = 43,
         .baseAttack    = 44,
@@ -1469,7 +1469,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_LIAYARD] =
+    [SPECIES_TADEA] =
     {
         .baseHP        = 72,
         .baseAttack    = 82,
@@ -1493,7 +1493,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_TADEA] =
+    [SPECIES_BATRACHITE] =
     {
         .baseHP        = 55,
         .baseAttack    = 30,
@@ -1516,7 +1516,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_BATRACHITE] =
+    [SPECIES_TOAGNITIVE] =
     {
         .baseHP        = 80,
         .baseDefense   = 55,
@@ -1544,7 +1544,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_TOAGNITIVE] =
+    [SPECIES_SILICTAL] =
     {
         .baseHP        = 95,
         .baseAttack    = 75,
@@ -1568,7 +1568,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_SILICTAL] =
+    [SPECIES_CRYSTURDY] =
     {
         .baseHP        = 35,
         .baseAttack    = 50,
@@ -1592,7 +1592,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_CRYSTURDY] =
+    [SPECIES_QUARDIAN] =
     {
         .baseHP        = 50,
         .baseDefense   = 75,
@@ -1621,7 +1621,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_QUARDIAN] =
+    [SPECIES_BANANEE] =
     {
         .baseHP        = 75,
         .baseAttack    = 100,
@@ -1650,7 +1650,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = TRUE,
     },
 
-    [SPECIES_BANANEE] =
+    [SPECIES_BANAGON] =
     {
         .baseHP        = 40,
         .baseAttack    = 65,
@@ -1681,7 +1681,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = TRUE,
     },
 
-    [SPECIES_BANAGON] =
+    [SPECIES_SALANANA] =
     {
         .baseHP        = 60,
         .baseAttack    = 80,
@@ -1705,7 +1705,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_SALANANA] =
+    [SPECIES_CYBIRD] =
     {
         .baseHP        = 93,
         .baseAttack    = 102,
@@ -1729,7 +1729,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_CYBIRD] =
+    [SPECIES_PTEROCAST] =
     {
         .baseHP        = 40,
         .baseAttack    = 35,
@@ -1755,7 +1755,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = TRUE,
     },
 
-    [SPECIES_PTEROCAST] =
+    [SPECIES_AMOBI] =
     {
         .baseHP        = 70,
         .baseAttack    = 65,
@@ -1786,7 +1786,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = TRUE,
     },
 
-    [SPECIES_AMOBI] =
+    [SPECIES_AMOBERIA] =
     {
         .baseHP        = 52,
         .baseAttack    = 25,
@@ -1808,7 +1808,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_AMOBERIA] =
+    [SPECIES_TANKELLUR] =
     {
         .baseHP        = 70,
         .baseAttack    = 44,
@@ -1830,7 +1830,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_TANKELLUR] =
+    [SPECIES_SCRILL] =
     {
         .baseHP        = 90,
         .baseAttack    = 70,
@@ -1853,7 +1853,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_CYCLIL] =
+    [SPECIES_OVERSCRILL] =
     {
         .baseHP        = 38,
         .baseAttack    = 43,
@@ -1876,7 +1876,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_ROADILLO] =
+    [SPECIES_SNOUTUSSLE] =
     {
         .baseHP        = 65,
         .baseAttack    = 83,
@@ -1903,7 +1903,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_COATTAIL] =
+    [SPECIES_GRAPPOUCH] =
     {
         .baseHP        = 48,
         .baseAttack    = 46,
@@ -1926,7 +1926,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_COATOAC] =
+    [SPECIES_SWORMO] =
     {
         .baseHP        = 85,
         .baseAttack    = 83,
@@ -1950,7 +1950,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_SNOUTUSSLE] =
+    [SPECIES_EKANS] =
     {
         .baseHP        = 40,
         .baseAttack    = 60,
@@ -1972,7 +1972,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_GRAPPOUCH] =
+    [SPECIES_PIKACHU] =
     {
         .baseHP        = 85,
         .baseAttack    = 105,
@@ -21151,7 +21151,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .flags = SPECIES_FLAG_MEGA_EVOLUTION,
     },
 
-    [SPECIES_SCRILL_MEGA] =
+    [SPECIES_COATTAIL_MEGA] =
     {
         .baseHP        = 65,
         .baseAttack    = 150,
@@ -21176,7 +21176,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .flags = SPECIES_FLAG_MEGA_EVOLUTION,
     },
 
-    [SPECIES_MORPHYDRA_MEGA] =
+    [SPECIES_ROADILLO_MEGA] =
     {
         .baseHP        = 83,
         .baseAttack    = 80,
@@ -22239,7 +22239,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .flags = SPECIES_FLAG_LEGENDARY | SPECIES_FLAG_PRIMAL_REVERSION,
     },
 
-    [SPECIES_DRAMAGO_ALOLAN] =
+    [SPECIES_COILARVA_ALOLAN] =
     {
         .baseHP        = 30,
         .baseAttack    = 56,
@@ -22263,7 +22263,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .flags = SPECIES_FLAG_ALOLAN_FORM,
     },
 
-    [SPECIES_FELIGHT_ALOLAN] =
+    [SPECIES_MORPHYDRA_ALOLAN] =
     {
         .baseHP        = 75,
         .baseAttack    = 71,
@@ -22287,7 +22287,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .flags = SPECIES_FLAG_ALOLAN_FORM,
     },
 
-    [SPECIES_SAWFUL_ALOLAN] =
+    [SPECIES_WIRLIXPLOR_ALOLAN] =
     {
         .baseHP        = 60,
         .baseAttack    = 85,
@@ -22310,7 +22310,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .flags = SPECIES_FLAG_ALOLAN_FORM,
     },
 
-    [SPECIES_SAULLACE_ALOLAN] =
+    [SPECIES_RUMOSS_ALOLAN] =
     {
         .baseHP        = 50,
         .baseAttack    = 75,
@@ -22334,7 +22334,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .flags = SPECIES_FLAG_ALOLAN_FORM,
     },
 
-    [SPECIES_RUMOSS_ALOLAN] =
+    [SPECIES_LIAYARD_ALOLAN] =
     {
         .baseHP        = 75,
         .baseAttack    = 100,
@@ -22357,7 +22357,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .flags = SPECIES_FLAG_ALOLAN_FORM,
     },
 
-    [SPECIES_BANAGON_ALOLAN] =
+    [SPECIES_SALANANA_ALOLAN] =
     {
         .baseHP        = 38,
         .baseAttack    = 41,
@@ -22381,7 +22381,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .flags = SPECIES_FLAG_ALOLAN_FORM,
     },
 
-    [SPECIES_SALANANA_ALOLAN] =
+    [SPECIES_CYBIRD_ALOLAN] =
     {
         .baseHP        = 73,
         .baseAttack    = 67,
@@ -23485,21 +23485,21 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
 #endif
 
-    [SPECIES_GENTOO_COSPLAY]   = COSPLAY_GENTOO_SPECIES_INFO(FLIP),
-    [SPECIES_GENTOO_ROCK_STAR] = COSPLAY_GENTOO_SPECIES_INFO(FLIP),
-    [SPECIES_GENTOO_BELLE]     = COSPLAY_GENTOO_SPECIES_INFO(NO_FLIP),
-    [SPECIES_GENTOO_POP_STAR]  = COSPLAY_GENTOO_SPECIES_INFO(NO_FLIP),
-    [SPECIES_GENTOO_PH_D]      = COSPLAY_GENTOO_SPECIES_INFO(FLIP),
-    [SPECIES_GENTOO_LIBRE]     = COSPLAY_GENTOO_SPECIES_INFO(FLIP),
+    [SPECIES_ASTROHAUT_COSPLAY]   = COSPLAY_ASTROHAUT_SPECIES_INFO(FLIP),
+    [SPECIES_ASTROHAUT_ROCK_STAR] = COSPLAY_ASTROHAUT_SPECIES_INFO(FLIP),
+    [SPECIES_ASTROHAUT_BELLE]     = COSPLAY_ASTROHAUT_SPECIES_INFO(NO_FLIP),
+    [SPECIES_ASTROHAUT_POP_STAR]  = COSPLAY_ASTROHAUT_SPECIES_INFO(NO_FLIP),
+    [SPECIES_ASTROHAUT_PH_D]      = COSPLAY_ASTROHAUT_SPECIES_INFO(FLIP),
+    [SPECIES_ASTROHAUT_LIBRE]     = COSPLAY_ASTROHAUT_SPECIES_INFO(FLIP),
 
-    [SPECIES_GENTOO_ORIGINAL_CAP] = CAP_GENTOO_SPECIES_INFO(NO_FLIP),
-    [SPECIES_GENTOO_HOENN_CAP]    = CAP_GENTOO_SPECIES_INFO(FLIP),
-    [SPECIES_GENTOO_SINNOH_CAP]   = CAP_GENTOO_SPECIES_INFO(FLIP),
-    [SPECIES_GENTOO_UNOVA_CAP]    = CAP_GENTOO_SPECIES_INFO(FLIP),
-    [SPECIES_GENTOO_KALOS_CAP]    = CAP_GENTOO_SPECIES_INFO(FLIP),
-    [SPECIES_GENTOO_ALOLA_CAP]    = CAP_GENTOO_SPECIES_INFO(FLIP),
-    [SPECIES_GENTOO_PARTNER_CAP]  = CAP_GENTOO_SPECIES_INFO(NO_FLIP),
-    [SPECIES_GENTOO_WORLD_CAP]    = CAP_GENTOO_SPECIES_INFO(FLIP),
+    [SPECIES_ASTROHAUT_ORIGINAL_CAP] = CAP_ASTROHAUT_SPECIES_INFO(NO_FLIP),
+    [SPECIES_ASTROHAUT_HOENN_CAP]    = CAP_ASTROHAUT_SPECIES_INFO(FLIP),
+    [SPECIES_ASTROHAUT_SINNOH_CAP]   = CAP_ASTROHAUT_SPECIES_INFO(FLIP),
+    [SPECIES_ASTROHAUT_UNOVA_CAP]    = CAP_ASTROHAUT_SPECIES_INFO(FLIP),
+    [SPECIES_ASTROHAUT_KALOS_CAP]    = CAP_ASTROHAUT_SPECIES_INFO(FLIP),
+    [SPECIES_ASTROHAUT_ALOLA_CAP]    = CAP_ASTROHAUT_SPECIES_INFO(FLIP),
+    [SPECIES_ASTROHAUT_PARTNER_CAP]  = CAP_ASTROHAUT_SPECIES_INFO(NO_FLIP),
+    [SPECIES_ASTROHAUT_WORLD_CAP]    = CAP_ASTROHAUT_SPECIES_INFO(FLIP),
 
     [SPECIES_PICHU_SPIKY_EARED] = PICHU_SPECIES_INFO(NO_FLIP),
 

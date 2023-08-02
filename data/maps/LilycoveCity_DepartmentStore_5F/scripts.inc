@@ -31,9 +31,9 @@ LilycoveCity_DepartmentStore_5F_EventScript_ClerkFarLeft::
 	.align 2
 LilycoveCity_DepartmentStore_5F_Pokemart_Dolls:
 	.2byte DECOR_PICHU_DOLL
-	.2byte DECOR_GENTOO_DOLL
+	.2byte DECOR_ASTROHAUT_DOLL
 	.2byte DECOR_MARILL_DOLL
-	.2byte DECOR_CYBIRD_DOLL
+	.2byte DECOR_PTEROCAST_DOLL
 	.2byte DECOR_DUSKULL_DOLL
 	.2byte DECOR_WYNAUT_DOLL
 	.2byte DECOR_BALTOY_DOLL

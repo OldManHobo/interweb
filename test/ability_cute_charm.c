@@ -10,7 +10,7 @@ SINGLE_BATTLE_TEST("Cute Charm inflicts infatuation on contact")
         ASSUME(gBattleMoves[MOVE_TACKLE].flags & FLAG_MAKES_CONTACT);
         ASSUME(!(gBattleMoves[MOVE_SWIFT].flags & FLAG_MAKES_CONTACT));
         PLAYER(SPECIES_WOBBUFFET) { Gender(MON_MALE); }
-        OPPONENT(SPECIES_QUARDIAN) { Gender(MON_FEMALE); Ability(ABILITY_CUTE_CHARM); }
+        OPPONENT(SPECIES_BANANEE) { Gender(MON_FEMALE); Ability(ABILITY_CUTE_CHARM); }
     } WHEN {
         TURN { MOVE(player, move); }
         TURN { MOVE(player, move); }
@@ -33,7 +33,7 @@ SINGLE_BATTLE_TEST("Cute Charm cannot infatuate same gender")
 {
     GIVEN {
         PLAYER(SPECIES_WOBBUFFET) { Gender(MON_MALE); }
-        OPPONENT(SPECIES_QUARDIAN) { Gender(MON_MALE); Ability(ABILITY_CUTE_CHARM); }
+        OPPONENT(SPECIES_BANANEE) { Gender(MON_MALE); Ability(ABILITY_CUTE_CHARM); }
     } WHEN {
         TURN { MOVE(player, MOVE_TACKLE); }
         TURN { MOVE(player, MOVE_TACKLE); }

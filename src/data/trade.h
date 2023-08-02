@@ -987,7 +987,7 @@ static const struct InGameTrade sIngameTrades[] =
     [INGAME_TRADE_SEEDOT] =
     {
         .nickname = _("TUSS"),
-        .species = SPECIES_SNOUTUSSLE,
+        .species = SPECIES_EKANS,
         .ivs = {15, 12, 15, 12, 12, 12},
         .abilityNum = 1,
         .otId = 38726,
@@ -998,7 +998,7 @@ static const struct InGameTrade sIngameTrades[] =
         .otName = _("KOBE"),
         .otGender = MALE,
         .sheen = 10,
-        .requestedSpecies = SPECIES_SILICTAL
+        .requestedSpecies = SPECIES_CRYSTURDY
     },
     [INGAME_TRADE_PLUSLE] =
     {

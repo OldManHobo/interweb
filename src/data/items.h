@@ -3849,10 +3849,10 @@ const struct Item gItems[] =
         .flingPower = 80,
     },
 
-    [ITEM_SCRILLITE] =
+    [ITEM_COATTAILITE] =
     {
         .name = _("Beedrillite"),
-        .itemId = ITEM_SCRILLITE,
+        .itemId = ITEM_COATTAILITE,
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = sBeedrilliteDesc,
@@ -3862,10 +3862,10 @@ const struct Item gItems[] =
         .flingPower = 80,
     },
 
-    [ITEM_MORPHYDRAITE] =
+    [ITEM_ROADILLOITE] =
     {
         .name = _("Pidgeotite"),
-        .itemId = ITEM_MORPHYDRAITE,
+        .itemId = ITEM_ROADILLOITE,
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = sPidgeotiteDesc,

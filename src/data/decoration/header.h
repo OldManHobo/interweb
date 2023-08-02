@@ -924,16 +924,16 @@ const struct Decoration gDecorations[] =
         .tiles = DecorGfx_PICHU_DOLL,
     },
 
-    [DECOR_GENTOO_DOLL] =
+    [DECOR_ASTROHAUT_DOLL] =
     {
-        .id = DECOR_GENTOO_DOLL,
-        .name = _("GENTOO DOLL"),
+        .id = DECOR_ASTROHAUT_DOLL,
+        .name = _("ASTROHAUT DOLL"),
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
         .price = 3000,
-        .description = DecorDesc_GENTOO_DOLL,
-        .tiles = DecorGfx_GENTOO_DOLL,
+        .description = DecorDesc_ASTROHAUT_DOLL,
+        .tiles = DecorGfx_ASTROHAUT_DOLL,
     },
 
     [DECOR_MARILL_DOLL] =
@@ -996,16 +996,16 @@ const struct Decoration gDecorations[] =
         .tiles = DecorGfx_TOTODILE_DOLL,
     },
 
-    [DECOR_CYBIRD_DOLL] =
+    [DECOR_PTEROCAST_DOLL] =
     {
-        .id = DECOR_CYBIRD_DOLL,
-        .name = _("CYBIRD DOLL"),
+        .id = DECOR_PTEROCAST_DOLL,
+        .name = _("PTEROCAST DOLL"),
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
         .price = 3000,
-        .description = DecorDesc_CYBIRD_DOLL,
-        .tiles = DecorGfx_CYBIRD_DOLL,
+        .description = DecorDesc_PTEROCAST_DOLL,
+        .tiles = DecorGfx_PTEROCAST_DOLL,
     },
 
     [DECOR_MEOWTH_DOLL] =
@@ -1020,16 +1020,16 @@ const struct Decoration gDecorations[] =
         .tiles = DecorGfx_MEOWTH_DOLL,
     },
 
-    [DECOR_QUARDIAN_DOLL] =
+    [DECOR_BANANEE_DOLL] =
     {
-        .id = DECOR_QUARDIAN_DOLL,
-        .name = _("QUARDIAN DOLL"),
+        .id = DECOR_BANANEE_DOLL,
+        .name = _("BANANEE DOLL"),
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
         .price = 3000,
-        .description = DecorDesc_QUARDIAN_DOLL,
-        .tiles = DecorGfx_QUARDIAN_DOLL,
+        .description = DecorDesc_BANANEE_DOLL,
+        .tiles = DecorGfx_BANANEE_DOLL,
     },
 
     [DECOR_DITTO_DOLL] =

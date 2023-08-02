@@ -88,9 +88,9 @@
  *   {
  *       GIVEN {
  *           ASSUME(gBattleMoves[MOVE_STUN_SPORE].flags & FLAG_POWDER);
- *           ASSUME(gSpeciesInfo[SPECIES_TANKELLUR].types[0] == TYPE_GRASS);
- *           PLAYER(SPECIES_TANKELLUR); // 1.
- *           OPPONENT(SPECIES_TANKELLUR); // 2.
+ *           ASSUME(gSpeciesInfo[SPECIES_SCRILL].types[0] == TYPE_GRASS);
+ *           PLAYER(SPECIES_SCRILL); // 1.
+ *           OPPONENT(SPECIES_SCRILL); // 2.
  *       } WHEN {
  *           TURN { MOVE(player, MOVE_STUN_SPORE); } // 3.
  *       } SCENE {

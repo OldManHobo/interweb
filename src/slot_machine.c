@@ -118,7 +118,7 @@ enum
 
 enum {
     PALTAG_REEL,
-    PALTAG_REEL_TIME_GENTOO,
+    PALTAG_REEL_TIME_ASTROHAUT,
     PALTAG_REEL_TIME_MISC,
     PALTAG_REEL_TIME_MACHINE,
     PALTAG_MISC,
@@ -6139,7 +6139,7 @@ static const struct SpriteTemplate sSpriteTemplate_ReelBackground =
 static const struct SpriteTemplate sSpriteTemplate_ReelTimePikachu =
 {
     .tileTag = TAG_NONE,
-    .paletteTag = PALTAG_REEL_TIME_GENTOO,
+    .paletteTag = PALTAG_REEL_TIME_ASTROHAUT,
     .oam = &sOam_64x64,
     .anims = sAnims_ReelTimePikachu,
     .images = NULL,
@@ -7936,7 +7936,7 @@ static const u16 sUnkPalette[16] = {
 static const struct SpritePalette sSlotMachineSpritePalettes[] =
 {
     { .data = gSlotMachineReelSymbols_Pal,       .tag = PALTAG_REEL},
-    { .data = gSlotMachineReelTimePikachu_Pal,   .tag = PALTAG_REEL_TIME_GENTOO},
+    { .data = gSlotMachineReelTimePikachu_Pal,   .tag = PALTAG_REEL_TIME_ASTROHAUT},
     { .data = gSlotMachineReelTimeMisc_Pal,      .tag = PALTAG_REEL_TIME_MISC},
     { .data = gSlotMachineReelTimeMachine_Pal,   .tag = PALTAG_REEL_TIME_MACHINE},
     { .data = gSlotMachineMisc_Pal,              .tag = PALTAG_MISC},

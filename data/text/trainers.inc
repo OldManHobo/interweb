@@ -1455,7 +1455,7 @@ Route111_Text_BrandenDefeat:
 	.string "enough of a bribe…$"
 
 Route111_Text_BrandenPostBattle:
-	.string "My RUMOSS loves eating\n"
+	.string "My LIAYARD loves eating\n"
 	.string "my sandwiches.$"
 
 Route111_Text_TyronIntro:
