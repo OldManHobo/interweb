@@ -8,8 +8,8 @@
 
 #if P_UPDATED_STATS >= GEN_6
     #define ASTROHAUT_BASE_DEFENSES\
-        .baseDefense   = 40,     \
-        .baseSpDefense = 40
+        .baseDefense   = 66,     \
+        .baseSpDefense = 85
 #else
     #define ASTROHAUT_BASE_DEFENSES\
         .baseDefense   = 30,     \
@@ -18,23 +18,22 @@
 
 #define ASTROHAUT_SPECIES_INFO(gender, flip)                                 \
     {                                                                      \
-        .baseHP        = 95,                                               \
-        .baseAttack    = 55,                                               \
-        .baseSpeed     = 35,                                               \
-        .baseSpAttack  = 45,                                               \
+        .baseHP        = 62,                                               \
+        .baseAttack    = 39,                                               \
+        .baseSpeed     = 31,                                               \
+        .baseSpAttack  = 70,                                               \
         ASTROHAUT_BASE_DEFENSES,                                             \
-        .types = { TYPE_NORMAL, TYPE_NORMAL},                          \
-        .catchRate = 190,                                                  \
-        .expYield = 61,                                                   \
-        .evYield_HP     = 1,                                            \
-        .itemRare = ITEM_SOOTHE_BELL,                                       \
+        .types = { TYPE_BUG, TYPE_WATER},                          \
+        .catchRate = 127,                                                  \
+        .expYield = 116,                                                   \
+        .evYield_SpDefense     = 2,                                         \
         .genderRatio = gender,                                             \
         .eggCycles = 20,                                                   \
-        .friendship = 140,                                                  \
-        .growthRate = GROWTH_MEDIUM_SLOW,                                  \
-        .eggGroups = { EGG_GROUP_MONSTER, EGG_GROUP_FAIRY},                                      \
-        .abilities = {ABILITY_CUTE_CHARM, ABILITY_FRIEND_GUARD, ABILITY_NOSTALGIA},\
-        .bodyColor = BODY_COLOR_BLUE,                                    \
+        .friendship = 70,                                                  \
+        .growthRate = GROWTH_MEDIUM_FAST,                                  \
+        .eggGroups = { EGG_GROUP_BUG, EGG_GROUP_WATER_3},                                      \
+        .abilities = {ABILITY_HYDRATION, ABILITY_OWN_TEMPO, ABILITY_WATER_BUBBLE},\
+        .bodyColor = BODY_COLOR_GREEN,                                    \
         .noFlip = flip,                                                    \
     }
 
@@ -1188,26 +1187,78 @@ const struct SpeciesInfo gSpeciesInfo[] =
     [SPECIES_COATOAC] =
     {
         .baseHP        = 85,
-        .baseAttack    = 95,
-        .baseDefense   = 74,
-        .baseSpeed     = 85,
-        .baseSpAttack  = 60,
-        .baseSpDefense = 65,
-        .types = { TYPE_GROUND, TYPE_GROUND },
-        .catchRate = 120,
-        .expYield = 149,
-        .evYield_Attack = 2,
+        .baseAttack    = 83,
+        .baseDefense   = 78,
+        .baseSpeed     = 83,
+        .baseSpAttack  = 68,
+        .baseSpDefense = 61,
+        .types = { TYPE_NORMAL, TYPE_NORMAL },
+        .catchRate = 127,
+        .expYield = 142,
+        .evYield_Attack    = 1,
+        .evYield_Speed   = 1,
+        .itemRare = ITEM_ORAN_BERRY,
         .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = 20,
-        .friendship = 70,
+        .eggCycles = 15,
+        .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
-        .eggGroups = { EGG_GROUP_MONSTER, EGG_GROUP_FIELD},
-        .abilities = {ABILITY_MOLD_BREAKER, ABILITY_SAND_VEIL, ABILITY_STEELWORKER},
-        .bodyColor = BODY_COLOR_BROWN,
+        .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_FIELD},
+        .abilities = {ABILITY_RUN_AWAY, ABILITY_TANGLED_FEET, ABILITY_MIMICRY},
+        .bodyColor = BODY_COLOR_BLACK,
         .noFlip = FALSE,
     },
 
     [SPECIES_CYCLIL] =
+    {
+        .baseHP        = 38,
+        .baseAttack    = 43,
+        .baseDefense   = 55,
+        .baseSpeed     = 44,
+        .baseSpAttack  = 35,
+        .baseSpDefense = 46,
+        .types = { TYPE_NORMAL, TYPE_NORMAL },
+        .catchRate = 255,
+        .expYield = 69,
+        .evYield_Defense  = 1,
+        .itemRare = ITEM_ORAN_BERRY,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 15,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_FIELD},
+        .abilities = {ABILITY_INNER_FOCUS, ABILITY_STURDY, ABILITY_SPEED_BOOST},
+        .bodyColor = BODY_COLOR_BROWN,
+        .noFlip = FALSE,
+    },
+
+    [SPECIES_ROADILLO] =
+    {
+        .baseHP        = 65,
+        .baseAttack    = 83,
+        .baseDefense   = 90,
+        .baseSpeed     = 84,
+        .baseSpDefense = 76,
+        #if P_UPDATED_STATS >= GEN_6
+            .baseSpAttack  = 60,
+        #else
+            .baseSpAttack  = 100,
+        #endif
+        .types = { TYPE_NORMAL, TYPE_GROUND},
+        .catchRate = 127,
+        .expYield = 110,
+        .evYield_Defense  = 2,
+        .itemRare = ITEM_ORAN_BERRY,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 15,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_FIELD},
+        .abilities = {ABILITY_INNER_FOCUS, ABILITY_STURDY, ABILITY_SPEED_BOOST},
+        .bodyColor = BODY_COLOR_BROWN,
+        .noFlip = FALSE,
+    },
+
+    [SPECIES_COILARVA] =
     {
         .baseHP        = 53,
         .baseAttack    = 48,
@@ -1226,11 +1277,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = { EGG_GROUP_BUG, EGG_GROUP_DRAGON},
         .abilities = {ABILITY_SWARM, ABILITY_INTIMIDATE, ABILITY_SHIELD_DUST},
-        .bodyColor = BODY_COLOR_PURPLE,
+        .bodyColor = BODY_COLOR_GREEN,
         .noFlip = FALSE,
     },
 
-    [SPECIES_ROADILLO] =
+    [SPECIES_MORPHYDRA] =
     {
         .baseHP        = 72,
         .baseAttack    = 45,
@@ -1254,11 +1305,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = { EGG_GROUP_BUG, EGG_GROUP_DRAGON},
         .abilities = {ABILITY_SWARM, ABILITY_INTIMIDATE, ABILITY_SHIELD_DUST},
-        .bodyColor = BODY_COLOR_PURPLE,
+        .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
     },
 
-    [SPECIES_COILARVA] =
+    [SPECIES_DRAMAGO] =
     {
         .baseHP        = 85,
         .baseAttack    = 115,
@@ -1277,11 +1328,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = { EGG_GROUP_BUG, EGG_GROUP_DRAGON},
         .abilities = {ABILITY_DRAGON_AURA, ABILITY_INTIMIDATE, ABILITY_SHIELD_DUST},
-        .bodyColor = BODY_COLOR_PURPLE,
+        .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
     },
 
-    [SPECIES_MORPHYDRA] =
+    [SPECIES_FELIGHT] =
     {
         .baseHP        = 45,
         .baseAttack    = 45,
@@ -1303,7 +1354,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_DRAMAGO] =
+    [SPECIES_SILWING] =
     {
         .baseHP        = 75,
         .baseAttack    = 95,
@@ -1325,7 +1376,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_FELIGHT] =
+    [SPECIES_FOMPOUS] =
     {
         .baseHP        = 30,
         .baseAttack    = 34,
@@ -1347,29 +1398,9 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_SILWING] =
-    {
-        .baseHP        = 62,
-        .baseAttack    = 39,
-        .baseDefense   = 66,
-        .baseSpeed     = 31,
-        .baseSpAttack  = 70,
-        .baseSpDefense = 85,
-        .types = { TYPE_BUG, TYPE_WATER },
-        .catchRate = 127,
-        .expYield = 116,
-        .evYield_SpDefense    = 2,
-        .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = 20,
-        .friendship = 70,
-        .growthRate = GROWTH_MEDIUM_FAST,
-        .eggGroups = { EGG_GROUP_BUG, EGG_GROUP_WATER_3},
-        .abilities = {ABILITY_HYDRATION, ABILITY_OWN_TEMPO, ABILITY_WATER_BUBBLE},
-        .bodyColor = BODY_COLOR_GREEN,
-        .noFlip = FALSE,
-    },
+    [SPECIES_ASTROHAUT] = ASTROHAUT_SPECIES_INFO(PERCENT_FEMALE(50), FLIP),
 
-    [SPECIES_FOMPOUS] =
+    [SPECIES_WIRLIXPLOR] =
     {
         .baseHP        = 75,
         .baseDefense   = 77,
@@ -1395,58 +1426,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_ASTROHAUT] = ASTROHAUT_SPECIES_INFO(PERCENT_FEMALE(50), FLIP),
-
-    [SPECIES_WIRLIXPLOR] =
-    {
-        .baseHP        = 125,
-        .baseAttack    = 81,
-        .baseDefense   = 50,
-        .baseSpAttack  = 65,
-        .baseSpDefense = 60,
-        #if P_UPDATED_STATS >= GEN_6
-            .baseSpeed     = 49,
-        #else
-            .baseSpeed     = 100,
-        #endif
-        .types = { TYPE_NORMAL, TYPE_NORMAL},
-        .catchRate = 75,
-        .expYield = 145,
-        .evYield_HP     = 2,
-        .itemRare = ITEM_SOOTHE_BELL,
-        .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = 20,
-        .friendship = 140,
-        .growthRate = GROWTH_MEDIUM_SLOW,
-        .eggGroups = { EGG_GROUP_MONSTER, EGG_GROUP_FAIRY},
-        .abilities = {ABILITY_CUTE_CHARM, ABILITY_FRIEND_GUARD, ABILITY_NOSTALGIA},
-        .bodyColor = BODY_COLOR_BLUE,
-        .noFlip = FALSE,
-    },
-
     [SPECIES_RUMOSS] =
-    {
-        .baseHP        = 150,
-        .baseAttack    = 105,
-        .baseDefense   = 70,
-        .baseSpeed     = 55,
-        .baseSpAttack  = 85,
-        .baseSpDefense = 80,
-        .types = { TYPE_NORMAL, TYPE_FAIRY },
-        .catchRate = 35,
-        .expYield = 240,
-        .evYield_HP   = 3,
-        .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = 20,
-        .friendship = 140,
-        .growthRate = GROWTH_MEDIUM_SLOW,
-        .eggGroups = { EGG_GROUP_MONSTER, EGG_GROUP_FAIRY},
-        .abilities = {ABILITY_INTIMIDATE, ABILITY_FRIEND_GUARD, ABILITY_NOSTALGIA},
-        .bodyColor = BODY_COLOR_BLUE,
-        .noFlip = FALSE,
-    },
-
-    [SPECIES_LIAYARD] =
     {
         .baseHP        = 43,
         .baseAttack    = 44,
@@ -1469,7 +1449,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_TADEA] =
+    [SPECIES_LIAYARD] =
     {
         .baseHP        = 72,
         .baseAttack    = 82,
@@ -1493,7 +1473,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_BATRACHITE] =
+    [SPECIES_TADEA] =
     {
         .baseHP        = 55,
         .baseAttack    = 30,
@@ -1516,7 +1496,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_TOAGNITIVE] =
+    [SPECIES_BATRACHITE] =
     {
         .baseHP        = 80,
         .baseDefense   = 55,
@@ -1544,7 +1524,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_SILICTAL] =
+    [SPECIES_TOAGNITIVE] =
     {
         .baseHP        = 95,
         .baseAttack    = 75,
@@ -1568,7 +1548,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_CRYSTURDY] =
+    [SPECIES_SILICTAL] =
     {
         .baseHP        = 35,
         .baseAttack    = 50,
@@ -1592,7 +1572,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_QUARDIAN] =
+    [SPECIES_CRYSTURDY] =
     {
         .baseHP        = 50,
         .baseDefense   = 75,
@@ -1621,7 +1601,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_BANANEE] =
+    [SPECIES_QUARDIAN] =
     {
         .baseHP        = 75,
         .baseAttack    = 100,
@@ -1650,7 +1630,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = TRUE,
     },
 
-    [SPECIES_BANAGON] =
+    [SPECIES_BANANEE] =
     {
         .baseHP        = 40,
         .baseAttack    = 65,
@@ -1681,7 +1661,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = TRUE,
     },
 
-    [SPECIES_SALANANA] =
+    [SPECIES_BANAGON] =
     {
         .baseHP        = 60,
         .baseAttack    = 80,
@@ -1705,7 +1685,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_CYBIRD] =
+    [SPECIES_SALANANA] =
     {
         .baseHP        = 93,
         .baseAttack    = 102,
@@ -1729,7 +1709,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_PTEROCAST] =
+    [SPECIES_CYBIRD] =
     {
         .baseHP        = 40,
         .baseAttack    = 35,
@@ -1755,7 +1735,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = TRUE,
     },
 
-    [SPECIES_AMOBI] =
+    [SPECIES_PTEROCAST] =
     {
         .baseHP        = 70,
         .baseAttack    = 65,
@@ -1786,7 +1766,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = TRUE,
     },
 
-    [SPECIES_AMOBERIA] =
+    [SPECIES_AMOBI] =
     {
         .baseHP        = 52,
         .baseAttack    = 25,
@@ -1808,7 +1788,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_TANKELLUR] =
+    [SPECIES_AMOBERIA] =
     {
         .baseHP        = 70,
         .baseAttack    = 44,
@@ -1830,7 +1810,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_SCRILL] =
+    [SPECIES_TANKELLUR] =
     {
         .baseHP        = 90,
         .baseAttack    = 70,
@@ -1853,101 +1833,121 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_OVERSCRILL] =
+    [SPECIES_SCRILL] =
     {
-        .baseHP        = 38,
-        .baseAttack    = 43,
-        .baseDefense   = 55,
-        .baseSpeed     = 44,
+        .baseHP        = 50,
+        .baseDefense   = 44,
+        .baseSpeed     = 42,
         .baseSpAttack  = 35,
-        .baseSpDefense = 46,
-        .types = { TYPE_NORMAL, TYPE_NORMAL },
-        .catchRate = 255,
-        .expYield = 69,
-        .evYield_Defense  = 1,
-        .itemRare = ITEM_ORAN_BERRY,
+        .baseSpDefense = 40,
+        #if P_UPDATED_STATS >= GEN_6
+            .baseAttack    = 54,
+        #else
+            .baseAttack    = 80,
+        #endif
+        .types = { TYPE_GROUND, TYPE_GROUND},
+        .catchRate = 235,
+        .expYield = 53,
+        .evYield_Attack    = 1,
+        .itemCommon = ITEM_HARD_STONE,
+        .itemRare = ITEM_SMOOTH_ROCK,
         .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = 15,
+        .eggCycles = 20,
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
-        .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-        .abilities = {ABILITY_INNER_FOCUS, ABILITY_STURDY, ABILITY_SPEED_BOOST},
+        .eggGroups = { EGG_GROUP_MONSTER, EGG_GROUP_FIELD},
+        .abilities = {ABILITY_MOLD_BREAKER, ABILITY_SAND_VEIL, ABILITY_STEELWORKER},
+        .bodyColor = BODY_COLOR_BROWN,
+        .noFlip = FALSE,
+    },
+
+    [SPECIES_OVERSCRILL] =
+    {
+        .baseHP        = 85,
+        .baseAttack    = 95,
+        .baseDefense   = 74,
+        .baseSpeed     = 85,
+        .baseSpAttack  = 60,
+        .baseSpDefense = 65,
+        .types = { TYPE_GROUND, TYPE_GROUND },
+        .catchRate = 120,
+        .expYield = 149,
+        .evYield_Attack = 2,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = 70,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = { EGG_GROUP_MONSTER, EGG_GROUP_FIELD},
+        .abilities = {ABILITY_MOLD_BREAKER, ABILITY_SAND_VEIL, ABILITY_STEELWORKER},
         .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
     },
 
     [SPECIES_SNOUTUSSLE] =
     {
-        .baseHP        = 65,
-        .baseAttack    = 83,
-        .baseDefense   = 90,
-        .baseSpeed     = 84,
-        .baseSpDefense = 76,
-        #if P_UPDATED_STATS >= GEN_6
-            .baseSpAttack  = 60,
-        #else
-            .baseSpAttack  = 100,
-        #endif
-        .types = { TYPE_NORMAL, TYPE_GROUND},
-        .catchRate = 127,
-        .expYield = 110,
-        .evYield_Defense  = 2,
-        .itemRare = ITEM_ORAN_BERRY,
+        .baseHP        = 40,
+        .baseAttack    = 60,
+        .baseDefense   = 55,
+        .baseSpeed     = 48,
+        .baseSpAttack  = 35,
+        .baseSpDefense = 45,
+        .types = { TYPE_FIGHTING, TYPE_FIGHTING },
+        .catchRate = 235,
+        .expYield = 61,
+        .evYield_Attack = 1,
         .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = 15,
+        .eggCycles = 20,
         .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_MEDIUM_FAST,
-        .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-        .abilities = {ABILITY_INNER_FOCUS, ABILITY_STURDY, ABILITY_SPEED_BOOST},
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_MONSTER},
+        .abilities = {ABILITY_NO_GUARD, ABILITY_GUTS, ABILITY_SCRAPPY},
         .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
     },
 
     [SPECIES_GRAPPOUCH] =
     {
-        .baseHP        = 48,
-        .baseAttack    = 46,
-        .baseDefense   = 42,
-        .baseSpeed     = 47,
-        .baseSpAttack  = 36,
-        .baseSpDefense = 32,
-        .types = { TYPE_NORMAL, TYPE_NORMAL },
-        .catchRate = 255,
-        .expYield = 57,
-        .evYield_Attack    = 1,
-        .itemRare = ITEM_ORAN_BERRY,
+        .baseHP        = 85,
+        .baseAttack    = 105,
+        .baseDefense   = 95,
+        .baseSpeed     = 75,
+        .baseSpAttack  = 60,
+        .baseSpDefense = 70,
+        .types = { TYPE_FIGHTING, TYPE_FIGHTING },
+        .catchRate = 90,
+        .expYield = 158,
+        .evYield_Attack     = 2,
         .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = 15,
+        .eggCycles = 20,
         .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_MEDIUM_FAST,
-        .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-        .abilities = {ABILITY_RUN_AWAY, ABILITY_TANGLED_FEET, ABILITY_MIMICRY},
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_MONSTER},
+        .abilities = {ABILITY_NO_GUARD, ABILITY_GUTS, ABILITY_PARENTAL_BOND},
         .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
     },
 
     [SPECIES_SWORMO] =
     {
-        .baseHP        = 85,
-        .baseAttack    = 83,
-        .baseDefense   = 78,
-        .baseSpeed     = 83,
-        .baseSpAttack  = 68,
-        .baseSpDefense = 61,
+        .baseHP        = 65,
+        .baseAttack    = 55,
+        .baseDefense   = 85,
+        .baseSpeed     = 70,
+        .baseSpAttack  = 60,
+        .baseSpDefense = 85,
         .types = { TYPE_NORMAL, TYPE_NORMAL },
-        .catchRate = 127,
-        .expYield = 142,
-        .evYield_Attack    = 1,
-        .evYield_Speed   = 1,
-        .itemRare = ITEM_ORAN_BERRY,
-        .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = 15,
+        .catchRate = 190,
+        .expYield = 145,
+        .evYield_Defense   = 1,
+        .itemRare = ITEM_SMOKE_BALL,
+        .genderRatio = MON_GENDERLESS,
+        .eggCycles = 20,
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
-        .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-        .abilities = {ABILITY_RUN_AWAY, ABILITY_TANGLED_FEET, ABILITY_MIMICRY},
-        .bodyColor = BODY_COLOR_BLACK,
-        .noFlip = FALSE,
+        .eggGroups = { EGG_GROUP_BUG, EGG_GROUP_FIELD},
+        .abilities = {ABILITY_SAND_SPIT, ABILITY_HUGE_POWER, ABILITY_NORMALIZE},
+        .bodyColor = BODY_COLOR_WHITE,
+        .noFlip = TRUE,
     },
 
     [SPECIES_EKANS] =

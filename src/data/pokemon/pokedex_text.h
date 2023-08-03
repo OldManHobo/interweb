@@ -88,136 +88,138 @@ const u8 gKakunaPokedexText[] = _(
     "evident from how hot its shell becomes.");
 
 const u8 gBeedrillPokedexText[] = _(
-    "Snagoons are mischievous creatures\n"
-    "that rarely appear at daytime.\n"
-    "They're always looking for some devious\n"
-    "trick to perpetrate.");
+    "The eyes on its tail watch for predators\n"
+    "while its head forages for berries.\n"
+    "As the tail has its own brain, Coattail's\n"
+    "two halves are often in conflict.");
 
 const u8 gPidgeyPokedexText[] = _(
-    "Repocoons are masters at the art\n"
-    "of thievery. Don't leave any\n"
-    "valuables outside at nighttime!");
+    "The brain in its tail controls all of its\n"
+    "motor and bodily functions, but the head's\n"
+    "brain can still help when extra thinking\n"
+    "power is required.");
 
 const u8 gPidgeottoPokedexText[] = _(
+    "Roving bands of Cyclil litter Werkai's\n"
+    "roads and pathways. Due to the heavy\n"
+    "legal protections on them, motor vehicles\n"
+    "are almost nonexistant in the region.");
+
+const u8 gPidgeotPokedexText[] = _(
+    "Because of their ability to spin at over\n"
+    "4,000 revolutions per minute, a lone\n"
+    "Industrial Age engineer once devised a\n"
+    "a carriage propelled entirely by Roadillo.");
+
+const u8 gRattataPokedexText[] = _(
     "Coilarva are weak creatures and a common\n"
     "meal for Felight. Their lizard-like\n"
     "appearance is designed to scare away\n"
     "predators.");
 
-const u8 gPidgeotPokedexText[] = _(
+const u8 gRaticatePokedexText[] = _(
     "Morphydra's behavior and appearance\n"
     "cause novice trainers to confuse them\n"
     "for dragons. Don't be fooled, it is still\n"
     "very much a bug.");
 
-const u8 gRattataPokedexText[] = _(
+const u8 gSpearowPokedexText[] = _(
     "Dramago's evolution gave it a powerful\n"
     "draconic aura. Trainers are advised to\n"
     "use caution around it--it is very much\n"
     "a dragon now.");
 
-const u8 gRaticatePokedexText[] = _(
+const u8 gFearowPokedexText[] = _(
     "The whiskers on its head help navigate\n"
     "the dense forests it lives in. A Felight\n"
     "knows it can enter a cranny if they\n"
     "don't brush up against the walls.");
 
-const u8 gSpearowPokedexText[] = _(
+const u8 gEkansPokedexText[] = _(
     "Silwing take to the skies to search for\n"
     "food. They catch their prey through a\n"
     "series of complex aerial maneuvers, but\n"
     "they always manage to land on their feet.");
 
-const u8 gFearowPokedexText[] = _(
+const u8 gArbokPokedexText[] = _(
     "The light foam from its mouth protects\n"
     "it and keeps it afloat. It explores its\n"
     "surroundings with an unquenchable\n"
     "curiosity.");
 
-const u8 gEkansPokedexText[] = _(
+const u8 gPikachuPokedexText[] = _(
     "The water bubble on its head allows it\n"
     "to fulfill its dream of travelling unknown\n"
     "lands. It shows signs of distress when\n"
     "kept in one place for too long.");
 
-const u8 gArbokPokedexText[] = _(
+const u8 gRaichuPokedexText[] = _(
     "A fierce conqueror, Wirlixplor is always\n"
     "seeking out new territory to control.\n"
     "Other Pokémon don't seem to mind, though.");
 
-const u8 gPikachuPokedexText[] = _(
-    "A poll held by the Werkai Pokémon Fan Club\n"
-    "rated Gentoo as the region's cutest\n"
-    "Pokémon. They're caught by the hundreds\n"
-    "as gifts for young children.");
-
-const u8 gRaichuPokedexText[] = _(
-    "Just one glance at Sawful can bring back\n"
-    "the fondest of memories. It is prized\n"
-    "for its helpful nature.");
-
 const u8 gSandshrewPokedexText[] = _(
-    "Because of their percieved ugliness,\n"
-    "Saullace are a rare sight in Werkai.\n"
-    "The ones that do exist often internalize\n"
-    "their trainer's regret.");
-
-const u8 gSandslashPokedexText[] = _(
     "Even a single Rumoss can devastate an\n"
     "unprotected lawn. Natural as it may look,\n"
     "the grass covering its head is hard and\n" 
     "artificial.");
 
-const u8 gNidoranFPokedexText[] = _(
+const u8 gSandslashPokedexText[] = _(
     "A group of Liayard can easily pass as a\n"
     "normal lawn. A faraway country's legend\n"
     "holds that a giant Liayard is sleeping at\n"
     "the center of the Earth.");
 
-const u8 gNidorinaPokedexText[] = _(
+const u8 gNidoranFPokedexText[] = _(
     "Tadea raised in close proximity become\n"
     "psychically bonded--even geographic\n"
     "separation won't prevent them from\n"
     "hearing each other's thoughts.");
 
-const u8 gNidoqueenPokedexText[] = _(
+const u8 gNidorinaPokedexText[] = _(
     "Despite being diurnal, these Pokémon have\n"
     "been known to awaken in droves to stare at\n"
     "the night sky during a full moon.");
 
-const u8 gNidoranMPokedexText[] = _(
+const u8 gNidoqueenPokedexText[] = _(
     "The emotions it feels quickly become the\n"
     "emotions of those around it. Entire towns\n"
     "have descended into chaos because of a\n"
     "single disgruntled Toagnitive.");
 
-const u8 gNidorinoPokedexText[] = _(
+const u8 gNidoranMPokedexText[] = _(
     "Silictal are found in shallow waters.\n"
     "They often encase their bodies in sand,\n"
     "hiding everything except the crystal\n"
     "on their heads.");
 
-const u8 gNidokingPokedexText[] = _(
+const u8 gNidorinoPokedexText[] = _(
     "Crysturdy's shields can block all sorts\n"
     "of attacks. Their physical toughness\n"
     "has made them a quite common sight as\n"
     "assistant Pokémon in mines.");
 
-const u8 gClefairyPokedexText[] = _(
+const u8 gNidokingPokedexText[] = _(
     "The crystal on Quardian's head grows at an\n"
     "even rate its entire life--you can learn\n"
     "the age of one just by checking its length.");
 
-const u8 gClefablePokedexText[] = _(
+const u8 gClefairyPokedexText[] = _(
     "A deadly plague nearly spelled the end\n"
     "of Bananee many years ago. Thankfully,\n"
     "the population has almost completely\n"
     "recovered since then.");
 
-const u8 gVulpixPokedexText[] = _(
+const u8 gClefablePokedexText[] = _(
     "The Sweet Scent emitted by Banagon lures\n"
     "in the small bug Pokémon that make up\n"
     "its diet. Its skin is really slippery.");
+
+const u8 gVulpixPokedexText[] = _(
+    "The nectar produced by its neck is very\n"
+    "nutritious. Farmers all over the region\n"
+    "claim the nectar from their Salanana is the\n"
+    "tastiest.");
 
 const u8 gNinetalesPokedexText[] = _(
     "The nectar produced by its neck is very\n"
@@ -232,22 +234,21 @@ const u8 gJigglypuffPokedexText[] = _(
     "in the last 30 minutes.");
 
 const u8 gWigglytuffPokedexText[] = _(
-    "Hypadog2's projections offer better\n"
-    "quality and longer recording times\n"
-    "than its predecessor. They can be found\n"
-    "guarding the region's important buildings.");
-
-const u8 gZubatPokedexText[] = _(
     "It is composed of a single hyper-developed\n"
     "cell. Instead of eating, Amobi absorbs food\n"
     "directly into its gelatinous body to be\n"
     "digested.");
 
-const u8 gGolbatPokedexText[] = _(
+const u8 gZubatPokedexText[] = _(
     "Evolving grants Amoberia finer control\n"
     "over its body than its previous form.\n"
     "For reasons unknown, it typically assumes\n"
     "the form of a lizard.");
+
+const u8 gGolbatPokedexText[] = _(
+    "Tankellur's body holds several corrosive\n"
+    "digestive enzymes. A thin cellular membrane\n"
+    "prevents them from spilling out.");
 
 const u8 gOddishPokedexText[] = _(
     "Tankellur's body holds several corrosive\n"
@@ -261,16 +262,16 @@ const u8 gGloomPokedexText[] = _(
     "are almost nonexistant in the region.");
 
 const u8 gVileplumePokedexText[] = _(
-    "Because of their ability to spin at over\n"
-    "4,000 revolutions per minute, a lone\n"
-    "Industrial Age engineer once devised a\n"
-    "a carriage propelled entirely by Roadillo.");
+    "Snoutussle are highly social Pokémon that\n"
+    "play-fight to hone their hunting skills.\n"
+    "They sleep by hanging onto branches with\n"
+    "their curled tails.");
 
 const u8 gParasPokedexText[] = _(
-    "The eyes on its tail watch for predators\n"
-    "while its head forages for berries.\n"
-    "As the tail has its own brain, Coattail's\n"
-    "two halves are often in conflict.");
+    "Grappouch are one of the few Pokémon\n"
+    "that raise their young together. Males\n"
+    "are way more ruthless than females when\n"
+    "it comes to protecting their offspring.");
 
 const u8 gParasectPokedexText[] = _(
     "The brain in its tail controls all of its\n"
