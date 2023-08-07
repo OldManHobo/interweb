@@ -7859,7 +7859,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute103Torchic[]
     {
     .iv = 0,
     .lvl = 3,
-    .species = SPECIES_BADGERP,
+    .species = SPECIES_GENERA,
     .abilityNums = 0,
     }
 };
@@ -8012,7 +8012,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute103Torchic[] = {
     {
     .iv = 0,
     .lvl = 3,
-    .species = SPECIES_BADGERP,
+    .species = SPECIES_GENERA,
     .abilityNums = 0,
     }
 };
@@ -9092,7 +9092,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRustboroTorchic[]
     {
     .iv = 50,
     .lvl = 15,
-    .species = SPECIES_BADGERP,
+    .species = SPECIES_GENERA,
     .abilityNums = 0,
     }
 };
@@ -11807,7 +11807,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRustboroTorchic[] = {
     {
     .iv = 50,
     .lvl = 15,
-    .species = SPECIES_BADGERP,
+    .species = SPECIES_GENERA,
     .abilityNums = 0,
     }
 };
@@ -14232,7 +14232,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Leaf[] = {
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_BADGERP,
+    .species = SPECIES_GENERA,
     .abilityNums = 0,
     }
 };
@@ -14277,7 +14277,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_DavidRoute103Mudkip[] = 
     {
     .iv = 0,
     .lvl = 3,
-    .species = SPECIES_BADGERP,
+    .species = SPECIES_GENERA,
     .abilityNums = 0,
     }
 };

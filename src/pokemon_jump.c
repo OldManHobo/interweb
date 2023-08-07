@@ -39,7 +39,7 @@
 enum {
     BG_INTERFACE,
     BG_BONUSES,
-    BG_MELECIUM,
+    BG_KAZEIYAGA,
     BG_SCENERY,
 };
 
@@ -426,7 +426,7 @@ EWRAM_DATA static struct PokemonJumpGfx *sPokemonJumpGfx = NULL;
 */
 static const struct PokemonJumpMons sPokeJumpMons[] =
 {
-    { .species = SPECIES_BADGERP,  .jumpType = JUMP_TYPE_SLOW, },
+    { .species = SPECIES_GENERA,  .jumpType = JUMP_TYPE_SLOW, },
     { .species = SPECIES_TEPILLA, .jumpType = JUMP_TYPE_FAST, },
     { .species = SPECIES_RELENTOOTH,   .jumpType = JUMP_TYPE_NORMAL, },
     { .species = SPECIES_DISCUTTLE,   .jumpType = JUMP_TYPE_FAST, },
@@ -3230,9 +3230,9 @@ static const u16 sBg_Pal[] = INCBIN_U16("graphics/pokemon_jump/bg.gbapal");
 static const u32 sBg_Gfx[] = INCBIN_U32("graphics/pokemon_jump/bg.4bpp.lz");
 static const u32 sBg_Tilemap[] = INCBIN_U32("graphics/pokemon_jump/bg.bin.lz");
 
-static const u16 sVenusaur_Pal[] = INCBIN_U16("graphics/pokemon_jump/venusaur.gbapal");
-static const u32 sVenusaur_Gfx[] = INCBIN_U32("graphics/pokemon_jump/venusaur.4bpp.lz");
-static const u32 sVenusaur_Tilemap[] = INCBIN_U32("graphics/pokemon_jump/venusaur.bin.lz");
+static const u16 sKazeiyaga_Pal[] = INCBIN_U16("graphics/pokemon_jump/venusaur.gbapal");
+static const u32 sKazeiyaga_Gfx[] = INCBIN_U32("graphics/pokemon_jump/venusaur.4bpp.lz");
+static const u32 sKazeiyaga_Tilemap[] = INCBIN_U32("graphics/pokemon_jump/venusaur.bin.lz");
 
 static const u16 sBonuses_Pal[] = INCBIN_U16("graphics/pokemon_jump/bonuses.gbapal");
 static const u32 sBonuses_Gfx[] = INCBIN_U32("graphics/pokemon_jump/bonuses.4bpp.lz");
@@ -3250,7 +3250,7 @@ static const struct BgTemplate sBgTemplates[] =
         .baseTile = 0
     },
     {
-        .bg = BG_MELECIUM,
+        .bg = BG_KAZEIYAGA,
         .charBaseIndex = 1,
         .mapBaseIndex = 30,
         .screenSize = 2,
@@ -3367,9 +3367,9 @@ static void LoadPokeJumpGfx(void)
         LoadPalette(sBg_Pal, BG_PLTT_ID(0), PLTT_SIZE_4BPP);
         DecompressAndCopyTileDataToVram(BG_SCENERY, sBg_Gfx, 0, 0, 0);
         DecompressAndCopyTileDataToVram(BG_SCENERY, sBg_Tilemap, 0, 0, 1);
-        LoadPalette(sVenusaur_Pal, BG_PLTT_ID(3), PLTT_SIZE_4BPP);
-        DecompressAndCopyTileDataToVram(BG_MELECIUM, sVenusaur_Gfx, 0, 0, 0);
-        DecompressAndCopyTileDataToVram(BG_MELECIUM, sVenusaur_Tilemap, 0, 0, 1);
+        LoadPalette(sKazeiyaga_Pal, BG_PLTT_ID(3), PLTT_SIZE_4BPP);
+        DecompressAndCopyTileDataToVram(BG_KAZEIYAGA, sKazeiyaga_Gfx, 0, 0, 0);
+        DecompressAndCopyTileDataToVram(BG_KAZEIYAGA, sKazeiyaga_Tilemap, 0, 0, 1);
         LoadPalette(sBonuses_Pal, BG_PLTT_ID(1), PLTT_SIZE_4BPP);
         DecompressAndCopyTileDataToVram(BG_BONUSES, sBonuses_Gfx, 0, 0, 0);
         DecompressAndCopyTileDataToVram(BG_BONUSES, sBonuses_Tilemap, 0, 0, 1);
@@ -3380,7 +3380,7 @@ static void LoadPokeJumpGfx(void)
         PrintScore(0);
         LoadUserWindowBorderGfxOnBg(0, 1, BG_PLTT_ID(14));
         CopyBgTilemapBufferToVram(BG_INTERFACE);
-        CopyBgTilemapBufferToVram(BG_MELECIUM);
+        CopyBgTilemapBufferToVram(BG_KAZEIYAGA);
         CopyBgTilemapBufferToVram(BG_BONUSES);
         ResetBgPositions();
         sPokemonJumpGfx->mainState++;
@@ -3393,7 +3393,7 @@ static void LoadPokeJumpGfx(void)
             UpdateVineAnim(sPokemonJumpGfx, VINE_UPSWING_LOWER);
             ShowBg(BG_SCENERY);
             ShowBg(BG_INTERFACE);
-            ShowBg(BG_MELECIUM);
+            ShowBg(BG_KAZEIYAGA);
             HideBg(BG_BONUSES);
             sPokemonJumpGfx->mainState++;
         }
@@ -3821,24 +3821,24 @@ static void PrintScoreSuffixes(void)
 // The venusaurs in the background are actually an empty 256x512 bg with 3 pairs of venusaurs on it.
 // The below array is used to get values for where to set the bg Y to show the corresponding
 // venusaur pair in their state of swinging the vine rope
-// NEUTRAL/DOWN/UP refers to which direction the Venusaur is facing as it swings the vine
+// NEUTRAL/DOWN/UP refers to which direction the Kazeiyaga is facing as it swings the vine
 enum {
-    MELECIUM_NEUTRAL,
-    MELECIUM_DOWN,
-    MELECIUM_UP,
+    KAZEIYAGA_NEUTRAL,
+    KAZEIYAGA_DOWN,
+    KAZEIYAGA_UP,
 };
 
-static const u8 sVenusaurStates[] = {
-    [VINE_HIGHEST]          = MELECIUM_UP,
-    [VINE_DOWNSWING_HIGHER] = MELECIUM_UP,
-    [VINE_DOWNSWING_HIGH]   = MELECIUM_NEUTRAL,
-    [VINE_DOWNSWING_LOW]    = MELECIUM_NEUTRAL,
-    [VINE_DOWNSWING_LOWER]  = MELECIUM_DOWN,
-    [VINE_LOWEST]           = MELECIUM_DOWN,
-    [VINE_UPSWING_LOWER]    = MELECIUM_DOWN,
-    [VINE_UPSWING_LOW]      = MELECIUM_NEUTRAL,
-    [VINE_UPSWING_HIGH]     = MELECIUM_NEUTRAL,
-    [VINE_UPSWING_HIGHER]   = MELECIUM_UP,
+static const u8 sKazeiyagaStates[] = {
+    [VINE_HIGHEST]          = KAZEIYAGA_UP,
+    [VINE_DOWNSWING_HIGHER] = KAZEIYAGA_UP,
+    [VINE_DOWNSWING_HIGH]   = KAZEIYAGA_NEUTRAL,
+    [VINE_DOWNSWING_LOW]    = KAZEIYAGA_NEUTRAL,
+    [VINE_DOWNSWING_LOWER]  = KAZEIYAGA_DOWN,
+    [VINE_LOWEST]           = KAZEIYAGA_DOWN,
+    [VINE_UPSWING_LOWER]    = KAZEIYAGA_DOWN,
+    [VINE_UPSWING_LOW]      = KAZEIYAGA_NEUTRAL,
+    [VINE_UPSWING_HIGH]     = KAZEIYAGA_NEUTRAL,
+    [VINE_UPSWING_HIGHER]   = KAZEIYAGA_UP,
 };
 
 static const struct CompressedSpriteSheet sSpriteSheet_Digits = {gMinigameDigits_Gfx, 0, TAG_DIGITS};
@@ -3912,7 +3912,7 @@ static void SetMonSpriteY(u32 id, s16 y)
 static void UpdateVineSwing(int vineState)
 {
     UpdateVineAnim(sPokemonJumpGfx, vineState);
-    ChangeBgY(BG_MELECIUM, (sVenusaurStates[vineState] * 5) << 13, BG_COORD_SET);
+    ChangeBgY(BG_KAZEIYAGA, (sKazeiyagaStates[vineState] * 5) << 13, BG_COORD_SET);
 }
 
 static int DoSameJumpTimeBonus(u8 flags)

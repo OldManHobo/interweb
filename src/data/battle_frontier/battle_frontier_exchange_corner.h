@@ -17,7 +17,7 @@ static const u16 sFrontierExchangeCorner_Decor2[] =
 {
     DECOR_LAPRAS_DOLL,
     DECOR_SNORLAX_DOLL,
-    DECOR_MELECIUM_DOLL,
+    DECOR_KAZEIYAGA_DOLL,
     DECOR_SOLADOR_DOLL,
     DECOR_LEVIAMAWL_DOLL,
     ITEM_LIST_END
@@ -55,7 +55,7 @@ static const u8 *const sFrontierExchangeCorner_Decor1Descriptions[] =
     BattleFrontier_ExchangeServiceCorner_Text_SmoochumDollDesc,
     BattleFrontier_ExchangeServiceCorner_Text_TogepiDollDesc,
     BattleFrontier_ExchangeServiceCorner_Text_MeowthDollDesc,
-    BattleFrontier_ExchangeServiceCorner_Text_ClefairyDollDesc,
+    BattleFrontier_ExchangeServiceCorner_Text_BananeeDollDesc,
     BattleFrontier_ExchangeServiceCorner_Text_DittoDollDesc,
     BattleFrontier_ExchangeServiceCorner_Text_CyndaquilDollDesc,
     BattleFrontier_ExchangeServiceCorner_Text_ChikoritaDollDesc,

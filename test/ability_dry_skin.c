@@ -13,7 +13,7 @@ SINGLE_BATTLE_TEST("Dry Skin causes 1/8th Max HP damage in Sun")
     } SCENE {
         ABILITY_POPUP(player, ABILITY_DRY_SKIN);
         HP_BAR(player, damage: TEST_MAX_HP / 8);
-        MESSAGE("The Parasect's Dry Skin takes its toll!");
+        MESSAGE("The Swormo's Dry Skin takes its toll!");
     }
 }
 
@@ -26,7 +26,7 @@ SINGLE_BATTLE_TEST("Dry Skin heals 1/8th Max HP in Rain")
         TURN { MOVE(player, MOVE_RAIN_DANCE); }
     } SCENE {
         ABILITY_POPUP(player, ABILITY_DRY_SKIN);
-        MESSAGE("Parasect's Dry Skin restored its HP a little!");
+        MESSAGE("Swormo's Dry Skin restored its HP a little!");
         HP_BAR(player, hp: TEST_MAX_HP / 8 + 100);
     }
 }
@@ -61,7 +61,7 @@ SINGLE_BATTLE_TEST("Dry Skin heals 25% when hit by water type moves")
     } SCENE {
         ABILITY_POPUP(player, ABILITY_DRY_SKIN);
         HP_BAR(player, hp: TEST_MAX_HP / 4 + 100);
-        MESSAGE("Parasect restored HP using its Dry Skin!");
+        MESSAGE("Swormo restored HP using its Dry Skin!");
     }
 }
 
@@ -74,7 +74,7 @@ SINGLE_BATTLE_TEST("Dry Skin does not activate if protected")
     } WHEN {
         TURN { MOVE(player, MOVE_PROTECT); MOVE(opponent, MOVE_BUBBLE); }
     } SCENE {
-        NONE_OF { ABILITY_POPUP(player, ABILITY_DRY_SKIN); HP_BAR(player); MESSAGE("Parasect restored HP using its Dry Skin!"); }
+        NONE_OF { ABILITY_POPUP(player, ABILITY_DRY_SKIN); HP_BAR(player); MESSAGE("Swormo restored HP using its Dry Skin!"); }
     }
 }
 
@@ -90,7 +90,7 @@ SINGLE_BATTLE_TEST("Dry Skin is only triggered once on multi strike moves")
     } SCENE {
         ABILITY_POPUP(player, ABILITY_DRY_SKIN);
         HP_BAR(player, hp: TEST_MAX_HP / 4 + 100);
-        MESSAGE("Parasect restored HP using its Dry Skin!");
+        MESSAGE("Swormo restored HP using its Dry Skin!");
     }
 }
 
@@ -108,7 +108,7 @@ SINGLE_BATTLE_TEST("Dry Skin prevents Absorb Bulb and Luminous Moss from activat
     } SCENE {
         ABILITY_POPUP(player, ABILITY_DRY_SKIN);
         HP_BAR(player, hp: TEST_MAX_HP / 4 + 100);
-        MESSAGE("Parasect restored HP using its Dry Skin!");
+        MESSAGE("Swormo restored HP using its Dry Skin!");
         NONE_OF {
             ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_HELD_ITEM_EFFECT, player);
             ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_STATS_CHANGE, player);

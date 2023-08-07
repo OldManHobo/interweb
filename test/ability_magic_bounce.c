@@ -49,9 +49,9 @@ SINGLE_BATTLE_TEST("Magic Bounce cannot bounce back powder moves against Grass T
     } SCENE {
         ABILITY_POPUP(opponent, ABILITY_MAGIC_BOUNCE);
         NOT ANIMATION(ANIM_TYPE_MOVE, MOVE_STUN_SPORE, player);
-        MESSAGE("Oddish's Stun Spore was bounced back by Foe Espeon's Magic Bounce!");
+        MESSAGE("Scrill's Stun Spore was bounced back by Foe Espeon's Magic Bounce!");
         NOT ANIMATION(ANIM_TYPE_MOVE, MOVE_STUN_SPORE, opponent);
-        MESSAGE("It doesn't affect Oddish…");
+        MESSAGE("It doesn't affect Scrill…");
         NOT STATUS_ICON(player, paralysis: TRUE);
     }
 }

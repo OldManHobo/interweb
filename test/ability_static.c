@@ -17,12 +17,12 @@ SINGLE_BATTLE_TEST("Static inflicts paralysis on contact")
         if (gBattleMoves[move].flags & FLAG_MAKES_CONTACT) {
             ABILITY_POPUP(opponent, ABILITY_STATIC);
             ANIMATION(ANIM_TYPE_STATUS, B_ANIM_STATUS_PRZ, player);
-            MESSAGE("Foe Pikachu's Static paralyzed Wobbuffet! It may be unable to move!");
+            MESSAGE("Foe Astrohaut's Static paralyzed Wobbuffet! It may be unable to move!");
             STATUS_ICON(player, paralysis: TRUE);
         } else {
             NOT ABILITY_POPUP(opponent, ABILITY_STATIC);
             NOT ANIMATION(ANIM_TYPE_STATUS, B_ANIM_STATUS_PRZ, player);
-            NOT MESSAGE("Foe Pikachu's Static paralyzed Wobbuffet! It may be unable to move!");
+            NOT MESSAGE("Foe Astrohaut's Static paralyzed Wobbuffet! It may be unable to move!");
             NOT STATUS_ICON(player, paralysis: TRUE);
         }
     }

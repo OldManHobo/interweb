@@ -802,23 +802,23 @@ const u32 gItemIconPalette_BlueOrb[] = INCBIN_U32("graphics/items/icon_palettes/
 
 // Mega Stones
 
-const u32 gItemIcon_Venusaurite[] = INCBIN_U32("graphics/items/icons/venusaurite.4bpp.lz");
-const u32 gItemIconPalette_Venusaurite[] = INCBIN_U32("graphics/items/icon_palettes/venusaurite.gbapal.lz");
+const u32 gItemIcon_Kazeiyagaite[] = INCBIN_U32("graphics/items/icons/venusaurite.4bpp.lz");
+const u32 gItemIconPalette_Kazeiyagaite[] = INCBIN_U32("graphics/items/icon_palettes/venusaurite.gbapal.lz");
 
-const u32 gItemIcon_CharizarditeX[] = INCBIN_U32("graphics/items/icons/charizardite_x.4bpp.lz");
-const u32 gItemIconPalette_CharizarditeX[] = INCBIN_U32("graphics/items/icon_palettes/charizardite_x.gbapal.lz");
+const u32 gItemIcon_SoladoriteX[] = INCBIN_U32("graphics/items/icons/charizardite_x.4bpp.lz");
+const u32 gItemIconPalette_SoladoriteX[] = INCBIN_U32("graphics/items/icon_palettes/charizardite_x.gbapal.lz");
 
-const u32 gItemIcon_CharizarditeY[] = INCBIN_U32("graphics/items/icons/charizardite_y.4bpp.lz");
-const u32 gItemIconPalette_CharizarditeY[] = INCBIN_U32("graphics/items/icon_palettes/charizardite_y.gbapal.lz");
+const u32 gItemIcon_SoladoriteY[] = INCBIN_U32("graphics/items/icons/charizardite_y.4bpp.lz");
+const u32 gItemIconPalette_SoladoriteY[] = INCBIN_U32("graphics/items/icon_palettes/charizardite_y.gbapal.lz");
 
 const u32 gItemIcon_Blastoisinite[] = INCBIN_U32("graphics/items/icons/blastoisinite.4bpp.lz");
 const u32 gItemIconPalette_Blastoisinite[] = INCBIN_U32("graphics/items/icon_palettes/blastoisinite.gbapal.lz");
 
-const u32 gItemIcon_Beedrillite[] = INCBIN_U32("graphics/items/icons/beedrillite.4bpp.lz");
-const u32 gItemIconPalette_Beedrillite[] = INCBIN_U32("graphics/items/icon_palettes/beedrillite.gbapal.lz");
+const u32 gItemIcon_Coattailite[] = INCBIN_U32("graphics/items/icons/beedrillite.4bpp.lz");
+const u32 gItemIconPalette_Coattailite[] = INCBIN_U32("graphics/items/icon_palettes/beedrillite.gbapal.lz");
 
-const u32 gItemIcon_Pidgeotite[] = INCBIN_U32("graphics/items/icons/pidgeotite.4bpp.lz");
-const u32 gItemIconPalette_Pidgeotite[] = INCBIN_U32("graphics/items/icon_palettes/pidgeotite.gbapal.lz");
+const u32 gItemIcon_Roadilloite[] = INCBIN_U32("graphics/items/icons/pidgeotite.4bpp.lz");
+const u32 gItemIconPalette_Roadilloite[] = INCBIN_U32("graphics/items/icon_palettes/pidgeotite.gbapal.lz");
 
 const u32 gItemIcon_Alakazite[] = INCBIN_U32("graphics/items/icons/alakazite.4bpp.lz");
 const u32 gItemIconPalette_Alakazite[] = INCBIN_U32("graphics/items/icon_palettes/alakazite.gbapal.lz");

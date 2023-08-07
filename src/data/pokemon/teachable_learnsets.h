@@ -1,4 +1,4 @@
-static const u16 sBulbasaurTeachableLearnset[] = {
+static const u16 sGeneraTeachableLearnset[] = {
     MOVE_NIGHT_SLASH,
     MOVE_TAUNT,
     MOVE_SNATCH,
@@ -29,7 +29,7 @@ static const u16 sBulbasaurTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sIvysaurTeachableLearnset[] = {
+static const u16 sGyannexTeachableLearnset[] = {
     MOVE_NIGHT_SLASH,
     MOVE_TAUNT,
     MOVE_SNATCH,
@@ -63,7 +63,7 @@ static const u16 sIvysaurTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sVenusaurTeachableLearnset[] = {
+static const u16 sKazeiyagaTeachableLearnset[] = {
     MOVE_NIGHT_SLASH,
     MOVE_TAUNT,
     MOVE_SNATCH,
@@ -100,7 +100,7 @@ static const u16 sVenusaurTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sCharmanderTeachableLearnset[] = {
+static const u16 sTepillaTeachableLearnset[] = {
     MOVE_FELL_STINGER,
     MOVE_LEECH_LIFE,
     MOVE_STRUGGLE_BUG,
@@ -127,7 +127,7 @@ static const u16 sCharmanderTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sCharmeleonTeachableLearnset[] = {
+static const u16 sEscorchesTeachableLearnset[] = {
     MOVE_FELL_STINGER,
     MOVE_LEECH_LIFE,
     MOVE_STRUGGLE_BUG,
@@ -154,7 +154,7 @@ static const u16 sCharmeleonTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sCharizardTeachableLearnset[] = {
+static const u16 sSoladorTeachableLearnset[] = {
     MOVE_FELL_STINGER,
     MOVE_LEECH_LIFE,
     MOVE_STRUGGLE_BUG,
@@ -186,7 +186,7 @@ static const u16 sCharizardTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sSquirtleTeachableLearnset[] = {
+static const u16 sRelentoothTeachableLearnset[] = {
     MOVE_LEECH_LIFE,
     MOVE_NIGHT_SLASH,
     MOVE_FOUL_PLAY,
@@ -216,7 +216,7 @@ static const u16 sSquirtleTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sWartortleTeachableLearnset[] = {
+static const u16 sSnarethanTeachableLearnset[] = {
     MOVE_LEECH_LIFE,
     MOVE_NIGHT_SLASH,
     MOVE_FOUL_PLAY,
@@ -246,7 +246,7 @@ static const u16 sWartortleTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sBlastoiseTeachableLearnset[] = {
+static const u16 sLeviamawlTeachableLearnset[] = {
     MOVE_LEECH_LIFE,
     MOVE_NIGHT_SLASH,
     MOVE_FOUL_PLAY,
@@ -277,7 +277,7 @@ static const u16 sBlastoiseTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sCaterpieTeachableLearnset[] = {
+static const u16 sDiscuttleTeachableLearnset[] = {
     MOVE_FELL_STINGER,
     MOVE_LEECH_LIFE,
     MOVE_STRUGGLE_BUG,
@@ -313,7 +313,7 @@ static const u16 sCaterpieTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sMetapodTeachableLearnset[] = {
+static const u16 sTennadishTeachableLearnset[] = {
     MOVE_FELL_STINGER,
     MOVE_LEECH_LIFE,
     MOVE_STRUGGLE_BUG,
@@ -349,7 +349,7 @@ static const u16 sMetapodTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sButterfreeTeachableLearnset[] = {
+static const u16 sWebilliteTeachableLearnset[] = {
     MOVE_FELL_STINGER,
     MOVE_LEECH_LIFE,
     MOVE_STRUGGLE_BUG,
@@ -391,7 +391,7 @@ static const u16 sButterfreeTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sWeedleTeachableLearnset[] = {
+static const u16 sGalactivyTeachableLearnset[] = {
     MOVE_LEECH_LIFE,
     MOVE_INFESTATION,
     MOVE_FOUL_PLAY,
@@ -419,7 +419,7 @@ static const u16 sWeedleTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sKakunaTeachableLearnset[] = {
+static const u16 sXenoweedTeachableLearnset[] = {
     MOVE_LEECH_LIFE,
     MOVE_INFESTATION,
     MOVE_FOUL_PLAY,
@@ -447,7 +447,7 @@ static const u16 sKakunaTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sBeedrillTeachableLearnset[] = {
+static const u16 sCoattailTeachableLearnset[] = {
     MOVE_FOUL_PLAY,
     MOVE_MEMENTO,
     MOVE_SNATCH,
@@ -473,7 +473,7 @@ static const u16 sBeedrillTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sPidgeyTeachableLearnset[] = {
+static const u16 sCoatoacTeachableLearnset[] = {
     MOVE_FOUL_PLAY,
     MOVE_MEMENTO,
     MOVE_SNATCH,
@@ -500,7 +500,7 @@ static const u16 sPidgeyTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sPidgeottoTeachableLearnset[] = {
+static const u16 sCyclilTeachableLearnset[] = {
     MOVE_ELECTRO_BALL,
     MOVE_COUNTER,
     MOVE_FLAME_CHARGE,
@@ -520,7 +520,7 @@ static const u16 sPidgeottoTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sPidgeotTeachableLearnset[] = {
+static const u16 sRoadilloTeachableLearnset[] = {
     MOVE_TAUNT,
     MOVE_ELECTRO_BALL,
     MOVE_COUNTER,
@@ -546,7 +546,7 @@ static const u16 sPidgeotTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sRattataTeachableLearnset[] = {
+static const u16 sCoilarvaTeachableLearnset[] = {
     MOVE_LEECH_LIFE,
     MOVE_STRUGGLE_BUG,
     MOVE_INFESTATION,
@@ -564,7 +564,7 @@ static const u16 sRattataTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sRaticateTeachableLearnset[] = {
+static const u16 sMorphydraTeachableLearnset[] = {
     MOVE_LEECH_LIFE,
     MOVE_STRUGGLE_BUG,
     MOVE_INFESTATION,
@@ -587,7 +587,7 @@ static const u16 sRaticateTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sSpearowTeachableLearnset[] = {
+static const u16 sDramagoTeachableLearnset[] = {
     MOVE_LEECH_LIFE,
     MOVE_STRUGGLE_BUG,
     MOVE_INFESTATION,
@@ -623,7 +623,7 @@ static const u16 sSpearowTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sFearowTeachableLearnset[] = {
+static const u16 sFelightTeachableLearnset[] = {
     MOVE_NIGHT_SLASH,
     MOVE_FOUL_PLAY,
     MOVE_TAUNT,
@@ -645,7 +645,7 @@ static const u16 sFearowTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sEkansTeachableLearnset[] = {
+static const u16 sSilwingTeachableLearnset[] = {
     MOVE_NIGHT_SLASH,
     MOVE_FOUL_PLAY,
     MOVE_TAUNT,
@@ -668,7 +668,7 @@ static const u16 sEkansTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sArbokTeachableLearnset[] = {
+static const u16 sFompousTeachableLearnset[] = {
     MOVE_LEECH_LIFE,
     MOVE_STRUGGLE_BUG,
     MOVE_INFESTATION,
@@ -695,7 +695,7 @@ static const u16 sArbokTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sPikachuTeachableLearnset[] = {
+static const u16 sAstrohautTeachableLearnset[] = {
     MOVE_LEECH_LIFE,
     MOVE_STRUGGLE_BUG,
     MOVE_INFESTATION,
@@ -725,7 +725,7 @@ static const u16 sPikachuTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sRaichuTeachableLearnset[] = {
+static const u16 sWirlixplorTeachableLearnset[] = {
     MOVE_LEECH_LIFE,
     MOVE_STRUGGLE_BUG,
     MOVE_INFESTATION,
@@ -759,7 +759,7 @@ static const u16 sRaichuTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sSandshrewTeachableLearnset[] = {
+static const u16 sRumossTeachableLearnset[] = {
     MOVE_INFESTATION,
     MOVE_FOUL_PLAY,
     MOVE_MEMENTO,
@@ -790,7 +790,7 @@ static const u16 sSandshrewTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sSandslashTeachableLearnset[] = {
+static const u16 sLiayardTeachableLearnset[] = {
     MOVE_INFESTATION,
     MOVE_FOUL_PLAY,
     MOVE_MEMENTO,
@@ -822,7 +822,7 @@ static const u16 sSandslashTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sNidoranFTeachableLearnset[] = {
+static const u16 sTadeaTeachableLearnset[] = {
     MOVE_WILL_O_WISP,
     MOVE_HEX,
     MOVE_CURSE,
@@ -850,7 +850,7 @@ static const u16 sNidoranFTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sNidorinaTeachableLearnset[] = {
+static const u16 sBatrachiteTeachableLearnset[] = {
     MOVE_WILL_O_WISP,
     MOVE_HEX,
     MOVE_CURSE,
@@ -879,7 +879,7 @@ static const u16 sNidorinaTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sNidoqueenTeachableLearnset[] = {
+static const u16 sToagnitiveTeachableLearnset[] = {
     MOVE_WILL_O_WISP,
     MOVE_HEX,
     MOVE_CURSE,
@@ -914,7 +914,7 @@ static const u16 sNidoqueenTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sNidoranMTeachableLearnset[] = {
+static const u16 sSilictalTeachableLearnset[] = {
     MOVE_LOW_SWEEP,
     MOVE_DIG,
     MOVE_BULLDOZE,
@@ -944,7 +944,7 @@ static const u16 sNidoranMTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sNidorinoTeachableLearnset[] = {
+static const u16 sCrysturdyTeachableLearnset[] = {
     MOVE_LOW_SWEEP,
     MOVE_DIG,
     MOVE_BULLDOZE,
@@ -976,7 +976,7 @@ static const u16 sNidorinoTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sNidokingTeachableLearnset[] = {
+static const u16 sQuardianTeachableLearnset[] = {
     MOVE_LOW_SWEEP,
     MOVE_DIG,
     MOVE_BULLDOZE,
@@ -1013,7 +1013,7 @@ static const u16 sNidokingTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sClefairyTeachableLearnset[] = {
+static const u16 sBananeeTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_LEECH_SEED,
     MOVE_GRASSY_TERRAIN,
@@ -1033,7 +1033,7 @@ static const u16 sClefairyTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sClefableTeachableLearnset[] = {
+static const u16 sBanagonTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_LEECH_SEED,
     MOVE_GRASSY_TERRAIN,
@@ -1053,7 +1053,7 @@ static const u16 sClefableTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sVulpixTeachableLearnset[] = {
+static const u16 sSalananaTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_LEECH_SEED,
     MOVE_GRASSY_TERRAIN,
@@ -1081,7 +1081,7 @@ static const u16 sVulpixTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sNinetalesTeachableLearnset[] = {
+static const u16 sCybirdTeachableLearnset[] = {
     MOVE_SNATCH,
     MOVE_TWISTER,
     MOVE_ELECTRO_BALL,
@@ -1110,7 +1110,7 @@ static const u16 sNinetalesTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sJigglypuffTeachableLearnset[] = {
+static const u16 sPterocastTeachableLearnset[] = {
     MOVE_SNATCH,
     MOVE_TWISTER,
     MOVE_ELECTRO_BALL,
@@ -1140,7 +1140,7 @@ static const u16 sJigglypuffTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sWigglytuffTeachableLearnset[] = {
+static const u16 sAmobiTeachableLearnset[] = {
     MOVE_LEECH_LIFE,
     MOVE_INFESTATION,
     MOVE_GIGA_DRAIN,
@@ -1163,7 +1163,7 @@ static const u16 sWigglytuffTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sZubatTeachableLearnset[] = {
+static const u16 sAmoberiaTeachableLearnset[] = {
     MOVE_LEECH_LIFE,
     MOVE_INFESTATION,
     MOVE_GIGA_DRAIN,
@@ -1189,7 +1189,7 @@ static const u16 sZubatTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sGolbatTeachableLearnset[] = {
+static const u16 sTankellurTeachableLearnset[] = {
     MOVE_LEECH_LIFE,
     MOVE_INFESTATION,
     MOVE_GIGA_DRAIN,
@@ -1220,7 +1220,7 @@ static const u16 sGolbatTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sOddishTeachableLearnset[] = {
+static const u16 sScrillTeachableLearnset[] = {
     MOVE_FELL_STINGER,
     MOVE_NIGHT_SLASH,
     MOVE_FOUL_PLAY,
@@ -1249,7 +1249,7 @@ static const u16 sOddishTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sGloomTeachableLearnset[] = {
+static const u16 sOverscrillTeachableLearnset[] = {
     MOVE_FELL_STINGER,
     MOVE_NIGHT_SLASH,
     MOVE_FOUL_PLAY,
@@ -1279,7 +1279,7 @@ static const u16 sGloomTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sVileplumeTeachableLearnset[] = {
+static const u16 sSnoutussleTeachableLearnset[] = {
     MOVE_TAUNT,
     MOVE_COUNTER,
     MOVE_WAKE_UP_SLAP,
@@ -1304,7 +1304,7 @@ static const u16 sVileplumeTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sParasTeachableLearnset[] = {
+static const u16 sGrappouchTeachableLearnset[] = {
     MOVE_TAUNT,
     MOVE_COUNTER,
     MOVE_WAKE_UP_SLAP,
@@ -1337,7 +1337,7 @@ static const u16 sParasTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sParasectTeachableLearnset[] = {
+static const u16 sSwormoTeachableLearnset[] = {
     MOVE_TAUNT,
     MOVE_COUNTER,
     MOVE_WAKE_UP_SLAP,
@@ -31501,7 +31501,7 @@ static const u16 sEnamorusTeachableLearnset[] = {
 };
 #endif
 
-static const u16 sRattataAlolanTeachableLearnset[] = {
+static const u16 sCoilarvaAlolanTeachableLearnset[] = {
     MOVE_BLIZZARD,
     MOVE_CUT,
     MOVE_DIG,
@@ -31517,7 +31517,7 @@ static const u16 sRattataAlolanTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sRaticateAlolanTeachableLearnset[] = {
+static const u16 sMorphydraAlolanTeachableLearnset[] = {
     MOVE_BLIZZARD,
     MOVE_BULK_UP,
     MOVE_CUT,
@@ -31535,7 +31535,7 @@ static const u16 sRaticateAlolanTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sRaichuAlolanTeachableLearnset[] = {
+static const u16 sWirlixplorAlolanTeachableLearnset[] = {
     MOVE_BRICK_BREAK,
     MOVE_CALM_MIND,
     MOVE_DIG,
@@ -31556,7 +31556,7 @@ static const u16 sRaichuAlolanTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sSandshrewAlolanTeachableLearnset[] = {
+static const u16 sRumossAlolanTeachableLearnset[] = {
     MOVE_BLIZZARD,
     MOVE_BRICK_BREAK,
     MOVE_CUT,
@@ -31573,7 +31573,7 @@ static const u16 sSandshrewAlolanTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sSandslashAlolanTeachableLearnset[] = {
+static const u16 sLiayardAlolanTeachableLearnset[] = {
     MOVE_BLIZZARD,
     MOVE_BRICK_BREAK,
     MOVE_CUT,
@@ -31591,7 +31591,7 @@ static const u16 sSandslashAlolanTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sVulpixAlolanTeachableLearnset[] = {
+static const u16 sSalananaAlolanTeachableLearnset[] = {
     MOVE_BLIZZARD,
     MOVE_DIG,
     MOVE_FACADE,
@@ -31604,7 +31604,7 @@ static const u16 sVulpixAlolanTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
-static const u16 sNinetalesAlolanTeachableLearnset[] = {
+static const u16 sCybirdAlolanTeachableLearnset[] = {
     MOVE_BLIZZARD,
     MOVE_CALM_MIND,
     MOVE_DIG,

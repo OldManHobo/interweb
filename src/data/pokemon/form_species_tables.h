@@ -1,47 +1,47 @@
-static const u16 sVenusaurFormSpeciesIdTable[] = {
-    SPECIES_MELECIUM,
-    SPECIES_MELECIUM_MEGA,
+static const u16 sKazeiyagaFormSpeciesIdTable[] = {
+    SPECIES_KAZEIYAGA,
+    SPECIES_KAZEIYAGA_MEGA,
     FORM_SPECIES_END,
 };
 
-static const u16 sCharizardFormSpeciesIdTable[] = {
+static const u16 sSoladorFormSpeciesIdTable[] = {
     SPECIES_SOLADOR,
     SPECIES_SOLADOR_MEGA_X,
     SPECIES_SOLADOR_MEGA_Y,
     FORM_SPECIES_END,
 };
 
-static const u16 sBlastoiseFormSpeciesIdTable[] = {
+static const u16 sLeviamawlFormSpeciesIdTable[] = {
     SPECIES_LEVIAMAWL,
     SPECIES_LEVIAMAWL_MEGA,
     FORM_SPECIES_END,
 };
 
-static const u16 sBeedrillFormSpeciesIdTable[] = {
+static const u16 sCoattailFormSpeciesIdTable[] = {
     SPECIES_COATTAIL,
     SPECIES_COATTAIL_MEGA,
     FORM_SPECIES_END,
 };
 
-static const u16 sPidgeotFormSpeciesIdTable[] = {
+static const u16 sRoadilloFormSpeciesIdTable[] = {
     SPECIES_ROADILLO,
     SPECIES_ROADILLO_MEGA,
     FORM_SPECIES_END,
 };
 
-static const u16 sRattataFormSpeciesIdTable[] = {
+static const u16 sCoilarvaFormSpeciesIdTable[] = {
     SPECIES_COILARVA,
     SPECIES_COILARVA_ALOLAN,
     FORM_SPECIES_END,
 };
 
-static const u16 sRaticateFormSpeciesIdTable[] = {
+static const u16 sMorphydraFormSpeciesIdTable[] = {
     SPECIES_MORPHYDRA,
     SPECIES_MORPHYDRA_ALOLAN,
     FORM_SPECIES_END,
 };
 
-static const u16 sPikachuFormSpeciesIdTable[] = {
+static const u16 sAstrohautFormSpeciesIdTable[] = {
     SPECIES_ASTROHAUT,
     SPECIES_ASTROHAUT_COSPLAY,
     SPECIES_ASTROHAUT_ROCK_STAR,
@@ -60,31 +60,31 @@ static const u16 sPikachuFormSpeciesIdTable[] = {
     FORM_SPECIES_END,
 };
 
-static const u16 sRaichuFormSpeciesIdTable[] = {
+static const u16 sWirlixplorFormSpeciesIdTable[] = {
     SPECIES_WIRLIXPLOR,
     SPECIES_WIRLIXPLOR_ALOLAN,
     FORM_SPECIES_END,
 };
 
-static const u16 sSandshrewFormSpeciesIdTable[] = {
+static const u16 sRumossFormSpeciesIdTable[] = {
     SPECIES_RUMOSS,
     SPECIES_RUMOSS_ALOLAN,
     FORM_SPECIES_END,
 };
 
-static const u16 sSandslashFormSpeciesIdTable[] = {
+static const u16 sLiayardFormSpeciesIdTable[] = {
     SPECIES_LIAYARD,
     SPECIES_LIAYARD_ALOLAN,
     FORM_SPECIES_END,
 };
 
-static const u16 sVulpixFormSpeciesIdTable[] = {
+static const u16 sSalananaFormSpeciesIdTable[] = {
     SPECIES_SALANANA,
     SPECIES_SALANANA_ALOLAN,
     FORM_SPECIES_END,
 };
 
-static const u16 sNinetalesFormSpeciesIdTable[] = {
+static const u16 sCybirdFormSpeciesIdTable[] = {
     SPECIES_CYBIRD,
     SPECIES_CYBIRD_ALOLAN,
     FORM_SPECIES_END,

@@ -614,8 +614,8 @@ const u16 DecorGfx_LAPRAS_DOLL[] = {
     OBJ_EVENT_GFX_BIG_LAPRAS_DOLL
 };
 
-const u16 DecorGfx_MELECIUM_DOLL[] = {
-    OBJ_EVENT_GFX_BIG_MELECIUM_DOLL
+const u16 DecorGfx_KAZEIYAGA_DOLL[] = {
+    OBJ_EVENT_GFX_BIG_KAZEIYAGA_DOLL
 };
 
 const u16 DecorGfx_SOLADOR_DOLL[] = {

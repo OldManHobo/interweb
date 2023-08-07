@@ -18,13 +18,13 @@ SINGLE_BATTLE_TEST("Cute Charm inflicts infatuation on contact")
         if (gBattleMoves[move].flags & FLAG_MAKES_CONTACT) {
             ABILITY_POPUP(opponent, ABILITY_CUTE_CHARM);
             ANIMATION(ANIM_TYPE_STATUS, B_ANIM_STATUS_INFATUATION, player);
-            MESSAGE("Foe Clefairy's Cute Charm infatuated Wobbuffet!");
-            MESSAGE("Wobbuffet is in love with Foe Clefairy!");
+            MESSAGE("Foe Bananee's Cute Charm infatuated Wobbuffet!");
+            MESSAGE("Wobbuffet is in love with Foe Bananee!");
         } else {
             NOT ABILITY_POPUP(opponent, ABILITY_CUTE_CHARM);
             NOT ANIMATION(ANIM_TYPE_STATUS, B_ANIM_STATUS_INFATUATION, player);
-            NOT MESSAGE("Foe Clefairy's Cute Charm infatuated Wobbuffet!");
-            NOT MESSAGE("Wobbuffet is in love with Foe Clefairy!");
+            NOT MESSAGE("Foe Bananee's Cute Charm infatuated Wobbuffet!");
+            NOT MESSAGE("Wobbuffet is in love with Foe Bananee!");
         }
     }
 }

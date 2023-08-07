@@ -2448,7 +2448,7 @@ static const u8 *const sScrollableMultichoiceOptions[][MAX_SCROLL_MULTI_LENGTH] 
         gText_SmoochumDoll32BP,
         gText_TogepiDoll48BP,
         gText_MeowthDoll48BP,
-        gText_ClefairyDoll48BP,
+        gText_BananeeDoll48BP,
         gText_DittoDoll48BP,
         gText_CyndaquilDoll80BP,
         gText_ChikoritaDoll80BP,
@@ -2459,9 +2459,9 @@ static const u8 *const sScrollableMultichoiceOptions[][MAX_SCROLL_MULTI_LENGTH] 
     {
         gText_LaprasDoll128BP,
         gText_SnorlaxDoll128BP,
-        gText_VenusaurDoll256BP,
-        gText_CharizardDoll256BP,
-        gText_BlastoiseDoll256BP,
+        gText_KazeiyagaDoll256BP,
+        gText_SoladorDoll256BP,
+        gText_LeviamawlDoll256BP,
         gText_Exit
     },
     [SCROLL_MULTI_BF_EXCHANGE_CORNER_VITAMIN_VENDOR] =

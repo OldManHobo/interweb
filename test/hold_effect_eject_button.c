@@ -61,12 +61,12 @@ SINGLE_BATTLE_TEST("Eject Button will not activate under Substitute")
         }
     } SCENE {
         ANIMATION(ANIM_TYPE_MOVE, MOVE_SUBSTITUTE, opponent);
-        MESSAGE("Foe Raichu made a SUBSTITUTE!");
+        MESSAGE("Foe Wirlixplor made a SUBSTITUTE!");
         ANIMATION(ANIM_TYPE_MOVE, MOVE_TACKLE, player);
-        MESSAGE("The SUBSTITUTE took damage for Foe Raichu!");
+        MESSAGE("The SUBSTITUTE took damage for Foe Wirlixplor!");
         NONE_OF {
             ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_HELD_ITEM_EFFECT, opponent);
-            MESSAGE("Foe Raichu is switched out with the Eject Button!");
+            MESSAGE("Foe Wirlixplor is switched out with the Eject Button!");
         }
     }
 }

@@ -1,25 +1,25 @@
-static const struct FormChange sVenusaurFormChangeTable[] = {
-    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_MELECIUM_MEGA, ITEM_MELECIUMITE},
+static const struct FormChange sKazeiyagaFormChangeTable[] = {
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_KAZEIYAGA_MEGA, ITEM_KAZEIYAGAITE},
     {FORM_CHANGE_TERMINATOR},
 };
 
-static const struct FormChange sCharizardFormChangeTable[] = {
+static const struct FormChange sSoladorFormChangeTable[] = {
     {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_SOLADOR_MEGA_X, ITEM_SOLADORITE_X},
     {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_SOLADOR_MEGA_Y, ITEM_SOLADORITE_Y},
     {FORM_CHANGE_TERMINATOR},
 };
 
-static const struct FormChange sBlastoiseFormChangeTable[] = {
+static const struct FormChange sLeviamawlFormChangeTable[] = {
     {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_LEVIAMAWL_MEGA, ITEM_BLASTOISINITE},
     {FORM_CHANGE_TERMINATOR},
 };
 
-static const struct FormChange sBeedrillFormChangeTable[] = {
+static const struct FormChange sCoattailFormChangeTable[] = {
     {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_COATTAIL_MEGA, ITEM_COATTAILITE},
     {FORM_CHANGE_TERMINATOR},
 };
 
-static const struct FormChange sPidgeotFormChangeTable[] = {
+static const struct FormChange sRoadilloFormChangeTable[] = {
     {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_ROADILLO_MEGA, ITEM_ROADILLOITE},
     {FORM_CHANGE_TERMINATOR},
 };

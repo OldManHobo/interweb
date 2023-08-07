@@ -338,9 +338,9 @@ static const u16 sSpeciesToHoennPokedexNum[NUM_SPECIES - 1] =
 // Assigns all species to the National Dex Index (Summary No. for National Dex)
 static const u16 sSpeciesToNationalPokedexNum[NUM_SPECIES - 1] =
 {
-    SPECIES_TO_NATIONAL(BADGERP),
-    SPECIES_TO_NATIONAL(HUHGER),
-    SPECIES_TO_NATIONAL(MELECIUM),
+    SPECIES_TO_NATIONAL(GENERA),
+    SPECIES_TO_NATIONAL(GYANNEX),
+    SPECIES_TO_NATIONAL(KAZEIYAGA),
     SPECIES_TO_NATIONAL(TEPILLA),
     SPECIES_TO_NATIONAL(ESCORCHES),
     SPECIES_TO_NATIONAL(SOLADOR),
@@ -1255,7 +1255,7 @@ static const u16 sSpeciesToNationalPokedexNum[NUM_SPECIES - 1] =
 #endif
 
     // Megas
-    [SPECIES_MELECIUM_MEGA - 1] = NATIONAL_DEX_MELECIUM,
+    [SPECIES_KAZEIYAGA_MEGA - 1] = NATIONAL_DEX_KAZEIYAGA,
     [SPECIES_SOLADOR_MEGA_X - 1] = NATIONAL_DEX_SOLADOR,
     [SPECIES_SOLADOR_MEGA_Y - 1] = NATIONAL_DEX_SOLADOR,
     [SPECIES_LEVIAMAWL_MEGA - 1] = NATIONAL_DEX_LEVIAMAWL,
@@ -1963,9 +1963,9 @@ const s8 gNatureStatTable[NUM_NATURES][NUM_NATURE_STATS] =
 // SPECIES_NONE are ignored in the following two tables, so decrement before accessing these arrays to get the right result
 const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
 {
-    [SPECIES_BADGERP - 1]     = ANIM_V_JUMPS_H_JUMPS,
-    [SPECIES_HUHGER - 1]       = ANIM_V_STRETCH,
-    [SPECIES_MELECIUM - 1]      = ANIM_ROTATE_UP_SLAM_DOWN,
+    [SPECIES_GENERA - 1]     = ANIM_V_JUMPS_H_JUMPS,
+    [SPECIES_GYANNEX - 1]       = ANIM_V_STRETCH,
+    [SPECIES_KAZEIYAGA - 1]      = ANIM_ROTATE_UP_SLAM_DOWN,
     [SPECIES_TEPILLA - 1]    = ANIM_V_JUMPS_SMALL,
     [SPECIES_ESCORCHES - 1]    = ANIM_BACK_AND_LUNGE,
     [SPECIES_SOLADOR - 1]     = ANIM_V_SHAKE,

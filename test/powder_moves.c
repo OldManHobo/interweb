@@ -12,7 +12,7 @@ SINGLE_BATTLE_TEST("Powder Moves are blocked by Grass Types")
         TURN { MOVE(player, MOVE_STUN_SPORE); }
     } SCENE {
         NOT ANIMATION(ANIM_TYPE_MOVE, MOVE_STUN_SPORE, player);
-        MESSAGE("It doesn't affect Foe Oddish…");
+        MESSAGE("It doesn't affect Foe Scrill…");
     }
 }
 

@@ -1,7 +1,7 @@
 const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
 {
-    [SPECIES_BADGERP]             = {{EVO_LEVEL, 16, SPECIES_HUHGER}},
-    [SPECIES_HUHGER]               = {{EVO_LEVEL, 36, SPECIES_MELECIUM}},
+    [SPECIES_GENERA]             = {{EVO_LEVEL, 16, SPECIES_GYANNEX}},
+    [SPECIES_GYANNEX]               = {{EVO_LEVEL, 36, SPECIES_KAZEIYAGA}},
     [SPECIES_TEPILLA]            = {{EVO_LEVEL, 16, SPECIES_ESCORCHES}},
     [SPECIES_ESCORCHES]            = {{EVO_LEVEL, 36, SPECIES_SOLADOR}},
     [SPECIES_RELENTOOTH]              = {{EVO_LEVEL, 16, SPECIES_SNARETHAN}},

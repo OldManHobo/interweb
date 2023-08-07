@@ -1159,7 +1159,7 @@ void CB2_Debug_Pokemon(void)
             AllocateMonSpritesGfx();
 
             LoadPalette(sBgColor, 0, 2);
-            LoadMonIconPalette(SPECIES_BADGERP);
+            LoadMonIconPalette(SPECIES_GENERA);
 
             SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_OBJ_ON | DISPCNT_OBJ_1D_MAP);
             ShowBg(0);
@@ -1173,7 +1173,7 @@ void CB2_Debug_Pokemon(void)
             data = AllocZeroed(sizeof(struct PokemonDebugMenu));
             SetStructPtr(taskId, data);
 
-            data->currentmonId = SPECIES_BADGERP;
+            data->currentmonId = SPECIES_GENERA;
             species = data->currentmonId;
 
             //Print instructions

@@ -5,9 +5,9 @@
 const struct MonCoords gMonFrontPicCoords[] =
 {
     [SPECIES_NONE]                         = { .size = MON_COORDS_SIZE(40, 40), .y_offset = 12 },
-    [SPECIES_BADGERP]                    = { .size = MON_COORDS_SIZE(40, 40), .y_offset = 12 },
-    [SPECIES_HUHGER]                      = { .size = MON_COORDS_SIZE(56, 48), .y_offset =  4 },
-    [SPECIES_MELECIUM]                     = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  2 },
+    [SPECIES_GENERA]                    = { .size = MON_COORDS_SIZE(40, 40), .y_offset = 12 },
+    [SPECIES_GYANNEX]                      = { .size = MON_COORDS_SIZE(56, 48), .y_offset =  4 },
+    [SPECIES_KAZEIYAGA]                     = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  2 },
     [SPECIES_TEPILLA]                   = { .size = MON_COORDS_SIZE(48, 48), .y_offset = 2 },
     [SPECIES_ESCORCHES]                   = { .size = MON_COORDS_SIZE(56, 56), .y_offset =  7 },
     [SPECIES_SOLADOR]                    = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  0 },
@@ -921,7 +921,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_ENAMORUS]                     = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  0 },
 #endif
     // Megas         
-    [SPECIES_MELECIUM_MEGA]                = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  3 },
+    [SPECIES_KAZEIYAGA_MEGA]                = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  3 },
     [SPECIES_SOLADOR_MEGA_X]             = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  0 },
     [SPECIES_SOLADOR_MEGA_Y]             = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  0 },
     [SPECIES_LEVIAMAWL_MEGA]               = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  0 },

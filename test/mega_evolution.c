@@ -1,19 +1,19 @@
 #include "global.h"
 #include "test_battle.h"
 
-SINGLE_BATTLE_TEST("Venusaur can Mega Evolve holding Venusaurite")
+SINGLE_BATTLE_TEST("Kazeiyaga can Mega Evolve holding Kazeiyagaite")
 {
     GIVEN {
-        PLAYER(SPECIES_MELECIUM) { Item(ITEM_MELECIUMITE); }
+        PLAYER(SPECIES_KAZEIYAGA) { Item(ITEM_KAZEIYAGAITE); }
         OPPONENT(SPECIES_WOBBUFFET);
     } WHEN {
         TURN { MOVE(player, MOVE_CELEBRATE, megaEvolve: TRUE); }
     } SCENE {
-        MESSAGE("Venusaur's Venusaurite is reacting to 1's Mega Ring!");
+        MESSAGE("Kazeiyaga's Kazeiyagaite is reacting to 1's Mega Ring!");
         ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_MEGA_EVOLUTION, player);
-        MESSAGE("Venusaur has Mega Evolved into Mega Venusaur!");
+        MESSAGE("Kazeiyaga has Mega Evolved into Mega Kazeiyaga!");
     } THEN {
-        EXPECT_EQ(player->species, SPECIES_MELECIUM_MEGA);
+        EXPECT_EQ(player->species, SPECIES_KAZEIYAGA_MEGA);
     }
 }
 
@@ -30,9 +30,9 @@ DOUBLE_BATTLE_TEST("Mega Evolution's order is determined by Speed - opponent fas
         MESSAGE("Foe Gardevoir's Gardevoirite is reacting to 's Mega Ring!");
         ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_MEGA_EVOLUTION, opponentLeft);
         MESSAGE("Foe Gardevoir has Mega Evolved into Mega Gardevoir!");
-        MESSAGE("Venusaur's Venusaurite is reacting to 1's Mega Ring!");
+        MESSAGE("Kazeiyaga's Kazeiyagaite is reacting to 1's Mega Ring!");
         ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_MEGA_EVOLUTION, playerLeft);
-        MESSAGE("Venusaur has Mega Evolved into Mega Venusaur!");
+        MESSAGE("Kazeiyaga has Mega Evolved into Mega Kazeiyaga!");
     }
 }
 
@@ -46,9 +46,9 @@ DOUBLE_BATTLE_TEST("Mega Evolution's order is determined by Speed - player faste
     } WHEN {
         TURN { MOVE(opponentLeft, MOVE_CELEBRATE, megaEvolve: TRUE); MOVE(playerLeft, MOVE_CELEBRATE, megaEvolve: TRUE); }
     } SCENE {
-        MESSAGE("Venusaur's Venusaurite is reacting to 1's Mega Ring!");
+        MESSAGE("Kazeiyaga's Kazeiyagaite is reacting to 1's Mega Ring!");
         ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_MEGA_EVOLUTION, playerLeft);
-        MESSAGE("Venusaur has Mega Evolved into Mega Venusaur!");
+        MESSAGE("Kazeiyaga has Mega Evolved into Mega Kazeiyaga!");
         MESSAGE("Foe Gardevoir's Gardevoirite is reacting to 's Mega Ring!");
         ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_MEGA_EVOLUTION, opponentLeft);
         MESSAGE("Foe Gardevoir has Mega Evolved into Mega Gardevoir!");
@@ -121,12 +121,12 @@ DOUBLE_BATTLE_TEST("Mega Evolution happens after switching, but before Focus Pun
         MESSAGE("2 withdrew Wobbuffet!");
         MESSAGE("2 sent out Wobbuffet!");
 
-        MESSAGE("Venusaur's Venusaurite is reacting to 1's Mega Ring!");
+        MESSAGE("Kazeiyaga's Kazeiyagaite is reacting to 1's Mega Ring!");
         ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_MEGA_EVOLUTION, playerRight);
-        MESSAGE("Venusaur has Mega Evolved into Mega Venusaur!");
+        MESSAGE("Kazeiyaga has Mega Evolved into Mega Kazeiyaga!");
 
         ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_FOCUS_PUNCH_SETUP, playerRight);
-        MESSAGE("Venusaur is tightening its focus!");
+        MESSAGE("Kazeiyaga is tightening its focus!");
 
         ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_FOCUS_PUNCH_SETUP, playerLeft);
         MESSAGE("Wobbuffet is tightening its focus!");

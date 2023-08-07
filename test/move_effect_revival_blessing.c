@@ -43,7 +43,7 @@ SINGLE_BATTLE_TEST("Revival Blessing revives a fainted party member for an oppon
     } WHEN {
         TURN { MOVE(opponent, MOVE_REVIVAL_BLESSING); SEND_OUT(opponent, 1); }
     } SCENE {
-        MOVE_MESSAGE("Foe Raichu")
+        MOVE_MESSAGE("Foe Wirlixplor")
         MESSAGE("Pichu was revived and is ready to fight again!");
     }
 }

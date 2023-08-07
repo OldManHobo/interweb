@@ -839,16 +839,16 @@ static const struct SpriteFrameImage sPicTable_UnusedMagnemiteDoll[] = {
     obj_frame_tiles(gObjectEventPic_UnusedMagnemiteDoll),
 };
 
-static const struct SpriteFrameImage sPicTable_UnusedSquirtleDoll[] = {
-    obj_frame_tiles(gObjectEventPic_UnusedSquirtleDoll),
+static const struct SpriteFrameImage sPicTable_UnusedRelentoothDoll[] = {
+    obj_frame_tiles(gObjectEventPic_UnusedRelentoothDoll),
 };
 
 static const struct SpriteFrameImage sPicTable_UnusedWooperDoll[] = {
     obj_frame_tiles(gObjectEventPic_UnusedWooperDoll),
 };
 
-static const struct SpriteFrameImage sPicTable_UnusedPikachuDoll[] = {
-    obj_frame_tiles(gObjectEventPic_UnusedPikachuDoll),
+static const struct SpriteFrameImage sPicTable_UnusedAstrohautDoll[] = {
+    obj_frame_tiles(gObjectEventPic_UnusedAstrohautDoll),
 };
 
 static const struct SpriteFrameImage sPicTable_UnusedPorygon2Doll[] = {
@@ -1441,8 +1441,8 @@ static const struct SpriteFrameImage sPicTable_PichuDoll[] = {
     obj_frame_tiles(gObjectEventPic_PichuDoll),
 };
 
-static const struct SpriteFrameImage sPicTable_PikachuDoll[] = {
-    obj_frame_tiles(gObjectEventPic_PikachuDoll),
+static const struct SpriteFrameImage sPicTable_AstrohautDoll[] = {
+    obj_frame_tiles(gObjectEventPic_AstrohautDoll),
 };
 
 static const struct SpriteFrameImage sPicTable_MarillDoll[] = {
@@ -1465,16 +1465,16 @@ static const struct SpriteFrameImage sPicTable_TotodileDoll[] = {
     obj_frame_tiles(gObjectEventPic_TotodileDoll),
 };
 
-static const struct SpriteFrameImage sPicTable_JigglypuffDoll[] = {
-    obj_frame_tiles(gObjectEventPic_JigglypuffDoll),
+static const struct SpriteFrameImage sPicTable_PterocastDoll[] = {
+    obj_frame_tiles(gObjectEventPic_PterocastDoll),
 };
 
 static const struct SpriteFrameImage sPicTable_MeowthDoll[] = {
     obj_frame_tiles(gObjectEventPic_MeowthDoll),
 };
 
-static const struct SpriteFrameImage sPicTable_ClefairyDoll[] = {
-    obj_frame_tiles(gObjectEventPic_ClefairyDoll),
+static const struct SpriteFrameImage sPicTable_BananeeDoll[] = {
+    obj_frame_tiles(gObjectEventPic_BananeeDoll),
 };
 
 static const struct SpriteFrameImage sPicTable_DittoDoll[] = {
@@ -1589,16 +1589,16 @@ static const struct SpriteFrameImage sPicTable_BigLaprasDoll[] = {
     obj_frame_tiles(gObjectEventPic_BigLaprasDoll),
 };
 
-static const struct SpriteFrameImage sPicTable_BigVenusaurDoll[] = {
-    obj_frame_tiles(gObjectEventPic_BigVenusaurDoll),
+static const struct SpriteFrameImage sPicTable_BigKazeiyagaDoll[] = {
+    obj_frame_tiles(gObjectEventPic_BigKazeiyagaDoll),
 };
 
-static const struct SpriteFrameImage sPicTable_BigCharizardDoll[] = {
-    obj_frame_tiles(gObjectEventPic_BigCharizardDoll),
+static const struct SpriteFrameImage sPicTable_BigSoladorDoll[] = {
+    obj_frame_tiles(gObjectEventPic_BigSoladorDoll),
 };
 
-static const struct SpriteFrameImage sPicTable_BigBlastoiseDoll[] = {
-    obj_frame_tiles(gObjectEventPic_BigBlastoiseDoll),
+static const struct SpriteFrameImage sPicTable_BigLeviamawlDoll[] = {
+    obj_frame_tiles(gObjectEventPic_BigLeviamawlDoll),
 };
 
 static const struct SpriteFrameImage sPicTable_BigWailmerDoll[] = {
@@ -1829,16 +1829,16 @@ static const struct SpriteFrameImage sPicTable_Zigzagoon[] = {
     overworld_frame(gObjectEventPic_Zigzagoon, 2, 2, 2),
 };
 
-static const struct SpriteFrameImage sPicTable_Pikachu[] = {
-    overworld_frame(gObjectEventPic_Pikachu, 2, 2, 0),
-    overworld_frame(gObjectEventPic_Pikachu, 2, 2, 1),
-    overworld_frame(gObjectEventPic_Pikachu, 2, 2, 2),
-    overworld_frame(gObjectEventPic_Pikachu, 2, 2, 0),
-    overworld_frame(gObjectEventPic_Pikachu, 2, 2, 0),
-    overworld_frame(gObjectEventPic_Pikachu, 2, 2, 1),
-    overworld_frame(gObjectEventPic_Pikachu, 2, 2, 1),
-    overworld_frame(gObjectEventPic_Pikachu, 2, 2, 2),
-    overworld_frame(gObjectEventPic_Pikachu, 2, 2, 2),
+static const struct SpriteFrameImage sPicTable_Astrohaut[] = {
+    overworld_frame(gObjectEventPic_Astrohaut, 2, 2, 0),
+    overworld_frame(gObjectEventPic_Astrohaut, 2, 2, 1),
+    overworld_frame(gObjectEventPic_Astrohaut, 2, 2, 2),
+    overworld_frame(gObjectEventPic_Astrohaut, 2, 2, 0),
+    overworld_frame(gObjectEventPic_Astrohaut, 2, 2, 0),
+    overworld_frame(gObjectEventPic_Astrohaut, 2, 2, 1),
+    overworld_frame(gObjectEventPic_Astrohaut, 2, 2, 1),
+    overworld_frame(gObjectEventPic_Astrohaut, 2, 2, 2),
+    overworld_frame(gObjectEventPic_Astrohaut, 2, 2, 2),
 };
 
 static const struct SpriteFrameImage sPicTable_Azumarill[] = {

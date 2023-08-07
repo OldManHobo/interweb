@@ -21,7 +21,7 @@ SINGLE_BATTLE_TEST("Red Card switches the attacker with a random non-fainted rep
         ANIMATION(ANIM_TYPE_MOVE, MOVE_TACKLE, opponent);
         ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_HELD_ITEM_EFFECT, player);
         MESSAGE("Wobbuffet held up its Red Card against Foe Wobbuffet!");
-        MESSAGE("Foe Bulbasaur was dragged out!");
+        MESSAGE("Foe Genera was dragged out!");
     }
 }
 
@@ -42,7 +42,7 @@ DOUBLE_BATTLE_TEST("Red Card switches the target with a random non-battler, non-
         ANIMATION(ANIM_TYPE_MOVE, MOVE_TACKLE, opponentLeft);
         ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_HELD_ITEM_EFFECT, playerLeft);
         MESSAGE("Wobbuffet held up its Red Card against Foe Wobbuffet!");
-        MESSAGE("Foe Bulbasaur was dragged out!");
+        MESSAGE("Foe Genera was dragged out!");
     }
 }
 

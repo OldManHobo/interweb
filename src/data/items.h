@@ -3797,13 +3797,13 @@ const struct Item gItems[] =
 
 // Mega Stones
 
-    [ITEM_MELECIUMITE] =
+    [ITEM_KAZEIYAGAITE] =
     {
-        .name = _("Venusaurite"),
-        .itemId = ITEM_MELECIUMITE,
+        .name = _("Kazeiyagaite"),
+        .itemId = ITEM_KAZEIYAGAITE,
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sVenusauriteDesc,
+        .description = sKazeiyagaiteDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -3812,11 +3812,11 @@ const struct Item gItems[] =
 
     [ITEM_SOLADORITE_X] =
     {
-        .name = _("CharizarditeX"),
+        .name = _("SoladoriteX"),
         .itemId = ITEM_SOLADORITE_X,
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sCharizarditeDesc,
+        .description = sSoladoriteDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -3825,11 +3825,11 @@ const struct Item gItems[] =
 
     [ITEM_SOLADORITE_Y] =
     {
-        .name = _("CharizarditeY"),
+        .name = _("SoladoriteY"),
         .itemId = ITEM_SOLADORITE_Y,
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sCharizarditeDesc,
+        .description = sSoladoriteDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -3851,11 +3851,11 @@ const struct Item gItems[] =
 
     [ITEM_COATTAILITE] =
     {
-        .name = _("Beedrillite"),
+        .name = _("Coattailite"),
         .itemId = ITEM_COATTAILITE,
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sBeedrilliteDesc,
+        .description = sCoattailiteDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -3864,11 +3864,11 @@ const struct Item gItems[] =
 
     [ITEM_ROADILLOITE] =
     {
-        .name = _("Pidgeotite"),
+        .name = _("Roadilloite"),
         .itemId = ITEM_ROADILLOITE,
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sPidgeotiteDesc,
+        .description = sRoadilloiteDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,

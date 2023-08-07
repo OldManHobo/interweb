@@ -1368,16 +1368,16 @@ const struct Decoration gDecorations[] =
         .tiles = DecorGfx_LAPRAS_DOLL,
     },
 
-    [DECOR_MELECIUM_DOLL] =
+    [DECOR_KAZEIYAGA_DOLL] =
     {
-        .id = DECOR_MELECIUM_DOLL,
-        .name = _("MELECIUM DOLL"),
+        .id = DECOR_KAZEIYAGA_DOLL,
+        .name = _("KAZEIYAGA DOLL"),
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x2,
         .category = DECORCAT_DOLL,
         .price = 10000,
-        .description = DecorDesc_MELECIUM_DOLL,
-        .tiles = DecorGfx_MELECIUM_DOLL,
+        .description = DecorDesc_KAZEIYAGA_DOLL,
+        .tiles = DecorGfx_KAZEIYAGA_DOLL,
     },
 
     [DECOR_SOLADOR_DOLL] =

@@ -840,7 +840,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
 {
     [SPECIES_NONE] = {0},
 
-    [SPECIES_BADGERP] =
+    [SPECIES_GENERA] =
     {
         .baseHP        = 70,
         .baseAttack    = 54,
@@ -862,7 +862,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_HUHGER] =
+    [SPECIES_GYANNEX] =
     {
         .baseHP        = 95,
         .baseAttack    = 74,
@@ -885,7 +885,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
 
 
-    [SPECIES_MELECIUM] =
+    [SPECIES_KAZEIYAGA] =
     {
         .baseHP        = 110,
         .baseAttack    = 114,
@@ -21058,7 +21058,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
 #endif
 
-    [SPECIES_MELECIUM_MEGA] =
+    [SPECIES_KAZEIYAGA_MEGA] =
     {
         .baseHP        = 80,
         .baseAttack    = 100,

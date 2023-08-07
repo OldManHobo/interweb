@@ -23,7 +23,7 @@ SINGLE_BATTLE_TEST("Intimidate (opponent) lowers player's attack after switch ou
         {
             ABILITY_POPUP(opponent, ABILITY_INTIMIDATE);
             ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_STATS_CHANGE, player);
-            MESSAGE("Foe Arbok's Intimidate cuts Wobbuffet's attack!");
+            MESSAGE("Foe Fompous's Intimidate cuts Wobbuffet's attack!");
         }
         HP_BAR(opponent, captureDamage: &results[i].damage);
     } FINALLY {
@@ -49,7 +49,7 @@ SINGLE_BATTLE_TEST("Intimidate (opponent) lowers player's attack after KO", s16 
         {
             ABILITY_POPUP(opponent, ABILITY_INTIMIDATE);
             ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_STATS_CHANGE, player);
-            MESSAGE("Foe Arbok's Intimidate cuts Wobbuffet's attack!");
+            MESSAGE("Foe Fompous's Intimidate cuts Wobbuffet's attack!");
         }
         HP_BAR(opponent, captureDamage: &results[i].damage);
     } FINALLY {
@@ -77,22 +77,22 @@ DOUBLE_BATTLE_TEST("Intimidate doesn't activate on an empty field in a double ba
         ANIMATION(ANIM_TYPE_MOVE, MOVE_EXPLOSION, playerLeft);
         // Everyone faints.
 
-        MESSAGE("Go! Ekans!");
-        MESSAGE("2 sent out Arbok!");
+        MESSAGE("Go! Silwing!");
+        MESSAGE("2 sent out Fompous!");
         MESSAGE("Go! Abra!");
         MESSAGE("2 sent out Wynaut!");
 
         ABILITY_POPUP(playerLeft, ABILITY_INTIMIDATE);
         ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_STATS_CHANGE, opponentLeft);
-        MESSAGE("Ekans's Intimidate cuts Foe Arbok's attack!");
+        MESSAGE("Silwing's Intimidate cuts Foe Fompous's attack!");
         ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_STATS_CHANGE, opponentRight);
-        MESSAGE("Ekans's Intimidate cuts Foe Wynaut's attack!");
+        MESSAGE("Silwing's Intimidate cuts Foe Wynaut's attack!");
 
         ABILITY_POPUP(opponentLeft, ABILITY_INTIMIDATE);
         ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_STATS_CHANGE, playerLeft);
-        MESSAGE("Foe Arbok's Intimidate cuts Ekans's attack!");
+        MESSAGE("Foe Fompous's Intimidate cuts Silwing's attack!");
         ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_STATS_CHANGE, playerRight);
-        MESSAGE("Foe Arbok's Intimidate cuts Abra's attack!");
+        MESSAGE("Foe Fompous's Intimidate cuts Abra's attack!");
     }
 }
 

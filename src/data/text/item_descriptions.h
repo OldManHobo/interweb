@@ -1551,29 +1551,29 @@ static const u8 sBlueOrbDesc[] = _(
     "ancient power.");
 
 // Mega Stones
-static const u8 sVenusauriteDesc[] = _(
+static const u8 sKazeiyagaiteDesc[] = _(
     "This stone enables\n"
-    "Venusaur to Mega\n"
+    "Kazeiyaga to Mega\n"
     "Evolve in battle.");
 
-static const u8 sCharizarditeDesc[] = _(
+static const u8 sSoladoriteDesc[] = _(
     "This stone enables\n"
-    "Charizard to Mega\n"
+    "Solador to Mega\n"
     "Evolve in battle.");
 
 static const u8 sBlastoisiniteDesc[] = _(
     "This stone enables\n"
-    "Blastoise to Mega\n"
+    "Leviamawl to Mega\n"
     "Evolve in battle.");
 
-static const u8 sBeedrilliteDesc[] = _(
+static const u8 sCoattailiteDesc[] = _(
     "This stone enables\n"
-    "Beedrill to Mega\n"
+    "Coattail to Mega\n"
     "Evolve in battle.");
 
-static const u8 sPidgeotiteDesc[] = _(
+static const u8 sRoadilloiteDesc[] = _(
     "This stone enables\n"
-    "Pidgeot to Mega\n"
+    "Roadillo to Mega\n"
     "Evolve in battle.");
 
 static const u8 sAlakaziteDesc[] = _(
@@ -2030,7 +2030,7 @@ static const u8 sMarshadiumZDesc[] = _(
 
 static const u8 sAloraichiumZDesc[] = _(
     "Upgrade Alolan\n"
-    "Raichu's Thunder-\n"
+    "Wirlixplor's Thunder-\n"
     "bolt into a Z-Move.");
 
 static const u8 sPikashuniumZDesc[] = _(
