@@ -50,7 +50,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_TEPILLA] =
     {
-        .categoryName = _("Glow"),
+        .categoryName = _("Ember"),
         .height = 6,
         .weight = 85,
         .description = gTepillaPokedexText,

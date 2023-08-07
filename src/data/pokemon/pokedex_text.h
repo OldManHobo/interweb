@@ -35,10 +35,10 @@ const u8 gEscorchesPokedexText[] = _(
     "grow more rapidly than most Pokémon.");
 
 const u8 gSoladorPokedexText[] = _(
-    "Solador emits a radiant light from its body.\n"
-    "You won't be able to tell if it's day or\n"
-    "night if you're less than 100 meters\n"
-    "less than 100 meters from one.");
+    "Solador's body is in constant combustion,\n"
+    "continously expelling hazardous fumes.\n"
+    "It still is a popular Pokemon, as a\n"
+    "superhero uses its likeness.");
 
 const u8 gRelentoothPokedexText[] = _(
     "Relentooth are only given to the most\n"
@@ -76,16 +76,16 @@ const u8 gWebillitePokedexText[] = _(
     "jam TV transmissions.");
 
 const u8 gGalactivyPokedexText[] = _(
-    "A Galactivy has an extremely acute sense\n"
-    "of smell. It distinguishes its favorite\n"
-    "kinds of leaves from those it dislikes by\n"
-    "sniffing with its big red nose.");
+    "Galactivy is a recently discovered species\n"
+    "in Werkai. Numerous studies have tried to \n"
+    "establish this odd Pokemon's home country.\n"
+    "None have been conclusive.");
 
 const u8 gXenoweedPokedexText[] = _(
-    "It remains virtually immobile while it\n"
-    "clings to a tree. However, on the inside,\n"
-    "it busily prepares for evolution. This is\n"
-    "evident from how hot its shell becomes.");
+    "This Pokemon has an intense rivalry with\n"
+    "Wirlixplor. They're constantly fighting\n"
+    "over who's gonna conquer the most land,\n"
+    "often to death.");
 
 const u8 gCoattailPokedexText[] = _(
     "The eyes on its tail watch for predators\n"
@@ -222,16 +222,16 @@ const u8 gSalananaPokedexText[] = _(
     "tastiest.");
 
 const u8 gCybirdPokedexText[] = _(
-    "The nectar produced by its neck is very\n"
-    "nutritious. Farmers all over the region\n"
-    "claim the nectar from their Salanana is the\n"
-    "tastiest.");
+    "These Pokemon have been manufactured as\n"
+    "wifi routers for Werkai's inhabitants.\n"
+    "Unexpectedly, some escaped from their\n"
+    "homes and started living in the wild.");
 
 const u8 gPterocastPokedexText[] = _(
-    "No one knows how Hypadog actually\n"
-    "functions. It can project video\n"
-    "recordings of anything it has seen\n"
-    "in the last 30 minutes.");
+    "It's unknown Cybirds have been able to\n"
+    "evolve. However, rumors say that this has\n"
+    "been occuring since the meteor that fell\n"
+    "down on Werkai a few years ago.");
 
 const u8 gAmobiPokedexText[] = _(
     "It is composed of a single hyper-developed\n"
@@ -251,15 +251,16 @@ const u8 gTankellurPokedexText[] = _(
     "prevents them from spilling out.");
 
 const u8 gScrillPokedexText[] = _(
-    "Tankellur's body holds several corrosive\n"
-    "digestive enzymes. A thin cellular membrane\n"
-    "prevents them from spilling out.");
+    "Scrill love digging holes. Their nest is\n"
+    "composed of an intricate network of\n"
+    "galleries, the stones they find making\n"
+    "up the majority of their diet.");
 
 const u8 gOverscrillPokedexText[] = _(
-    "Roving bands of Cyclil litter Werkai's\n"
-    "roads and pathways. Due to the heavy\n"
-    "legal protections on them, motor vehicles\n"
-    "are almost nonexistant in the region.");
+    "It is an uncanny mix between an organic\n"
+    "lifeform and a machine. The metal found\n"
+    "in the stones it kept eating as a Scrill\n"
+    "is almost surely to blame.");
 
 const u8 gSnoutusslePokedexText[] = _(
     "Snoutussle are highly social Pokémon that\n"
@@ -274,10 +275,10 @@ const u8 gGrappouchPokedexText[] = _(
     "it comes to protecting their offspring.");
 
 const u8 gSwormoPokedexText[] = _(
-    "The brain in its tail controls all of its\n"
-    "motor and bodily functions, but the head's\n"
-    "brain can still help when extra thinking\n"
-    "thinking power is required.");
+    "They like to hijack old Scrill tunnels for\n"
+    "their nests. Swormo is very active during\n"
+    "the day but quickly hide once night falls,\n"
+    "their worst enemy lurks in the shadows.");
 
 const u8 gVenonatPokedexText[] = _(
     "Snoutussle are highly social Pokémon that\n"
