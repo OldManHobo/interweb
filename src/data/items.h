@@ -7977,10 +7977,10 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
     },
 
-    [ITEM_TM22_PIXIE_BEAM] =
+    [ITEM_TM22_HOCUS_POCUS] =
     {
         .name = _("TM22"),
-        .itemId = ITEM_TM22_PIXIE_BEAM,
+        .itemId = ITEM_TM22_HOCUS_POCUS,
         .price = 3000,
         .description = sTM22Desc,
         .importance = I_REUSABLE_TMS,

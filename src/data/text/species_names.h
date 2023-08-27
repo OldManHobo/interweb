@@ -1,8 +1,8 @@
 const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_NONE] = _("??????????"),
-    [SPECIES_GENERA] = _("Badgerp"),
-    [SPECIES_GYANNEX] = _("Huhger"),
-    [SPECIES_KAZEIYAGA] = _("Melecium"),
+    [SPECIES_GENERA] = _("Ganera"),
+    [SPECIES_GYANNEX] = _("Gyannex"),
+    [SPECIES_KAZEIYAGA] = _("Kazeiyaga"),
     [SPECIES_TEPILLA] = _("Tepilla"),
     [SPECIES_ESCORCHES] = _("Escorches"),
     [SPECIES_SOLADOR] = _("Solador"),

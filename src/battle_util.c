@@ -2607,6 +2607,8 @@ s32 GetDrainedBigRootHp(u32 battler, s32 hp)
 {
     if (GetBattlerHoldEffect(battler, TRUE) == HOLD_EFFECT_BIG_ROOT)
         hp = (hp * 1300) / 1000;
+    if (GetBattlerAbility(battler) == ABILITY_VAMPIRE)
+        hp = (hp * 1300) / 1000;
     if (hp == 0)
         hp = 1;
 
@@ -6425,8 +6427,7 @@ bool32 CanBeConfused(u8 battlerId)
 {
     if (GetBattlerAbility(gEffectBattler) == ABILITY_OWN_TEMPO
       || gBattleMons[gEffectBattler].status2 & STATUS2_CONFUSION
-      || IsBattlerTerrainAffected(battlerId, STATUS_FIELD_MISTY_TERRAIN)
-      || RESOURCE_FLAG_NOSTALGIA)
+      || IsBattlerTerrainAffected(battlerId, STATUS_FIELD_MISTY_TERRAIN))
         return FALSE;
     return TRUE;
 }
@@ -9092,6 +9093,9 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
         if (gBattleMons[battlerDef].status1 & STATUS1_PSN_ANY)
             MulModifier(&modifier, UQ_4_12(2.0));
         break;
+    case EFFECT_VENOM_DRAIN:
+        if (gBattleMons[battlerDef].status1 & STATUS1_PSN_ANY)
+            MulModifier(&modifier, UQ_4_12(1.5));    
     case EFFECT_RETALIATE:
         if (gSideTimers[atkSide].retaliateTimer == 1)
             MulModifier(&modifier, UQ_4_12(2.0));
@@ -9233,10 +9237,6 @@ static u32 CalcAttackStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, b
     case ABILITY_FLASH_FIRE:
         if (moveType == TYPE_FIRE && gBattleResources->flags->flags[battlerAtk] & RESOURCE_FLAG_FLASH_FIRE)
             MulModifier(&modifier, UQ_4_12(1.5));
-        break;
-    case ABILITY_NOSTALGIA:
-        if (IS_MOVE_PHYSICAL(move) && gBattleResources->flags->flags[battlerAtk] & RESOURCE_FLAG_NOSTALGIA)
-           MulModifier(&modifier, UQ_4_12(2.0));
         break;    
     case ABILITY_SWARM:
         if (moveType == TYPE_BUG && gBattleMons[battlerAtk].hp <= (gBattleMons[battlerAtk].maxHP / 3))

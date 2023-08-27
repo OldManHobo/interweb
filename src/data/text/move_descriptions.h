@@ -3005,9 +3005,9 @@ static const u8 sDataTransferDescription[] = _(
     "Transfer's the opponent's\n"
     "data to switch stat changes.");
 
-static const u8 sVineWrapDescription[] = _(
-    "Entangles the foe in vines,\n"
-    "preventing escape.");
+static const u8 sVenomDrainDescription[] = _(
+    "Steals the foe's HP. Better\n"
+    "against poisoned targets.");
 
 static const u8 sExhaustFumeDescription[] = _(
     "Releases a hot miasma that\n"
@@ -4124,14 +4124,14 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_TECHNO_BUSTER - 1] = sTechnoBusterDescription,
     [MOVE_MEMORY_LEAK - 1] = sMemoryLeakDescription,
     [MOVE_DATA_TRANSFER - 1] = sDataTransferDescription,
-    [MOVE_VINE_WRAP - 1] = sVineWrapDescription,
+    [MOVE_VENOM_DRAIN - 1] = sVenomDrainDescription,
     [MOVE_EXHAUST_FUME - 1] = sExhaustFumeDescription,
     [MOVE_DEEP_SUNDER - 1] = sDeepSunderDescription,
     [MOVE_SNUGGLE_BUG - 1] = sSnuggleBugDescription,
     [MOVE_DREARY_HUG - 1] = sDrearyHugDescription,
     [MOVE_ICY_WATER - 1] = sIcyWaterDescription,
     [MOVE_DRAGON_FANG - 1] = sDragonFangDescription,
-    [MOVE_PIXIE_BEAM - 1] = sPixieBeamDescription,
+    [MOVE_HOCUS_POCUS - 1] = sPixieBeamDescription,
     [MOVE_RUFFLE_UP - 1] = sRuffleUpDescription,
     [MOVE_SOUL_DRAIN - 1] = sSoulDrainDescription,
     [MOVE_QUICK_SAND - 1] = sQuickSandDescription,

@@ -5,22 +5,22 @@ const u8 gDummyPokedexText[] = _(
     "at this time.");
 
 const u8 gGeneraPokedexText[] = _(
-    "Badgerp are known to be very slow\n"
-    "learners, but persistent trainers\n"
-    "can teach them to combine their\n"
-    "brute strength with skilled techniques.");
+    "Not long ago there were only 150\n"
+    "Ganera confirmed in the wild.\n"
+    "Much to the chagrin of many, this has\n"
+    "changed in the past century.");
 
 const u8 gGyannexPokedexText[] = _(
-    "Studies have shown that Huhger's\n"
-    "brain is approximately the size\n"
-    "of a walnut. This doesn't stop them\n"
-    "from landing powerful blows, however.");
+    "Mountains are stripped of all life\n"
+    "to make way for Gyannex territory.\n"
+    "These new biomes are overgrown,\n"
+    "overcrowded, and horrible to navigate.");
 
 const u8 gKazeiyagaPokedexText[] = _(
-    "It has a symbiotic relationship\n"
-    "with the mushrooms on its body,\n"
-    "their toxic spores deterring foes\n"
-    "in exchange for Melecium's nutrients.");
+    "Kazeiyaga has successfully built an\n"
+    "empire atop the graves of thousands for\n"
+    "its young. Despite the smog, there is\n"
+    "unmatched safety within their territory.");
 
 const u8 gTepillaPokedexText[] = _(
     "It is known for its endless hunger and\n"

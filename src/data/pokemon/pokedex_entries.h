@@ -14,7 +14,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_GENERA] =
     {
-        .categoryName = _("Badger"),
+        .categoryName = _("Extinct"),
         .height = 7,
         .weight = 69,
         .description = gGeneraPokedexText,
@@ -26,7 +26,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_GYANNEX] =
     {
-        .categoryName = _("Slow"),
+        .categoryName = _("Scourge"),
         .height = 10,
         .weight = 130,
         .description = gGyannexPokedexText,
@@ -38,7 +38,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_KAZEIYAGA] =
     {
-        .categoryName = _("Mighty"),
+        .categoryName = _("Utopia"),
         .height = 20,
         .weight = 1000,
         .description = gKazeiyagaPokedexText,

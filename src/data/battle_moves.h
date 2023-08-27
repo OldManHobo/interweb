@@ -2013,7 +2013,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_SELF_DESTRUCT] =
     {
         .effect = EFFECT_EXPLOSION,
-        .power = 200,
+        .power = 130,
         .type = TYPE_NORMAL,
         .accuracy = 100,
         .pp = 5,
@@ -2602,7 +2602,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_EXPLOSION] =
     {
         .effect = EFFECT_EXPLOSION,
-        .power = 250,
+        .power = 170,
         .type = TYPE_NORMAL,
         .accuracy = 100,
         .pp = 5,
@@ -14277,18 +14277,19 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
         .split = SPLIT_STATUS,
     },
     
-    [MOVE_VINE_WRAP] =
+    [MOVE_VENOM_DRAIN] =
     {
-        .effect = EFFECT_HIT,
-        .power = 75,
-        .type = TYPE_GRASS,
-        .accuracy = 90,
+        .effect = EFFECT_VENOM_DRAIN,
+        .power = 70,
+        .type = TYPE_POISON,
+        .accuracy = 100,
         .pp = 15,
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
         .split = SPLIT_PHYSICAL,
+        .argument = 75,
     },
 
     [MOVE_EXHAUST_FUME] =
@@ -14307,12 +14308,12 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
 
     [MOVE_DEEP_SUNDER] =
     {
-        .effect = EFFECT_HIT,
+        .effect = EFFECT_FLINCH_HIT,
         .power = 80,
         .type = TYPE_WATER,
         .accuracy = 100,
         .pp = 15,
-        .secondaryEffectChance = 0,
+        .secondaryEffectChance = 20,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_STRONG_JAW_BOOST,
@@ -14375,7 +14376,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
         .split = SPLIT_SPECIAL,
     },
 
-    [MOVE_PIXIE_BEAM] =
+    [MOVE_HOCUS_POCUS] =
     {
         .effect = EFFECT_FREEZE_HIT,
         .power = 80,

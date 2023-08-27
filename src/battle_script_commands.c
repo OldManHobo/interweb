@@ -2909,15 +2909,6 @@ static void CheckSetUnburden(u8 battlerId)
     }
 }
 
-static void CheckSetNostalgia(u8 battlerId)
-{
-    if (GetBattlerAbility(battlerId) == ABILITY_NOSTALGIA)
-    {
-        gBattleResources->flags->flags[battlerId] |= RESOURCE_FLAG_NOSTALGIA;
-        RecordAbilityBattle(battlerId, ABILITY_NOSTALGIA);
-    }
-}
-
 // battlerStealer steals the item of battlerItem
 void StealTargetItem(u8 battlerStealer, u8 battlerItem)
 {
@@ -2930,9 +2921,6 @@ void StealTargetItem(u8 battlerStealer, u8 battlerItem)
 
     CheckSetUnburden(battlerItem);
     gBattleResources->flags->flags[battlerStealer] &= ~RESOURCE_FLAG_UNBURDEN;
-
-    CheckSetNostalgia(battlerItem);
-    gBattleResources->flags->flags[battlerStealer] &= ~RESOURCE_FLAG_NOSTALGIA;
 
     gActiveBattler = battlerStealer;
     BtlController_EmitSetMonData(BUFFER_A, REQUEST_HELDITEM_BATTLE, 0, sizeof(gLastUsedItem), &gLastUsedItem); // set attacker item
@@ -3774,7 +3762,6 @@ void SetMoveEffect(bool32 primary, u32 certain)
                     gLastUsedItem = gBattleMons[gEffectBattler].item;
                     gBattleMons[gEffectBattler].item = 0;
                     CheckSetUnburden(gEffectBattler);
-                    CheckSetNostalgia(gEffectBattler);
 
                     gActiveBattler = gEffectBattler;
                     BtlController_EmitSetMonData(BUFFER_A, REQUEST_HELDITEM_BATTLE, 0, sizeof(gBattleMons[gEffectBattler].item), &gBattleMons[gEffectBattler].item);
@@ -3791,7 +3778,6 @@ void SetMoveEffect(bool32 primary, u32 certain)
                     gLastUsedItem = gBattleMons[gEffectBattler].item;
                     gBattleMons[gEffectBattler].item = 0;
                     CheckSetUnburden(gEffectBattler);
-                    CheckSetNostalgia(gEffectBattler);
                     gActiveBattler = gEffectBattler;
 
                     BtlController_EmitSetMonData(BUFFER_A, REQUEST_HELDITEM_BATTLE, 0, sizeof(gBattleMons[gEffectBattler].item), &gBattleMons[gEffectBattler].item);
@@ -5445,7 +5431,6 @@ static bool32 TryKnockOffBattleScript(u32 battlerDef)
                 gBattleStruct->choicedMove[battlerDef] = 0;
             gWishFutureKnock.knockedOffMons[side] |= gBitTable[gBattlerPartyIndexes[battlerDef]];
             CheckSetUnburden(battlerDef);
-            CheckSetNostalgia(battlerDef);
 
             BattleScriptPushCursor();
             gBattlescriptCurrInstr = BattleScript_KnockedOff;
@@ -7935,14 +7920,12 @@ static void BestowItem(u32 battlerAtk, u32 battlerDef)
     BtlController_EmitSetMonData(BUFFER_A, REQUEST_HELDITEM_BATTLE, 0, sizeof(gBattleMons[battlerAtk].item), &gBattleMons[battlerAtk].item);
     MarkBattlerForControllerExec(battlerAtk);
     CheckSetUnburden(battlerAtk);
-    CheckSetNostalgia(battlerAtk);
 
     gActiveBattler = battlerDef;
     gBattleMons[battlerDef].item = gLastUsedItem;
     BtlController_EmitSetMonData(BUFFER_A, REQUEST_HELDITEM_BATTLE, 0, sizeof(gBattleMons[battlerDef].item), &gBattleMons[battlerDef].item);
     MarkBattlerForControllerExec(battlerDef);
     gBattleResources->flags->flags[battlerDef] &= ~RESOURCE_FLAG_UNBURDEN;
-    gBattleResources->flags->flags[battlerDef] &= ~RESOURCE_FLAG_NOSTALGIA;
 }
 
 // Called by Cmd_removeitem. itemId represents the item that was removed, not being given.
@@ -7992,7 +7975,6 @@ static void Cmd_removeitem(void)
 
     gBattleMons[gActiveBattler].item = ITEM_NONE;
     CheckSetUnburden(gActiveBattler);
-    CheckSetNostalgia(gActiveBattler);
 
     BtlController_EmitSetMonData(BUFFER_A, REQUEST_HELDITEM_BATTLE, 0, sizeof(gBattleMons[gActiveBattler].item), &gBattleMons[gActiveBattler].item);
     MarkBattlerForControllerExec(gActiveBattler);
@@ -14516,17 +14498,13 @@ static void Cmd_tryswapitems(void)
             else if (oldItemAtk == ITEM_NONE && *newItemAtk != ITEM_NONE)
             {
                 if (GetBattlerAbility(gBattlerAttacker) == ABILITY_UNBURDEN && gBattleResources->flags->flags[gBattlerAttacker] & RESOURCE_FLAG_UNBURDEN)
-                    gBattleResources->flags->flags[gBattlerAttacker] &= ~RESOURCE_FLAG_UNBURDEN;
-
-                if (GetBattlerAbility(gBattlerAttacker) == ABILITY_NOSTALGIA && gBattleResources->flags->flags[gBattlerAttacker] & RESOURCE_FLAG_NOSTALGIA)
-                    gBattleResources->flags->flags[gBattlerAttacker] &= ~RESOURCE_FLAG_NOSTALGIA;    
+                    gBattleResources->flags->flags[gBattlerAttacker] &= ~RESOURCE_FLAG_UNBURDEN;    
 
                 gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_ITEM_SWAP_TAKEN; // nothing -> <- target's item
             }
             else
             {
                 CheckSetUnburden(gBattlerAttacker);
-                CheckSetNostalgia(gBattlerAttacker);
                 gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_ITEM_SWAP_GIVEN; // attacker's item -> <- nothing
             }
         }
