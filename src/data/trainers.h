@@ -10296,4 +10296,16 @@ const struct Trainer gTrainers[] = {
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_DavidRoute103Mudkip),
     },
+
+    [TRAINER_PROF_TAMBA] =
+    {
+        .trainerClass = TRAINER_CLASS_PROFESSOR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_PROFESSOR,
+        .trainerName = _("TAMBA"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
+        .party = NO_ITEM_CUSTOM_MOVES(sParty_ProfTamba),
+    },
 };

@@ -282,7 +282,6 @@ static const u16 sDiscuttleTeachableLearnset[] = {
     MOVE_ELECTRO_BALL,
     MOVE_PARABOLIC_CHARGE,
     MOVE_ELECTRIC_TERRAIN,
-    MOVE_HOCUS_POCUS,
     MOVE_CRAFTY_SHIELD,
     MOVE_SUNNY_DAY,
     MOVE_GIGA_DRAIN,
@@ -318,7 +317,6 @@ static const u16 sTennadishTeachableLearnset[] = {
     MOVE_ELECTRO_BALL,
     MOVE_PARABOLIC_CHARGE,
     MOVE_ELECTRIC_TERRAIN,
-    MOVE_HOCUS_POCUS,
     MOVE_CRAFTY_SHIELD,
     MOVE_SUNNY_DAY,
     MOVE_GIGA_DRAIN,
@@ -354,7 +352,6 @@ static const u16 sWebilliteTeachableLearnset[] = {
     MOVE_ELECTRO_BALL,
     MOVE_PARABOLIC_CHARGE,
     MOVE_ELECTRIC_TERRAIN,
-    MOVE_HOCUS_POCUS,
     MOVE_CRAFTY_SHIELD,
     MOVE_SUNNY_DAY,
     MOVE_GIGA_DRAIN,
@@ -447,7 +444,6 @@ static const u16 sCoattailTeachableLearnset[] = {
     MOVE_NUZZLE,
     MOVE_PARABOLIC_CHARGE,
     MOVE_ELECTRIC_TERRAIN,
-    MOVE_HOCUS_POCUS,
     MOVE_MISTY_TERRAIN,
     MOVE_COUNTER,
     MOVE_GRASSY_TERRAIN,
@@ -473,7 +469,6 @@ static const u16 sCoatoacTeachableLearnset[] = {
     MOVE_NUZZLE,
     MOVE_PARABOLIC_CHARGE,
     MOVE_ELECTRIC_TERRAIN,
-    MOVE_HOCUS_POCUS,
     MOVE_MISTY_TERRAIN,
     MOVE_COUNTER,
     MOVE_GRASSY_TERRAIN,
@@ -840,6 +835,7 @@ static const u16 sTadeaTeachableLearnset[] = {
     MOVE_METRONOME,
     MOVE_PROTECT,
     MOVE_SURF,
+    MOVE_HOCUS_POCUS,
     MOVE_UNAVAILABLE,
 };
 
@@ -869,6 +865,7 @@ static const u16 sBatrachiteTeachableLearnset[] = {
     MOVE_PROTECT,
     MOVE_SURF,
     MOVE_WATERFALL,
+    MOVE_HOCUS_POCUS,
     MOVE_UNAVAILABLE,
 };
 
@@ -898,6 +895,7 @@ static const u16 sToagnitiveTeachableLearnset[] = {
     MOVE_PROTECT,
     MOVE_SURF,
     MOVE_WATERFALL,
+    MOVE_HOCUS_POCUS,
     MOVE_DAZZLING_GLEAM,
     MOVE_CRAFTY_SHIELD,
     MOVE_MISTY_TERRAIN,

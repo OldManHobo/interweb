@@ -1,9 +1,59 @@
  
 .set LOCALID_GRUNT, 3
 .set LOCALID_DEVON_EMPLOYEE, 4
+.set LOCALID_BIRCH, 12
 
 PetalburgWoods_MapScripts::
 	.byte 0
+
+PetalburgWoods_EventScript_ProfessorLeft::
+	lockall
+	applymovement LOCALID_BIRCH, Common_Movement_FaceDown
+	waitmovement 0
+	applymovement LOCALID_BIRCH, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_BIRCH, Common_Movement_Delay48
+	waitmovement 0
+	applymovement LOCALID_BIRCH, PetalburgWoods_Movement_ProfessorApproachLeft
+	waitmovement 0
+	goto PetalburgWoods_EventScript_ProfessorTalks
+	end
+
+PetalburgWoods_EventScript_ProfessorRight::
+	lockall
+	applymovement LOCALID_BIRCH, Common_Movement_FaceDown
+	waitmovement 0
+	applymovement LOCALID_BIRCH, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_BIRCH, PetalburgWoods_Movement_ProfessorApproachRight
+	waitmovement 0
+	goto PetalburgWoods_EventScript_ProfessorTalks
+	end	
+
+PetalburgWoods_EventScript_ProfessorTalks::
+	msgbox PetalburgWoods_Text_HowAreYouDoing, MSGBOX_DEFAULT
+	goto PetalburgWoods_EventScript_StartProfBattle
+	end
+
+PetalburgWoods_EventScript_StartProfBattle::
+	trainerbattle_no_intro TRAINER_PROF_TAMBA, PetalburgWoods_Text_ProfessorDefeated
+	goto PetalburgWoods_EventScript_AfterProfBattle
+	end
+
+PetalburgWoods_EventScript_AfterProfBattle::
+	msgbox PetalburgWoods_Text_GoodLuckNext, MSGBOX_DEFAULT,
+	closemessage
+	applymovement LOCALID_BIRCH, PetalburgWoods_Movement_ProfessorLeaves
+	waitmovement 0
+	goto PetalburgWoods_EventScript_RemoveProfessor
+	end
+
+PetalburgWoods_EventScript_RemoveProfessor::
+	removeobject LOCALID_BIRCH
+	setvar VAR_PETALBURG_WOODS_STATE, 1
+	setflag FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE
+	releaseall
+	end			
 
 PetalburgWoods_EventScript_DevonResearcherLeft::
 	lockall
@@ -115,6 +165,25 @@ PetalburgWoods_EventScript_RemoveDevonResearcher::
 	setvar VAR_PETALBURG_WOODS_STATE, 1
 	releaseall
 	end
+
+PetalburgWoods_Movement_ProfessorApproachLeft:
+	walk_left
+	walk_down
+	walk_down
+	step_end
+
+PetalburgWoods_Movement_ProfessorApproachRight:
+	walk_down
+	walk_down
+	step_end
+
+PetalburgWoods_Movement_ProfessorLeaves:
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	step_end		
 
 PetalburgWoods_Movement_DevonResearcherLookAround:
 	face_up
@@ -318,6 +387,30 @@ PetalburgWoods_EventScript_JamesRematch::
 	trainerbattle_rematch TRAINER_JAMES_1, PetalburgWoods_Text_MyPokemonHaveGrown, PetalburgWoods_Text_CantBePopularIfLose
 	msgbox PetalburgWoods_Text_IveBeenTrainingHard, MSGBOX_AUTOCLOSE
 	end
+
+PetalburgWoods_Text_HowAreYouDoing:
+	.string "Oh, hello {PLAYER}{KUN}!\n"
+	.string "I was just here studying the Pokemon\l"
+	.string "that lives in the forest.\p"
+	.string "Nature is the most beautiful thing\n"
+	.string "to me and something we need to respect.\p"
+	.string "That's why I'm worried about these\n"
+	.string "cyber Pokemon that started populating\l"
+	.string "this region.\p"
+	.string "But enough about this.\n"
+	.string "It's been a long time since I've battled.\p"
+	.string "Will you accept this challenge?$"
+
+PetalburgWoods_Text_ProfessorDefeated:
+	.string "That'll teach me...$"
+
+PetalburgWoods_Text_GoodLuckNext:
+	.string "I see, I see...\p"
+	.string "You won but I wasn't a strong opponent\n"
+	.string "to begin with.\p"
+	.string "You still have a lot to learn before\n"
+	.string "being an elite Trainer.\p"
+	.string "I wish you good luck on your journey!$"		  	
 
 PetalburgWoods_Text_NotAOneToBeFound:
 	.string "Hmmm…\n"

@@ -3033,9 +3033,9 @@ static const u8 sDragonFangDescription[] = _(
     "Drains more health if used\n"
     "on a Dragon Pokémon.");
 
-static const u8 sPixieBeamDescription[] = _(
-    "A beam of mystical energy.\n"
-    "May boost Sp. Atk.");
+static const u8 sHocusPocusDescription[] = _(
+    "A magic spell with an effect\n"
+    "picked at random.");
 
 static const u8 sRuffleUpDescription[] = _(
     "Puffs up feathers to boost\n"
@@ -4131,7 +4131,7 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_DREARY_HUG - 1] = sDrearyHugDescription,
     [MOVE_ICY_WATER - 1] = sIcyWaterDescription,
     [MOVE_DRAGON_FANG - 1] = sDragonFangDescription,
-    [MOVE_HOCUS_POCUS - 1] = sPixieBeamDescription,
+    [MOVE_HOCUS_POCUS - 1] = sHocusPocusDescription,
     [MOVE_RUFFLE_UP - 1] = sRuffleUpDescription,
     [MOVE_SOUL_DRAIN - 1] = sSoulDrainDescription,
     [MOVE_QUICK_SAND - 1] = sQuickSandDescription,

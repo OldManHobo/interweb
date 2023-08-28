@@ -14281,3 +14281,20 @@ static const struct TrainerMonNoItemDefaultMoves sParty_DavidRoute103Mudkip[] = 
     .abilityNums = 0,
     }
 };
+
+static const struct TrainerMonNoItemCustomMoves sParty_ProfTamba[] = {
+    {
+    .iv = 5,
+    .lvl = 6,
+    .species = SPECIES_AILES,
+    .moves = {MOVE_WATER_GUN, MOVE_TACKLE, MOVE_WITHDRAW, MOVE_NONE},
+    .abilityNums = 0,
+    },
+    {
+    .iv = 0,
+    .lvl = 6,
+    .species = SPECIES_POLIWAG,
+    .moves = {MOVE_THUNDER_SHOCK, MOVE_POISON_STING, MOVE_FLASH, MOVE_NONE},
+    .abilityNums = 0,    
+    }
+};
