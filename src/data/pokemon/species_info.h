@@ -21,7 +21,7 @@
         .baseHP        = 62,                                               \
         .baseAttack    = 39,                                               \
         .baseSpeed     = 31,                                               \
-        .baseSpAttack  = 70,                                               \
+        .baseSpAttack  = 60,                                               \
         ASTROHAUT_BASE_DEFENSES,                                             \
         .types = { TYPE_BUG, TYPE_WATER},                          \
         .catchRate = 127,                                                  \
@@ -1065,12 +1065,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_TENNADISH] =
     {
-        .baseHP        = 65,
-        .baseAttack    = 30,
-        .baseDefense   = 80,
+        .baseHP        = 55,
+        .baseAttack    = 45,
+        .baseDefense   = 70,
         .baseSpeed     = 40,
-        .baseSpAttack  = 65,
-        .baseSpDefense = 81,
+        .baseSpAttack  = 60,
+        .baseSpDefense = 71,
         .types = { TYPE_BUG, TYPE_ELECTRIC },
         .catchRate = 120,
         .expYield = 72,
